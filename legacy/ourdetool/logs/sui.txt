@@ -1,0 +1,1187 @@
+Zeit: 2021-11-24 08:08:08
+IP: 37.4.224.108
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2021-11-24 08:08:08
+IP: 37.4.224.108
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 13102
+
+--------------------------------------
+Zeit: 2021-12-03 17:04:56
+IP: 37.4.224.108
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2021-12-03 17:04:59
+IP: 37.4.224.108
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2021-12-03 17:05:04
+IP: 37.4.224.108
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 13413
+
+--------------------------------------
+Zeit: 2021-12-03 17:11:57
+IP: 37.4.224.108
+Datei: /ourdetool/info.php
+Post:
+loginname => John_Smith
+spielername => -Resistance-
+email => marco.stillger@t-online.de
+lastlogin => 2021-12-03 16:17:32
+vorname => Marco
+nachname => Stillger
+strasse => 
+plz => 0
+ort => 
+land => 
+telefon => 
+comsperre => 2021-11-13 16:00:00
+kommentartext => 17:35] -=HaRCoN=-: Nee danke...wir haben gewissen Anforderungen bei uns. Da könnten wir wahrscheinlich besser einen Affen aus dem Zoo einstellen, der hat da mehr Intelligenz, sorry.\r\n[17:36] =-Sick_n_Tired-=: Hast in deine karren schon überall rückfahr kamera am start ?\r\n[17:36] =-Sick_n_Tired-=: anosnsten könntest dir alu in den kofferraum packen\r\n[17:36] TaSy ich bin total unzufrieden bei AZ.. ist ein haufen idioten.. wer nimmt mich auf ?\r\n[17:37] -=HaRCoN=-: ...wie ich schon sagte, wir haben Mindestanforderungen und die erfüllt Alu einfach nicht^^\r\n15:52] -=HaRCoN=-: Aber niemand is so hässlich wie Alu^^\r\n-=HaRCoN=-: Termin beim Jobcenter oder warum bist schon wieder wach?\r\nTaSy: Wen meinst du ?\r\n-=HaRCoN=-: Unseren Sozialschmarotzer ;)\r\n\r\n2021-11-12 10:06:37 issomad - Verwarnung per HF\r\n\r\n-=HaRCoN=-: So ihr Bumsbirnen%u2026wellt mich ruhig aus. Bin die nächsten Tage eh beruflich beschäftigt. Muss ja für so faule Säcke wie Alu Geld mitverdienen. Vielleicht sieht man sich in der neuen Runde. Aber wohl eher nicht. ;)\r\n2021-11-12 15:39:12 issomad - 1 Tag Comsperre\r\n\r\n---------- 03.12.2021\r\n[07:37] -Resistance-: Telespastis^^\r\n[07:38] ALU-FANTA-Flasche: naja mic, alu, tasy und co in altbekannter Rolle...nur halt mit fakenick\r\n[07:39] -Resistance-: Zusammengefasst...schwule Telespastis XD\r\n----> sui`: Verwarnung
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 13413
+
+--------------------------------------
+Zeit: 2021-12-03 17:13:58
+IP: 37.4.224.108
+Datei: /ourdetool/info.php
+Post:
+loginname => John_Smith
+spielername => -Resistance-
+email => marco.stillger@t-online.de
+lastlogin => 2021-12-03 16:17:32
+vorname => Marco
+nachname => Stillger
+strasse => 
+plz => 0
+ort => 
+land => 
+telefon => 
+comsperre => 2021-11-13 16:00:00
+kommentartext => 17:35] -=HaRCoN=-: Nee danke...wir haben gewissen Anforderungen bei uns. Da könnten wir wahrscheinlich besser einen Affen aus dem Zoo einstellen, der hat da mehr Intelligenz, sorry.\r\n[17:36] =-Sick_n_Tired-=: Hast in deine karren schon überall rückfahr kamera am start ?\r\n[17:36] =-Sick_n_Tired-=: anosnsten könntest dir alu in den kofferraum packen\r\n[17:36] TaSy ich bin total unzufrieden bei AZ.. ist ein haufen idioten.. wer nimmt mich auf ?\r\n[17:37] -=HaRCoN=-: ...wie ich schon sagte, wir haben Mindestanforderungen und die erfüllt Alu einfach nicht^^\r\n15:52] -=HaRCoN=-: Aber niemand is so hässlich wie Alu^^\r\n-=HaRCoN=-: Termin beim Jobcenter oder warum bist schon wieder wach?\r\nTaSy: Wen meinst du ?\r\n-=HaRCoN=-: Unseren Sozialschmarotzer ;)\r\n\r\n2021-11-12 10:06:37 issomad - Verwarnung per HF\r\n\r\n-=HaRCoN=-: So ihr Bumsbirnen%u2026wellt mich ruhig aus. Bin die nächsten Tage eh beruflich beschäftigt. Muss ja für so faule Säcke wie Alu Geld mitverdienen. Vielleicht sieht man sich in der neuen Runde. Aber wohl eher nicht. ;)\r\n2021-11-12 15:39:12 issomad - 1 Tag Comsperre\r\n\r\n---------- 03.12.2021\r\n[07:37] -Resistance-: Telespastis^^\r\n[07:38] ALU-FANTA-Flasche: naja mic, alu, tasy und co in altbekannter Rolle...nur halt mit fakenick\r\n[07:39] -Resistance-: Zusammengefasst...schwule Telespastis XD\r\n----> sui`: Verwarnung
+hyperfunkbetreff => Verwarnung
+hyperfunktext => [07:37] -Resistance-: Telespastis^^\r\n[07:38] ALU-FANTA-Flasche: naja mic, alu, tasy und co in altbekannter Rolle...nur halt mit fakenick\r\n[07:39] -Resistance-: Zusammengefasst...schwule Telespastis XD\r\n\r\nBitte unterlasst doch sowas im Chat ich will nicht gleich am Anfang meiner Zeit Strafen verhängen müssen -.- \r\n\r\nhiermit verwarnt \r\n\r\nmfg sui`
+sendhyperfunk => Hyperfunk senden
+Get:
+uid => 13413
+
+--------------------------------------
+Zeit: 2021-12-04 00:18:46
+IP: 37.4.224.108
+Datei: /ourdetool/info.php
+Post:
+Get:
+observationgo => 1
+uid => 13413
+
+--------------------------------------
+Zeit: 2021-12-04 00:19:02
+IP: 37.4.224.108
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 13413
+
+--------------------------------------
+Zeit: 2021-12-04 00:19:53
+IP: 37.4.224.108
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 13413
+
+--------------------------------------
+Zeit: 2021-12-04 00:19:57
+IP: 37.4.224.108
+Datei: /ourdetool/sektorstatus.php
+Post:
+Get:
+uid => 13413
+
+--------------------------------------
+Zeit: 2021-12-04 00:20:00
+IP: 37.4.224.108
+Datei: /ourdetool/de_user_logviewer.php
+Post:
+Get:
+uid => 13413
+
+--------------------------------------
+Zeit: 2021-12-04 00:20:19
+IP: 37.4.224.108
+Datei: /ourdetool/de_user_logviewer.php
+Post:
+Get:
+uid => 13413
+
+--------------------------------------
+Zeit: 2021-12-04 00:20:36
+IP: 37.4.224.108
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadDay
+uid => 13413
+sid => 11
+day => 2021-12-04
+logType => all
+
+--------------------------------------
+Zeit: 2021-12-04 00:20:40
+IP: 37.4.224.108
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 13413
+sid => 11
+day => 2021-12-04
+logType => all
+
+--------------------------------------
+Zeit: 2021-12-04 00:21:01
+IP: 37.4.224.108
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadDay
+uid => 13413
+sid => 11
+day => 2021-12-4
+logType => all
+startDate => 2021-11-19 05:43:03
+
+--------------------------------------
+Zeit: 2021-12-04 00:21:04
+IP: 37.4.224.108
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 13413
+sid => 11
+day => 2021-12-4
+logType => all
+startDate => 2021-12-4 0:00:00
+
+--------------------------------------
+Zeit: 2021-12-04 00:21:09
+IP: 37.4.224.108
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadDay
+uid => 13413
+sid => 11
+day => 2021-12-3
+logType => all
+startDate => 
+
+--------------------------------------
+Zeit: 2021-12-04 00:21:15
+IP: 37.4.224.108
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 13413
+sid => 11
+day => 2021-12-3
+logType => all
+startDate => 2021-12-3 23:00:00
+
+--------------------------------------
+Zeit: 2021-12-04 11:30:45
+IP: 37.4.224.108
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadDay
+uid => 13413
+sid => 11
+day => 2021-12-3
+logType => all
+startDate => 2021-12-03 23:47:00
+
+--------------------------------------
+Zeit: 2021-12-04 11:31:07
+IP: 37.4.224.108
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 13413
+sid => 11
+day => 2021-12-3
+logType => all
+startDate => 2021-12-3 9:00:00
+
+--------------------------------------
+Zeit: 2021-12-07 07:59:36
+IP: 37.4.224.108
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2021-12-07 07:59:38
+IP: 37.4.224.108
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2021-12-07 07:59:55
+IP: 37.4.224.108
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12846
+
+--------------------------------------
+Zeit: 2021-12-07 08:02:17
+IP: 37.4.224.108
+Datei: /ourdetool/info.php
+Post:
+loginname => Olga
+spielername => Po
+email => bennibenning@googlemail.com
+lastlogin => 2021-12-07 07:59:05
+vorname => Benni
+nachname => Benning
+strasse => 
+plz => 55131
+ort => Mainz
+land => D�nemark
+telefon => 
+comsperre => 0000-00-00 00:00:00
+kommentartext => 2017-01-04 18:59:01 Loginversuch Account Status 3(Umode/L�schmode)! (x Tage sind um, Login m�glich)\r\n1515552741\r\n2017-04-17 10:51:03 Loginversuch Account Status 3(Umode/L�schmode)! (x Tage sind um, Login m�glich)\r\n\r\n2017-10-18 19:02:38 Loginversuch Account Status 3(Umode/L�schmode)! (x Tage sind um, Login m�glich)\r\n\r\n2017-12-07 10:09:02 downfall - verwarnt wegen Farmingaufruf\r\n[12:39] Hufflepuff: ich biete mich auch an\r\n[12:40] Hufflepuff: einmal nullen bitte\r\n\r\nAbsender: 0:1 - Die-Ewigen-Team	Zeit: 07.12.2017 - 10:11:38\r\nBetreff: Verwarnung\r\nHallo Hufflepuff,\r\n\r\ndu bist im Chat negativ aufgefallen mit einem \"Aufruf zum Farmen\". Das ganze wurde nat�rlich kontrolliert und es konnte bisher nichts festgestellt werden. Achte dennoch bitte auf deine Ausdrucksweise im Chat. Aus dem Zusammenhang gerissen wie wir es im Ticket vorliegen haben w�re es ein klarer Aufruf zum Farmen gewesen.\r\n\r\nMfG,\r\nDE-Support\r\n\r\n\r\n2018-04-17 18:30:03 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n\r\n2018-04-27 15:14:58 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n\r\n2018-05-10 09:14:46 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n\r\n2018-06-19 12:15:16 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n\r\n2018-07-14 09:05:55 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n\r\n2020-10-23 07:07:25 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n1635429645\r\n2021-11-05 16:24:39 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n
+hyperfunkbetreff => 
+hyperfunktext => 21:11]  Po: Ich bin Alu ihr stricher.\r\n[21:13]  laa-laa: Schön das du dich endlich Mal outest!\r\n\r\nGuten Morgen und könnte man bitte solche aussagen unterlassen ?\r\nein bisschen Niveau könnte DE auch gut tun  \r\n\r\nmfg sui`
+sendhyperfunk => Hyperfunk senden
+Get:
+uid => 12846
+
+--------------------------------------
+Zeit: 2021-12-07 08:02:35
+IP: 37.4.224.108
+Datei: /ourdetool/info.php
+Post:
+loginname => Olga
+spielername => Po
+email => bennibenning@googlemail.com
+lastlogin => 2021-12-07 07:59:05
+vorname => Benni
+nachname => Benning
+strasse => 
+plz => 55131
+ort => Mainz
+land => D�nemark
+telefon => 
+comsperre => 0000-00-00 00:00:00
+kommentartext => 2017-01-04 18:59:01 Loginversuch Account Status 3(Umode/L�schmode)! (x Tage sind um, Login m�glich)\r\n1515552741\r\n2017-04-17 10:51:03 Loginversuch Account Status 3(Umode/L�schmode)! (x Tage sind um, Login m�glich)\r\n\r\n2017-10-18 19:02:38 Loginversuch Account Status 3(Umode/L�schmode)! (x Tage sind um, Login m�glich)\r\n\r\n2017-12-07 10:09:02 downfall - verwarnt wegen Farmingaufruf\r\n[12:39] Hufflepuff: ich biete mich auch an\r\n[12:40] Hufflepuff: einmal nullen bitte\r\n\r\nAbsender: 0:1 - Die-Ewigen-Team	Zeit: 07.12.2017 - 10:11:38\r\nBetreff: Verwarnung\r\nHallo Hufflepuff,\r\n\r\ndu bist im Chat negativ aufgefallen mit einem \"Aufruf zum Farmen\". Das ganze wurde nat�rlich kontrolliert und es konnte bisher nichts festgestellt werden. Achte dennoch bitte auf deine Ausdrucksweise im Chat. Aus dem Zusammenhang gerissen wie wir es im Ticket vorliegen haben w�re es ein klarer Aufruf zum Farmen gewesen.\r\n\r\nMfG,\r\nDE-Support\r\n\r\n\r\n2018-04-17 18:30:03 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n\r\n2018-04-27 15:14:58 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n\r\n2018-05-10 09:14:46 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n\r\n2018-06-19 12:15:16 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n\r\n2018-07-14 09:05:55 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n\r\n2020-10-23 07:07:25 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n1635429645\r\n2021-11-05 16:24:39 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n\r\n7.12.2021\r\n21:11]  Po: Ich bin Alu ihr stricher.\r\n[21:13]  laa-laa: Schön das du dich endlich Mal outest!\r\n\r\nGuten Morgen und könnte man bitte solche aussagen unterlassen ?\r\nein bisschen Niveau könnte DE auch gut tun  ​\r\n\r\nmfg sui
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 12846
+
+--------------------------------------
+Zeit: 2021-12-07 08:17:11
+IP: 37.4.224.108
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-01-09 14:20:05
+IP: 37.4.224.108
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-01-09 14:20:05
+IP: 37.4.224.108
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 13351
+
+--------------------------------------
+Zeit: 2022-01-09 14:20:11
+IP: 37.4.224.108
+Datei: /ourdetool/info.php
+Post:
+loginname => Fanta2
+spielername => Rip_brother_Sveni
+email => saliherdogan533@gmail.com
+lastlogin => 2022-01-09 12:35:29
+vorname => Salih
+nachname => Erdogan
+strasse => 
+plz => 0
+ort => 
+land => 
+telefon => 
+comsperre => 2021-10-16 11:00:00
+kommentartext => 2020-12-27 15:16:50 issomad - HF an Spieler, dass er keine persönlichen Daten von anderen Spielern posten soll\r\n2021-01-11 13:19:36 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind noch nicht um, kein Login m&oouml;glich)\r\n\r\n2021-01-11 16:10:55 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n\r\n2021-02-05 14:54:11 downfall - ComSperre von 3 Tagen\r\nhttps://login.bgam.es/ourdetool/tickets.php?showtid=1781\r\nhttps://login.bgam.es/ourdetool/tickets.php?showtid=1782\r\nHallo InYourFace,\r\n\r\nwegen außergewöhnlichen Fehlverhaltens im Chat hast du eine Com-Sperre von 3 Tagen erhalten. Sollte es nochmal zu solchen Eskalationen kommen kann dein Account ganz gesperrt werden.\r\n\r\nMfG,\r\nDE-Support\r\n\r\n[13:07] InYourFace: Nun labber mich nicht mehr voll sonst gibbet bald fratzen gulasch 2021-02-18 15:52:17 issomad - Zwangsurlaub wegen Androhung von Gewalt\r\n\r\n\r\n2021-06-27 20:46:01 downfall - unangemessener Spielername angepasst AminaKoyim zu Changed_By_Support\r\n\r\n\r\n2021-06-28 10:10:19 issomad - umbenannt in -=Du_bist_ein_Uwe=- nach Ticket\r\n\r\n\r\n2021-10-15 10:57:41 issomad - Beleidigung 1 Tag Comsperre, der User sollte es inzwischen besser wissen\r\n-=ToKiYo=-: Guck Mal ins Spiegel harcon dann weisst du das dein iq tief gesunken ist. Kein Wunder das du nur beleidigt wirst\r\n-=ToKiYo=-: Spieglein Spieglein wer ist der hässlichste Mensch der Welt, harcon ist der hässlichste Mensch mein Herr Antwortet das Spiegel\r\n
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 13351
+
+--------------------------------------
+Zeit: 2022-01-09 14:20:55
+IP: 37.4.224.108
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-01-09 14:20:58
+IP: 37.4.224.108
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-01-09 14:21:38
+IP: 37.4.224.108
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-01-09 14:23:45
+IP: 37.4.224.108
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 13258
+
+--------------------------------------
+Zeit: 2022-01-09 14:24:01
+IP: 37.4.224.108
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-01-09 14:24:04
+IP: 37.4.224.108
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-06-28 23:15:36
+IP: 37.4.224.108
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-06-28 23:15:40
+IP: 37.4.224.108
+Datei: /ourdetool/multi.php
+Post:
+Get:
+statistic => 1
+
+--------------------------------------
+Zeit: 2022-06-28 23:16:18
+IP: 37.4.224.108
+Datei: /ourdetool/observation.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-06-28 23:16:33
+IP: 37.4.224.108
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-06-28 23:17:01
+IP: 37.4.224.108
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5
+
+--------------------------------------
+Zeit: 2022-06-30 11:09:52
+IP: 37.4.224.108
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-07-31 16:23:15
+IP: 37.4.225.229
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-07-31 16:23:20
+IP: 37.4.225.229
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-07-31 16:25:13
+IP: 37.4.225.229
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 13418
+
+--------------------------------------
+Zeit: 2022-07-31 16:25:28
+IP: 37.4.225.229
+Datei: /ourdetool/info.php
+Post:
+loginname => Botschi
+spielername => Sui
+email => dieerben@gmail.com
+lastlogin => 2022-07-31 16:19:44
+vorname => Daniel
+nachname => Helmbrecht
+strasse => Am Predigtstuhl
+plz => 94379
+ort => Sankt Englmar
+land => Deutschland
+telefon => 
+comsperre => 0000-00-00 00:00:00
+kommentartext => 2021-12-08 22:52:27 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n\r\n2022-03-24 17:35:36 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n\r\n2022-06-28 23:14:53 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n1688450893\r\n2022-07-31 16:19:44 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 13418
+
+--------------------------------------
+Zeit: 2022-08-02 10:14:42
+IP: 37.4.225.229
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-08-02 10:14:44
+IP: 37.4.225.229
+Datei: /ourdetool/umfragen.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-08-02 10:14:52
+IP: 37.4.225.229
+Datei: /ourdetool/umfragen.php
+Post:
+Get:
+anzahlantwort => 2
+anzant => Umfragemaske laden
+
+--------------------------------------
+Zeit: 2022-08-02 10:16:39
+IP: 37.4.225.229
+Datei: /ourdetool/umfragen.php
+Post:
+Get:
+action => show
+id => 8
+
+--------------------------------------
+Zeit: 2022-08-02 10:16:53
+IP: 37.4.225.229
+Datei: /ourdetool/umfragen.php
+Post:
+Get:
+action => show
+id => 8
+
+--------------------------------------
+Zeit: 2022-08-02 10:18:02
+IP: 37.4.225.229
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-08-02 10:38:46
+IP: 37.4.225.229
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-09-12 18:28:01
+IP: 37.4.225.200
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-09-12 18:28:05
+IP: 37.4.225.200
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-09-12 18:28:14
+IP: 37.4.225.200
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 13455
+
+--------------------------------------
+Zeit: 2022-09-12 18:28:48
+IP: 37.4.225.200
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 13455
+
+--------------------------------------
+Zeit: 2022-09-12 18:30:24
+IP: 37.4.225.200
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 13455
+
+--------------------------------------
+Zeit: 2022-09-12 18:30:43
+IP: 37.4.225.200
+Datei: /ourdetool/de_server_einstellungen.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-09-19 19:07:33
+IP: 37.4.225.200
+Datei: /ourdetool/de_server_einstellungen.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-10-22 21:49:54
+IP: 37.4.225.185
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-10-22 21:50:06
+IP: 37.4.225.185
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-10-22 21:54:09
+IP: 37.4.225.185
+Datei: /ourdetool/observation.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-10-22 21:54:19
+IP: 37.4.225.185
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-10-22 21:54:20
+IP: 37.4.225.185
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-10-22 21:55:37
+IP: 37.4.225.185
+Datei: /ourdetool/user_ip_anz.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-10-22 21:55:43
+IP: 37.4.225.185
+Datei: /ourdetool/observation.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-10-22 21:55:56
+IP: 37.4.225.185
+Datei: /ourdetool/user_act.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-10-22 21:56:36
+IP: 37.4.225.185
+Datei: /ourdetool/regdata.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-10-22 21:57:50
+IP: 37.4.225.185
+Datei: /ourdetool/soutool.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-10-22 21:57:59
+IP: 37.4.225.185
+Datei: /ourdetool/sou_umfragen.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-10-22 21:58:07
+IP: 37.4.225.185
+Datei: /ourdetool/browse.php
+Post:
+Get:
+id => 0
+
+--------------------------------------
+Zeit: 2022-10-22 21:58:13
+IP: 37.4.225.185
+Datei: /ourdetool/rights.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-10-22 21:58:44
+IP: 37.4.225.185
+Datei: /ourdetool/de_server_einstellungen.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-10-22 22:00:15
+IP: 37.4.225.185
+Datei: /ourdetool/de_server_tick.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-10-22 22:00:31
+IP: 37.4.225.185
+Datei: /ourdetool/de_server_info.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-10-23 19:16:39
+IP: 37.4.225.185
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-10-23 19:16:42
+IP: 37.4.225.185
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-10-23 19:16:58
+IP: 37.4.225.185
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 13418
+
+--------------------------------------
+Zeit: 2022-10-23 19:17:24
+IP: 37.4.225.185
+Datei: /ourdetool/info.php
+Post:
+loginname => Botschi
+spielername => sui`
+email => dieerben@gmail.com
+lastlogin => 2022-10-23 19:14:16
+vorname => Daniel
+nachname => Helmbrecht
+strasse => Am Predigtstuhl
+plz => 94379
+ort => Sankt Englmar
+land => Deutschland
+telefon => 
+comsperre => 0000-00-00 00:00:00
+kommentartext => 2021-12-08 22:52:27 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n\r\n2022-03-24 17:35:36 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n\r\n2022-06-28 23:14:53 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n1688450893\r\n2022-07-31 16:19:44 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n\r\n2022-10-23 19:14:16 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)\r\n
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 13418
+
+--------------------------------------
+Zeit: 2022-10-23 19:53:00
+IP: 37.4.225.185
+Datei: /ourdetool/de_user_chat.php
+Post:
+Get:
+uid => 13418
+
+--------------------------------------
+Zeit: 2022-10-23 19:53:08
+IP: 37.4.225.185
+Datei: /ourdetool/de_user_credits.php
+Post:
+Get:
+uid => 13418
+
+--------------------------------------
+Zeit: 2022-10-23 19:53:23
+IP: 37.4.225.185
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 13418
+
+--------------------------------------
+Zeit: 2022-10-23 19:53:30
+IP: 37.4.225.185
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 13418
+mp => 2
+
+--------------------------------------
+Zeit: 2022-10-23 19:53:34
+IP: 37.4.225.185
+Datei: /ourdetool/de_user_logviewer.php
+Post:
+Get:
+uid => 13418
+
+--------------------------------------
+Zeit: 2022-10-23 19:53:45
+IP: 37.4.225.185
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadDay
+uid => 13418
+sid => 11
+day => 2022-10-23
+logType => all
+
+--------------------------------------
+Zeit: 2022-10-23 19:53:48
+IP: 37.4.225.185
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 13418
+sid => 11
+day => 2022-10-23
+logType => all
+
+--------------------------------------
+Zeit: 2022-10-23 19:54:00
+IP: 37.4.225.185
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 13418
+sid => 11
+day => 2022-10-23
+logType => all
+startDate => 2022-10-23 19:22:13
+
+--------------------------------------
+Zeit: 2022-10-23 19:54:04
+IP: 37.4.225.185
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 13418
+sid => 11
+day => 2022-10-23
+logType => all
+startDate => 2022-10-23 19:26:01
+
+--------------------------------------
+Zeit: 2022-10-23 19:54:07
+IP: 37.4.225.185
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 13418
+sid => 11
+day => 2022-10-23
+logType => all
+startDate => 2022-10-23 19:27:47
+
+--------------------------------------
+Zeit: 2022-10-23 19:54:10
+IP: 37.4.225.185
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 13418
+sid => 11
+day => 2022-10-23
+logType => all
+startDate => 2022-10-23 19:28:01
+
+--------------------------------------
+Zeit: 2022-10-23 19:54:10
+IP: 37.4.225.185
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 13418
+sid => 11
+day => 2022-10-23
+logType => all
+startDate => 2022-10-23 19:28:14
+
+--------------------------------------
+Zeit: 2022-10-23 19:54:11
+IP: 37.4.225.185
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 13418
+sid => 11
+day => 2022-10-23
+logType => all
+startDate => 2022-10-23 19:28:27
+
+--------------------------------------
+Zeit: 2022-10-23 19:54:12
+IP: 37.4.225.185
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 13418
+sid => 11
+day => 2022-10-23
+logType => all
+startDate => 2022-10-23 19:28:43
+
+--------------------------------------
+Zeit: 2022-10-23 19:54:14
+IP: 37.4.225.185
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 13418
+sid => 11
+day => 2022-10-23
+logType => all
+startDate => 2022-10-23 19:33:13
+
+--------------------------------------
+Zeit: 2022-10-23 19:54:15
+IP: 37.4.225.185
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 13418
+sid => 11
+day => 2022-10-23
+logType => all
+startDate => 2022-10-23 19:46:14
+
+--------------------------------------
+Zeit: 2022-10-23 19:54:16
+IP: 37.4.225.185
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 13418
+sid => 11
+day => 2022-10-23
+logType => all
+startDate => 2022-10-23 19:52:24
+
+--------------------------------------
+Zeit: 2022-10-26 18:20:00
+IP: 37.4.225.185
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-10-26 18:20:04
+IP: 37.4.225.185
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-10-26 18:20:12
+IP: 37.4.225.185
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 13466
+
+--------------------------------------
+Zeit: 2022-10-26 18:21:21
+IP: 37.4.225.185
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 13466
+
+--------------------------------------
+Zeit: 2022-10-26 18:21:22
+IP: 37.4.225.185
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 13466
+
+--------------------------------------
+Zeit: 2022-10-29 21:34:54
+IP: 37.4.225.185
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6144
+
+--------------------------------------
+Zeit: 2022-11-22 19:38:07
+IP: 37.4.225.185
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2022-11-22 19:38:09
+IP: 37.4.225.185
+Datei: /ourdetool/sektor.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2024-01-02 18:53:19
+IP: 77.25.22.170
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2024-01-02 18:53:20
+IP: 77.25.22.170
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12556
+
+--------------------------------------
+Zeit: 2024-01-02 18:54:03
+IP: 77.25.22.170
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 12556
+
+--------------------------------------
+Zeit: 2024-01-02 18:54:12
+IP: 77.25.22.170
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12556
+
+--------------------------------------
+Zeit: 2024-01-02 19:01:16
+IP: 77.25.22.170
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6144
+
+--------------------------------------
+Zeit: 2024-01-02 19:01:21
+IP: 77.25.22.170
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 6144
+
+--------------------------------------
+Zeit: 2024-01-02 19:57:38
+IP: 77.25.22.170
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 6144
+
+--------------------------------------
+Zeit: 2024-01-02 19:57:58
+IP: 77.25.22.170
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12556
+
+--------------------------------------
+Zeit: 2024-01-02 19:58:04
+IP: 77.25.22.170
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 12556
+
+--------------------------------------
+Zeit: 2024-01-02 20:32:30
+IP: 77.25.22.170
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 12556
+
+--------------------------------------
+Zeit: 2024-01-02 20:35:24
+IP: 77.25.22.170
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12556
+
+--------------------------------------
+Zeit: 2024-01-02 20:37:45
+IP: 77.25.22.170
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 13418
+
+--------------------------------------
+Zeit: 2024-01-02 20:37:53
+IP: 77.25.22.170
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11585
+
+--------------------------------------
+Zeit: 2024-01-02 20:38:00
+IP: 77.25.22.170
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 11585
+
+--------------------------------------
+Zeit: 2024-01-02 20:42:28
+IP: 77.25.22.170
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 13466
+
+--------------------------------------
+Zeit: 2024-01-02 20:42:48
+IP: 77.25.22.170
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 13466
+
+--------------------------------------
+Zeit: 2024-01-02 20:43:04
+IP: 77.25.22.170
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 13466
+
+--------------------------------------
+Zeit: 2024-01-02 21:52:26
+IP: 77.25.22.170
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 13466
+
+--------------------------------------
+Zeit: 2024-01-02 21:54:04
+IP: 77.25.22.170
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12556
+
+--------------------------------------
+Zeit: 2024-01-02 21:54:13
+IP: 77.25.22.170
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2024-01-02 21:54:15
+IP: 77.25.22.170
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2024-01-02 21:54:35
+IP: 77.25.22.170
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 13418
+
+--------------------------------------
+Zeit: 2024-01-02 21:56:48
+IP: 77.25.22.170
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12556
+
+--------------------------------------

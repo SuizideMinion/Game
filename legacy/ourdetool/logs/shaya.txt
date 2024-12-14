@@ -1,0 +1,8953 @@
+Zeit: 2006-08-07 09:55:02
+IP: 83.189.51.207
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-07 09:55:04
+IP: 83.189.51.207
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-07 09:55:21
+IP: 83.189.51.207
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-07 09:55:22
+IP: 83.189.51.207
+Datei: /server03/ourdetool/info.php
+Post:
+Get:
+uid => 761
+
+--------------------------------------
+Zeit: 2006-08-07 09:55:26
+IP: 83.189.51.207
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-07 09:55:26
+IP: 83.189.51.207
+Datei: /server03/ourdetool/info.php
+Post:
+Get:
+uid => 762
+
+--------------------------------------
+Zeit: 2006-08-07 09:55:35
+IP: 83.189.51.207
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-07 09:55:36
+IP: 83.189.51.207
+Datei: /server03/ourdetool/info.php
+Post:
+Get:
+uid => 761
+
+--------------------------------------
+Zeit: 2006-08-07 09:55:53
+IP: 83.189.51.207
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-07 09:55:54
+IP: 83.189.51.207
+Datei: /server03/ourdetool/info.php
+Post:
+Get:
+uid => 762
+
+--------------------------------------
+Zeit: 2006-08-08 08:56:10
+IP: 83.189.46.98
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-08 08:56:11
+IP: 83.189.46.98
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-16 16:57:20
+IP: 217.225.136.201
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-16 16:57:22
+IP: 217.225.136.201
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-22 15:46:31
+IP: 83.181.70.135
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-22 15:47:46
+IP: 83.181.70.135
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-22 21:05:34
+IP: 83.189.61.8
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-22 21:05:36
+IP: 83.189.61.8
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-22 21:05:39
+IP: 83.189.61.8
+Datei: /server03/ourdetool/regdata.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-22 21:05:49
+IP: 83.189.61.8
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-22 21:05:49
+IP: 83.189.61.8
+Datei: /server03/ourdetool/info.php
+Post:
+Get:
+uid => 786
+
+--------------------------------------
+Zeit: 2006-08-22 21:06:09
+IP: 83.189.61.8
+Datei: /server03/ourdetool/dezadmin.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-25 21:46:45
+IP: 83.181.69.234
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-25 21:47:20
+IP: 83.181.69.234
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-28 14:30:23
+IP: 217.225.187.66
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-28 14:30:25
+IP: 217.225.187.66
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+stat2 => 
+
+--------------------------------------
+Zeit: 2006-08-28 14:30:27
+IP: 217.225.187.66
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-28 14:30:44
+IP: 217.225.187.66
+Datei: /server03/ourdetool/regdata.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-28 14:30:50
+IP: 217.225.187.66
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-28 14:30:51
+IP: 217.225.187.66
+Datei: /server03/ourdetool/info.php
+Post:
+Get:
+uid => 797
+
+--------------------------------------
+Zeit: 2006-08-29 09:40:32
+IP: 217.225.178.212
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-29 09:40:35
+IP: 217.225.178.212
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-31 09:16:13
+IP: 217.225.152.51
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-31 09:16:16
+IP: 217.225.152.51
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-08-31 09:16:23
+IP: 217.225.152.51
+Datei: /server03/ourdetool/regdata.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-09-01 10:25:46
+IP: 217.225.142.173
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-09-01 10:25:49
+IP: 217.225.142.173
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-09-13 17:02:01
+IP: 83.181.73.26
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-09-13 17:02:02
+IP: 83.181.73.26
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-09-15 12:34:12
+IP: 83.189.42.95
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-09-15 12:34:14
+IP: 83.189.42.95
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-09-17 14:16:09
+IP: 83.181.87.93
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-09-17 14:16:11
+IP: 83.181.87.93
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-09-29 12:04:12
+IP: 83.189.58.117
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-09-29 12:04:14
+IP: 83.189.58.117
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-09-29 12:04:19
+IP: 83.189.58.117
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-09-29 12:04:21
+IP: 83.189.58.117
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+stat2 => 
+
+--------------------------------------
+Zeit: 2006-09-29 12:04:25
+IP: 83.189.58.117
+Datei: /server03/ourdetool/regdata.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-09-29 12:04:42
+IP: 83.189.58.117
+Datei: /server03/ourdetool/allys.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-10-02 11:58:00
+IP: 83.181.83.144
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-10-02 11:58:01
+IP: 83.181.83.144
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-10-02 11:58:05
+IP: 83.181.83.144
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-10-02 11:58:06
+IP: 83.181.83.144
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+stat2 => 
+
+--------------------------------------
+Zeit: 2006-10-02 11:58:08
+IP: 83.181.83.144
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-10-02 11:58:11
+IP: 83.181.83.144
+Datei: /server03/ourdetool/regdata.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-10-02 11:58:16
+IP: 83.181.83.144
+Datei: /server03/ourdetool/allys.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-10-02 11:58:17
+IP: 83.181.83.144
+Datei: /server03/ourdetool/samepw.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-10-17 12:19:24
+IP: 83.181.82.122
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-10-17 12:19:26
+IP: 83.181.82.122
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-10-18 09:14:24
+IP: 83.189.59.182
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-10-18 09:14:26
+IP: 83.189.59.182
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-10-23 10:57:12
+IP: 83.189.84.73
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-10-23 10:57:14
+IP: 83.189.84.73
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-10-24 09:40:09
+IP: 83.181.75.201
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-10-24 09:40:11
+IP: 83.181.75.201
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-10-25 10:24:44
+IP: 83.181.88.207
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-10-25 10:24:46
+IP: 83.181.88.207
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-10-30 09:18:23
+IP: 83.189.56.70
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-10-30 09:18:25
+IP: 83.189.56.70
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-11-12 19:11:03
+IP: 83.189.80.84
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-11-12 19:11:06
+IP: 83.189.80.84
+Datei: /server03/ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-12-01 11:01:30
+IP: 83.189.37.120
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-12-01 11:02:46
+IP: 83.189.37.120
+Datei: /server03/ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-12-05 17:45:16
+IP: 83.189.90.4
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-12-12 09:51:23
+IP: 83.189.25.125
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-12-12 09:51:25
+IP: 83.189.25.125
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-12-14 09:47:17
+IP: 83.181.89.15
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-12-14 09:47:19
+IP: 83.181.89.15
+Datei: /ourdetool/samepw.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-12-14 09:47:25
+IP: 83.181.89.15
+Datei: /ourdetool/regdata.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-12-14 09:47:26
+IP: 83.181.89.15
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-12-29 09:35:42
+IP: 80.146.77.100
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2006-12-29 09:35:45
+IP: 80.146.77.100
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2007-01-15 12:27:43
+IP: 80.146.96.166
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2007-01-15 12:27:45
+IP: 80.146.96.166
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2007-02-20 11:47:04
+IP: 80.146.89.209
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2007-02-20 11:47:06
+IP: 80.146.89.209
+Datei: /ourdetool/multi.php
+Post:
+Get:
+stat2 => 
+
+--------------------------------------
+Zeit: 2007-02-20 11:47:07
+IP: 80.146.89.209
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2007-02-20 11:47:17
+IP: 80.146.89.209
+Datei: /ourdetool/regdata.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2007-11-02 11:42:14
+IP: 80.146.124.66
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2007-11-05 12:38:38
+IP: 80.146.102.47
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2007-11-05 12:38:41
+IP: 80.146.102.47
+Datei: /ourdetool/de_news.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2007-11-05 12:39:12
+IP: 80.146.102.47
+Datei: /ourdetool/de_news.php
+Post:
+betreff => Wiki für Efta
+nachricht => Seid gegrüßt
+
+speziell für Efta haben wir Euch ein weiteres Wiki aufgesetzt.
+
+Weitere Infos werdet Ihr <a href=\"http://forum.die-ewigen.com/thread.php?threadid=18591\" target=\"_blank\">(hier)</a>
+
+in diesem Sinne
+
+viel Spaß Schreiben oder einfach nur Lesen
+
+Gehabt Euch wohl
+
+Euer DE-Team
+absenden => Nachricht eintragen
+Get:
+
+--------------------------------------
+Zeit: 2007-11-05 12:39:20
+IP: 80.146.102.47
+Datei: /ourdetool/de_news.php
+Post:
+Get:
+id => 73
+action => aendern
+
+--------------------------------------
+Zeit: 2007-11-05 12:39:29
+IP: 80.146.102.47
+Datei: /ourdetool/de_news.php
+Post:
+betreff => Wiki für Efta
+nachricht => Seid gegrüßt
+
+speziell für Efta haben wir Euch ein weiteres Wiki aufgesetzt.
+
+Weitere Infos werdet Ihr <a href=\"http://forum.die-ewigen.com/thread.php?threadid=18591\" target=\"_blank\">(hier)</a> finden.
+
+in diesem Sinne
+
+viel Spaß Schreiben oder einfach nur Lesen
+
+Gehabt Euch wohl
+
+Euer DE-Team
+edit => Nachricht speichern
+time => 2007-11-05 12:39:12
+Get:
+id => 73
+
+--------------------------------------
+Zeit: 2008-02-26 17:43:07
+IP: 217.225.188.64
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-02-26 17:43:09
+IP: 217.225.188.64
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-02-26 17:44:06
+IP: 217.225.188.64
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 2727
+
+--------------------------------------
+Zeit: 2008-02-26 17:44:10
+IP: 217.225.188.64
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 2727
+
+--------------------------------------
+Zeit: 2008-02-26 17:45:24
+IP: 217.225.188.64
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 2727
+
+--------------------------------------
+Zeit: 2008-03-14 21:50:57
+IP: 217.225.142.185
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-03-14 21:50:58
+IP: 217.225.142.185
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-03-14 21:51:10
+IP: 217.225.142.185
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-03-18 14:59:50
+IP: 217.225.178.198
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-03-18 14:59:52
+IP: 217.225.178.198
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-03-21 21:21:23
+IP: 217.225.190.131
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-03-21 21:21:25
+IP: 217.225.190.131
+Datei: /ourdetool/de_b_news.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-03-21 21:21:47
+IP: 217.225.190.131
+Datei: /ourdetool/de_b_news.php
+Post:
+betreff => IRC-Tools by scarface1985
+nachricht => Seid gegrüßt,
+
+Wie einige vielleicht schon beim durchstöbern des Forum gesehen haben hat unser Scarface in den letzten Tagen viel an irc-tools gebastelt die er nun der Comunity zur Verfügung stellen möchte. Damit ihr nicht lange suchen braucht hier gleich der Link mit bei.
+<a href=\"http://forum.die-ewigen.com/thread.php?threadid=19039\"target=\"_new\">irc-tools</a>
+
+
+Viel Spaß beim ausprobieren
+
+Euer DE-Staff
+absenden => Nachricht eintragen
+Get:
+
+--------------------------------------
+Zeit: 2008-04-01 11:19:49
+IP: 217.225.149.252
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-04-01 11:19:52
+IP: 217.225.149.252
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-04-01 11:20:06
+IP: 217.225.149.252
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-04-01 11:20:32
+IP: 217.225.149.252
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-04-01 11:20:33
+IP: 217.225.149.252
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 2946
+
+--------------------------------------
+Zeit: 2008-04-01 11:20:42
+IP: 217.225.149.252
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-04-01 11:20:42
+IP: 217.225.149.252
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 2945
+
+--------------------------------------
+Zeit: 2008-04-01 11:21:11
+IP: 217.225.149.252
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-04-01 11:21:12
+IP: 217.225.149.252
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 2942
+
+--------------------------------------
+Zeit: 2008-04-01 11:21:22
+IP: 217.225.149.252
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-04-01 11:21:22
+IP: 217.225.149.252
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 2927
+
+--------------------------------------
+Zeit: 2008-04-01 11:21:53
+IP: 217.225.149.252
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-04-01 11:22:18
+IP: 217.225.149.252
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-04-01 11:22:34
+IP: 217.225.149.252
+Datei: /ourdetool/observation.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-04-01 11:22:35
+IP: 217.225.149.252
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-04-01 11:30:21
+IP: 217.225.149.252
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-04-01 11:30:24
+IP: 217.225.149.252
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-04-01 11:30:25
+IP: 217.225.149.252
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 2947
+
+--------------------------------------
+Zeit: 2008-04-01 11:30:27
+IP: 217.225.149.252
+Datei: /ourdetool/sameip.php
+Post:
+Get:
+lip => 217.235.98.120
+
+--------------------------------------
+Zeit: 2008-04-01 11:31:14
+IP: 217.225.149.252
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-10-17 14:35:47
+IP: 217.225.133.1
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-10-17 14:35:49
+IP: 217.225.133.1
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-10-17 14:36:09
+IP: 217.225.133.1
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-10-17 14:36:10
+IP: 217.225.133.1
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 3575
+
+--------------------------------------
+Zeit: 2008-10-17 14:36:32
+IP: 217.225.133.1
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 3575
+
+--------------------------------------
+Zeit: 2008-10-17 14:36:48
+IP: 217.225.133.1
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-10-17 14:36:48
+IP: 217.225.133.1
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 3575
+
+--------------------------------------
+Zeit: 2008-10-17 14:36:52
+IP: 217.225.133.1
+Datei: /ourdetool/sameip.php
+Post:
+Get:
+lip => 92.230.5.70
+
+--------------------------------------
+Zeit: 2008-11-05 12:35:00
+IP: 217.225.175.160
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-11-05 12:35:02
+IP: 217.225.175.160
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-11-05 12:35:07
+IP: 217.225.175.160
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 4254
+
+--------------------------------------
+Zeit: 2008-11-05 12:35:14
+IP: 217.225.175.160
+Datei: /ourdetool/sameip.php
+Post:
+Get:
+lip => 91.38.206.195
+
+--------------------------------------
+Zeit: 2008-11-05 12:35:27
+IP: 217.225.175.160
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 4254
+
+--------------------------------------
+Zeit: 2008-11-05 12:35:58
+IP: 217.225.175.160
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 4254
+
+--------------------------------------
+Zeit: 2008-11-05 12:36:12
+IP: 217.225.175.160
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 4254
+
+--------------------------------------
+Zeit: 2008-11-05 12:36:22
+IP: 217.225.175.160
+Datei: /ourdetool/techs.php
+Post:
+Get:
+uid => 4254
+
+--------------------------------------
+Zeit: 2008-11-05 12:36:28
+IP: 217.225.175.160
+Datei: /ourdetool/sektorstatus.php
+Post:
+Get:
+uid => 4254
+
+--------------------------------------
+Zeit: 2008-11-05 12:36:31
+IP: 217.225.175.160
+Datei: /ourdetool/sekforumourdetool.php
+Post:
+Get:
+uid => 4254
+
+--------------------------------------
+Zeit: 2008-11-05 12:36:43
+IP: 217.225.175.160
+Datei: /ourdetool/sekforumourdetool.php
+Post:
+Get:
+uid => 4254
+
+--------------------------------------
+Zeit: 2008-11-05 12:36:48
+IP: 217.225.175.160
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 4254
+
+--------------------------------------
+Zeit: 2008-11-05 12:37:02
+IP: 217.225.175.160
+Datei: /ourdetool/de_user_chat.php
+Post:
+Get:
+uid => 4254
+
+--------------------------------------
+Zeit: 2008-11-05 12:37:34
+IP: 217.225.175.160
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 3373
+
+--------------------------------------
+Zeit: 2008-11-05 12:37:41
+IP: 217.225.175.160
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 3373
+
+--------------------------------------
+Zeit: 2008-11-05 12:37:45
+IP: 217.225.175.160
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 3373
+
+--------------------------------------
+Zeit: 2008-11-05 12:37:47
+IP: 217.225.175.160
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 3373
+
+--------------------------------------
+Zeit: 2008-11-05 12:37:58
+IP: 217.225.175.160
+Datei: /ourdetool/sekforumourdetool.php
+Post:
+Get:
+uid => 3373
+
+--------------------------------------
+Zeit: 2008-11-05 12:38:00
+IP: 217.225.175.160
+Datei: /ourdetool/sekforumourdetool.php
+Post:
+Get:
+uid => 3373
+
+--------------------------------------
+Zeit: 2008-11-05 12:38:01
+IP: 217.225.175.160
+Datei: /ourdetool/sektorstatus.php
+Post:
+Get:
+uid => 3373
+
+--------------------------------------
+Zeit: 2008-11-05 12:38:03
+IP: 217.225.175.160
+Datei: /ourdetool/sekforumourdetool.php
+Post:
+Get:
+uid => 3373
+
+--------------------------------------
+Zeit: 2008-11-05 12:38:05
+IP: 217.225.175.160
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 3373
+
+--------------------------------------
+Zeit: 2008-11-05 12:38:44
+IP: 217.225.175.160
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 3941
+
+--------------------------------------
+Zeit: 2008-11-05 12:38:48
+IP: 217.225.175.160
+Datei: /ourdetool/sameip.php
+Post:
+Get:
+lip => 78.47.6.42
+
+--------------------------------------
+Zeit: 2008-11-05 12:38:58
+IP: 217.225.175.160
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 3941
+
+--------------------------------------
+Zeit: 2008-11-05 12:39:16
+IP: 217.225.175.160
+Datei: /ourdetool/techs.php
+Post:
+Get:
+uid => 3941
+
+--------------------------------------
+Zeit: 2008-11-05 12:39:18
+IP: 217.225.175.160
+Datei: /ourdetool/sektorstatus.php
+Post:
+Get:
+uid => 3941
+
+--------------------------------------
+Zeit: 2008-11-05 12:39:19
+IP: 217.225.175.160
+Datei: /ourdetool/sekforumourdetool.php
+Post:
+Get:
+uid => 3941
+
+--------------------------------------
+Zeit: 2008-11-05 12:39:23
+IP: 217.225.175.160
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 3941
+
+--------------------------------------
+Zeit: 2008-12-08 14:07:59
+IP: 217.225.139.128
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-12-08 14:08:02
+IP: 217.225.139.128
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-12-08 14:08:22
+IP: 217.225.139.128
+Datei: /ourdetool/multi.php
+Post:
+Get:
+stat2 => 
+
+--------------------------------------
+Zeit: 2008-12-08 14:08:25
+IP: 217.225.139.128
+Datei: /ourdetool/multi.php
+Post:
+Get:
+okt => 2
+
+--------------------------------------
+Zeit: 2008-12-08 14:08:28
+IP: 217.225.139.128
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-12-08 14:08:31
+IP: 217.225.139.128
+Datei: /ourdetool/multi.php
+Post:
+Get:
+okt => 3
+
+--------------------------------------
+Zeit: 2008-12-08 14:08:38
+IP: 217.225.139.128
+Datei: /ourdetool/multi.php
+Post:
+Get:
+okt => 4
+
+--------------------------------------
+Zeit: 2008-12-08 14:09:28
+IP: 217.225.139.128
+Datei: /ourdetool/multi.php
+Post:
+Get:
+okt => 4
+
+--------------------------------------
+Zeit: 2008-12-08 14:09:34
+IP: 217.225.139.128
+Datei: /ourdetool/multi.php
+Post:
+Get:
+okt => 4
+
+--------------------------------------
+Zeit: 2008-12-08 14:09:39
+IP: 217.225.139.128
+Datei: /ourdetool/observation.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-12-08 14:09:46
+IP: 217.225.139.128
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-12-08 14:09:46
+IP: 217.225.139.128
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 4194
+
+--------------------------------------
+Zeit: 2008-12-08 14:11:35
+IP: 217.225.139.128
+Datei: /ourdetool/sameip.php
+Post:
+Get:
+lip => 84.133.109.171
+
+--------------------------------------
+Zeit: 2008-12-08 14:11:42
+IP: 217.225.139.128
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-12-08 14:11:48
+IP: 217.225.139.128
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2008-12-08 14:11:48
+IP: 217.225.139.128
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 4301
+
+--------------------------------------
+Zeit: 2009-01-15 13:54:23
+IP: 217.225.141.221
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-01-15 13:54:30
+IP: 217.225.141.221
+Datei: /ourdetool/observation.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-01-15 13:54:37
+IP: 217.225.141.221
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-01-15 13:54:39
+IP: 217.225.141.221
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-01-15 13:56:36
+IP: 217.225.141.221
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 3447
+
+--------------------------------------
+Zeit: 2009-01-15 13:56:43
+IP: 217.225.141.221
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 3447
+
+--------------------------------------
+Zeit: 2009-01-15 13:56:48
+IP: 217.225.141.221
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 3447
+
+--------------------------------------
+Zeit: 2009-01-15 13:57:45
+IP: 217.225.141.221
+Datei: /ourdetool/sektorstatus.php
+Post:
+Get:
+uid => 3447
+
+--------------------------------------
+Zeit: 2009-01-15 13:57:46
+IP: 217.225.141.221
+Datei: /ourdetool/sekforumourdetool.php
+Post:
+Get:
+uid => 3447
+
+--------------------------------------
+Zeit: 2009-01-15 13:57:52
+IP: 217.225.141.221
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 3447
+
+--------------------------------------
+Zeit: 2009-01-15 13:57:59
+IP: 217.225.141.221
+Datei: /ourdetool/de_user_chat.php
+Post:
+Get:
+uid => 3447
+
+--------------------------------------
+Zeit: 2009-01-15 13:58:17
+IP: 217.225.141.221
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-01-15 13:58:18
+IP: 217.225.141.221
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 4289
+
+--------------------------------------
+Zeit: 2009-01-15 13:58:21
+IP: 217.225.141.221
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 4289
+
+--------------------------------------
+Zeit: 2009-01-15 13:58:29
+IP: 217.225.141.221
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-01-15 13:58:29
+IP: 217.225.141.221
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 4302
+
+--------------------------------------
+Zeit: 2009-01-15 13:58:32
+IP: 217.225.141.221
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 4302
+
+--------------------------------------
+Zeit: 2009-01-15 13:59:15
+IP: 217.225.141.221
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-01-15 13:59:15
+IP: 217.225.141.221
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 3362
+
+--------------------------------------
+Zeit: 2009-01-15 13:59:18
+IP: 217.225.141.221
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 3362
+
+--------------------------------------
+Zeit: 2009-01-15 13:59:30
+IP: 217.225.141.221
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 3163
+
+--------------------------------------
+Zeit: 2009-01-15 13:59:33
+IP: 217.225.141.221
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 3163
+
+--------------------------------------
+Zeit: 2009-01-15 14:00:14
+IP: 217.225.141.221
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 3163
+
+--------------------------------------
+Zeit: 2009-01-15 14:01:54
+IP: 217.225.141.221
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 3163
+
+--------------------------------------
+Zeit: 2009-01-15 14:01:56
+IP: 217.225.141.221
+Datei: /ourdetool/techs.php
+Post:
+Get:
+uid => 3163
+
+--------------------------------------
+Zeit: 2009-01-15 14:02:59
+IP: 217.225.141.221
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 3163
+
+--------------------------------------
+Zeit: 2009-01-15 14:03:05
+IP: 217.225.141.221
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 3163
+
+--------------------------------------
+Zeit: 2009-01-15 14:04:36
+IP: 217.225.141.221
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 3163
+
+--------------------------------------
+Zeit: 2009-01-15 14:05:54
+IP: 217.225.141.221
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 3163
+
+--------------------------------------
+Zeit: 2009-01-15 14:07:19
+IP: 217.225.141.221
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 3447
+
+--------------------------------------
+Zeit: 2009-01-15 14:09:43
+IP: 217.225.141.221
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 3447
+
+--------------------------------------
+Zeit: 2009-02-12 13:31:32
+IP: 217.225.147.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-04-02 12:36:08
+IP: 217.225.145.199
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-04-02 12:36:10
+IP: 217.225.145.199
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-04-02 12:36:13
+IP: 217.225.145.199
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 4724
+
+--------------------------------------
+Zeit: 2009-04-02 12:44:23
+IP: 217.225.145.199
+Datei: /ourdetool/info.php
+Post:
+loginname => Hodengott
+spielername => geaendert_by_support
+email => danielhenzehb@arcor.de
+lastlogin => 2009-04-02 12:34:59
+vorname => daniel
+nachname => Henze
+strasse => Riesstr. 64
+plz => 27721
+ort => Ritterhude
+land => Deutschland
+telefon => 
+mail => shaya@die-ewigen.com
+kommentartext => nick von Hodengott auf geaendert_by_support geändert
+
+Absender: 0:1 - Die-Ewigen-Team	Zeit: 26.01.2009 - 11:41:14
+Betreff: Nickänderung und Verwarnug
+Dein Ingamenick wurde soeben geändert. du kannst dir einen alternativen nick aussuchen. teile diesen dann bitte per mail unter angabe deiner accountid dem support unter support@die-ewigen.com mit.
+Ich bitte dich in zukunft von nicks abzusehen, die sich auf irgendwelche geschlechtlichen körperteile beziehen.
+Weiter wird dein Account hiermit verwarnt.
+
+2009-01-26 11:36:19 kleinesetwas
+
+hyperfunkbetreff => Beleidigung eines Mitspielers
+hyperfunktext => Auch ingame herrscht immernoch eine gewisse Nettiquette  woran sich jeder zu halten hat. Auch Du. Wir verwarnen dich diesmal noch, sollte es allerdings noch einmal vorkommen das ein Mitspieler deinerseits beleidigt wird, ergreifen andere Maßnahmen.
+mfg das Support-team
+sendhyperfunk => Hyperfunk senden
+Get:
+uid => 4724
+
+--------------------------------------
+Zeit: 2009-04-02 12:44:25
+IP: 217.225.145.199
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 4724
+
+--------------------------------------
+Zeit: 2009-04-02 12:44:32
+IP: 217.225.145.199
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 4724
+
+--------------------------------------
+Zeit: 2009-04-02 12:45:11
+IP: 217.225.145.199
+Datei: /ourdetool/info.php
+Post:
+loginname => Hodengott
+spielername => geaendert_by_support
+email => danielhenzehb@arcor.de
+lastlogin => 2009-04-02 12:40:37
+vorname => daniel
+nachname => Henze
+strasse => Riesstr. 64
+plz => 27721
+ort => Ritterhude
+land => Deutschland
+telefon => 
+mail => shaya@die-ewigen.com
+kommentartext => nick von Hodengott auf geaendert_by_support geändert
+
+Absender: 0:1 - Die-Ewigen-Team	Zeit: 26.01.2009 - 11:41:14
+Betreff: Nickänderung und Verwarnug
+Dein Ingamenick wurde soeben geändert. du kannst dir einen alternativen nick aussuchen. teile diesen dann bitte per mail unter angabe deiner accountid dem support unter support@die-ewigen.com mit.
+Ich bitte dich in zukunft von nicks abzusehen, die sich auf irgendwelche geschlechtlichen körperteile beziehen.
+Weiter wird dein Account hiermit verwarnt.
+
+2009-01-26 11:36:19 kleinesetwas
+
+
+
+
+[11:06:53] <DJNeo> Absender		 74:1 (geaendert_by_support)	
+[11:06:55] <DJNeo> Datum	 02.04.2009 - 11:00:00
+[11:06:57] <DJNeo> Betreff	
+[11:06:59] <DJNeo> Nachricht	 Ich komm wieder pissbratze und dann mit unterstüzung
+[11:07:01] <DJNeo> 	 Antworten Weiterleiten ins Archiv lösch
+[11:11:43] <DJNeo> pissbratze ist meinesermessens eine beleidigung bitte um konsiquensen der regelmissachtung !!!
+
+Absender: 0:1 - Die-Ewigen-Team Zeit: 02.04.2009 - 12:44:23 
+Betreff: Beleidigung eines Mitspielers 
+Auch ingame herrscht immernoch eine gewisse Nettiquette woran sich jeder zu halten hat. Auch Du. Wir verwarnen dich diesmal noch, sollte es allerdings noch einmal vorkommen das ein Mitspieler deinerseits beleidigt wird, ergreifen andere Maßnahmen.
+mfg das Support-team 
+
+
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 4724
+
+--------------------------------------
+Zeit: 2009-04-02 12:45:36
+IP: 217.225.145.199
+Datei: /ourdetool/info.php
+Post:
+loginname => Hodengott
+spielername => geaendert_by_support
+email => danielhenzehb@arcor.de
+lastlogin => 2009-04-02 12:40:37
+vorname => daniel
+nachname => Henze
+strasse => Riesstr. 64
+plz => 27721
+ort => Ritterhude
+land => Deutschland
+telefon => 
+mail => shaya@die-ewigen.com
+kommentartext => nick von Hodengott auf geaendert_by_support geändert
+
+Absender: 0:1 - Die-Ewigen-Team	Zeit: 26.01.2009 - 11:41:14
+Betreff: Nickänderung und Verwarnug
+Dein Ingamenick wurde soeben geändert. du kannst dir einen alternativen nick aussuchen. teile diesen dann bitte per mail unter angabe deiner accountid dem support unter support@die-ewigen.com mit.
+Ich bitte dich in zukunft von nicks abzusehen, die sich auf irgendwelche geschlechtlichen körperteile beziehen.
+Weiter wird dein Account hiermit verwarnt.
+
+2009-01-26 11:36:19 kleinesetwas
+
+
+
+
+[11:06:53] <DJNeo> Absender		 74:1 (geaendert_by_support)	
+[11:06:55] <DJNeo> Datum	 02.04.2009 - 11:00:00
+[11:06:57] <DJNeo> Betreff	
+[11:06:59] <DJNeo> Nachricht	 Ich komm wieder pissbratze und dann mit unterstüzung
+[11:07:01] <DJNeo> 	 Antworten Weiterleiten ins Archiv lösch
+[11:11:43] <DJNeo> pissbratze ist meinesermessens eine beleidigung bitte um konsiquensen der regelmissachtung !!!
+
+Absender: 0:1 - Die-Ewigen-Team Zeit: 02.04.2009 - 12:44:23 
+Betreff: Beleidigung eines Mitspielers 
+Auch ingame herrscht immernoch eine gewisse Nettiquette woran sich jeder zu halten hat. Auch Du. Wir verwarnen dich diesmal noch, sollte es allerdings noch einmal vorkommen das ein Mitspieler deinerseits beleidigt wird, ergreifen andere Maßnahmen.
+mfg das Support-team 
+
+2009-04-02 12:45:20 shaya 
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 4724
+
+--------------------------------------
+Zeit: 2009-06-18 14:09:03
+IP: 217.82.39.235
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-06-18 14:09:05
+IP: 217.82.39.235
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-06-18 14:09:09
+IP: 217.82.39.235
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 2966
+
+--------------------------------------
+Zeit: 2009-06-18 14:11:38
+IP: 217.82.39.235
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-06-18 14:11:40
+IP: 217.82.39.235
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-06-18 14:13:03
+IP: 217.82.39.235
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5534
+
+--------------------------------------
+Zeit: 2009-06-18 14:19:57
+IP: 217.82.39.235
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 5534
+
+--------------------------------------
+Zeit: 2009-06-18 14:28:40
+IP: 217.82.39.235
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-06-18 14:28:41
+IP: 217.82.39.235
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-06-18 14:28:48
+IP: 217.82.39.235
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5534
+
+--------------------------------------
+Zeit: 2009-06-18 14:29:11
+IP: 217.82.39.235
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 5534
+
+--------------------------------------
+Zeit: 2009-06-18 14:29:13
+IP: 217.82.39.235
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 5534
+
+--------------------------------------
+Zeit: 2009-08-13 09:13:12
+IP: 217.82.61.206
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-08-13 09:13:23
+IP: 217.82.61.206
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-08-13 09:13:28
+IP: 217.82.61.206
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5899
+
+--------------------------------------
+Zeit: 2009-08-13 09:13:49
+IP: 217.82.61.206
+Datei: /ourdetool/info.php
+Post:
+loginname => -=PradSchaPati=-
+spielername => -=PradSchaPati=-
+email => markusschmitt1@gmx.net
+lastlogin => 2009-08-12 22:50:00
+vorname => Marcus
+nachname => Schmitt
+strasse => Ludwigstr. 3
+plz => 93047
+ort => Regensburg
+land => Deutschland
+telefon => 
+mail => shaya@die-ewigen.com
+kommentartext => // Gabberkings Account
+
+13:17:38) (@schlafloser_GaBbEr) nele und ashes sind heute bei mir
+(13:17:52) (@schlafloser_GaBbEr) das de uns nit sperrst
+(13:17:58) (@schlafloser_GaBbEr) falls wir de on gehen
+
+(13:21:23) (@schlafloser_GaBbEr) 23:1 (5126) 11:1(5899) 59:3 (4918) << rde
+
+(13:18:54) (@schlafloser_GaBbEr) trag ma bis morgen nachmittag ein
+(13:18:57) (@schlafloser_GaBbEr) wegen der sicherheit
+
+
+2009-08-06 13:23:48 dashu - User hat sich gemeldet
+
+
+(22:46:58) (]RKBC-HC[Ja`Nu) HuHu
+(22:47:00) (]RKBC-HC[Ja`Nu) biste da?
+(22:47:31) (Dashu) hm.. ?
+(22:47:55) (]RKBC-HC[Ja`Nu) folgendes....
+(22:48:08) (]RKBC-HC[Ja`Nu) die helden von gabber haben dem des inet gekappt
+(22:48:27) (]RKBC-HC[Ja`Nu) nu hatter sich bei mir eingenistet weil der voll der suchti is HeHeHe
+(22:48:48) (]RKBC-HC[Ja`Nu) also wollt ich bei dir anmelden das sein acc in den nächsten tagen öfter über meine ip on is
+(22:49:00) (]RKBC-HC[Ja`Nu) nich das du uns sperrst
+(22:49:06) (]RKBC-HC[Ja`Nu) brauchste die koords?
+(22:50:13) (]RKBC-HC[Ja`Nu) er is sDE 37:7 & rDE 11:1
+(22:50:23) (]RKBC-HC[Ja`Nu) und ich bin rDE 23:1
+(22:50:42) (]RKBC-HC[Ja`Nu) wäre nett wenn du das notierst damit da nix passiert
+(22:51:40) (Dashu) ehm
+(22:51:42) (Dashu) folgendes..
+(22:51:45) (Dashu) Wie lange ?
+(22:51:51) (Dashu) Wieso Internet gekappt bzw inwiefern ?
+(22:51:55) (Dashu) Wer sind \"die Helden\" ?
+(22:52:03) (]RKBC-HC[Ja`Nu) hmmmmm denke mal max ne woche
+(22:52:22) (]RKBC-HC[Ja`Nu) kein plan er kam vorhin nach hause und da ging nix mehr
+(22:52:31) (]RKBC-HC[Ja`Nu) \"die Helden\" = telekom
+(22:53:09) (]RKBC-HC[Ja`Nu) kein plan ob die mutter die rechnung ned bezahlt hat oder so
+(22:54:00) (]RKBC-HC[Ja`Nu) der hat wohl auch nen neuen router bekommen vllt zickt der rium oder so
+(22:54:07) (]RKBC-HC[Ja`Nu) kein plan
+(22:54:12) (Dashu) Und deswegen ist der ne Woche bei dir ?
+(22:54:31) (]RKBC-HC[Ja`Nu) jor der wird sich dann bald wieder aufn weg her machen
+(22:54:37) (]RKBC-HC[Ja`Nu) des is doch son suchti
+(22:54:48) (]RKBC-HC[Ja`Nu) wenn der kein sDE zocken kann dreht er ab HeHeHe
+(22:55:07) (]RKBC-HC[Ja`Nu) wir wohnen ja nur ca 15mins zu fuß entfernt
+(22:55:53) (]RKBC-HC[Ja`Nu) der wird dann jetz wohl nen paar tage bis sein inet wieder geht tagsüber bei mir on sein
+
+
+
+2009-08-12 22:58:10 dashu - User hat sich gemeldet
+
+----------------------------------------------------------------------------
+
+(10:28:36) (Godslike`GaBbErKiNg) öhm
+(10:28:39) (Godslike`GaBbErKiNg) wollt was anmelden
+(10:28:43) (Godslike`GaBbErKiNg) kumpel is geraade bei mir
+(10:28:50) (Godslike`GaBbErKiNg) und geht über meine leitung mit rein
+(10:31:00) (Sebast1an) acc-ids, server, zeitrahmen
+(10:31:03) (Sebast1an) bitte
+(10:32:51) -› Quit (Ping timeout)
+(10:34:37) -› Geburtstags_GaBbEr is now known as Godslike`GaBbErKiNg
+(10:37:04) (Godslike`GaBbErKiNg) hallo?
+(10:38:24) (Sebast1an) acc-ids, server, zeitrahmen
+(10:38:4 (Godslike`GaBbErKiNg) dashu trägt das beim den koords ein
+(10:38:50) (Godslike`GaBbErKiNg) immer
+(10:38:55) (Godslike`GaBbErKiNg) und bis nachmittags
+(10:39:19) (Godslike`GaBbErKiNg) RDE5899 und RDE4918
+(10:39:30) (Godslike`GaBbErKiNg) SDE77145 
+(10:39:31) (Godslike`GaBbErKiNg) und
+(10:39:36) (Godslike`GaBbErKiNg) SDE77330
+
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 5899
+
+--------------------------------------
+Zeit: 2009-08-13 09:14:06
+IP: 217.82.61.206
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 4918
+
+--------------------------------------
+Zeit: 2009-08-13 09:14:34
+IP: 217.82.61.206
+Datei: /ourdetool/info.php
+Post:
+loginname => muss_das_sein
+spielername => Herbert
+email => heiko.nitzsche1@gmx.de
+lastlogin => 2009-08-13 07:34:26
+vorname => Heiko
+nachname => Nitzsche
+strasse => 
+plz => 34582
+ort => Borken
+land => Deutschland
+telefon => 
+mail => shaya@die-ewigen.com
+kommentartext => 2009-08-06 13:23:11 dashu - Nick gechanged von De-PuTa-MaDre in Herbert
+
+13:17:38) (@schlafloser_GaBbEr) nele und ashes sind heute bei mir
+(13:17:52) (@schlafloser_GaBbEr) das de uns nit sperrst
+(13:17:58) (@schlafloser_GaBbEr) falls wir de on gehen
+
+(13:21:23) (@schlafloser_GaBbEr) 23:1 (5126) 11:1(5899) 59:3 (4918) << rde
+
+(13:18:54) (@schlafloser_GaBbEr) trag ma bis morgen nachmittag ein
+(13:18:57) (@schlafloser_GaBbEr) wegen der sicherheit
+
+
+2009-08-06 13:23:48 dashu - User hat sich gemeldet
+2009-08-06 13:43:43 dashu - Mail wegen Nickchange wurde gesendet
+
+--------------------------------------------------------------------------------------------------------------------
+
+(10:28:36) (Godslike`GaBbErKiNg) öhm
+(10:28:39) (Godslike`GaBbErKiNg) wollt was anmelden
+(10:28:43) (Godslike`GaBbErKiNg) kumpel is geraade bei mir
+(10:28:50) (Godslike`GaBbErKiNg) und geht über meine leitung mit rein
+(10:31:00) (Sebast1an) acc-ids, server, zeitrahmen
+(10:31:03) (Sebast1an) bitte
+(10:32:51) -› Quit (Ping timeout)
+(10:34:37) -› Geburtstags_GaBbEr is now known as Godslike`GaBbErKiNg
+(10:37:04) (Godslike`GaBbErKiNg) hallo?
+(10:38:24) (Sebast1an) acc-ids, server, zeitrahmen
+(10:38:4 (Godslike`GaBbErKiNg) dashu trägt das beim den koords ein
+(10:38:50) (Godslike`GaBbErKiNg) immer
+(10:38:55) (Godslike`GaBbErKiNg) und bis nachmittags
+(10:39:19) (Godslike`GaBbErKiNg) RDE5899 und RDE4918
+(10:39:30) (Godslike`GaBbErKiNg) SDE77145 
+(10:39:31) (Godslike`GaBbErKiNg) und
+(10:39:36) (Godslike`GaBbErKiNg) SDE77330
+
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 4918
+
+--------------------------------------
+Zeit: 2009-08-14 11:30:08
+IP: 217.225.157.49
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-08-14 11:30:10
+IP: 217.225.157.49
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-08-14 11:30:25
+IP: 217.225.157.49
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5997
+
+--------------------------------------
+Zeit: 2009-08-14 11:30:32
+IP: 217.225.157.49
+Datei: /ourdetool/sameip.php
+Post:
+Get:
+lip => 87.168.209.46
+
+--------------------------------------
+Zeit: 2009-08-14 11:30:41
+IP: 217.225.157.49
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 5997
+
+--------------------------------------
+Zeit: 2009-08-14 11:30:50
+IP: 217.225.157.49
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 5997
+
+--------------------------------------
+Zeit: 2009-08-14 11:31:21
+IP: 217.225.157.49
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5613
+
+--------------------------------------
+Zeit: 2009-08-14 11:31:24
+IP: 217.225.157.49
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 5613
+
+--------------------------------------
+Zeit: 2009-08-14 11:33:13
+IP: 217.225.157.49
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 5613
+
+--------------------------------------
+Zeit: 2009-08-14 11:35:00
+IP: 217.225.157.49
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5613
+
+--------------------------------------
+Zeit: 2009-08-14 11:35:03
+IP: 217.225.157.49
+Datei: /ourdetool/sameip.php
+Post:
+Get:
+lip => 84.135.149.149
+
+--------------------------------------
+Zeit: 2009-08-14 11:35:29
+IP: 217.225.157.49
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5030
+
+--------------------------------------
+Zeit: 2009-08-14 11:35:32
+IP: 217.225.157.49
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 5030
+
+--------------------------------------
+Zeit: 2009-08-14 11:36:09
+IP: 217.225.157.49
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5613
+
+--------------------------------------
+Zeit: 2009-08-14 11:36:11
+IP: 217.225.157.49
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 5613
+
+--------------------------------------
+Zeit: 2009-08-14 11:36:38
+IP: 217.225.157.49
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5030
+
+--------------------------------------
+Zeit: 2009-08-14 11:36:40
+IP: 217.225.157.49
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 5030
+
+--------------------------------------
+Zeit: 2009-08-14 11:36:59
+IP: 217.225.157.49
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5997
+
+--------------------------------------
+Zeit: 2009-08-14 11:37:01
+IP: 217.225.157.49
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 5997
+
+--------------------------------------
+Zeit: 2009-08-14 11:40:57
+IP: 217.225.157.49
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-08-14 11:41:25
+IP: 217.225.157.49
+Datei: /ourdetool/multi.php
+Post:
+Get:
+stat2 => 
+
+--------------------------------------
+Zeit: 2009-08-14 11:41:31
+IP: 217.225.157.49
+Datei: /ourdetool/allys.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-08-14 14:14:36
+IP: 217.225.157.49
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-08-14 14:14:38
+IP: 217.225.157.49
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-08-14 14:14:44
+IP: 217.225.157.49
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5710
+
+--------------------------------------
+Zeit: 2009-08-14 14:14:47
+IP: 217.225.157.49
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 5710
+
+--------------------------------------
+Zeit: 2009-08-14 14:15:16
+IP: 217.225.157.49
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 5710
+
+--------------------------------------
+Zeit: 2009-08-14 14:15:17
+IP: 217.225.157.49
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5710
+
+--------------------------------------
+Zeit: 2009-08-14 14:15:22
+IP: 217.225.157.49
+Datei: /ourdetool/info.php
+Post:
+loginname => -=Invincible=-
+spielername => =Schattenmonarch=
+email => Malicious_edge@web.de
+lastlogin => 2009-08-14 14:13:27
+vorname => Sven
+nachname => Wenserowski
+strasse => Donauwörther Straße 224
+plz => 86154
+ort => Augsburg
+land => Deutschland
+telefon => 017661253393
+mail => shaya@die-ewigen.com
+kommentartext => Empfänger: 26:6 (BoySetsFire) Zeit: 14.08.2009 - 12:57:29 
+Betreff:  
+tzeee mistkind 
+
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 5710
+
+--------------------------------------
+Zeit: 2009-08-14 14:16:54
+IP: 217.225.157.49
+Datei: /ourdetool/info.php
+Post:
+loginname => -=Invincible=-
+spielername => =Schattenmonarch=
+email => Malicious_edge@web.de
+lastlogin => 2009-08-14 14:13:27
+vorname => Sven
+nachname => Wenserowski
+strasse => Donauwörther Straße 224
+plz => 86154
+ort => Augsburg
+land => Deutschland
+telefon => 017661253393
+mail => shaya@die-ewigen.com
+kommentartext => Empfänger: 26:6 (BoySetsFire) Zeit: 14.08.2009 - 12:57:29 
+Betreff:  
+tzeee mistkind 
+
+hyperfunkbetreff => Beleidigung eines Mitspielers
+hyperfunktext => In der DE-Community sollten sich alle untereinander mit Respekt begegnen. Bitte denke daran beim nächsten mal.
+Ansonsten folgt nicht nur eine Verwarnung.
+mfg das DE-Team
+sendhyperfunk => Hyperfunk senden
+Get:
+uid => 5710
+
+--------------------------------------
+Zeit: 2009-08-14 14:17:21
+IP: 217.225.157.49
+Datei: /ourdetool/info.php
+Post:
+loginname => -=Invincible=-
+spielername => =Schattenmonarch=
+email => Malicious_edge@web.de
+lastlogin => 2009-08-14 14:13:27
+vorname => Sven
+nachname => Wenserowski
+strasse => Donauwörther Straße 224
+plz => 86154
+ort => Augsburg
+land => Deutschland
+telefon => 017661253393
+mail => shaya@die-ewigen.com
+kommentartext => Empfänger: 26:6 (BoySetsFire) Zeit: 14.08.2009 - 12:57:29 
+Betreff:  
+tzeee mistkind 
+
+2009-08-14 14:16:58 shaya - Verwarnung per HFN wegen Beleidigung
+
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 5710
+
+--------------------------------------
+Zeit: 2009-08-28 11:55:45
+IP: 217.225.190.157
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-08-28 11:55:46
+IP: 217.225.190.157
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-08-28 11:56:24
+IP: 217.225.190.157
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-08-28 11:56:38
+IP: 217.225.190.157
+Datei: /ourdetool/sektor.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-08-28 11:56:41
+IP: 217.225.190.157
+Datei: /ourdetool/sektor.php
+Post:
+sektor => 110
+search => Suchen
+Get:
+
+--------------------------------------
+Zeit: 2009-09-01 13:10:18
+IP: 217.225.189.139
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-09-01 13:10:20
+IP: 217.225.189.139
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-09-01 13:10:25
+IP: 217.225.189.139
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5916
+
+--------------------------------------
+Zeit: 2009-09-01 13:10:28
+IP: 217.225.189.139
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 5916
+
+--------------------------------------
+Zeit: 2009-09-01 13:12:17
+IP: 217.225.189.139
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5916
+
+--------------------------------------
+Zeit: 2009-09-01 13:12:30
+IP: 217.225.189.139
+Datei: /ourdetool/sektorstatus.php
+Post:
+Get:
+uid => 5916
+
+--------------------------------------
+Zeit: 2009-09-01 13:12:31
+IP: 217.225.189.139
+Datei: /ourdetool/sekforumourdetool.php
+Post:
+Get:
+uid => 5916
+
+--------------------------------------
+Zeit: 2009-09-01 13:12:41
+IP: 217.225.189.139
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-11-09 11:50:18
+IP: 93.195.158.231
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-11-09 11:50:20
+IP: 93.195.158.231
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-01-04 11:33:29
+IP: 93.195.153.163
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-01-04 11:33:33
+IP: 93.195.153.163
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-01-04 11:33:41
+IP: 93.195.153.163
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6275
+
+--------------------------------------
+Zeit: 2010-01-04 11:33:55
+IP: 93.195.153.163
+Datei: /ourdetool/sameip.php
+Post:
+Get:
+lip => 88.74.18.160
+
+--------------------------------------
+Zeit: 2010-01-04 11:34:03
+IP: 93.195.153.163
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-01-04 11:34:04
+IP: 93.195.153.163
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6539
+
+--------------------------------------
+Zeit: 2010-01-04 11:35:39
+IP: 93.195.153.163
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 6539
+
+--------------------------------------
+Zeit: 2010-01-04 11:35:41
+IP: 93.195.153.163
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 6275
+
+--------------------------------------
+Zeit: 2010-01-04 11:36:04
+IP: 93.195.153.163
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 6275
+
+--------------------------------------
+Zeit: 2010-01-04 11:36:11
+IP: 93.195.153.163
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 6539
+
+--------------------------------------
+Zeit: 2010-01-04 11:36:25
+IP: 93.195.153.163
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6539
+
+--------------------------------------
+Zeit: 2010-01-04 11:36:28
+IP: 93.195.153.163
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6275
+
+--------------------------------------
+Zeit: 2010-01-04 11:37:47
+IP: 93.195.153.163
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 6275
+
+--------------------------------------
+Zeit: 2010-01-04 11:37:55
+IP: 93.195.153.163
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 6539
+
+--------------------------------------
+Zeit: 2010-01-04 11:38:04
+IP: 93.195.153.163
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-01-04 11:38:06
+IP: 93.195.153.163
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-01-04 11:38:10
+IP: 93.195.153.163
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 4933
+
+--------------------------------------
+Zeit: 2010-01-04 11:38:24
+IP: 93.195.153.163
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 4933
+
+--------------------------------------
+Zeit: 2010-01-04 11:42:21
+IP: 93.195.153.163
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6275
+
+--------------------------------------
+Zeit: 2010-01-04 11:42:27
+IP: 93.195.153.163
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 4933
+
+--------------------------------------
+Zeit: 2010-01-04 11:52:51
+IP: 93.195.153.163
+Datei: /ourdetool/sektorstatus.php
+Post:
+Get:
+uid => 4933
+
+--------------------------------------
+Zeit: 2010-01-04 11:52:54
+IP: 93.195.153.163
+Datei: /ourdetool/sekforumourdetool.php
+Post:
+Get:
+uid => 4933
+
+--------------------------------------
+Zeit: 2010-01-04 11:53:06
+IP: 93.195.153.163
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-01-04 11:53:08
+IP: 93.195.153.163
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-01-04 11:53:14
+IP: 93.195.153.163
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6
+
+--------------------------------------
+Zeit: 2010-01-04 11:53:15
+IP: 93.195.153.163
+Datei: /ourdetool/sekforumourdetool.php
+Post:
+Get:
+uid => 6
+
+--------------------------------------
+Zeit: 2010-01-04 11:53:21
+IP: 93.195.153.163
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6275
+
+--------------------------------------
+Zeit: 2010-01-04 11:53:22
+IP: 93.195.153.163
+Datei: /ourdetool/sekforumourdetool.php
+Post:
+Get:
+uid => 6275
+
+--------------------------------------
+Zeit: 2010-02-04 09:12:58
+IP: 93.195.171.125
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-04 09:12:59
+IP: 93.195.171.125
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-08 08:28:09
+IP: 93.195.170.108
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-08 08:28:11
+IP: 93.195.170.108
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-08 10:52:05
+IP: 93.195.170.108
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-08 10:52:27
+IP: 93.195.170.108
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-08 10:52:32
+IP: 93.195.170.108
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6873
+
+--------------------------------------
+Zeit: 2010-02-08 10:52:35
+IP: 93.195.170.108
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 6873
+
+--------------------------------------
+Zeit: 2010-02-08 10:54:12
+IP: 93.195.170.108
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6873
+
+--------------------------------------
+Zeit: 2010-02-08 10:54:15
+IP: 93.195.170.108
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 6873
+
+--------------------------------------
+Zeit: 2010-02-08 10:54:16
+IP: 93.195.170.108
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 6873
+
+--------------------------------------
+Zeit: 2010-02-08 10:54:21
+IP: 93.195.170.108
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 6873
+
+--------------------------------------
+Zeit: 2010-02-08 10:55:13
+IP: 93.195.170.108
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 6873
+
+--------------------------------------
+Zeit: 2010-02-08 10:55:16
+IP: 93.195.170.108
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6873
+
+--------------------------------------
+Zeit: 2010-02-08 10:55:38
+IP: 93.195.170.108
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 6873
+
+--------------------------------------
+Zeit: 2010-02-08 10:55:55
+IP: 93.195.170.108
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6873
+
+--------------------------------------
+Zeit: 2010-02-08 11:02:47
+IP: 93.195.170.108
+Datei: /ourdetool/info.php
+Post:
+loginname => Weasl
+spielername => Weasl
+email => e.wudzke@googlemail.com
+lastlogin => 2010-02-08 10:48:48
+vorname => Enrico
+nachname => Wudzke
+strasse => 
+plz => 91593
+ort => burgbernheim
+land => Deutschland
+telefon => 
+mail => shaya@die-ewigen.com
+kommentartext => // DeMe
+(14:43:02) (@DeMe) mal sehn vllt krieg ich ja bald mein win2k8 server zum laufen dann kann ich über den surfen
+(14:43:08) (@DeMe) dann is mein rechner von allen gefahren befreit
+(14:43:16) (@DeMe) wenns den server erwischt is wayne (:
+
+________________________________________________________________________________________________
+
+Absender: 7:2 - -=rOck=- Zeit: 08.02.2010 - 10:23:26 
+Betreff: Re: Re: Re: Re: Re:  
+Weasl schrieb: -=rOck=- schrieb: Weasl schrieb: -=rOck=- schrieb: Weasl schrieb: lass das. oder du verabschiedest dich 
+
+
+loooooooooooooooooooooooooooooooooooooooooooooooool 
+
+und da kann dir jejune mit e5 recall auch nicht helfen 
+
+
+
+wer denkst du wer du bist ^^ willste mir jetzt drohen oder was oO 
+
+nö. ich sag nur wie es sein wird
+
+
+ehm du weiß dat du dafür gespert werden kannst ^^  
+
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 6873
+
+--------------------------------------
+Zeit: 2010-02-08 11:02:49
+IP: 93.195.170.108
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 6873
+
+--------------------------------------
+Zeit: 2010-02-08 11:03:25
+IP: 93.195.170.108
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6873
+
+--------------------------------------
+Zeit: 2010-02-08 11:03:32
+IP: 93.195.170.108
+Datei: /ourdetool/info.php
+Post:
+loginname => Weasl
+spielername => Weasl
+email => e.wudzke@googlemail.com
+lastlogin => 2010-02-08 11:03:06
+vorname => Enrico
+nachname => Wudzke
+strasse => 
+plz => 91593
+ort => burgbernheim
+land => Deutschland
+telefon => 
+mail => shaya@die-ewigen.com
+kommentartext => // DeMe
+(14:43:02) (@DeMe) mal sehn vllt krieg ich ja bald mein win2k8 server zum laufen dann kann ich über den surfen
+(14:43:08) (@DeMe) dann is mein rechner von allen gefahren befreit
+(14:43:16) (@DeMe) wenns den server erwischt is wayne (:
+
+________________________________________________________________________________________________
+
+Absender: 7:2 - -=rOck=- Zeit: 08.02.2010 - 10:23:26 
+Betreff: Re: Re: Re: Re: Re:  
+Weasl schrieb: -=rOck=- schrieb: Weasl schrieb: -=rOck=- schrieb: Weasl schrieb: lass das. oder du verabschiedest dich 
+
+
+loooooooooooooooooooooooooooooooooooooooooooooooool 
+
+und da kann dir jejune mit e5 recall auch nicht helfen 
+
+
+
+wer denkst du wer du bist ^^ willste mir jetzt drohen oder was oO 
+
+nö. ich sag nur wie es sein wird
+
+
+ehm du weiß dat du dafür gespert werden kannst ^^  
+
+
+Absender: 7:1 - Jejune Zeit: 06.02.2010 - 14:08:43 
+Betreff: Re: Re: Re: Re:  
+Weasl schrieb: Jejune schrieb: Weasl schrieb: boah lass mich den 1 ma richtig ficken -.- 
+
+bin der der 1er  
+
+deswegen kannst du mich den trotzdem zerficken lassen -.-
+
+
+^^ 
+
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 6873
+
+--------------------------------------
+Zeit: 2010-02-08 11:04:05
+IP: 93.195.170.108
+Datei: /ourdetool/info.php
+Post:
+loginname => Weasl
+spielername => Weasl
+email => e.wudzke@googlemail.com
+lastlogin => 2010-02-08 11:03:06
+vorname => Enrico
+nachname => Wudzke
+strasse => 
+plz => 91593
+ort => burgbernheim
+land => Deutschland
+telefon => 
+mail => shaya@die-ewigen.com
+kommentartext => // DeMe
+(14:43:02) (@DeMe) mal sehn vllt krieg ich ja bald mein win2k8 server zum laufen dann kann ich über den surfen
+(14:43:08) (@DeMe) dann is mein rechner von allen gefahren befreit
+(14:43:16) (@DeMe) wenns den server erwischt is wayne (:
+
+________________________________________________________________________________________________
+
+Absender: 7:2 - -=rOck=- Zeit: 08.02.2010 - 10:23:26 
+Betreff: Re: Re: Re: Re: Re:  
+Weasl schrieb: -=rOck=- schrieb: Weasl schrieb: -=rOck=- schrieb: Weasl schrieb: lass das. oder du verabschiedest dich 
+
+
+loooooooooooooooooooooooooooooooooooooooooooooooool 
+
+und da kann dir jejune mit e5 recall auch nicht helfen 
+
+
+
+wer denkst du wer du bist ^^ willste mir jetzt drohen oder was oO 
+
+nö. ich sag nur wie es sein wird
+
+
+ehm du weiß dat du dafür gespert werden kannst ^^  
+
+
+Absender: 7:1 - Jejune Zeit: 06.02.2010 - 14:08:43 
+Betreff: Re: Re: Re: Re:  
+Weasl schrieb: Jejune schrieb: Weasl schrieb: boah lass mich den 1 ma richtig ficken -.- 
+
+bin der der 1er  
+
+deswegen kannst du mich den trotzdem zerficken lassen -.-
+
+
+^^ 
+2010-02-08 11:03:45 shaya - User per Hfn verwarnt
+
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 6873
+
+--------------------------------------
+Zeit: 2010-02-08 11:05:36
+IP: 93.195.170.108
+Datei: /ourdetool/info.php
+Post:
+loginname => Weasl
+spielername => Weasl
+email => e.wudzke@googlemail.com
+lastlogin => 2010-02-08 11:03:06
+vorname => Enrico
+nachname => Wudzke
+strasse => 
+plz => 91593
+ort => burgbernheim
+land => Deutschland
+telefon => 
+mail => shaya@die-ewigen.com
+kommentartext => // DeMe
+(14:43:02) (@DeMe) mal sehn vllt krieg ich ja bald mein win2k8 server zum laufen dann kann ich über den surfen
+(14:43:08) (@DeMe) dann is mein rechner von allen gefahren befreit
+(14:43:16) (@DeMe) wenns den server erwischt is wayne (:
+
+________________________________________________________________________________________________
+
+Absender: 7:2 - -=rOck=- Zeit: 08.02.2010 - 10:23:26 
+Betreff: Re: Re: Re: Re: Re:  
+Weasl schrieb: -=rOck=- schrieb: Weasl schrieb: -=rOck=- schrieb: Weasl schrieb: lass das. oder du verabschiedest dich 
+
+
+loooooooooooooooooooooooooooooooooooooooooooooooool 
+
+und da kann dir jejune mit e5 recall auch nicht helfen 
+
+
+
+wer denkst du wer du bist ^^ willste mir jetzt drohen oder was oO 
+
+nö. ich sag nur wie es sein wird
+
+
+ehm du weiß dat du dafür gespert werden kannst ^^  
+
+
+Absender: 7:1 - Jejune Zeit: 06.02.2010 - 14:08:43 
+Betreff: Re: Re: Re: Re:  
+Weasl schrieb: Jejune schrieb: Weasl schrieb: boah lass mich den 1 ma richtig ficken -.- 
+
+bin der der 1er  
+
+deswegen kannst du mich den trotzdem zerficken lassen -.-
+
+
+^^ 
+2010-02-08 11:03:45 shaya - User per Hfn verwarnt
+
+hyperfunkbetreff => Verwarnung
+hyperfunktext => Lieber DE-Spieler, wiederholt bist du innerhalb des Spieles auffällig geworden, bitte achte etwas beim Umgang mit deinen Mitspieler auf deine Wortwahl. Denn nur ein guter Ton schafft auch gleich mehr Spielfreude untereinander.
+mfg Dein DE-Team
+sendhyperfunk => Hyperfunk senden
+Get:
+uid => 6873
+
+--------------------------------------
+Zeit: 2010-02-18 09:33:46
+IP: 93.195.169.207
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 6800
+
+--------------------------------------
+Zeit: 2010-02-18 09:34:33
+IP: 93.195.169.207
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-18 09:34:35
+IP: 93.195.169.207
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-18 09:34:48
+IP: 93.195.169.207
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6800
+
+--------------------------------------
+Zeit: 2010-02-18 09:34:56
+IP: 93.195.169.207
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 6800
+
+--------------------------------------
+Zeit: 2010-02-18 09:35:20
+IP: 93.195.169.207
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-18 09:36:14
+IP: 93.195.169.207
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-18 09:36:20
+IP: 93.195.169.207
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-18 09:36:40
+IP: 93.195.169.207
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6800
+
+--------------------------------------
+Zeit: 2010-02-18 09:36:44
+IP: 93.195.169.207
+Datei: /ourdetool/sameip.php
+Post:
+Get:
+lip => 188.103.97.92
+
+--------------------------------------
+Zeit: 2010-02-23 13:55:38
+IP: 93.195.173.207
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-23 13:55:40
+IP: 93.195.173.207
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-23 13:55:48
+IP: 93.195.173.207
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-23 13:55:52
+IP: 93.195.173.207
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6800
+
+--------------------------------------
+Zeit: 2010-02-23 13:56:00
+IP: 93.195.173.207
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-23 13:56:01
+IP: 93.195.173.207
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6777
+
+--------------------------------------
+Zeit: 2010-02-23 13:56:13
+IP: 93.195.173.207
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-23 13:56:13
+IP: 93.195.173.207
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6997
+
+--------------------------------------
+Zeit: 2010-02-23 13:56:17
+IP: 93.195.173.207
+Datei: /ourdetool/sameip.php
+Post:
+Get:
+lip => 84.60.206.222
+
+--------------------------------------
+Zeit: 2010-02-23 13:56:21
+IP: 93.195.173.207
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 6997
+
+--------------------------------------
+Zeit: 2010-02-23 13:56:34
+IP: 93.195.173.207
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 6800
+
+--------------------------------------
+Zeit: 2010-02-23 13:56:45
+IP: 93.195.173.207
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-23 13:56:46
+IP: 93.195.173.207
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6777
+
+--------------------------------------
+Zeit: 2010-02-23 13:56:47
+IP: 93.195.173.207
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 6777
+
+--------------------------------------
+Zeit: 2010-02-23 13:57:08
+IP: 93.195.173.207
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-23 13:57:08
+IP: 93.195.173.207
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6997
+
+--------------------------------------
+Zeit: 2010-02-23 13:57:10
+IP: 93.195.173.207
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 6997
+
+--------------------------------------
+Zeit: 2010-02-23 13:57:39
+IP: 93.195.173.207
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 6777
+
+--------------------------------------
+Zeit: 2010-02-23 13:58:08
+IP: 93.195.173.207
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 6997
+
+--------------------------------------
+Zeit: 2010-02-23 13:58:28
+IP: 93.195.173.207
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 6800
+
+--------------------------------------
+Zeit: 2010-02-23 14:00:44
+IP: 93.195.173.207
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-23 14:00:46
+IP: 93.195.173.207
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-23 14:00:54
+IP: 93.195.173.207
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6800
+
+--------------------------------------
+Zeit: 2010-02-23 14:02:25
+IP: 93.195.173.207
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-23 14:02:25
+IP: 93.195.173.207
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6777
+
+--------------------------------------
+Zeit: 2010-02-23 14:02:31
+IP: 93.195.173.207
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-23 14:02:31
+IP: 93.195.173.207
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6997
+
+--------------------------------------
+Zeit: 2010-02-23 14:05:19
+IP: 93.195.173.207
+Datei: /ourdetool/sekforumourdetool.php
+Post:
+Get:
+uid => 6800
+
+--------------------------------------
+Zeit: 2010-02-24 12:10:38
+IP: 93.195.160.108
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-02-24 12:10:40
+IP: 93.195.160.108
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-03-05 11:36:03
+IP: 93.195.187.170
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-03-05 11:36:06
+IP: 93.195.187.170
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-04-14 11:33:45
+IP: 93.195.189.118
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-04-14 11:33:48
+IP: 93.195.189.118
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-04-21 11:13:00
+IP: 93.195.188.164
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-04-21 11:13:02
+IP: 93.195.188.164
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-06-22 11:20:52
+IP: 93.195.185.155
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-06-22 11:20:55
+IP: 93.195.185.155
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-06-22 11:21:07
+IP: 93.195.185.155
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-06-22 11:21:07
+IP: 93.195.185.155
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-08-20 07:40:58
+IP: 93.195.179.22
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-08-20 07:41:00
+IP: 93.195.179.22
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-08-20 07:41:36
+IP: 93.195.179.22
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-08-20 07:41:37
+IP: 93.195.179.22
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-08-20 07:41:45
+IP: 93.195.179.22
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 7393
+
+--------------------------------------
+Zeit: 2010-08-20 07:42:05
+IP: 93.195.179.22
+Datei: /ourdetool/sameip.php
+Post:
+Get:
+lip => 84.186.216.193
+
+--------------------------------------
+Zeit: 2010-08-20 07:42:19
+IP: 93.195.179.22
+Datei: /ourdetool/info.php
+Post:
+loginname => -=Sonnenschein=-
+spielername => -=flauschibär=-
+email => titanbrause@arcor.de
+lastlogin => 2010-08-20 06:17:54
+vorname => Hans
+nachname => Stöcker
+strasse => 
+plz => 51789
+ort => Lindlar
+land => Deutschland
+telefon => 
+observationgo => auf Beobachtungsliste
+mail => shaya@die-ewigen.com
+kommentartext => 2010-07-25 18:45:49 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind noch nicht um, kein Login möglich)
+
+2010-07-26 12:38:03 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind noch nicht um, kein Login möglich)
+
+2010-07-27 06:33:56 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind noch nicht um, kein Login möglich)
+
+2010-07-27 09:20:51 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind noch nicht um, kein Login möglich)
+
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 7393
+
+--------------------------------------
+Zeit: 2010-09-23 10:43:53
+IP: 93.195.186.68
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-09-23 10:44:09
+IP: 93.195.186.68
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-07 11:27:57
+IP: 93.195.170.56
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-07 11:27:57
+IP: 93.195.170.56
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 7917
+
+--------------------------------------
+Zeit: 2010-10-07 11:28:21
+IP: 93.195.170.56
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 7917
+
+--------------------------------------
+Zeit: 2010-10-07 11:28:24
+IP: 93.195.170.56
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 7917
+
+--------------------------------------
+Zeit: 2010-10-07 11:28:37
+IP: 93.195.170.56
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 7917
+
+--------------------------------------
+Zeit: 2010-10-07 11:28:41
+IP: 93.195.170.56
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 7917
+
+--------------------------------------
+Zeit: 2010-10-07 11:28:43
+IP: 93.195.170.56
+Datei: /ourdetool/techs.php
+Post:
+Get:
+uid => 7917
+
+--------------------------------------
+Zeit: 2010-10-07 11:30:02
+IP: 93.195.170.56
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 7917
+
+--------------------------------------
+Zeit: 2010-10-07 11:30:09
+IP: 93.195.170.56
+Datei: /ourdetool/techs.php
+Post:
+Get:
+uid => 7917
+
+--------------------------------------
+Zeit: 2010-10-07 11:30:11
+IP: 93.195.170.56
+Datei: /ourdetool/sektorstatus.php
+Post:
+Get:
+uid => 7917
+
+--------------------------------------
+Zeit: 2010-10-07 11:30:17
+IP: 93.195.170.56
+Datei: /ourdetool/sekforumourdetool.php
+Post:
+Get:
+uid => 7917
+
+--------------------------------------
+Zeit: 2010-10-07 11:30:24
+IP: 93.195.170.56
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 7917
+
+--------------------------------------
+Zeit: 2010-10-07 11:30:31
+IP: 93.195.170.56
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 7917
+mp => 3
+
+--------------------------------------
+Zeit: 2010-10-07 11:30:37
+IP: 93.195.170.56
+Datei: /ourdetool/de_user_chat.php
+Post:
+Get:
+uid => 7917
+
+--------------------------------------
+Zeit: 2010-10-07 11:34:31
+IP: 93.195.170.56
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 7917
+
+--------------------------------------
+Zeit: 2010-10-07 11:34:38
+IP: 93.195.170.56
+Datei: /ourdetool/sameip.php
+Post:
+Get:
+lip => 77.181.57.95
+
+--------------------------------------
+Zeit: 2010-10-07 11:35:10
+IP: 93.195.170.56
+Datei: /ourdetool/info.php
+Post:
+loginname => =Anubis=
+spielername => =Basher=
+email => rp4u@gmx.de
+lastlogin => 2010-10-07 11:33:34
+vorname => Marcel
+nachname => Bertram
+strasse => Stadtmauer 8
+plz => 56727
+ort => Mayen
+land => Deutschland
+telefon => 01774773855
+mail => shaya@die-ewigen.com
+kommentartext => 2010-09-04 13:12:19 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)
+
+2010-09-22 16:39:15 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)
+1317166355
+
+2010-10-07 11:35:03 shaya - User hat sich gemeldet
+
+11:16:34] <[KB]Basher> ^^
+[11:18:36] <Shaya> huhu
+[11:18:41] <[KB]Basher> waaaa
+[11:18:43] <[KB]Basher> yeaag
+[11:18:46] <[KB]Basher> kannst mir kurz helfen
+[11:18:49] <[KB]Basher> hab zwei anliegen
+[11:18:51] <[KB]Basher> =)
+[11:18:59] <Shaya> schauen wir mal ob ich das kann ;)
+[11:19:02] <[KB]Basher> also
+[11:19:06] <[KB]Basher> erstmal simple
+[11:19:09] <[KB]Basher> ich spiel von 2 IPS aus
+[11:19:13] <[KB]Basher> also von zu hause
+[11:19:17] <[KB]Basher> und ich hab so nen web and walk stick
+[11:19:19] <[KB]Basher> nun kommt der trick dabei
+[11:19:23] <[KB]Basher> der wechselt dauernt die ip
+[11:19:25] <[KB]Basher> und die einwahl ip
+[11:19:30] <[KB]Basher> tracke mich ab und an selber
+[11:19:31] <[KB]Basher> mal berlin
+[11:19:32] <[KB]Basher> mal kasse
+[11:19:34] <[KB]Basher> dortmunbd
+[11:19:35] <[KB]Basher> etc
+[11:19:40] <[KB]Basher> aber die logins liegen minuten auseinander
+[11:19:43] <[KB]Basher> das wollt ich melden^^
+[11:19:48] <[KB]Basher> damit es nicht heist ich teil mir den acc =)
+[11:20:01] <[KB]Basher> dadrch das t mobile mehrere standorte hat wechselt der immer die zugehöhrigkeit...
+[11:20:15] <Shaya> ich kann eintragen das die anderen bescheid wissen
+[11:20:23] <Shaya> *\'s
+[11:20:45] <Shaya> account id?
+[11:22:17] <Shaya> aber ich sag auch gleich, das wir dennoch hinundwieder mal nen auge drauf haben werden, aus gewohntheit schon
+[11:23:12] <[KB]Basher> eh
+[11:23:12] <[KB]Basher> mom
+[11:23:21] <[KB]Basher> 	ID10799
+[11:23:33] <[KB]Basher> jo auge drauf is ja egal
+[11:23:36] <[KB]Basher> nur das echt kack
+[11:23:36] <Shaya> welcher server?
+[11:23:40] <[KB]Basher> das is hauptacc
+
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 7917
+
+--------------------------------------
+Zeit: 2010-10-08 08:55:10
+IP: 93.195.170.159
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-08 08:55:13
+IP: 93.195.170.159
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-08 08:55:21
+IP: 93.195.170.159
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-08 08:55:22
+IP: 93.195.170.159
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 8258
+
+--------------------------------------
+Zeit: 2010-10-08 08:55:31
+IP: 93.195.170.159
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-08 08:55:31
+IP: 93.195.170.159
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 8215
+
+--------------------------------------
+Zeit: 2010-10-08 08:55:47
+IP: 93.195.170.159
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-08 08:55:47
+IP: 93.195.170.159
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 8258
+
+--------------------------------------
+Zeit: 2010-10-08 08:56:06
+IP: 93.195.170.159
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-08 08:56:06
+IP: 93.195.170.159
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 7147
+
+--------------------------------------
+Zeit: 2010-10-08 08:56:39
+IP: 93.195.170.159
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-08 08:56:40
+IP: 93.195.170.159
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 8261
+
+--------------------------------------
+Zeit: 2010-10-08 08:56:52
+IP: 93.195.170.159
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-08 08:56:52
+IP: 93.195.170.159
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 8212
+
+--------------------------------------
+Zeit: 2010-10-11 10:44:02
+IP: 93.195.172.208
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-11 10:44:05
+IP: 93.195.172.208
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-11 10:44:25
+IP: 93.195.172.208
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-11 10:44:25
+IP: 93.195.172.208
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 8258
+
+--------------------------------------
+Zeit: 2010-10-11 10:44:35
+IP: 93.195.172.208
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-11 10:44:35
+IP: 93.195.172.208
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 8215
+
+--------------------------------------
+Zeit: 2010-10-11 10:44:45
+IP: 93.195.172.208
+Datei: /ourdetool/info.php
+Post:
+loginname => Luk-Khxng-Chan_
+spielername => Luk-Khxng-Chan_
+email => stofferfranzi@yahoo.de
+lastlogin => 2010-10-07 10:00:38
+vorname => Christopher 
+nachname => Schüning 
+strasse => Brielower Strasse 41
+plz => 14770
+ort => Brandenburg 
+land => Deutschland
+telefon => 015206451484
+observationgo => auf Beobachtungsliste
+mail => shaya@die-ewigen.com
+kommentartext => 
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 8215
+
+--------------------------------------
+Zeit: 2010-10-11 10:44:49
+IP: 93.195.172.208
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-11 10:44:49
+IP: 93.195.172.208
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 8258
+
+--------------------------------------
+Zeit: 2010-10-11 10:44:53
+IP: 93.195.172.208
+Datei: /ourdetool/info.php
+Post:
+loginname => Sumalee
+spielername => Sumalee
+email => dieewigen95@yahoo.de
+lastlogin => 2010-10-09 23:47:44
+vorname => Franzi
+nachname => Maischatz
+strasse => Jacobstrasse 5
+plz => 14770
+ort => Brandenburg 
+land => Deutschland
+telefon => 
+observationgo => auf Beobachtungsliste
+mail => shaya@die-ewigen.com
+kommentartext => 
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 8258
+
+--------------------------------------
+Zeit: 2010-10-11 10:45:01
+IP: 93.195.172.208
+Datei: /ourdetool/observation.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-12 12:16:43
+IP: 93.195.172.126
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-12 12:16:45
+IP: 93.195.172.126
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-12 12:16:54
+IP: 93.195.172.126
+Datei: /ourdetool/observation.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-12 12:16:58
+IP: 93.195.172.126
+Datei: /ourdetool/observation.php
+Post:
+Get:
+uid => 8215
+
+--------------------------------------
+Zeit: 2010-10-12 12:17:00
+IP: 93.195.172.126
+Datei: /ourdetool/observation.php
+Post:
+Get:
+uid => 8258
+
+--------------------------------------
+Zeit: 2010-10-12 12:17:02
+IP: 93.195.172.126
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-12 12:17:09
+IP: 93.195.172.126
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-12 12:17:10
+IP: 93.195.172.126
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 8258
+
+--------------------------------------
+Zeit: 2010-10-12 12:17:17
+IP: 93.195.172.126
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-12 12:17:43
+IP: 93.195.172.126
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-12 12:17:43
+IP: 93.195.172.126
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 8024
+
+--------------------------------------
+Zeit: 2010-10-12 12:17:52
+IP: 93.195.172.126
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-12 12:17:52
+IP: 93.195.172.126
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 8236
+
+--------------------------------------
+Zeit: 2010-10-14 10:49:50
+IP: 93.195.172.244
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-14 10:49:52
+IP: 93.195.172.244
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-14 10:50:02
+IP: 93.195.172.244
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-14 10:50:03
+IP: 93.195.172.244
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 8236
+
+--------------------------------------
+Zeit: 2010-10-14 10:50:11
+IP: 93.195.172.244
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-14 10:50:11
+IP: 93.195.172.244
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 8024
+
+--------------------------------------
+Zeit: 2010-10-15 10:18:27
+IP: 93.195.173.55
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-10-15 10:19:11
+IP: 93.195.173.55
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:08:16
+IP: 93.195.170.83
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:08:18
+IP: 93.195.170.83
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:08:41
+IP: 93.195.170.83
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:08:45
+IP: 93.195.170.83
+Datei: /ourdetool/sektor.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:08:49
+IP: 93.195.170.83
+Datei: /ourdetool/sektor.php
+Post:
+sektor => 26
+search => Suchen
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:08:58
+IP: 93.195.170.83
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:08:58
+IP: 93.195.170.83
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 7742
+
+--------------------------------------
+Zeit: 2010-11-11 11:09:04
+IP: 93.195.170.83
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:09:04
+IP: 93.195.170.83
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 7742
+
+--------------------------------------
+Zeit: 2010-11-11 11:09:32
+IP: 93.195.170.83
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 7742
+
+--------------------------------------
+Zeit: 2010-11-11 11:09:36
+IP: 93.195.170.83
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 7742
+
+--------------------------------------
+Zeit: 2010-11-11 11:09:46
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 7742
+
+--------------------------------------
+Zeit: 2010-11-11 11:10:03
+IP: 93.195.170.83
+Datei: /ourdetool/sektorstatus.php
+Post:
+Get:
+uid => 7742
+
+--------------------------------------
+Zeit: 2010-11-11 11:10:04
+IP: 93.195.170.83
+Datei: /ourdetool/sekforumourdetool.php
+Post:
+Get:
+uid => 7742
+
+--------------------------------------
+Zeit: 2010-11-11 11:10:09
+IP: 93.195.170.83
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:10:09
+IP: 93.195.170.83
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 7916
+
+--------------------------------------
+Zeit: 2010-11-11 11:10:12
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 7916
+
+--------------------------------------
+Zeit: 2010-11-11 11:10:20
+IP: 93.195.170.83
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:10:20
+IP: 93.195.170.83
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 7983
+
+--------------------------------------
+Zeit: 2010-11-11 11:10:23
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 7983
+
+--------------------------------------
+Zeit: 2010-11-11 11:10:32
+IP: 93.195.170.83
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:10:32
+IP: 93.195.170.83
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 7983
+
+--------------------------------------
+Zeit: 2010-11-11 11:10:38
+IP: 93.195.170.83
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:10:39
+IP: 93.195.170.83
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5045
+
+--------------------------------------
+Zeit: 2010-11-11 11:10:41
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 5045
+
+--------------------------------------
+Zeit: 2010-11-11 11:10:54
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 7742
+
+--------------------------------------
+Zeit: 2010-11-11 11:11:04
+IP: 93.195.170.83
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:11:04
+IP: 93.195.170.83
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 8376
+
+--------------------------------------
+Zeit: 2010-11-11 11:11:08
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 8376
+
+--------------------------------------
+Zeit: 2010-11-11 11:11:15
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 7742
+
+--------------------------------------
+Zeit: 2010-11-11 11:11:23
+IP: 93.195.170.83
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:11:23
+IP: 93.195.170.83
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 7916
+
+--------------------------------------
+Zeit: 2010-11-11 11:11:26
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 7916
+
+--------------------------------------
+Zeit: 2010-11-11 11:11:34
+IP: 93.195.170.83
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:11:35
+IP: 93.195.170.83
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 7983
+
+--------------------------------------
+Zeit: 2010-11-11 11:11:36
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 7983
+
+--------------------------------------
+Zeit: 2010-11-11 11:11:45
+IP: 93.195.170.83
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:11:45
+IP: 93.195.170.83
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5045
+
+--------------------------------------
+Zeit: 2010-11-11 11:11:46
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 5045
+
+--------------------------------------
+Zeit: 2010-11-11 11:11:54
+IP: 93.195.170.83
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:11:54
+IP: 93.195.170.83
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 8376
+
+--------------------------------------
+Zeit: 2010-11-11 11:11:56
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 8376
+
+--------------------------------------
+Zeit: 2010-11-11 11:11:58
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 8376
+
+--------------------------------------
+Zeit: 2010-11-11 11:12:19
+IP: 93.195.170.83
+Datei: /ourdetool/sektor.php
+Post:
+sektor => 32
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:12:23
+IP: 93.195.170.83
+Datei: /ourdetool/sektor.php
+Post:
+sektor => 32
+search => Suchen
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:12:34
+IP: 93.195.170.83
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:12:34
+IP: 93.195.170.83
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6751
+
+--------------------------------------
+Zeit: 2010-11-11 11:12:58
+IP: 93.195.170.83
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 6751
+
+--------------------------------------
+Zeit: 2010-11-11 11:13:02
+IP: 93.195.170.83
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 6751
+
+--------------------------------------
+Zeit: 2010-11-11 11:13:05
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 6751
+
+--------------------------------------
+Zeit: 2010-11-11 11:13:08
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 6751
+
+--------------------------------------
+Zeit: 2010-11-11 11:13:15
+IP: 93.195.170.83
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:13:15
+IP: 93.195.170.83
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6108
+
+--------------------------------------
+Zeit: 2010-11-11 11:13:24
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 6108
+
+--------------------------------------
+Zeit: 2010-11-11 11:13:39
+IP: 93.195.170.83
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6108
+
+--------------------------------------
+Zeit: 2010-11-11 11:13:43
+IP: 93.195.170.83
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:13:43
+IP: 93.195.170.83
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6751
+
+--------------------------------------
+Zeit: 2010-11-11 11:13:48
+IP: 93.195.170.83
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:13:48
+IP: 93.195.170.83
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 1246
+
+--------------------------------------
+Zeit: 2010-11-11 11:13:51
+IP: 93.195.170.83
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 1246
+
+--------------------------------------
+Zeit: 2010-11-11 11:13:54
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 1246
+
+--------------------------------------
+Zeit: 2010-11-11 11:13:58
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 1246
+
+--------------------------------------
+Zeit: 2010-11-11 11:14:07
+IP: 93.195.170.83
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:14:07
+IP: 93.195.170.83
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 7201
+
+--------------------------------------
+Zeit: 2010-11-11 11:14:10
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 7201
+
+--------------------------------------
+Zeit: 2010-11-11 11:14:15
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 7201
+
+--------------------------------------
+Zeit: 2010-11-11 11:14:23
+IP: 93.195.170.83
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:14:23
+IP: 93.195.170.83
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 7965
+
+--------------------------------------
+Zeit: 2010-11-11 11:14:25
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 7965
+
+--------------------------------------
+Zeit: 2010-11-11 11:14:27
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 7965
+
+--------------------------------------
+Zeit: 2010-11-11 11:14:32
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 7965
+
+--------------------------------------
+Zeit: 2010-11-11 11:14:40
+IP: 93.195.170.83
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:14:40
+IP: 93.195.170.83
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 8486
+
+--------------------------------------
+Zeit: 2010-11-11 11:14:43
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 8486
+
+--------------------------------------
+Zeit: 2010-11-11 11:14:47
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 6751
+
+--------------------------------------
+Zeit: 2010-11-11 11:14:53
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 8486
+
+--------------------------------------
+Zeit: 2010-11-11 11:16:24
+IP: 93.195.170.83
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:16:24
+IP: 93.195.170.83
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6751
+
+--------------------------------------
+Zeit: 2010-11-11 11:16:27
+IP: 93.195.170.83
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2010-11-11 11:16:27
+IP: 93.195.170.83
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6108
+
+--------------------------------------
+Zeit: 2010-11-11 11:17:09
+IP: 93.195.170.83
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 6108
+
+--------------------------------------
+Zeit: 2013-11-19 13:54:53
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-11-19 13:54:57
+IP: 84.119.150.14
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-11-19 13:55:05
+IP: 84.119.150.14
+Datei: /ourdetool/multi.php
+Post:
+Get:
+stat2 => 
+
+--------------------------------------
+Zeit: 2013-11-19 13:56:07
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-11-19 13:56:10
+IP: 84.119.150.14
+Datei: /ourdetool/multi.php
+Post:
+Get:
+stat2 => 
+
+--------------------------------------
+Zeit: 2013-11-19 13:56:12
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-11-19 13:56:12
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11964
+
+--------------------------------------
+Zeit: 2013-11-19 13:56:23
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-11-19 13:56:25
+IP: 84.119.150.14
+Datei: /ourdetool/multi.php
+Post:
+Get:
+stat2 => 
+
+--------------------------------------
+Zeit: 2013-11-19 13:56:30
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-11-19 13:56:33
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11964
+
+--------------------------------------
+Zeit: 2013-11-19 14:11:43
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-11-19 14:11:45
+IP: 84.119.150.14
+Datei: /ourdetool/user_act.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-11-19 16:19:46
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-11-19 16:19:48
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-11-19 16:19:55
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12001
+
+--------------------------------------
+Zeit: 2013-11-21 09:36:36
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-11-21 09:36:37
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-11-21 09:36:49
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11851
+
+--------------------------------------
+Zeit: 2013-11-21 09:38:33
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-11-21 09:38:43
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11570
+
+--------------------------------------
+Zeit: 2013-11-21 09:41:13
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11851
+
+--------------------------------------
+Zeit: 2013-11-21 09:44:50
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+loginname => unvorgiven
+spielername => mission
+email => julian_klein@web.de
+lastlogin => 2013-11-21 09:39:45
+vorname => Julian
+nachname => Klein
+strasse => 
+plz => 57413
+ort => Finnentrop
+land => Deutschland
+telefon => 
+kommentartext => 2013-10-05 12:51:59 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind noch nicht um, kein Login möglich)
+
+2013-10-07 22:40:35 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind noch nicht um, kein Login möglich)
+
+hyperfunkbetreff => Verwarnung 
+hyperfunktext => Bitte unterlasse es andere Spieler zu beleidigen. Auch in DE gilt die Netiquette, an die sich jeder halten sollte.
+
+Dies ist eine schriftliche Verwarnung, jede weitere Aktion gegen die AGB und/oder die Nettiquette kann bis zum löschen des Accounts führen!
+
+Hier nochmal die Spielregeln: http://www.die-ewigen.com/c_rules.php
+
+Mit freundlichen Grüßen
+BGAM.ES-Team
+DE-Support
+sendhyperfunk => Hyperfunk senden
+Get:
+uid => 11851
+
+--------------------------------------
+Zeit: 2013-11-21 09:45:49
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+loginname => unvorgiven
+spielername => mission
+email => julian_klein@web.de
+lastlogin => 2013-11-21 09:39:45
+vorname => Julian
+nachname => Klein
+strasse => 
+plz => 57413
+ort => Finnentrop
+land => Deutschland
+telefon => 
+kommentartext => 2013-10-05 12:51:59 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind noch nicht um, kein Login möglich)
+
+2013-10-07 22:40:35 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind noch nicht um, kein Login möglich)
+
+
+2013-11-21 09:45 Spieler wurde verwarnt
+
+Die Ewigen - RDE (Ticket ist offen)
+dboysilver - 3:30:27 21.11.2013
+Der Spieler Mission (ingamekoords 10:4) hat mich beleidigt als jammerlappen! das tolleriere ich nicht!wenn der Support nix macht ...sehe ich mich gezwungen private schritte einzuleiten !
+
+[03:21] mission : könnte mir vorstellen das du dboy bist... ganze letzte runde gejammert :D
+[03:21] HuiBuh : die runde ist 6K ticks alt und schon wird wieder gelästert naja ist ja schön das AZ immerein Geprächsthema bleibt
+[03:21] mission : oder wo sitzt der jammerlappen?
+
+und der Spieler Fiesta(ingamekoords 10:4) unterstellt öffentlich im allgemeinen chat dem spieler mit den koords 21:1 des drogenkonsums!
+
+03:25] Fiesta : mewo schafft es doch auch nur mit drogen auf platz 1 zu sein
+
+VLG
+
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 11851
+
+--------------------------------------
+Zeit: 2013-11-21 09:46:15
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5025
+
+--------------------------------------
+Zeit: 2013-11-21 09:47:04
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+loginname => Fiesta
+spielername => Fiesta
+email => strecker_maik@web.de
+lastlogin => 2013-11-21 09:41:48
+vorname => Maik
+nachname => dvdf
+strasse => dddddddddddddddd
+plz => 14712
+ort => Rathenow
+land => Deutschland
+telefon => 0900
+kommentartext => 2009-07-25 21:51:53 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)
+
+2010-10-15 02:22:50 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)
+1319102170
+
+
+
+Die Ewigen - RDE (Ticket ist offen)
+dboysilver - 3:30:27 21.11.2013
+Der Spieler Mission (ingamekoords 10:4) hat mich beleidigt als jammerlappen! das tolleriere ich nicht!wenn der Support nix macht ...sehe ich mich gezwungen private schritte einzuleiten !
+
+[03:21] mission : könnte mir vorstellen das du dboy bist... ganze letzte runde gejammert :D
+[03:21] HuiBuh : die runde ist 6K ticks alt und schon wird wieder gelästert naja ist ja schön das AZ immerein Geprächsthema bleibt
+[03:21] mission : oder wo sitzt der jammerlappen?
+
+und der Spieler Fiesta(ingamekoords 10:4) unterstellt öffentlich im allgemeinen chat dem spieler mit den koords 21:1 des drogenkonsums!
+
+03:25] Fiesta : mewo schafft es doch auch nur mit drogen auf platz 1 zu sein
+
+VLG
+
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => Verwarnung
+hyperfunktext => 
+Get:
+uid => 5025
+
+--------------------------------------
+Zeit: 2013-11-21 09:47:46
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+loginname => Fiesta
+spielername => Fiesta
+email => strecker_maik@web.de
+lastlogin => 2013-11-21 09:41:48
+vorname => Maik
+nachname => dvdf
+strasse => dddddddddddddddd
+plz => 14712
+ort => Rathenow
+land => Deutschland
+telefon => 0900
+kommentartext => 2009-07-25 21:51:53 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)
+
+2010-10-15 02:22:50 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)
+1319102170
+
+
+
+Die Ewigen - RDE (Ticket ist offen)
+dboysilver - 3:30:27 21.11.2013
+Der Spieler Mission (ingamekoords 10:4) hat mich beleidigt als jammerlappen! das tolleriere ich nicht!wenn der Support nix macht ...sehe ich mich gezwungen private schritte einzuleiten !
+
+[03:21] mission : könnte mir vorstellen das du dboy bist... ganze letzte runde gejammert :D
+[03:21] HuiBuh : die runde ist 6K ticks alt und schon wird wieder gelästert naja ist ja schön das AZ immerein Geprächsthema bleibt
+[03:21] mission : oder wo sitzt der jammerlappen?
+
+und der Spieler Fiesta(ingamekoords 10:4) unterstellt öffentlich im allgemeinen chat dem spieler mit den koords 21:1 des drogenkonsums!
+
+03:25] Fiesta : mewo schafft es doch auch nur mit drogen auf platz 1 zu sein
+
+VLG
+
+hyperfunkbetreff => Verwarnung
+hyperfunktext => Bitte unterlasse es andere Spieler zu beleidigen oder zu denunzieren. Auch in DE gilt die Netiquette, an die sich jeder halten sollte.
+
+Dies ist eine schriftliche Verwarnung, jede weitere Aktion gegen die AGB und/oder die Nettiquette kann bis zum löschen des Accounts führen!
+
+Hier nochmal die Spielregeln: http://www.die-ewigen.com/c_rules.php
+
+Mit freundlichen Grüßen
+BGAM.ES-Team
+DE-Support
+sendhyperfunk => Hyperfunk senden
+Get:
+uid => 5025
+
+--------------------------------------
+Zeit: 2013-11-21 09:48:12
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+loginname => Fiesta
+spielername => Fiesta
+email => strecker_maik@web.de
+lastlogin => 2013-11-21 09:41:48
+vorname => Maik
+nachname => dvdf
+strasse => dddddddddddddddd
+plz => 14712
+ort => Rathenow
+land => Deutschland
+telefon => 0900
+kommentartext => 2009-07-25 21:51:53 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)
+
+2010-10-15 02:22:50 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)
+1319102170
+
+2013-11-21 9:48 Spieler wurde verwarnt.
+
+Die Ewigen - RDE (Ticket ist offen)
+dboysilver - 3:30:27 21.11.2013
+Der Spieler Mission (ingamekoords 10:4) hat mich beleidigt als jammerlappen! das tolleriere ich nicht!wenn der Support nix macht ...sehe ich mich gezwungen private schritte einzuleiten !
+
+[03:21] mission : könnte mir vorstellen das du dboy bist... ganze letzte runde gejammert :D
+[03:21] HuiBuh : die runde ist 6K ticks alt und schon wird wieder gelästert naja ist ja schön das AZ immerein Geprächsthema bleibt
+[03:21] mission : oder wo sitzt der jammerlappen?
+
+und der Spieler Fiesta(ingamekoords 10:4) unterstellt öffentlich im allgemeinen chat dem spieler mit den koords 21:1 des drogenkonsums!
+
+03:25] Fiesta : mewo schafft es doch auch nur mit drogen auf platz 1 zu sein
+
+VLG
+
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 5025
+
+--------------------------------------
+Zeit: 2013-11-25 12:57:35
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-11-25 12:57:37
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-11-25 12:58:05
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11949
+
+--------------------------------------
+Zeit: 2013-11-25 12:58:08
+IP: 84.119.150.14
+Datei: /ourdetool/de_user_chat.php
+Post:
+Get:
+uid => 11949
+
+--------------------------------------
+Zeit: 2013-11-25 12:58:57
+IP: 84.119.150.14
+Datei: /ourdetool/allys.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-11-25 13:00:56
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-11-25 13:01:01
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5025
+
+--------------------------------------
+Zeit: 2013-11-25 13:01:07
+IP: 84.119.150.14
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 5025
+
+--------------------------------------
+Zeit: 2013-11-25 13:02:12
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11937
+
+--------------------------------------
+Zeit: 2013-11-25 13:03:17
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+loginname => =-EsA=-
+spielername => =-EsA=-
+email => berndeschment@hotmail.de
+lastlogin => 2013-11-25 07:45:31
+vorname => Bernd
+nachname => E
+strasse => siehe Jette
+plz => 13059
+ort => Berlin
+land => Deutschland
+telefon => 
+kommentartext => 2013-10-09 21:03:13 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)
+
+[21:25] mission: alle die seknah auf 21:1 sind, bitte tickende start
+[21:25] mission: sorry, falscher channel
+[21:26] ipen: lol
+[21:26] =-EsA=-: alle die seknah zu 10:4 sind, bitte tickende start
+[21:26] khorajev: badum tsss
+[21:26] =-EsA=-: ups auch falscher channel
+
+nein, es war beabsichtigt, kein versehen...
+
+Absender: 0:1 - Die-Ewigen-Team	Zeit: 21.11.2013 - 22:24:41
+Betreff: Verwarnung
+Hi,
+
+dein Account (=-EsA=-) wird wegen Nennung von Koordinaten im allg. Chat verwarnt.
+
+Mit freundlichen Grüßen
+Dein DE-Team
+
+2013-11-21 22:24:29 kleinesetwas - User verwarnt
+
+
+
+hyperfunkbetreff => 2. Verwarnung
+hyperfunktext => Nachricht Bitte unterlasse es andere Spieler zu beleidigen oder zu denunzieren. Auch in DE gilt die Netiquette, an die sich jeder halten sollte.
+
+Dies ist eine schriftliche Verwarnung, jede weitere Aktion gegen die AGB und/oder die Nettiquette kann bis zum löschen des Accounts führen!
+
+Hier nochmal die Spielregeln: http://www.die-ewigen.com/c_rules.php
+
+Mit freundlichen Grüßen
+BGAM.ES-Team
+DE-Support
+sendhyperfunk => Hyperfunk senden
+Get:
+uid => 11937
+
+--------------------------------------
+Zeit: 2013-11-25 13:04:35
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+loginname => =-EsA=-
+spielername => =-EsA=-
+email => berndeschment@hotmail.de
+lastlogin => 2013-11-25 07:45:31
+vorname => Bernd
+nachname => E
+strasse => siehe Jette
+plz => 13059
+ort => Berlin
+land => Deutschland
+telefon => 
+kommentartext => 2013-10-09 21:03:13 Loginversuch Account Status 3(Umode/Löschmode)! (x Tage sind um, Login möglich)
+
+[21:25] mission: alle die seknah auf 21:1 sind, bitte tickende start
+[21:25] mission: sorry, falscher channel
+[21:26] ipen: lol
+[21:26] =-EsA=-: alle die seknah zu 10:4 sind, bitte tickende start
+[21:26] khorajev: badum tsss
+[21:26] =-EsA=-: ups auch falscher channel
+
+nein, es war beabsichtigt, kein versehen...
+
+Absender: 0:1 - Die-Ewigen-Team	Zeit: 21.11.2013 - 22:24:41
+Betreff: Verwarnung
+Hi,
+
+dein Account (=-EsA=-) wird wegen Nennung von Koordinaten im allg. Chat verwarnt.
+
+Mit freundlichen Grüßen
+Dein DE-Team
+
+2013-11-21 22:24:29 kleinesetwas - User verwarnt
+
+2013-11-25 13:03 shaya - User verwarnt
+
+Hallo,
+
+könntest Du Dir das bitte mal ansehen?
+
+Gruß
+Tino
+
+
+-------- Original-Nachricht --------
+Betreff:        Heute auf RDE...
+Datum:  Sun, 24 Nov 2013 10:33:39 +0100
+Von:    Tobias Geimer <jadis@kampfidler.de>
+An:     issomad@die-ewigen.com
+
+
+
+Hallo,
+
+muss sowas im Ingame-Chat sein? Auch wenns allyintern ist?
+
+[10:16] EdwardTeach : huhu
+[10:17] EdwardTeach : :(
+[10:17] EdwardTeach : ich hatte nicht mal inc ^^
+[10:19] =-EsA=- : ^^
+[10:19] =-EsA=- : ich bin ja auch beim eh kandidaten im sektor
+[10:20] Darkdestroyer : tja ihr seid im falschen sek
+[10:20] =-EsA=- : insgesammt hab ich die runde schon 50 wellen kassiert ^^
+[10:20] EdwardTeach : achso, das wird sich noch zeigen ^^
+[10:21] =-EsA=- : und du bist im falschen spiel dark
+[10:21] EdwardTeach : ich bin im richtigen sek ^^
+[10:21] Darkdestroyer : ich werde nicht geattet ;)
+[10:22] =-EsA=- : trotzdem bist du im falschen spiel
+[10:22] =-EsA=- : weil ich wenn du noch ein dummen spruchst reist herausfinde wo du wohnst und dir im schlaf in den mund kacke
+[10:24] Darkdestroyer : dann musst du ja sehr pervers erzogen worden sein.
+[10:26] =-EsA=- : ne mir geht nur deine ego aggro art so auf den sack
+[10:26] =-EsA=- : wobei nen hauch mega kampf zicke haste auch drin
+[10:28] Darkdestroyer : trotzdem hast du schon recht perverse phantasien - wobei.. obs phantasie ist.. oder nicht möcht ich nicht wissen bei dir ^^
+[10:29] =-EsA=- : ne
+[10:29] =-EsA=- : das keine phantasie
+[10:29] =-EsA=- : das logik
+[10:30] =-EsA=- : so wie asche zu asche
+[10:30] =-EsA=- : staub zu staub
+[10:30] =-EsA=- : kacke zu kacke
+[10:30] =-EsA=- : aus deiner dummen fresse kommt nur kacke also gehört da kacke rein
+
+Viele Grüße
+Tobias
+
+
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 11937
+
+--------------------------------------
+Zeit: 2013-11-27 08:05:59
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-11-27 08:06:02
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-11-27 08:06:23
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11991
+
+--------------------------------------
+Zeit: 2013-11-27 08:06:39
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11570
+
+--------------------------------------
+Zeit: 2013-11-27 18:21:07
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-11-27 18:21:08
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-11-27 18:21:15
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11570
+
+--------------------------------------
+Zeit: 2013-11-27 18:21:38
+IP: 84.119.150.14
+Datei: /ourdetool/sektor.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-07 17:55:35
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-07 17:55:37
+IP: 84.119.150.14
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-07 17:55:43
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12037
+
+--------------------------------------
+Zeit: 2013-12-07 17:56:01
+IP: 84.119.150.14
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-07 17:56:12
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-07 17:56:12
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 8052
+
+--------------------------------------
+Zeit: 2013-12-07 17:56:25
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-07 17:56:25
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11836
+
+--------------------------------------
+Zeit: 2013-12-07 17:56:43
+IP: 84.119.150.14
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-07 17:57:11
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-07 17:57:11
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12025
+
+--------------------------------------
+Zeit: 2013-12-10 11:45:22
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-10 11:45:24
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-10 11:45:30
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 10807
+
+--------------------------------------
+Zeit: 2013-12-10 11:46:13
+IP: 84.119.150.14
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 10807
+
+--------------------------------------
+Zeit: 2013-12-10 15:08:03
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-10 15:08:04
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-10 15:08:09
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12038
+
+--------------------------------------
+Zeit: 2013-12-10 15:08:31
+IP: 84.119.150.14
+Datei: /ourdetool/sameip.php
+Post:
+Get:
+lip => 84.115.40.235
+
+--------------------------------------
+Zeit: 2013-12-11 09:42:02
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-11 09:42:04
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-11 09:42:05
+IP: 84.119.150.14
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-11 09:42:12
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-11 09:42:13
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12038
+
+--------------------------------------
+Zeit: 2013-12-11 09:42:25
+IP: 84.119.150.14
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-11 09:42:43
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-11 09:42:43
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6751
+
+--------------------------------------
+Zeit: 2013-12-11 09:43:01
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-11 09:43:02
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11789
+
+--------------------------------------
+Zeit: 2013-12-11 09:43:17
+IP: 84.119.150.14
+Datei: /ourdetool/observation.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-12 07:30:37
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-12 07:30:39
+IP: 84.119.150.14
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-12 07:30:50
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-12 07:30:50
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12038
+
+--------------------------------------
+Zeit: 2013-12-12 07:30:55
+IP: 84.119.150.14
+Datei: /ourdetool/sameip.php
+Post:
+Get:
+lip => 84.115.40.235
+
+--------------------------------------
+Zeit: 2013-12-12 07:31:35
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-12 07:31:35
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12039
+
+--------------------------------------
+Zeit: 2013-12-12 07:31:53
+IP: 84.119.150.14
+Datei: /ourdetool/sameip.php
+Post:
+Get:
+lip => 85.233.98.2
+
+--------------------------------------
+Zeit: 2013-12-12 07:32:14
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-12 07:32:14
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12038
+
+--------------------------------------
+Zeit: 2013-12-12 07:32:22
+IP: 84.119.150.14
+Datei: /ourdetool/sameip.php
+Post:
+Get:
+lip => 84.115.40.235
+
+--------------------------------------
+Zeit: 2013-12-12 07:32:25
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11570
+
+--------------------------------------
+Zeit: 2013-12-12 11:44:12
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-12 11:44:16
+IP: 84.119.150.14
+Datei: /ourdetool/regdata.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-12 11:44:20
+IP: 84.119.150.14
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-12 11:44:45
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-12 11:44:45
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12017
+
+--------------------------------------
+Zeit: 2013-12-12 11:45:01
+IP: 84.119.150.14
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-12 11:45:04
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-12 11:46:31
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-12 11:46:33
+IP: 84.119.150.14
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-12 11:46:36
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-12 11:46:36
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12026
+
+--------------------------------------
+Zeit: 2013-12-16 07:04:59
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-16 07:05:01
+IP: 84.119.150.14
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-16 07:05:03
+IP: 84.119.150.14
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-16 07:05:17
+IP: 84.119.150.14
+Datei: /ourdetool/regdata.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-16 07:05:22
+IP: 84.119.150.14
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-19 09:53:55
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-19 09:53:57
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-19 09:53:59
+IP: 84.119.150.14
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-19 09:54:14
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-19 09:54:14
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12044
+
+--------------------------------------
+Zeit: 2013-12-19 09:54:43
+IP: 84.119.150.14
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-19 09:54:50
+IP: 84.119.150.14
+Datei: /ourdetool/multi.php
+Post:
+Get:
+stat2 => 
+
+--------------------------------------
+Zeit: 2013-12-19 09:54:56
+IP: 84.119.150.14
+Datei: /ourdetool/multi.php
+Post:
+Get:
+okt => 2
+
+--------------------------------------
+Zeit: 2013-12-19 09:55:45
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-19 09:55:45
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12015
+
+--------------------------------------
+Zeit: 2013-12-19 09:56:04
+IP: 84.119.150.14
+Datei: /ourdetool/multi.php
+Post:
+Get:
+okt => 3
+
+--------------------------------------
+Zeit: 2013-12-19 09:56:24
+IP: 84.119.150.14
+Datei: /ourdetool/multi.php
+Post:
+Get:
+okt => 4
+
+--------------------------------------
+Zeit: 2013-12-19 09:56:31
+IP: 84.119.150.14
+Datei: /ourdetool/multi.php
+Post:
+Get:
+okt => 1
+
+--------------------------------------
+Zeit: 2013-12-19 09:56:58
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-19 09:56:58
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11997
+
+--------------------------------------
+Zeit: 2013-12-19 09:57:16
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-19 09:57:16
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11851
+
+--------------------------------------
+Zeit: 2013-12-19 09:57:34
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-19 09:57:34
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 3962
+
+--------------------------------------
+Zeit: 2013-12-19 09:57:43
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-19 09:57:43
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 3962
+
+--------------------------------------
+Zeit: 2013-12-19 09:58:08
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-19 09:58:08
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12017
+
+--------------------------------------
+Zeit: 2013-12-22 10:22:27
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-22 10:22:30
+IP: 84.119.150.14
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-22 10:23:09
+IP: 84.119.150.14
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11972
+
+--------------------------------------
+Zeit: 2013-12-22 10:24:54
+IP: 84.119.150.14
+Datei: /ourdetool/de_user_chat.php
+Post:
+Get:
+uid => 11972
+
+--------------------------------------
+Zeit: 2013-12-22 10:25:32
+IP: 84.119.150.14
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 11972
+
+--------------------------------------
+Zeit: 2013-12-29 14:00:09
+IP: 178.203.137.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-29 14:00:10
+IP: 178.203.137.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-29 14:00:16
+IP: 178.203.137.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11999
+
+--------------------------------------
+Zeit: 2013-12-29 14:01:02
+IP: 178.203.137.121
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2013-12-29 14:01:04
+IP: 178.203.137.121
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-01-08 09:18:22
+IP: 5.146.222.200
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-01-08 09:18:25
+IP: 5.146.222.200
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-01-08 09:18:36
+IP: 5.146.222.200
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-01-08 09:18:36
+IP: 5.146.222.200
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 9457
+
+--------------------------------------
+Zeit: 2014-01-08 09:19:04
+IP: 5.146.222.200
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-01-08 09:19:04
+IP: 5.146.222.200
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6749
+
+--------------------------------------
+Zeit: 2014-01-08 09:19:26
+IP: 5.146.222.200
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-01-08 09:19:28
+IP: 5.146.222.200
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5083
+
+--------------------------------------
+Zeit: 2014-01-08 09:19:58
+IP: 5.146.222.200
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-01-08 09:20:08
+IP: 5.146.222.200
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 9457
+
+--------------------------------------
+Zeit: 2014-01-08 09:20:19
+IP: 5.146.222.200
+Datei: /ourdetool/sameip.php
+Post:
+Get:
+lip => 93.219.28.212
+
+--------------------------------------
+Zeit: 2014-01-08 09:20:54
+IP: 5.146.222.200
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-01-08 09:21:00
+IP: 5.146.222.200
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6144
+
+--------------------------------------
+Zeit: 2014-01-08 09:21:13
+IP: 5.146.222.200
+Datei: /ourdetool/allys.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-01-10 07:28:05
+IP: 5.146.222.200
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-01-10 07:28:07
+IP: 5.146.222.200
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-01-10 07:28:16
+IP: 5.146.222.200
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12046
+
+--------------------------------------
+Zeit: 2014-01-14 09:44:33
+IP: 5.146.222.200
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-01-14 09:44:36
+IP: 5.146.222.200
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-01-14 09:44:38
+IP: 5.146.222.200
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-01-21 07:16:35
+IP: 5.146.222.200
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-01-21 07:16:40
+IP: 5.146.222.200
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-01-21 07:16:49
+IP: 5.146.222.200
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-01-21 07:16:55
+IP: 5.146.222.200
+Datei: /ourdetool/observation.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-01-21 07:22:57
+IP: 5.146.222.200
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-01-21 07:23:09
+IP: 5.146.222.200
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12036
+
+--------------------------------------
+Zeit: 2014-01-21 07:23:15
+IP: 5.146.222.200
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12025
+
+--------------------------------------
+Zeit: 2014-01-21 07:23:36
+IP: 5.146.222.200
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 12025
+
+--------------------------------------
+Zeit: 2014-02-20 11:48:56
+IP: 5.146.225.38
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-02-20 11:49:02
+IP: 5.146.225.38
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-02-20 11:49:07
+IP: 5.146.225.38
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 10801
+
+--------------------------------------
+Zeit: 2014-02-20 11:49:17
+IP: 5.146.225.38
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 10801
+
+--------------------------------------
+Zeit: 2014-02-20 11:49:21
+IP: 5.146.225.38
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 10801
+
+--------------------------------------
+Zeit: 2014-02-20 11:50:27
+IP: 5.146.225.38
+Datei: /ourdetool/de_user_logviewer.php
+Post:
+Get:
+uid => 10801
+
+--------------------------------------
+Zeit: 2014-02-20 11:50:42
+IP: 5.146.225.38
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 10801
+sid => 11
+day => 2014-01-07
+logType => communication
+
+--------------------------------------
+Zeit: 2014-02-20 11:51:00
+IP: 5.146.225.38
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 10801
+sid => 11
+day => 2014-01-07
+logType => military
+startDate => 2014-01-16 16:37:43
+
+--------------------------------------
+Zeit: 2014-02-20 11:51:03
+IP: 5.146.225.38
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 10801
+sid => 11
+day => 2014-01-07
+logType => military
+startDate => 2014-01-17 01:26:10
+
+--------------------------------------
+Zeit: 2014-02-20 11:51:24
+IP: 5.146.225.38
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadDay
+uid => 10801
+sid => 11
+day => 2014-02-19
+logType => military
+startDate => 2014-01-17 09:26:00
+
+--------------------------------------
+Zeit: 2014-02-20 11:51:34
+IP: 5.146.225.38
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 10801
+sid => 11
+day => 2014-02-19
+logType => communication
+startDate => 2014-01-17 09:26:00
+
+--------------------------------------
+Zeit: 2014-02-20 11:51:54
+IP: 5.146.225.38
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 10801
+sid => 11
+day => 2014-02-19
+logType => all
+startDate => 2014-01-22 00:33:48
+
+--------------------------------------
+Zeit: 2014-02-20 11:52:11
+IP: 5.146.225.38
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 10801
+sid => 11
+day => 2014-02-19
+logType => all
+startDate => 2014-02-19 15:00:00
+
+--------------------------------------
+Zeit: 2014-02-20 11:52:19
+IP: 5.146.225.38
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 10801
+sid => 11
+day => 2014-02-19
+logType => communication
+startDate => 2014-02-19 15:24:34
+
+--------------------------------------
+Zeit: 2014-02-20 11:52:26
+IP: 5.146.225.38
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 10801
+sid => 11
+day => 2014-02-19
+logType => communication
+startDate => 2014-02-19 13:00:00
+
+--------------------------------------
+Zeit: 2014-02-20 11:52:29
+IP: 5.146.225.38
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 10801
+sid => 11
+day => 2014-02-19
+logType => communication
+startDate => 2014-02-19 13:00:00
+
+--------------------------------------
+Zeit: 2014-02-20 11:52:30
+IP: 5.146.225.38
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 10801
+sid => 11
+day => 2014-02-19
+logType => communication
+startDate => 2014-02-20 10:46:38
+
+--------------------------------------
+Zeit: 2014-02-20 11:52:34
+IP: 5.146.225.38
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 10801
+sid => 11
+day => 2014-02-19
+logType => military
+startDate => 2014-02-20 10:46:38
+
+--------------------------------------
+Zeit: 2014-02-20 11:52:38
+IP: 5.146.225.38
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 10801
+sid => 11
+day => 2014-02-19
+logType => sekstatsek
+startDate => 
+
+--------------------------------------
+Zeit: 2014-02-20 11:52:40
+IP: 5.146.225.38
+Datei: /ourdetool/getAjax.php
+Post:
+Get:
+job => loadLog
+uid => 10801
+sid => 11
+day => 2014-02-19
+logType => sekstatsek
+startDate => 2014-01-07 18:52:47
+
+--------------------------------------
+Zeit: 2014-02-20 11:52:52
+IP: 5.146.225.38
+Datei: /ourdetool/de_user_logsearch.php
+Post:
+Get:
+uid => 10801
+
+--------------------------------------
+Zeit: 2014-02-20 11:52:57
+IP: 5.146.225.38
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 10801
+
+--------------------------------------
+Zeit: 2014-02-20 11:53:03
+IP: 5.146.225.38
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 10801
+
+--------------------------------------
+Zeit: 2014-02-20 11:53:24
+IP: 5.146.225.38
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 10801
+
+--------------------------------------
+Zeit: 2014-02-20 11:53:31
+IP: 5.146.225.38
+Datei: /ourdetool/allys.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-03-11 07:06:30
+IP: 84.119.164.6
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-03-11 07:06:31
+IP: 84.119.164.6
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-03-11 07:06:39
+IP: 84.119.164.6
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 10117
+
+--------------------------------------
+Zeit: 2014-03-11 07:06:49
+IP: 84.119.164.6
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 10117
+
+--------------------------------------
+Zeit: 2014-03-11 07:08:07
+IP: 84.119.164.6
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 10117
+
+--------------------------------------
+Zeit: 2014-03-11 07:08:14
+IP: 84.119.164.6
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 10117
+
+--------------------------------------
+Zeit: 2014-03-11 07:08:52
+IP: 84.119.164.6
+Datei: /ourdetool/sekforumourdetool.php
+Post:
+Get:
+uid => 10117
+
+--------------------------------------
+Zeit: 2014-03-11 07:08:59
+IP: 84.119.164.6
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 10117
+
+--------------------------------------
+Zeit: 2014-03-11 07:09:08
+IP: 84.119.164.6
+Datei: /ourdetool/de_user_chat.php
+Post:
+Get:
+uid => 10117
+
+--------------------------------------
+Zeit: 2014-03-17 12:26:30
+IP: 84.119.164.6
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-03-17 12:26:31
+IP: 84.119.164.6
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-03-17 12:26:40
+IP: 84.119.164.6
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12142
+
+--------------------------------------
+Zeit: 2014-03-17 12:27:11
+IP: 84.119.164.6
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 12142
+
+--------------------------------------
+Zeit: 2014-03-17 12:27:14
+IP: 84.119.164.6
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 12142
+
+--------------------------------------
+Zeit: 2014-03-17 12:27:18
+IP: 84.119.164.6
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 12142
+
+--------------------------------------
+Zeit: 2014-03-17 12:27:22
+IP: 84.119.164.6
+Datei: /ourdetool/sekforumourdetool.php
+Post:
+Get:
+uid => 12142
+
+--------------------------------------
+Zeit: 2014-03-17 12:27:25
+IP: 84.119.164.6
+Datei: /ourdetool/de_user_logviewer.php
+Post:
+Get:
+uid => 12142
+
+--------------------------------------
+Zeit: 2014-03-17 12:27:27
+IP: 84.119.164.6
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 12142
+
+--------------------------------------
+Zeit: 2014-03-17 12:27:53
+IP: 84.119.164.6
+Datei: /ourdetool/de_user_chat.php
+Post:
+Get:
+uid => 12142
+
+--------------------------------------
+Zeit: 2014-03-24 13:22:46
+IP: 84.119.164.6
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-03-24 13:22:48
+IP: 84.119.164.6
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-03-24 13:22:53
+IP: 84.119.164.6
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12164
+
+--------------------------------------
+Zeit: 2014-03-25 15:20:04
+IP: 84.119.164.6
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-03-25 15:20:06
+IP: 84.119.164.6
+Datei: /ourdetool/observation.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-03-25 15:20:25
+IP: 84.119.164.6
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-03-27 10:18:42
+IP: 84.119.164.6
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-03-27 10:18:44
+IP: 84.119.164.6
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-03-27 10:18:45
+IP: 84.119.164.6
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-03-27 10:18:49
+IP: 84.119.164.6
+Datei: /ourdetool/observation.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-03-27 10:18:56
+IP: 84.119.164.6
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-03-27 10:18:56
+IP: 84.119.164.6
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 10117
+
+--------------------------------------
+Zeit: 2014-03-27 10:19:21
+IP: 84.119.164.6
+Datei: /ourdetool/sameip.php
+Post:
+Get:
+lip => 80.130.44.208
+
+--------------------------------------
+Zeit: 2014-03-27 10:19:44
+IP: 84.119.164.6
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-03-27 10:19:44
+IP: 84.119.164.6
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 7954
+
+--------------------------------------
+Zeit: 2014-03-27 10:20:28
+IP: 84.119.164.6
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 7954
+
+--------------------------------------
+Zeit: 2014-03-27 10:20:56
+IP: 84.119.164.6
+Datei: /ourdetool/sekforumourdetool.php
+Post:
+Get:
+uid => 7954
+
+--------------------------------------
+Zeit: 2014-03-27 10:21:01
+IP: 84.119.164.6
+Datei: /ourdetool/de_user_chat.php
+Post:
+Get:
+uid => 7954
+
+--------------------------------------
+Zeit: 2014-03-27 10:21:31
+IP: 84.119.164.6
+Datei: /ourdetool/allys.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-03-27 10:22:05
+IP: 84.119.164.6
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12155
+
+--------------------------------------
+Zeit: 2014-03-27 10:22:13
+IP: 84.119.164.6
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 12155
+
+--------------------------------------
+Zeit: 2014-03-27 10:22:15
+IP: 84.119.164.6
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 12155
+
+--------------------------------------
+Zeit: 2014-03-27 10:22:18
+IP: 84.119.164.6
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 12155
+
+--------------------------------------
+Zeit: 2014-03-27 10:22:28
+IP: 84.119.164.6
+Datei: /ourdetool/de_user_chat.php
+Post:
+Get:
+uid => 12155
+
+--------------------------------------
+Zeit: 2014-03-27 10:22:36
+IP: 84.119.164.6
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 12155
+
+--------------------------------------
+Zeit: 2014-04-02 15:09:07
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:09:10
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:09:15
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5588
+
+--------------------------------------
+Zeit: 2014-04-02 15:09:37
+IP: 84.119.134.121
+Datei: /ourdetool/allys.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:09:54
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:09:54
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6749
+
+--------------------------------------
+Zeit: 2014-04-02 15:10:02
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:10:02
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 3446
+
+--------------------------------------
+Zeit: 2014-04-02 15:10:08
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:10:08
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12133
+
+--------------------------------------
+Zeit: 2014-04-02 15:10:15
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:10:15
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11192
+
+--------------------------------------
+Zeit: 2014-04-02 15:10:32
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:10:33
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11914
+
+--------------------------------------
+Zeit: 2014-04-02 15:10:39
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:10:39
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6746
+
+--------------------------------------
+Zeit: 2014-04-02 15:10:45
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:10:45
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12144
+
+--------------------------------------
+Zeit: 2014-04-02 15:10:51
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:10:51
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6862
+
+--------------------------------------
+Zeit: 2014-04-02 15:11:00
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:11:00
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 8080
+
+--------------------------------------
+Zeit: 2014-04-02 15:11:05
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:11:05
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11999
+
+--------------------------------------
+Zeit: 2014-04-02 15:11:12
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:11:12
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12074
+
+--------------------------------------
+Zeit: 2014-04-02 15:11:20
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:11:20
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 7854
+
+--------------------------------------
+Zeit: 2014-04-02 15:12:06
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:12:06
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6247
+
+--------------------------------------
+Zeit: 2014-04-02 15:12:13
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:12:14
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 7865
+
+--------------------------------------
+Zeit: 2014-04-02 15:12:28
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:12:28
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11970
+
+--------------------------------------
+Zeit: 2014-04-02 15:12:35
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:12:35
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12163
+
+--------------------------------------
+Zeit: 2014-04-02 15:12:40
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:12:40
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11429
+
+--------------------------------------
+Zeit: 2014-04-02 15:12:47
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:12:47
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 9636
+
+--------------------------------------
+Zeit: 2014-04-02 15:12:51
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:12:51
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5588
+
+--------------------------------------
+Zeit: 2014-04-02 15:12:56
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:12:56
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11958
+
+--------------------------------------
+Zeit: 2014-04-02 15:13:05
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:13:05
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12146
+
+--------------------------------------
+Zeit: 2014-04-02 15:13:10
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:13:10
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11912
+
+--------------------------------------
+Zeit: 2014-04-02 15:13:17
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:13:18
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 9212
+
+--------------------------------------
+Zeit: 2014-04-02 15:13:30
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:13:30
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12025
+
+--------------------------------------
+Zeit: 2014-04-02 15:13:35
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:13:35
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12130
+
+--------------------------------------
+Zeit: 2014-04-02 15:13:40
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:13:40
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12052
+
+--------------------------------------
+Zeit: 2014-04-02 15:13:54
+IP: 84.119.134.121
+Datei: /ourdetool/regdata.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:14:22
+IP: 84.119.134.121
+Datei: /ourdetool/regdata.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:14:29
+IP: 84.119.134.121
+Datei: /ourdetool/regdata.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:14:51
+IP: 84.119.134.121
+Datei: /ourdetool/regdata.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:14:59
+IP: 84.119.134.121
+Datei: /ourdetool/regdata.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:15:00
+IP: 84.119.134.121
+Datei: /ourdetool/samepw.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:15:02
+IP: 84.119.134.121
+Datei: /ourdetool/regdata.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:15:09
+IP: 84.119.134.121
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-02 15:15:36
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11997
+
+--------------------------------------
+Zeit: 2014-04-02 15:16:26
+IP: 84.119.134.121
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 3962
+
+--------------------------------------
+Zeit: 2014-04-07 11:36:50
+IP: 84.119.150.70
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-07 11:36:52
+IP: 84.119.150.70
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-07 11:36:57
+IP: 84.119.150.70
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12164
+
+--------------------------------------
+Zeit: 2014-04-07 11:37:07
+IP: 84.119.150.70
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 12164
+
+--------------------------------------
+Zeit: 2014-04-09 09:21:12
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-09 09:21:14
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-09 09:21:20
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12164
+
+--------------------------------------
+Zeit: 2014-04-09 09:21:26
+IP: 84.119.151.16
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 12164
+
+--------------------------------------
+Zeit: 2014-04-09 09:22:16
+IP: 84.119.151.16
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 12164
+
+--------------------------------------
+Zeit: 2014-04-09 09:22:39
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-09 09:22:39
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 6749
+
+--------------------------------------
+Zeit: 2014-04-09 09:23:00
+IP: 84.119.151.16
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 12164
+
+--------------------------------------
+Zeit: 2014-04-09 09:23:03
+IP: 84.119.151.16
+Datei: /ourdetool/techs.php
+Post:
+Get:
+uid => 12164
+
+--------------------------------------
+Zeit: 2014-04-09 09:23:07
+IP: 84.119.151.16
+Datei: /ourdetool/sektorstatus.php
+Post:
+Get:
+uid => 12164
+
+--------------------------------------
+Zeit: 2014-04-09 09:23:11
+IP: 84.119.151.16
+Datei: /ourdetool/sektorstatus.php
+Post:
+Get:
+uid => 12164
+
+--------------------------------------
+Zeit: 2014-04-09 09:23:15
+IP: 84.119.151.16
+Datei: /ourdetool/sektorstatus.php
+Post:
+Get:
+uid => 12164
+
+--------------------------------------
+Zeit: 2014-04-09 09:23:17
+IP: 84.119.151.16
+Datei: /ourdetool/sekforumourdetool.php
+Post:
+Get:
+uid => 12164
+
+--------------------------------------
+Zeit: 2014-04-09 09:23:21
+IP: 84.119.151.16
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 12164
+
+--------------------------------------
+Zeit: 2014-04-09 09:23:31
+IP: 84.119.151.16
+Datei: /ourdetool/de_user_chat.php
+Post:
+Get:
+uid => 12164
+
+--------------------------------------
+Zeit: 2014-04-09 09:23:46
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12164
+
+--------------------------------------
+Zeit: 2014-04-12 21:38:47
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-12 21:38:52
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-12 21:38:58
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11855
+
+--------------------------------------
+Zeit: 2014-04-12 21:39:12
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11799
+
+--------------------------------------
+Zeit: 2014-04-12 21:39:27
+IP: 84.119.151.16
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 11799
+
+--------------------------------------
+Zeit: 2014-04-12 21:39:40
+IP: 84.119.151.16
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 11799
+
+--------------------------------------
+Zeit: 2014-04-12 21:40:08
+IP: 84.119.151.16
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 11799
+
+--------------------------------------
+Zeit: 2014-04-12 21:40:28
+IP: 84.119.151.16
+Datei: /ourdetool/sekforumourdetool.php
+Post:
+Get:
+uid => 11799
+
+--------------------------------------
+Zeit: 2014-04-12 21:40:32
+IP: 84.119.151.16
+Datei: /ourdetool/de_user_chat.php
+Post:
+Get:
+uid => 11799
+
+--------------------------------------
+Zeit: 2014-04-14 13:43:51
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-14 13:43:53
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-14 13:43:57
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 7854
+
+--------------------------------------
+Zeit: 2014-04-15 21:35:32
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-15 21:35:34
+IP: 84.119.151.16
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-15 21:35:40
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-15 21:37:48
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12003
+
+--------------------------------------
+Zeit: 2014-04-27 22:40:43
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-27 22:40:47
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-27 22:40:53
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11721
+
+--------------------------------------
+Zeit: 2014-04-27 22:41:17
+IP: 84.119.151.16
+Datei: /ourdetool/observation.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-27 22:43:44
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-27 22:43:47
+IP: 84.119.151.16
+Datei: /ourdetool/allys.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-27 22:44:33
+IP: 84.119.151.16
+Datei: /ourdetool/observation.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-27 22:45:08
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-27 22:45:10
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-04-27 22:45:15
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12216
+
+--------------------------------------
+Zeit: 2014-04-27 22:45:39
+IP: 84.119.151.16
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 12216
+
+--------------------------------------
+Zeit: 2014-04-27 22:45:46
+IP: 84.119.151.16
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 12216
+
+--------------------------------------
+Zeit: 2014-04-27 22:46:00
+IP: 84.119.151.16
+Datei: /ourdetool/sekforumourdetool.php
+Post:
+Get:
+uid => 12216
+
+--------------------------------------
+Zeit: 2014-04-27 22:46:03
+IP: 84.119.151.16
+Datei: /ourdetool/de_user_chat.php
+Post:
+Get:
+uid => 12216
+
+--------------------------------------
+Zeit: 2014-05-03 22:42:36
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-05-03 22:42:38
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-05-03 22:42:46
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12068
+
+--------------------------------------
+Zeit: 2014-05-03 22:43:45
+IP: 84.119.151.16
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 12068
+
+--------------------------------------
+Zeit: 2014-05-03 22:45:03
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12068
+
+--------------------------------------
+Zeit: 2014-05-03 22:45:53
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+loginname => DarkNox
+spielername => DarkNostrator
+email => MichaelVogelsgesang@web.de
+lastlogin => 2014-05-02 20:30:25
+vorname => Michael
+nachname => Vogelsgesang
+strasse => 
+plz => 53340
+ort => Meckenheim
+land => Deutschland
+telefon => 
+comsperre => 0000-00-00 00:00:00
+kommentartext => [21:32:15] <Bengel> nabend haste mal 2min ?
+[21:32:27] <Bengel> !w00t
+[21:32:54] <Shaya> huhu
+[21:32:58] <Shaya> worum gehts?
+[21:33:14] <Bengel> Ich hätte da ein anliegen .. ein mitspieler von uns auf rde hat ein Neues Spenderherz bekommen ... und sein Account ist aus den umode gekommen :( es würde nichts bringen wenn wir alle Allys bitten würden ein Attverbot aus zu sprechen denn es gibt immer einen deppen der trotzdem drauf fliegt ... ich wollte fragen ob du 7:2 DarkNostrator in den umode schieben könntest ... das wäre super toll wenn das klappen würde ... liebe grüße 
+[21:33:40] <Shaya> hab ich gelesen, ging ja aufm server rum
+[21:34:41] <Shaya> ich guck mal was die anderen dazu sagen
+[21:34:55] <Bengel> ja wäre das vielleicht möglich ... wäre toll wenn das klappt 
+[22:19:25] <Bengel> und schon was erreichert
+
+2014-05-03 account wieder in umode versetzt - Shaya
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 12068
+
+--------------------------------------
+Zeit: 2014-05-03 22:45:57
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+staturlaub => 1
+uid => 12068
+
+--------------------------------------
+Zeit: 2014-05-03 22:46:35
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+loginname => DarkNox
+spielername => DarkNostrator
+email => MichaelVogelsgesang@web.de
+lastlogin => 2014-05-31 20:30:25
+vorname => Michael
+nachname => Vogelsgesang
+strasse => 
+plz => 53340
+ort => Meckenheim
+land => Deutschland
+telefon => 
+comsperre => 0000-00-00 00:00:00
+kommentartext => [21:32:15] <Bengel> nabend haste mal 2min ?
+[21:32:27] <Bengel> !w00t
+[21:32:54] <Shaya> huhu
+[21:32:58] <Shaya> worum gehts?
+[21:33:14] <Bengel> Ich hätte da ein anliegen .. ein mitspieler von uns auf rde hat ein Neues Spenderherz bekommen ... und sein Account ist aus den umode gekommen :( es würde nichts bringen wenn wir alle Allys bitten würden ein Attverbot aus zu sprechen denn es gibt immer einen deppen der trotzdem drauf fliegt ... ich wollte fragen ob du 7:2 DarkNostrator in den umode schieben könntest ... das wäre super toll wenn das klappen würde ... liebe grüße 
+[21:33:40] <Shaya> hab ich gelesen, ging ja aufm server rum
+[21:34:41] <Shaya> ich guck mal was die anderen dazu sagen
+[21:34:55] <Bengel> ja wäre das vielleicht möglich ... wäre toll wenn das klappt 
+[22:19:25] <Bengel> und schon was erreichert
+
+2014-05-03 account wieder in umode versetzt - Shaya
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 12068
+
+--------------------------------------
+Zeit: 2014-05-03 22:48:21
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+staturlaub => 1
+uid => 12068
+
+--------------------------------------
+Zeit: 2014-05-03 22:48:33
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+loginname => DarkNox
+spielername => DarkNostrator
+email => MichaelVogelsgesang@web.de
+lastlogin => 2014-05-31 20:30:25
+vorname => Michael
+nachname => Vogelsgesang
+strasse => 
+plz => 53340
+ort => Meckenheim
+land => Deutschland
+telefon => 
+comsperre => 0000-00-00 00:00:00
+kommentartext => [21:32:15] <Bengel> nabend haste mal 2min ?
+[21:32:27] <Bengel> !w00t
+[21:32:54] <Shaya> huhu
+[21:32:58] <Shaya> worum gehts?
+[21:33:14] <Bengel> Ich hätte da ein anliegen .. ein mitspieler von uns auf rde hat ein Neues Spenderherz bekommen ... und sein Account ist aus den umode gekommen :( es würde nichts bringen wenn wir alle Allys bitten würden ein Attverbot aus zu sprechen denn es gibt immer einen deppen der trotzdem drauf fliegt ... ich wollte fragen ob du 7:2 DarkNostrator in den umode schieben könntest ... das wäre super toll wenn das klappen würde ... liebe grüße 
+[21:33:40] <Shaya> hab ich gelesen, ging ja aufm server rum
+[21:34:41] <Shaya> ich guck mal was die anderen dazu sagen
+[21:34:55] <Bengel> ja wäre das vielleicht möglich ... wäre toll wenn das klappt 
+[22:19:25] <Bengel> und schon was erreichert
+
+2014-05-03 account wieder in umode versetzt - Shaya
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 12068
+
+--------------------------------------
+Zeit: 2014-05-03 23:47:10
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-05-03 23:47:12
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-05-03 23:47:28
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5588
+
+--------------------------------------
+Zeit: 2014-05-03 23:48:37
+IP: 84.119.151.16
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 5588
+
+--------------------------------------
+Zeit: 2014-05-03 23:51:36
+IP: 84.119.151.16
+Datei: /ourdetool/de_user_chat.php
+Post:
+Get:
+uid => 5588
+
+--------------------------------------
+Zeit: 2014-05-05 16:58:23
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-05-05 16:58:25
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-05-05 16:58:30
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5588
+
+--------------------------------------
+Zeit: 2014-05-05 16:58:36
+IP: 84.119.151.16
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 5588
+
+--------------------------------------
+Zeit: 2014-05-05 17:13:34
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-05-05 17:15:22
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-05-05 17:15:26
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-05-05 17:15:33
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5588
+
+--------------------------------------
+Zeit: 2014-05-18 20:45:45
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-05-18 20:45:46
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-05-18 20:45:52
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11990
+
+--------------------------------------
+Zeit: 2014-05-18 20:46:14
+IP: 84.119.151.16
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 11990
+
+--------------------------------------
+Zeit: 2014-05-18 20:46:42
+IP: 84.119.151.16
+Datei: /ourdetool/de_user_chat.php
+Post:
+Get:
+uid => 11990
+
+--------------------------------------
+Zeit: 2014-05-18 20:46:48
+IP: 84.119.151.16
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 11990
+
+--------------------------------------
+Zeit: 2014-05-28 16:31:56
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-05-28 16:31:57
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-05-28 16:32:05
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12010
+
+--------------------------------------
+Zeit: 2014-05-29 23:26:04
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-05-29 23:26:08
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-05-29 23:26:16
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12164
+
+--------------------------------------
+Zeit: 2014-06-02 22:33:30
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-02 22:33:37
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-02 22:33:44
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12245
+
+--------------------------------------
+Zeit: 2014-06-03 17:54:39
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-03 17:54:41
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-03 17:54:46
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11964
+
+--------------------------------------
+Zeit: 2014-06-03 17:55:01
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-03 17:55:01
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12258
+
+--------------------------------------
+Zeit: 2014-06-03 17:55:11
+IP: 84.119.151.16
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 12258
+
+--------------------------------------
+Zeit: 2014-06-03 17:55:13
+IP: 84.119.151.16
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 12258
+
+--------------------------------------
+Zeit: 2014-06-03 17:55:14
+IP: 84.119.151.16
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 12258
+
+--------------------------------------
+Zeit: 2014-06-03 17:55:19
+IP: 84.119.151.16
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 12258
+
+--------------------------------------
+Zeit: 2014-06-03 18:07:38
+IP: 84.119.151.16
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-04 23:00:34
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-04 23:00:39
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-04 23:00:39
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-04 23:00:45
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12142
+
+--------------------------------------
+Zeit: 2014-06-04 23:00:52
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-04 23:00:52
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12258
+
+--------------------------------------
+Zeit: 2014-06-04 23:01:29
+IP: 84.119.151.16
+Datei: /ourdetool/sameip.php
+Post:
+Get:
+lip => 83.135.113.238
+
+--------------------------------------
+Zeit: 2014-06-08 22:37:00
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-08 22:37:02
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-08 22:37:10
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 10117
+
+--------------------------------------
+Zeit: 2014-06-08 22:37:30
+IP: 84.119.151.16
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 10117
+
+--------------------------------------
+Zeit: 2014-06-08 22:37:45
+IP: 84.119.151.16
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 10117
+
+--------------------------------------
+Zeit: 2014-06-08 22:38:39
+IP: 84.119.151.16
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 10117
+
+--------------------------------------
+Zeit: 2014-06-08 22:38:42
+IP: 84.119.151.16
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 10117
+
+--------------------------------------
+Zeit: 2014-06-08 22:39:26
+IP: 84.119.151.16
+Datei: /ourdetool/sekforumourdetool.php
+Post:
+Get:
+uid => 10117
+
+--------------------------------------
+Zeit: 2014-06-08 22:39:36
+IP: 84.119.151.16
+Datei: /ourdetool/de_user_chat.php
+Post:
+Get:
+uid => 10117
+
+--------------------------------------
+Zeit: 2014-06-08 22:39:50
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 10117
+
+--------------------------------------
+Zeit: 2014-06-09 22:48:54
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-09 22:48:56
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-09 22:49:01
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 10117
+
+--------------------------------------
+Zeit: 2014-06-09 22:49:17
+IP: 84.119.151.16
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 10117
+
+--------------------------------------
+Zeit: 2014-06-09 22:49:23
+IP: 84.119.151.16
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 10117
+
+--------------------------------------
+Zeit: 2014-06-09 22:52:06
+IP: 84.119.151.16
+Datei: /ourdetool/sektorstatus.php
+Post:
+Get:
+uid => 10117
+
+--------------------------------------
+Zeit: 2014-06-12 12:24:52
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-12 12:24:56
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-12 12:25:02
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12276
+
+--------------------------------------
+Zeit: 2014-06-12 12:25:28
+IP: 84.119.151.16
+Datei: /ourdetool/sameip.php
+Post:
+Get:
+lip => 87.187.166.218
+
+--------------------------------------
+Zeit: 2014-06-12 12:27:05
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-12 12:27:08
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-12 12:27:17
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12276
+
+--------------------------------------
+Zeit: 2014-06-12 12:27:22
+IP: 84.119.151.16
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 12276
+
+--------------------------------------
+Zeit: 2014-06-12 12:28:21
+IP: 84.119.151.16
+Datei: /ourdetool/de_user_chat.php
+Post:
+Get:
+uid => 12276
+
+--------------------------------------
+Zeit: 2014-06-14 18:28:01
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-14 18:28:12
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-14 18:28:16
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12236
+
+--------------------------------------
+Zeit: 2014-06-16 18:17:38
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-16 18:17:42
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-16 18:18:59
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-16 18:19:02
+IP: 84.119.151.16
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-16 18:19:12
+IP: 84.119.151.16
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11985
+
+--------------------------------------
+Zeit: 2014-06-17 13:28:04
+IP: 5.146.234.210
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-17 13:28:06
+IP: 5.146.234.210
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-17 13:28:10
+IP: 5.146.234.210
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12258
+
+--------------------------------------
+Zeit: 2014-06-17 13:28:37
+IP: 5.146.234.210
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 12258
+
+--------------------------------------
+Zeit: 2014-06-17 13:30:32
+IP: 5.146.234.210
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-17 13:30:59
+IP: 5.146.234.210
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-17 13:33:05
+IP: 5.146.234.210
+Datei: /ourdetool/observation.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-17 13:33:26
+IP: 5.146.234.210
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-17 13:33:26
+IP: 5.146.234.210
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 10117
+
+--------------------------------------
+Zeit: 2014-06-17 13:33:33
+IP: 5.146.234.210
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 10117
+
+--------------------------------------
+Zeit: 2014-06-17 13:34:58
+IP: 5.146.234.210
+Datei: /ourdetool/allys.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-17 13:35:34
+IP: 5.146.234.210
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-17 13:35:34
+IP: 5.146.234.210
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12271
+
+--------------------------------------
+Zeit: 2014-06-17 13:35:55
+IP: 5.146.234.210
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-17 13:35:55
+IP: 5.146.234.210
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12210
+
+--------------------------------------
+Zeit: 2014-06-17 13:36:22
+IP: 5.146.234.210
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-17 13:36:22
+IP: 5.146.234.210
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12164
+
+--------------------------------------
+Zeit: 2014-06-17 13:36:30
+IP: 5.146.234.210
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 12164
+
+--------------------------------------
+Zeit: 2014-06-29 18:02:28
+IP: 5.146.234.210
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-29 18:02:31
+IP: 5.146.234.210
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-29 18:02:36
+IP: 5.146.234.210
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-06-29 18:02:46
+IP: 5.146.234.210
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12292
+
+--------------------------------------
+Zeit: 2014-07-18 16:55:56
+IP: 5.146.234.210
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-07-18 16:56:03
+IP: 5.146.234.210
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-07-18 16:56:08
+IP: 5.146.234.210
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12274
+
+--------------------------------------
+Zeit: 2014-07-22 23:27:40
+IP: 5.146.234.210
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-07-22 23:27:43
+IP: 5.146.234.210
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-07-22 23:27:54
+IP: 5.146.234.210
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 12010
+
+--------------------------------------
+Zeit: 2014-08-21 10:50:37
+IP: 5.146.235.98
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-08-21 10:50:39
+IP: 5.146.235.98
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-08-21 10:50:53
+IP: 5.146.235.98
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 10
+
+--------------------------------------
+Zeit: 2014-08-21 10:51:00
+IP: 5.146.235.98
+Datei: /ourdetool/multi.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-08-21 10:51:07
+IP: 5.146.235.98
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-08-21 10:51:29
+IP: 5.146.235.98
+Datei: /ourdetool/lastreg.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-08-21 10:51:35
+IP: 5.146.235.98
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-08-21 10:51:52
+IP: 5.146.235.98
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11964
+
+--------------------------------------
+Zeit: 2014-08-21 10:52:11
+IP: 5.146.235.98
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 11964
+
+--------------------------------------
+Zeit: 2014-08-21 10:52:24
+IP: 5.146.235.98
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11964
+
+--------------------------------------
+Zeit: 2014-08-21 10:53:11
+IP: 5.146.235.98
+Datei: /ourdetool/sameip.php
+Post:
+Get:
+lip => 5.146.15.125
+
+--------------------------------------
+Zeit: 2014-08-21 10:53:43
+IP: 5.146.235.98
+Datei: /ourdetool/sektor.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-08-21 10:53:47
+IP: 5.146.235.98
+Datei: /ourdetool/sektor.php
+Post:
+sektor => 3
+search => Suchen
+Get:
+
+--------------------------------------
+Zeit: 2014-08-21 10:54:02
+IP: 5.146.235.98
+Datei: /ourdetool/user_act.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-08-21 10:54:05
+IP: 5.146.235.98
+Datei: /ourdetool/nondachip.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-08-21 10:54:27
+IP: 5.146.235.98
+Datei: /ourdetool/observation.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-08-21 10:54:29
+IP: 5.146.235.98
+Datei: /ourdetool/multicookie.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-08-21 10:54:33
+IP: 5.146.235.98
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-08-21 10:54:56
+IP: 5.146.235.98
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-08-21 10:55:02
+IP: 5.146.235.98
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11964
+
+--------------------------------------
+Zeit: 2014-08-21 10:55:22
+IP: 5.146.235.98
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2014-08-21 10:55:22
+IP: 5.146.235.98
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11943
+
+--------------------------------------
+Zeit: 2014-08-21 10:55:30
+IP: 5.146.235.98
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 11943
+
+--------------------------------------
+Zeit: 2014-08-21 10:55:40
+IP: 5.146.235.98
+Datei: /ourdetool/de_user_chat.php
+Post:
+Get:
+uid => 11943
+
+--------------------------------------
+Zeit: 2014-08-21 10:56:18
+IP: 5.146.235.98
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 11964
+
+--------------------------------------
+Zeit: 2014-08-21 10:56:21
+IP: 5.146.235.98
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 11964
+
+--------------------------------------
+Zeit: 2014-08-21 10:56:37
+IP: 5.146.235.98
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 11964
+
+--------------------------------------
+Zeit: 2014-08-21 10:56:41
+IP: 5.146.235.98
+Datei: /ourdetool/nachrichten.php
+Post:
+Get:
+uid => 11964
+
+--------------------------------------
+Zeit: 2014-08-21 10:56:43
+IP: 5.146.235.98
+Datei: /ourdetool/de_user_ip.php
+Post:
+Get:
+uid => 11964
+
+--------------------------------------
+Zeit: 2014-08-21 10:56:47
+IP: 5.146.235.98
+Datei: /ourdetool/techs.php
+Post:
+Get:
+uid => 11964
+
+--------------------------------------
+Zeit: 2014-08-21 10:56:49
+IP: 5.146.235.98
+Datei: /ourdetool/sektorstatus.php
+Post:
+Get:
+uid => 11964
+
+--------------------------------------
+Zeit: 2014-08-21 10:56:50
+IP: 5.146.235.98
+Datei: /ourdetool/sekforumourdetool.php
+Post:
+Get:
+uid => 11964
+
+--------------------------------------
+Zeit: 2014-08-21 10:56:51
+IP: 5.146.235.98
+Datei: /ourdetool/de_user_logviewer.php
+Post:
+Get:
+uid => 11964
+
+--------------------------------------
+Zeit: 2014-08-21 10:56:54
+IP: 5.146.235.98
+Datei: /ourdetool/de_user_logsearch.php
+Post:
+Get:
+uid => 11964
+
+--------------------------------------
+Zeit: 2014-08-21 10:56:55
+IP: 5.146.235.98
+Datei: /ourdetool/de_user_stat.php
+Post:
+Get:
+uid => 11964
+
+--------------------------------------
+Zeit: 2014-08-21 10:56:59
+IP: 5.146.235.98
+Datei: /ourdetool/multicookie.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2015-03-30 09:38:46
+IP: 37.24.210.67
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------

@@ -1,0 +1,169 @@
+Zeit: 2007-01-04 10:43:42
+IP: 87.139.16.129
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-05-16 23:04:11
+IP: 91.40.138.146
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-05-16 23:04:13
+IP: 91.40.138.146
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2009-05-16 23:04:25
+IP: 91.40.138.146
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5364
+
+--------------------------------------
+Zeit: 2009-05-16 23:04:32
+IP: 91.40.138.146
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 5364
+
+--------------------------------------
+Zeit: 2009-05-16 23:05:59
+IP: 91.40.138.146
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5364
+
+--------------------------------------
+Zeit: 2009-05-16 23:06:30
+IP: 91.40.138.146
+Datei: /ourdetool/info.php
+Post:
+loginname => quigonjinntte
+spielername => quigonjinntte
+email => quigonjinn1@hotmail.com
+lastlogin => 2009-05-16 23:04:14
+vorname => Jonas
+nachname => Rabe
+strasse => Strauchbreede 14
+plz => 33729
+ort => Bielefeld
+land => Deutschland
+telefon => 
+statgesperrt => Gesperrt
+mail => ascendant@die-ewigen.com
+kommentartext => 
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 5364
+
+--------------------------------------
+Zeit: 2009-05-16 23:07:53
+IP: 91.40.138.146
+Datei: /ourdetool/tf.php
+Post:
+Get:
+uid => 5364
+
+--------------------------------------
+Zeit: 2009-05-16 23:08:20
+IP: 91.40.138.146
+Datei: /ourdetool/info.php
+Post:
+loginname => quigonjinntte
+spielername => quigonjinntte
+email => quigonjinn1@hotmail.com
+lastlogin => 2009-05-16 23:04:14
+vorname => Jonas
+nachname => Rabe
+strasse => Strauchbreede 14
+plz => 33729
+ort => Bielefeld
+land => Deutschland
+telefon => 
+mail => ascendant@die-ewigen.com
+kommentartext => Ascendant 16.05.2009 - 23:06 Uhr - User gesperrt wegen Aufforderung zum Farmen (siehe Forum http://forum.bgam.es/thread.php?postid=426306#post426306). Beweis HFN sind im Ausgang vorhanden:
+
+
+Empfänger: 39:1 (-=JohnAdamBelushi=-) Zeit: 16.05.2009 - 21:33:57 
+Betreff:  
+Ab etwa 0 Uhr könnt ihr euch bei mir bedienen, ich will nicht dass ein gewisser Jemand die Kollis kriegt^^. 
+
+
+Empfänger: 39:1 (-=JohnAdamBelushi=-) Zeit: 16.05.2009 - 21:40:21 
+Betreff: Re:  
+Jetzt org ich noch... Ab 0 Uhr!^^ 
+
+
+kommentar => aktuelle Daten speichern
+hyperfunkbetreff => 
+hyperfunktext => 
+Get:
+uid => 5364
+
+--------------------------------------
+Zeit: 2009-05-16 23:08:27
+IP: 91.40.138.146
+Datei: /ourdetool/mails.php
+Post:
+Get:
+uid => 5364
+
+--------------------------------------
+Zeit: 2009-05-16 23:08:39
+IP: 91.40.138.146
+Datei: /ourdetool/mails.php
+Post:
+emailtext => Hi,
+
+dein Account (quigonjinntte) wurde wegen aufruf zum Farming gesperrt.
+Da dies ein Verstoß gegen die Nutzungsbedingungen ist, bleibt der Account gesperrt, bis dieser nach Ablauf der Inaktivenfrist (xDE = 7 Tage, SDE = 7 Tage) gelöscht wird.
+Bis dahin darf KEIN neuer Account erstellt werden, da dies sonst als Multi behandelt wird!
+
+Mit freundlichen Grüßen
+Dein DE-Team
+acckommentar => 2009-05-16 23:08:26 ascendant - Mail wegen Aufruf zum Farming wurde gesendet
+sendmail => eMail senden
+Get:
+uid => 5364
+
+--------------------------------------
+Zeit: 2009-05-16 23:08:46
+IP: 91.40.138.146
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 5364
+
+--------------------------------------
+Zeit: 2011-11-11 14:58:17
+IP: 87.139.16.129
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2011-11-11 14:58:51
+IP: 87.139.16.129
+Datei: /ourdetool/empty.php
+Post:
+Get:
+
+--------------------------------------
+Zeit: 2011-11-11 14:59:29
+IP: 87.139.16.129
+Datei: /ourdetool/info.php
+Post:
+Get:
+uid => 9490
+
+--------------------------------------

@@ -1,0 +1,168 @@
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px #ffa500, 0 0 20px #ffa500, 0 0 30px #ff4500;
+    }
+    100% {
+        box-shadow: 0 0 20px #ff4500, 0 0 30px #ff4500, 0 0 40px #ff4500;
+    }
+}
+
+body {
+    background: radial-gradient(circle at top, #000, #222);
+    color: #ffa500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px; /* Platz für den festen Footer */
+    box-sizing: border-box; /* Einschließen des Padding in die Höhe */
+}
+
+h1 {
+    border-bottom: 2px solid #ffa500;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px #000;
+    animation: glow 1.5s infinite alternate;
+    text-align: center;
+}
+
+.container {
+    padding-top: 30px;
+    flex: 1;
+}
+
+.footer {
+    background-color: rgba(26, 26, 26, 0.9);
+    color: #ffa500;
+    border-top: 1px solid #ffa500;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px; /* Feste Höhe für den Footer */
+    z-index: 1000;
+}
+
+.footer-left, .footer-middle, .footer-right {
+    flex: 1;
+    text-align: center;
+}
+.dropdown-menu {
+    background-color: rgba(26, 26, 26, 0.9);
+    border: 1px solid #ffa500;
+    color: #ffa500;
+    box-shadow: 0 1px 2px rgba(255, 165, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    animation: glow 3s infinite alternate;
+}
+
+.dropdown-item {
+    color: #ffa500;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(255, 165, 0, 0.1);
+    color: #000;
+}
+
+.dropdown-toggle::after {
+    border-top-color: #ffa500;
+}
+
+.btn-secondary {
+    background-color: rgba(26, 26, 26, 0.9);
+    border: 1px solid #ffa500;
+    color: #ffa500;
+}
+
+.btn-secondary:hover {
+    background-color: #ffa500;
+    color: #000;
+}
+
+.building-card {
+    background-color: rgba(26, 26, 26, 0.9);
+    border: 1px solid #ffa500;
+    color: #ffa500;
+    transition: transform 0.6s, box-shadow 0.6s;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    animation: glow 3s infinite alternate;
+}
+
+.building-card:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 3px 6px rgba(255, 165, 0, 0.1);
+}
+
+.building-card .card-header {
+    background-color: rgba(51, 51, 51, 0.95);
+    color: #ffa500;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ffa500;
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+}
+
+.card-body {
+    position: relative;
+    z-index: 1;
+    backdrop-filter: blur(8px);
+}
+
+.btn-custom {
+    background-color: #ffa500;
+    color: #000;
+    margin-top: 10px;
+    border: 1px solid #ffa500;
+    transition: background-color 0.6s, color 0.6s, box-shadow 0.6s;
+    display: block;
+    width: 100%;
+    box-shadow: 0 1px 2px rgba(255, 165, 0, 0.1);
+    font-weight: bold;
+}
+
+.btn-custom:hover {
+    background-color: #000;
+    color: #ffa500;
+    box-shadow: 0 2px 4px rgba(255, 165, 0, 0.2);
+    transform: scale(1.1);
+}
+
+.timer {
+    color: #ff4500;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    border-bottom: 1px dashed #ffa500;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+ul li:hover {
+    transform: translateX(15px);
+    background-color: rgba(255, 165, 0, 0.1);
+}
+
+.completed {
+    color: #32cd32;
+    font-weight: bold;
+}
