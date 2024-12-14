@@ -272,10 +272,6 @@ echo '<span class="btnspacer">&nbsp;</span>';
 echo '<a href="auction.php" target="h" class="btn">Auktion</a>';
 echo '<a href="missions.php" target="h" class="btn">Missionen</a>';
 
-if (!isset(getDefaultVariable('sv_deactivate_vsystems'))) {
-    getDefaultVariable('sv_deactivate_vsystems') = 0;
-}
-
 if (getDefaultVariable('sv_deactivate_vsystems') != 1) {
     echo '<a href="map_mobile.php" target="h" class="btn">V-Systeme</a>';
     //echo '<a href="specialship.php" target="h" class="btn">Basisstern/BG</a>';

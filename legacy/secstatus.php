@@ -438,7 +438,7 @@ if ($_SESSION['ums_mobi'] == 1) {
                 echo '<td class="' . $cl . '">' . $a1 . '</td>';
                 echo '<td class="' . $cl . '">' . $t1 . '</td>';
                 echo '<td class="' . $cl . '">' . number_format($ge, 0, "", ".") . '</td>';
-                if ($sv_hide_fp_in_secstatus != 1) {
+                if (getDefaultVariable('sv_hide_fp_in_secstatus') != 1) {
                     echo '<td class="' . $cl . '" title="' . number_format($fp, 0, "", ".") . '">' . formatMasseinheit($fp, 2) . '</td>';
                 } else {
                     echo '<td class="' . $cl . '">N/A</td>';
@@ -920,7 +920,7 @@ if (count($sc) > 0) {
                         echo '<td class="' . $cl . '">' . $a1 . '</td>';
                         echo '<td class="' . $cl . '">' . date("H:i:s d.m.Y", $mission_time) . '</td>';
                         echo '<td class="' . $cl . '">' . number_format($ge, 0, "", ".") . '</td>';
-                        if ($sv_hide_fp_in_secstatus != 1) {
+                        if (getDefaultVariable('sv_hide_fp_in_secstatus') != 1) {
                             echo '<td class="' . $cl . '" title="' . number_format($fp, 0, "", ".") . '">' . formatMasseinheit($fp, 2) . '</td>';
                         } else {
                             echo '<td class="' . $cl . '">N/A</td>';
@@ -935,7 +935,7 @@ if (count($sc) > 0) {
                         echo '<td class="' . $cl . '">' . $a1 . '</td>';
                         echo '<td class="' . $cl . '">' . $t1 . '</td>';
                         echo '<td class="' . $cl . '">' . number_format($ge, 0, "", ".") . '</td>';
-                        if ($sv_hide_fp_in_secstatus != 1) {
+                        if (getDefaultVariable('sv_hide_fp_in_secstatus') != 1) {
                             echo '<td class="' . $cl . '" title="' . number_format($fp, 0, "", ".") . '">' . formatMasseinheit($fp, 2) . '</td>';
                         } else {
                             echo '<td class="' . $cl . '">N/A</td>';
@@ -1323,7 +1323,7 @@ for($s=81;$s<=90;$s++){
                     echo '<td class="' . $cl . '">' . $a1 . '</td>';
                     echo '<td class="' . $cl . '">' . $t1 . '</td>';
                     echo '<td class="' . $cl . '">' . number_format($ge, 0, "", ".") . '</td>';
-                    if ($sv_hide_fp_in_secstatus != 1) {
+                    if (getDefaultVariable('sv_hide_fp_in_secstatus') != 1) {
                         echo '<td class="' . $cl . '" title="' . number_format($fp, 0, "", ".") . '">' . formatMasseinheit($fp, 2) . '</td>';
                     } else {
                         echo '<td class="' . $cl . '">N/A</td>';

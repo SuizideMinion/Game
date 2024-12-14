@@ -20,6 +20,7 @@ $detect = new Mobile_Detect;
 if (!isset($_COOKIE["loginhelp"])) {
     $time = time() + 32000000;
     $pwstring = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    $loginhelpstr = '';
     for ($i = 1; $i <= 32; $i++) $loginhelpstr .= $pwstring[rand(0, strlen($pwstring) - 1)];
     setcookie("loginhelp", $loginhelpstr, $time);
     $_COOKIE["loginhelp"] = $loginhelpstr;
@@ -326,10 +327,10 @@ ALTER TABLE `de_login` ADD INDEX(`loginkeytime`);
             mysql_query("UPDATE de_login SET last_login=NOW(), last_ip='$ip', logins=logins+1, inaktmail = 0, delmode = 0 WHERE user_id='$ums_user_id'");
             $loginhelpstr = $_COOKIE["loginhelp"];
 
-            $ip_adresse = $_SERVER['REMOTE_ADDR'];
-            $parts = explode(".", $ip_adresse);
-            $ip_adresse = $parts[0] . '.x.' . $parts[2] . '.' . $parts[3];
-            mysql_query("INSERT INTO de_user_ip (user_id,ip,time,browser, loginhelp)VALUES('$ums_user_id','$ip_adresse',NOW(), '$_SERVER[HTTP_USER_AGENT]', '$loginhelpstr')");
+//            $ip_adresse = request()->ip();
+//            $parts = explode(".", $ip_adresse);
+//            $ip_adresse = $parts[0] . '.x.' . $parts[2] . '.' . $parts[3];
+            mysql_query("INSERT INTO de_user_ip (user_id,ip,time,browser, loginhelp)VALUES('$ums_user_id','". request()->ip() ."',NOW(), '$_SERVER[HTTP_USER_AGENT]', '$loginhelpstr')");
 
             //Logout anzeige für den title
             $sekundenbiszumlogout = ($_SESSION['ums_session_start'] + getDefaultVariable('sv_session_lifetime')) - time();

@@ -201,7 +201,7 @@ if((strftime("%M"))==0 AND (strftime("%H"))==19 OR $erhabenenstop==1)
       $str.='$sv_deactivate_sectorartefacts='.$server_v28.';'."\n\n";
       $str.='$sv_deactivate_missions='.$server_v29.';'."\n\n";
       $str.='getDefaultVariable('sv_deactivate_vsystems')='.$server_v30.';'."\n\n";
-      $str.='$sv_hide_fp_in_secstatus='.$server_v31.';'."\n\n";
+      $str.='getDefaultVariable('sv_hide_fp_in_secstatus')='.$server_v31.';'."\n\n";
 
     }else{
       //kein Rundenende, also die bestehenden Daten übernehmen
@@ -220,7 +220,7 @@ if((strftime("%M"))==0 AND (strftime("%H"))==19 OR $erhabenenstop==1)
       $str.='$sv_deactivate_sectorartefacts='.$sv_deactivate_sectorartefacts.';'."\n\n";
       $str.='$sv_deactivate_missions='.$sv_deactivate_missions.';'."\n\n";
       $str.='getDefaultVariable('sv_deactivate_vsystems')='.getDefaultVariable('sv_deactivate_vsystems').';'."\n\n";
-      $str.='$sv_hide_fp_in_secstatus='.$sv_hide_fp_in_secstatus.';'."\n\n";
+      $str.='getDefaultVariable('sv_hide_fp_in_secstatus')='.getDefaultVariable('sv_hide_fp_in_secstatus').';'."\n\n";
 
     }
 

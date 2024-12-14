@@ -84,9 +84,9 @@ foreach ($_SESSION as $key => $val){
 */
 
 if(isset($_SESSION['ums_user_id']) && $_SESSION['ums_user_id']>0){
-	$ip=$_SERVER['REMOTE_ADDR'];
-	$parts=explode(".",$ip);
-	$ip=$parts[0].'.x.'.$parts[2].'.'.$parts[3];
+//	$ip=$_SERVER['REMOTE_ADDR'];
+//	$parts=explode(".",$ip);
+//	$ip=$parts[0].'.x.'.$parts[2].'.'.$parts[3];
 
 	$ums_user_id=$_SESSION['ums_user_id'];
 
@@ -139,7 +139,7 @@ if(isset($_SESSION['ums_user_id']) && $_SESSION['ums_user_id']>0){
 			//mysql_query("INSERT INTO de_user_log (serverid, userid, time, ip, file, getpost) VALUES('getDefaultVariable('sv_servid')','$ums_user_id',NOW(), '$ip', '$scriptname', '$datenstring')",$db);
 
 			$db_log = mysqli_connect($GLOBALS['env_db_logging_host'], $GLOBALS['env_db_logging_user'], $GLOBALS['env_db_logging_password'], $GLOBALS['env_db_logging_database']) or die("C: Keine Verbindung zur Datenbank möglich.");
-			mysqli_query($db_log, "INSERT INTO gameserverlogdata (serverid, userid, time, ip, file, getpost) VALUES('". getDefaultVariable('sv_servid') ."','$ums_user_id',NOW(), '$ip', '$scriptname', '$datenstring')");
+			mysqli_query($db_log, "INSERT INTO gameserverlogdata (serverid, userid, time, ip, file, getpost) VALUES('". getDefaultVariable('sv_servid') ."','$ums_user_id',NOW(), '". request()->ip() ."', '$scriptname', '$datenstring')");
 
 			unset($datenstring);
 		}
@@ -207,7 +207,7 @@ if(isset($_SESSION['ums_user_id']) && $_SESSION['ums_user_id']>0){
 		//update aus performancegründen nur alle 5 minuten
 		if($_SESSION["aktivitaet_time"]+300<time())
 		{
-		mysql_query("UPDATE de_login SET last_click=NOW(), last_ip='$ip' WHERE user_id='$ums_user_id' AND status=1",$db);
+		mysql_query("UPDATE de_login SET last_click=NOW(), last_ip='". request()->ip() ."' WHERE user_id='$ums_user_id' AND status=1",$db);
 		$time=(int)strftime("%H");
 		$zeit=strftime("%Y-%m-%d");
 		mysql_query("UPDATE de_user_stat SET h$time='2' WHERE user_id='$ums_user_id' AND datum='$zeit' AND h$time<'2'",$db);

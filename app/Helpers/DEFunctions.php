@@ -401,6 +401,7 @@ function getDefaultVariable($key)
         'sv_show_ally_secstatus' => 240,
         'sv_max_alien_col' => 400,
         'sv_max_alien_col_typ' => 0,
+        'sv_hide_fp_in_secstatus' => 0, //verstecke FP in Sekstatus
         'wts' => array_fill(0, 24, range(0, 59)),  // Zeiger für jeden Tick von 0-59
         'kts' => array_fill(0, 24, range(0, 56, 4)),  // Tick-Intervalle
     ];

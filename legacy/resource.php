@@ -167,7 +167,7 @@ if ( $ownally != '' and $ownally != '0')
     }
 
 //Tausch durchführen
-    if (intval($_REQUEST['rh_amount']) > 0 and intval($_REQUEST['rh_cost'] > 0) and hasTech($pt, 4) and $ally_has_notfallkonverter) {
+    if (isset($_REQUEST['rh_amount']) AND intval($_REQUEST['rh_amount']) > 0 and intval($_REQUEST['rh_cost'] > 0) and hasTech($pt, 4) and $ally_has_notfallkonverter) {
         //transaktionsbeginn
         if (setLock($ums_user_id)) {
             //zielrohstoff auslesen

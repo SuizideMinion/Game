@@ -270,7 +270,7 @@ $sv_comserver=0;
 getDefaultVariable('sv_auto_reset')=0;
 
 //Flottenpunkte im Sektorstatus verstecken
-$sv_hide_fp_in_secstatus=0;
+getDefaultVariable('sv_hide_fp_in_secstatus')=0;
 
 $sv_debug=1;
 
