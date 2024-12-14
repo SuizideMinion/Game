@@ -53,23 +53,14 @@ for ($i = 0; $i < $anz_imageserver; $i++) {
     //echo $host;
 
     @$fp = fsockopen($host, 80, $errno, $errstr, 5);
-    if (!$fp) {
-        //keine verbindung m�glich
-        //echo "$errstr ($errno)<br />\n";
-    } else {
+    if ($fp) {
         //server wurde gefunden
-        getDefaultVariable('sv_image_server') = getDefaultVariable('sv_image_server_list')[$i];
+        $sv_image_server = getDefaultVariable('sv_image_server');
         break;
-        /*fputs ($fp, "GET / HTTP/1.0\r\n\r\n");
-        while (!feof($fp))
-        {
-          echo fgets($fp,128);
-        }
-        fclose($fp);*/
     }
 }
 //wenn kein server gefunden wurde einfach den ersten eintragen
-if (getDefaultVariable('sv_image_server') == '') getDefaultVariable('sv_image_server') = getDefaultVariable('sv_image_server_list')[0];
+if (getDefaultVariable('sv_image_server') == '') $sv_image_server = getDefaultVariable('sv_image_server_list')[0];
 
 //wenn pass und loginname gepostet werden, dann versuchen den account einzuloggen
 //login ist jetzt auch über den loginkey möglich, dieser ist jedoch nur 5 minuten gültig
@@ -143,12 +134,12 @@ ALTER TABLE `de_login` ADD INDEX(`loginkeytime`);
                 $et = strtotime($et);
                 $et = date("d.m.Y - G:i", $et);
 
-                $fehlermsg = $index_lang[umode1] . $et;
-                if ($et > $fat) $fehlermsg .= '<br>' . $index_lang[umode2] . $fat;
+                $fehlermsg = $index_lang['umode1'] . $et;
+                if ($et > $fat) $fehlermsg .= '<br>' . $index_lang['umode2'] . $fat;
                 $zstatus = '(x Tage sind noch nicht um, kein Login m&oouml;glich)';
             } //2. m�glichkeit: account bereits 3 tage im umode
             else {
-                $fehlermsg = $index_lang[umodebeendet];
+                $fehlermsg = $index_lang['umodebeendet'];
                 //umode beenden
                 mysql_query("UPDATE de_login SET status=1 WHERE user_id='$row[user_id]'", $db);
                 $ums_status = 1;
@@ -467,7 +458,7 @@ ALTER TABLE `de_login` ADD INDEX(`loginkeytime`);
 
             echo '<noframes>
 	<body>
-	<p>' . $index_lang[framemsg] . '</p>
+	<p>' . $index_lang['framemsg'] . '</p>
 	</body>
 	</noframes>
 	</html>';
