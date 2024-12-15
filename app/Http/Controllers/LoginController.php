@@ -54,9 +54,7 @@ class LoginController extends Controller
             'ums_spielername' => $deLogin->nic,
             'ums_user_ip' => request()->ip(), // Laravel gibt die Client-IP mit request()->ip()
 //
-//            'ums_servid' => $ums_servid,
-//            'ums_zeitstempel' => $ums_zeitstempel,
-//            'ums_session_start' => $ums_session_start,
+            'ums_servid' => getDefaultVariable('sv_server_id'),
             'ums_rasse' => $deLogin->deUserData->rasse,
 //
 //            'ums_submit' => $ums_submit,
