@@ -9,6 +9,8 @@ if (!isset($_SESSION)) {
     $_SESSION['ums_rasse'] = session()->get('ums_rasse');
     $_SESSION['ums_servid'] = session()->get('ums_servid');
     $_SESSION['ums_owner_id'] = session()->get('ums_owner_id');
+    $_SESSION['ums_sm_remtimer'] = session()->get('ums_sm_remtimer');
+    $_SESSION['ums_chatoff'] = session()->get('ums_chatoff');
 }
 //sprachdatei laden
 if (isset($session_subdir) && $session_subdir == 1) $session_path = '../'; else $session_path = '';
