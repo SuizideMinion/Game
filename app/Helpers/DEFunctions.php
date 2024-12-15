@@ -9,6 +9,31 @@ function getID()
     return session()->get('ums_user_id');
 }
 
+function sendDiscordMessage($message, $name = 'DE', $webhookUrl = 'https://discord.com/api/webhooks/1314350972524433428/hJAebp9osduzpQS0771wFxBGaY1WWu-WwfauhmRdtGxxRleS2DTVmGhXTAwXlblqCilU') {
+    $data = [
+        "content" => $message,
+        "username" => $name // Optional: Setze den Namen des Bots
+    ];
+
+    $jsonData = json_encode($data);
+
+    $ch = curl_init($webhookUrl);
+    curl_setopt($ch, CURLOPT_HTTPHEADER, ['Content-type: application/json']);
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, $jsonData);
+    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+    curl_setopt($ch, CURLOPT_HEADER, 0);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+
+    $response = curl_exec($ch);
+    if ($response === FALSE) {
+        die('Fehler beim Senden der Nachricht: ' . curl_error($ch));
+    }
+
+    curl_close($ch);
+    return $response;
+}
+
 function loginOrRegisterLegacyUser($ums_user_id, $ums_nic)
 {
     // Suchen nach einem Benutzer in der Laravel-Datenbank basierend auf der user_id
