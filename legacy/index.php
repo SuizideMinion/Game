@@ -175,7 +175,7 @@ ALTER TABLE `de_login` ADD INDEX(`loginkeytime`);
             $row = mysqli_fetch_array($result);
 
             $result = loginOrRegisterLegacyUser($row["user_id"], $row["spielername"]);
-            postToDiscord($result);
+            sendDiscordMessage($result, name: getDefaultVariable('sv_server_tag'));
 
             error_log(print_r($row, true));
 
