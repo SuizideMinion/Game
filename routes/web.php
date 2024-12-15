@@ -44,5 +44,6 @@ Route::middleware(['web'])->get('/check-user', function () {
         'auth_check' => auth()->check(),
         'user' => auth()->user(),
         'session_id' => session()->getId(),
+        'session' => session()->all(),
     ];
 });
