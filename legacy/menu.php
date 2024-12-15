@@ -17,9 +17,9 @@ if ($row['logins'] == 1) {
 }
 
 @ob_start("ob_gzhandler");
-
-if ($ums_gpfad != '') $url = $ums_gpfad . 'g/m/';// else $url='http://ewiges-lager.de/de/g/m/';
-if ($ums_gpfad != '') $bgurl = $ums_gpfad . 'g/';// else $bgurl='http://ewiges-lager.de/de/g/';
+//
+//if ($ums_gpfad != '') $url = $ums_gpfad . 'g/m/';// else $url='http://ewiges-lager.de/de/g/m/';
+//if ($ums_gpfad != '') $bgurl = $ums_gpfad . 'g/';// else $bgurl='http://ewiges-lager.de/de/g/';
 
 //test auf mobile version
 if ($_SESSION['ums_mobi'] == 1) {

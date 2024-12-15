@@ -3,7 +3,9 @@ if (!isset($_SESSION)) {
     session_start();
 
     $_SESSION['ums_user_id'] = session()->get('ums_user_id');
+    $ums_user_id = session()->get('ums_user_id');
     $_SESSION['ums_nic'] = session()->get('ums_nic');
+    $ums_spielername = session()->get('ums_nic');
     $_SESSION['ums_spielername'] = session()->get('ums_spielername');
     $_SESSION['ums_user_ip'] = session()->get('ums_user_ip');
     $_SESSION['ums_rasse'] = session()->get('ums_rasse');
@@ -11,6 +13,7 @@ if (!isset($_SESSION)) {
     $_SESSION['ums_owner_id'] = session()->get('ums_owner_id');
     $_SESSION['ums_sm_remtimer'] = session()->get('ums_sm_remtimer');
     $_SESSION['ums_chatoff'] = session()->get('ums_chatoff');
+    $ums_gpfad = getDefaultVariable('sv_image_server_list')[0];
 }
 //sprachdatei laden
 if (isset($session_subdir) && $session_subdir == 1) $session_path = '../'; else $session_path = '';
