@@ -1,8 +1,38 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
+use App\Models\User; // Das User-Modell verwenden
+use Illuminate\Support\Facades\Hash;
+
 function getID()
 {
     return session()->get('ums_user_id');
+}
+
+function loginOrRegisterLegacyUser($ums_user_id, $ums_nic)
+{
+    // Suchen nach einem Benutzer in der Laravel-Datenbank basierend auf der user_id
+    $user = User::where('id', $ums_user_id)->first();
+
+    if ($user) {
+        // Der Benutzer existiert bereits -> Einloggen
+        Auth::login($user);
+        session()->put('ums_user_id', $ums_user_id); // Legen Sie Ihre Session-Variable fest
+        return 'Benutzer erfolgreich eingeloggt';
+    } else {
+        // Der Benutzer existiert nicht -> Registrieren und einloggen
+        $user = User::create([
+            'id' => $ums_user_id, // Speichern der Legacy user_id für den Bezug
+            'name' => $ums_nic, // Der Nickname des Benutzers aus Legacy
+            'email' => $ums_nic . '@legacy.de', // Erstellen Sie eine Dummy-E-Mail-Adresse
+            'password' => Hash::make('default_password'), // Standardpasswort (dies kann später geändert werden)
+        ]);
+
+        Auth::login($user);
+        session()->put('ums_user_id', $ums_user_id); // Legen Sie Ihre Session-Variable fest
+
+        return 'Neuer Benutzer registriert und eingeloggt';
+    }
 }
 
 function getDefaultVariable($key)

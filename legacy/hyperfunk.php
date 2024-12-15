@@ -568,13 +568,13 @@ function insertemp($spieler)
         $row = mysql_fetch_array($db_daten);
         if ($row['com_sperre'] > $akttime) {
             $sperrtime = strtotime($row['com_sperre']);
-            echo insertmessage('Account: Sperre f&uuml;r ausgehende Kommunikation bis: ' . date("d.m.Y - G:i", $sperrtime), "r", $hyperfunk_lang[systemnachricht]);
+            echo insertmessage('Account: Sperre f&uuml;r ausgehende Kommunikation bis: ' . date("d.m.Y - G:i", $sperrtime), "r", $hyperfunk_lang['systemnachricht']);
         } elseif ($nachricht == "")
             echo insertmessage($hyperfunk_lang['msg_1'], "r", $hyperfunk_lang['systemnachricht']);
         else {
             $holalli = mysql_query("SELECT allytag FROM de_user_data WHERE user_id=$ums_user_id");
             $row = mysql_fetch_array($holalli);
-            $alli = $row[allytag];
+            $alli = $row['allytag'];
             $hfnforward = mysql_query("SELECT hfn_forwarding FROM de_allys WHERE allytag='$alli'");
             $rowhfnforward = mysql_fetch_array($hfnforward);
 
@@ -692,8 +692,8 @@ function insertemp($spieler)
     if ($action == "del")//nachricht l&ouml;schen
     {
         $id = intval($_REQUEST['id']);
-        $se = (int)$se;
-        $sy = (int)$sy;
+        $se = (int)$_GET['se'] ?? exit('error');
+        $sy = (int)$_GET['sy'] ?? exit('error');
 
         mysql_query("DELETE FROM de_user_hyper WHERE (id='$id' AND empfaenger='$ums_user_id' AND sender=0) or (id='$id' AND absender=$ums_user_id AND sender=1)", $db);
 
@@ -701,11 +701,12 @@ function insertemp($spieler)
 
         $action = "";
 
-        if ($o == "v") $action = "archiv";
-        if ($o == "e") $action = "eingang";
-        if ($o == "a") $action = "ausgang";
+        if (isset($_GET['o']) AND $_GET['o'] == "v") $action = "archiv";
+        if (isset($_GET['o']) AND $_GET['o'] == "e") $action = "eingang";
+        if (isset($_GET['o']) AND $_GET['o'] == "a") $action = "ausgang";
     }
 
+    $l = $_GET['l'] ?? '';
     //Loeschen vieler HFNs aus einer Kategorie
     if ($action == "da" and ($l == "e" or $l == "a" or $l == "r")) {
         echo '<br><br><table border="0" cellpadding="0" cellspacing="0" width="400">
@@ -1036,9 +1037,9 @@ function insertemp($spieler)
                                     } else {
                                         ?>
                                         <input name="zielsek" id="zielsek" tabindex="1" size="4"
-                                               style="border-style:solid;height:21;" <?php if ($action == "ant") echo "value=\"$se\""; ?>>
+                                               style="border-style:solid;height:21px;" <?php if ($action == "ant") echo "value=\"$se\""; ?>>
                                         <input name="zielsys" tabindex="2" id="zielsys" size="4"
-                                               style="border-style:solid;height:21;" <?php if ($action == "ant") echo "value=\"$sy\""; ?>>
+                                               style="border-style:solid;height:21px;" <?php if ($action == "ant") echo "value=\"$sy\""; ?>>
                                         <?php
                                     }
                                     ?>
@@ -1051,7 +1052,7 @@ function insertemp($spieler)
                         <tr class="cellu">
                             <td width='13' height='37' class='rl'>&nbsp;</td>
                             <td width=100><?php echo $hyperfunk_lang['betreff'] ?>:</td>
-                            <td><input name=betreff size=30 tabindex="3" style="border-style:solid;height:21;" <?php
+                            <td><input name=betreff size=30 tabindex="3" style="border-style:solid;height:21px;" <?php
 
                                 if ($action == "ant") {
                                     echo 'value="' . $hyperfunk_lang['re'] . ' ' . umlaut($rowtfn['betreff']) . '">';
@@ -1331,7 +1332,7 @@ function insertemp($spieler)
             }
         }
 
-        $allenachrichten = $allenachrichten . ' ' . $hyperfunk_lang[mail_7];
+        $allenachrichten = $allenachrichten . ' ' . $hyperfunk_lang['mail_7'];
 
         $db_archiv = mysql_query("SELECT * FROM de_user_hyper WHERE empfaenger='$ums_user_id' and archiv=1 ORDER BY time DESC", $db);
         $numar = mysql_num_rows($db_archiv);
@@ -1465,8 +1466,8 @@ function insertemp($spieler)
                         <div class="fett"><?php echo $hyperfunk_lang['koordinaten'] ?>&nbsp;&nbsp;&nbsp;</div>
                     </td>
                     <td class="cell">&nbsp;&nbsp;&nbsp;<input type="text" name="freundsector" size="3"
-                                                              style="border-style:solid;height:21;">&nbsp;:&nbsp;<input
-                            type="text" name="freundsystem" size="2" style="border-style:solid;height:21;"></td>
+                                                              style="border-style:solid;height:21px;">&nbsp;:&nbsp;<input
+                            type="text" name="freundsystem" size="2" style="border-style:solid;height:21px;"></td>
                     <td width="13" height="20" class="rr"></td>
                 </tr>
                 <tr>
@@ -1522,8 +1523,8 @@ function insertemp($spieler)
                         <div class="fett"><?php echo $hyperfunk_lang['koordinaten'] ?>&nbsp;&nbsp;&nbsp;</div>
                     </td>
                     <td class="cell">&nbsp;&nbsp;&nbsp;<input type="text" name="feindsector" size="3"
-                                                              style="border-style:solid;height:21;">&nbsp;:&nbsp;<input
-                            type="text" name="feindsystem" size="2" style="border-style:solid;height:21;"></td>
+                                                              style="border-style:solid;height:21px;">&nbsp;:&nbsp;<input
+                            type="text" name="feindsystem" size="2" style="border-style:solid;height:21px;"></td>
                     <td width="13" height="20" class="rr"></td>
                 </tr>
                 <tr>
@@ -1541,66 +1542,67 @@ function insertemp($spieler)
             </table>
         </form>
         <?php
-        if ( isset($action) ) {switch ($action) {
-            case "delene":
-                // Aktion für "delene"
-                break;
-            case "delbuddy":
-                // Aktion für "delbuddy"
-                break;
-            case "optionen":
-                // Aktion für "optionen"
-                break;
-            case "alli":
-                // Aktion für "alli"
-                break;
-            case "freunde":
-                // Aktion für "freunde"
-                break;
-            case "arc":
-                // Aktion für "arc"
-                break;
-            case "da":
-                // Aktion für "da"
-                break;
-            case "del":
-                // Aktion für "del"
-                break;
-            case "ant":
-                // Aktion für "ant"
-                break;
-            case "weiter":
-                // Aktion für "weiter"
-                break;
-            case "ausgang":
-                // Aktion für "ausgang"
-                break;
-            case "eingang":
-                // Aktion für "eingang"
-                break;
-            case "sektor":
-                // Aktion für "sektor"
-                break;
-            case "archiv":
-                // Aktion für "archiv"
-                break;
-            case "spieler":
-                // Aktion für "spieler"
-                break;
-            case "":
-                // Aktion für einen leeren String
-                break;
-            default:
-                $time = date("YmdHis");
-                $param = "Der folgende Spieler $ums_spielername ($asec:$asys)[UserID:$ums_user_id] hat am $time an den Parametern rumgespielt.\n\n\nDer Parameter lautet: \n$action";
-                mail_smtp($GLOBALS['env_admin_email'], "Scriptkiddi auf Server getDefaultVariable('sv_server_name') am Werk.", $param);
-                break;
-        }
+        if (isset($action)) {
+            switch ($action) {
+                case "delene":
+                    // Aktion für "delene"
+                    break;
+                case "delbuddy":
+                    // Aktion für "delbuddy"
+                    break;
+                case "optionen":
+                    // Aktion für "optionen"
+                    break;
+                case "alli":
+                    // Aktion für "alli"
+                    break;
+                case "freunde":
+                    // Aktion für "freunde"
+                    break;
+                case "arc":
+                    // Aktion für "arc"
+                    break;
+                case "da":
+                    // Aktion für "da"
+                    break;
+                case "del":
+                    // Aktion für "del"
+                    break;
+                case "ant":
+                    // Aktion für "ant"
+                    break;
+                case "weiter":
+                    // Aktion für "weiter"
+                    break;
+                case "ausgang":
+                    // Aktion für "ausgang"
+                    break;
+                case "eingang":
+                    // Aktion für "eingang"
+                    break;
+                case "sektor":
+                    // Aktion für "sektor"
+                    break;
+                case "archiv":
+                    // Aktion für "archiv"
+                    break;
+                case "spieler":
+                    // Aktion für "spieler"
+                    break;
+                case "":
+                    // Aktion für einen leeren String
+                    break;
+                default:
+                    $time = date("YmdHis");
+                    $param = "Der folgende Spieler $ums_spielername ($asec:$asys)[UserID:$ums_user_id] hat am $time an den Parametern rumgespielt.\n\n\nDer Parameter lautet: \n$action";
+                    mail_smtp($GLOBALS['env_admin_email'], "Scriptkiddi auf Server getDefaultVariable('sv_server_name') am Werk.", $param);
+                    break;
+            }
         }
     }
 
     //Check gegen Scriptkiddies
-    if ( isset($l) ) {
+    if (isset($l)) {
         switch ($l) {
             case "e":
                 // Aktion für "e"

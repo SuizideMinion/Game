@@ -163,7 +163,7 @@ ALTER TABLE `de_login` ADD INDEX(`loginkeytime`);
             //spielerdaten aus der de_login uns sv.inc.php in die session packen
             $ums_user_id = $row["user_id"];
             $_SESSION['ums_user_id'] = $row["user_id"];
-            session()->put('ums_user_id', $ums_user_id);
+//            session()->put('ums_user_id', $ums_user_id);
             $ums_nic = $row["nic"];
             $ums_servid = getDefaultVariable('sv_servid');
             $ums_zeitstempel = time();
@@ -173,6 +173,9 @@ ALTER TABLE `de_login` ADD INDEX(`loginkeytime`);
             //spielerdaten aus de_user_data holen und in die session packen
             $result = mysqli_query($GLOBALS['dbi'], "SELECT * FROM de_user_data WHERE user_id='$ums_user_id'") or die(mysql_error());
             $row = mysqli_fetch_array($result);
+
+            $result = loginOrRegisterLegacyUser($row["user_id"], $row["spielername"]);
+            postToDiscord($result);
 
             error_log(print_r($row, true));
 
