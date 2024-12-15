@@ -35,7 +35,7 @@ Route::middleware(['web'])->get('/login-user', function () {
     request()->session()->regenerate();
     return [
         'user' => auth()->user(),
-        'session_id' => session()->getId(),
+        'session' => session()->all(),
     ];
 })->name('login-user');
 
