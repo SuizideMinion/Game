@@ -225,7 +225,7 @@ while($row = mysqli_fetch_array($db_daten)){
 	//echo '<td class="cell tac'.$csstag.'" style="text-align: right;"><div title="'.$tooltip.'">'.number_format($row['col'], 0,"",".").'</div></td>';
 	$output.='<div class="tac'.$csstag.'" style="background-color: rgba(10,10,10,0.8); font-size: 12px; text-align: right; position: absolute; right: 0px; bottom: 0px; width: 50%;" title="'.$tooltip.'">'.number_format($row['col'], 0,"",".").'</div>';
 	//aktion
-	$aktion='<a class="text1" target="h" href="military.php?se='.$sf.'&sy='.$row['system'].'" title="Flotteneinsatz">F</a>';
+	$aktion='<a class="text1"  href="military.php?se='.$sf.'&sy='.$row['system'].'" title="Flotteneinsatz">F</a>';
 
 
 	$output.='<div class="tac'.$csstag.'" style="font-size: 12px; position: absolute; right: 0px; text-align: right; bottom: 20px; width: 100%;">'.$aktion.'</div>';
@@ -627,7 +627,7 @@ for($player_sector=0;$player_sector<$sec_anzahl;$player_sector++){
 			////////////////////////////////////////////////////////////////////////
 
 			$output.='<div style="margin-left: 5px; width: 90px; word-wrap: break-word; background: rgba(10,10,70,0.8);">
-				<a href="details.php?se='.$sector.'&sy='.$row['system'].'" target="h" class="'.$playercsstag.'">'.$playername.$osown.'</a>'.$showallytag.'</div>';
+				<a href="details.php?se='.$sector.'&sy='.$row['system'].'"  class="'.$playercsstag.'">'.$playername.$osown.'</a>'.$showallytag.'</div>';
 			/*
 			if(!empty($rasse)){
 				$output.='<div style="position: absolute; right: 0px; bottom: 16px;">'.$rasse.'</div>';
@@ -675,10 +675,10 @@ for($player_sector=0;$player_sector<$sec_anzahl;$player_sector++){
 			////////////////////////////////////////////////////////////////////////
 
 			$aktion='
-				<a class="text1" target="h" href="secret.php?a=s&zsec1='.$sector.'&zsys1='.$row['system'].'" title="Sonde starten">S</a>&nbsp;
-				<a class="text1" target="h" href="secret.php?a=a&zsec2='.$sector.'&zsys2='.$row['system'].'" title="Agenteneinsatz">A</a>&nbsp;
-				<a class="text1" target="h" href="military.php?se='.$sector.'&sy='.$row['system'].'" title="Flotteneinsatz">F</a>&nbsp;
-				<a class="text1" target="h" href="secret.php?a=d&zsec1='.$sector.'&zsys1='.$row['system'].'"><img src="'.$ums_gpfad.'g/ps_'.$playerstatus.'.gif" border="0" title="Geheimdienstinformationen"></a>';
+				<a class="text1"  href="secret.php?a=s&zsec1='.$sector.'&zsys1='.$row['system'].'" title="Sonde starten">S</a>&nbsp;
+				<a class="text1"  href="secret.php?a=a&zsec2='.$sector.'&zsys2='.$row['system'].'" title="Agenteneinsatz">A</a>&nbsp;
+				<a class="text1"  href="military.php?se='.$sector.'&sy='.$row['system'].'" title="Flotteneinsatz">F</a>&nbsp;
+				<a class="text1"  href="secret.php?a=d&zsec1='.$sector.'&zsys1='.$row['system'].'"><img src="'.$ums_gpfad.'g/ps_'.$playerstatus.'.gif" border="0" title="Geheimdienstinformationen"></a>';
 
 			$output.='<div class="tac'.$csstag.'" style="font-size: 12px; position: absolute; right: 0px; text-align: right; bottom: 20px; width: 100%;">'.$aktion.'</div>';
 
@@ -758,7 +758,7 @@ for($player_sector=0;$player_sector<$sec_anzahl;$player_sector++){
 				if($sec_data['techs'][5]>0)$srbstr.='<br>- '.$sec_lang['sekbldg4'];
 
 				$stip = 'Sektorraumbasis'.$srbstr;
-				$basestr='<a href="'.$ums_gpfad.'g/big/'.strtoupper($bn).'" target="_blank"><img border="0" src="'.$ums_gpfad.'g/'.$bn.'" name="sb" title="'.$stip.'"></a>';
+				$basestr='<a href="'.$ums_gpfad.'g/big/'.strtoupper($bn).'" ><img border="0" src="'.$ums_gpfad.'g/'.$bn.'" name="sb" title="'.$stip.'"></a>';
 				//wenn es keine sektorraumbasis gibt string mit einem leerzeichen belegen
 				if($bed=='000')$basestr='&nbsp;';
 
@@ -798,7 +798,7 @@ for($player_sector=0;$player_sector<$sec_anzahl;$player_sector++){
 
 				$atip[$c] = '<font color=#'.$row["color"].'>'.$row["artname"].'</font><br>'.$desc;
 
-				$artstr.='<a href="help.php?a=1" target="_blank" title="'.umlaut($atip[$c]).'"><img src="'.$ums_gpfad.'g/sa'.$row["picid"].'.gif" border="0"></a>&nbsp;';
+				$artstr.='<a href="help.php?a=1"  title="'.umlaut($atip[$c]).'"><img src="'.$ums_gpfad.'g/sa'.$row["picid"].'.gif" border="0"></a>&nbsp;';
 				$c++;
 			}
 			if($artstr!=''){

@@ -161,7 +161,7 @@ if ($_REQUEST["input"]==1)
   function empty_field_and_submit()
   {
    var loctarget=document.f.chat_message.value.replace("+", "&#43;");
-   loctarget="sou_chat.php?insert=1&chat_message="+escape(loctarget);
+   loc+escape(loctarget);
    document.f.chat_message.value='';
    document.f.chat_message.focus();
    parent.chat_mitte.location.href = loctarget;
@@ -219,7 +219,7 @@ if ($_REQUEST["input"]==1)
 {
 
 	//bereich definieren
-  echo '<form action="sou_chat.php" method="GET" target="chat_mitte" name="f" OnSubmit="return empty_field_and_submit()">';
+  echo '<form action="sou_chat.php" method="GET"  name="f" OnSubmit="return empty_field_and_submit()">';
   echo '<input type="hidden" name="insert" value="1">';
   echo '<table width="100%" border="0" cellpadding="0" cellspacing="0">';
   echo '<tr><td width="180">Schreibe an: ';

@@ -41,7 +41,7 @@ if($action=="aendern")
 
   $row=mysql_fetch_array($sel_news_edit);
 
-echo '<form action="de_news.php?id='.$id.'" method="post" target="Hauptframe">
+echo '<form action="de_news.php?id='.$id.'" method="post" >
   <table border="1">
   <tr>
     <td colspan="2" align="center"><b>News bearbeiten</b></td>
@@ -68,7 +68,7 @@ if($action!="aendern")
 ?>
 
 
-<form action="de_news.php" method="post" target="Hauptframe">
+<form action="de_news.php" method="post" >
 <table border="1">
   <tr>
     <td colspan="2" align="center"><b>News eintragen</b></td>

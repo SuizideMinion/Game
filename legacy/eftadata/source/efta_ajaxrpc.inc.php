@@ -361,7 +361,7 @@ $menutext.= '&nbsp;<a href="#" onClick="lnk(\'q=1\')"><img src="'.$gpfad.'b3.gif
 //cyborg mit rucksack und ausr�stung
 $menutext.= '&nbsp;<a href="#" onClick="lnk(\'uk=1\')"><img src="'.$gpfad.'c1.gif" width="22" height="22" border="0" title="Taste: b"></a>';
 //hilfelink
-$menutext.= '&nbsp;<a href="http://help.bgam.es/index.php?thread=alu_de" target="_blank"><img src="'.$gpfad.'b4.gif" width="22" height="22" border="0" title="Hilfe"></a>';
+$menutext.= '&nbsp;<a href="http://help.bgam.es/index.php?thread=alu_de" ><img src="'.$gpfad.'b4.gif" width="22" height="22" border="0" title="Hilfe"></a>';
 //optionen link, jedoch nur dann, wenn efta allein steht
 if(getDefaultVariable('sv_efta_in_de')==0)
 {

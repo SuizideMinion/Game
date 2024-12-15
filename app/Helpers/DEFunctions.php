@@ -82,6 +82,91 @@ function detectDevice()
     }
 }
 
+function trimTime(string $input, string $format = 'Y-m-d H:i:s'): string|array
+{
+    // Prüfen, ob es ein Unix-Timestamp ist (10-stellig)
+    if (ctype_digit($input) && strlen($input) === 10 && ($timestamp = intval($input)) !== false) {
+        // Unix-Timestamp in ein benutzerdefiniertes Format konvertieren
+        return date($format, $timestamp);
+    }
+
+    // Prüfen, ob es ein 14-stelliges Zahlenformat ist (z.B. 20241218205920)
+    if (ctype_digit($input) && strlen($input) === 14) {
+        // Die ersten 4 Ziffern extrahieren (Jahr)
+        $year = substr($input, 0, 4);
+
+        // Den Rest in 2-stellige Abschnitte aufteilen
+        $parts = str_split(substr($input, 4), 2);
+
+        // Datum und Uhrzeit zusammenbauen
+        $date = $year . '-' . $parts[0] . '-' . $parts[1];
+        $time = $parts[2] . ':' . $parts[3] . ':' . $parts[4];
+
+        // Das gewünschte Ausgabeformat generieren
+        if (str_contains($format, ' ')) {
+            // Kombination aus Datum und Zeit
+            return $date . ' ' . $time;
+        } elseif (str_contains($format, ':')) {
+            // Nur Zeit zurückgeben (z. B. H:i:s)
+            return $time;
+        } else {
+            // Nur Datum zurückgeben (z. B. Y-m-d)
+            return $date;
+        }
+    }
+
+    // Falls das Format nicht korrekt ist, Fehler zurückgeben
+    return 'Ungültiger Eingabestring';
+}
+
+function shortenNumber($number, $precision = 2) {
+    if ($number < 1000) {
+        // Keine Kürzung nötig
+        return $number;
+    }
+
+    // Kürzel-Liste erweitert bis zu Dezillionen und mehr
+    $units = [
+        '',      // 10^0
+        'K',     // Tausend (10^3)
+        'M',     // Millionen (10^6)
+        'B',     // Milliarden (10^9)
+        'T',     // Billionen (10^12)
+        'Q',     // Quadrillionen (10^15)
+        'Qi',    // Quintillionen (10^18)
+        'Sx',    // Sextillionen (10^21)
+        'Sp',    // Septillionen (10^24)
+        'Oc',    // Oktillionen (10^27)
+        'No',    // Nonillionen (10^30)
+        'Dc',    // Dezillionen (10^33)
+        'Ud',    // Undezillionen (10^36)
+        'Dd',    // Duodezillionen (10^39)
+        'Td',    // Tredezillionen (10^42)
+        'Qd',    // Quattuordezillionen (10^45)
+        'Qid',   // Quindecillionen (10^48)
+        'Sxd',   // Sexdezillionen (10^51)
+        'Spd',   // Septendezillionen (10^54)
+    ];
+
+    // Berechnung des Größenordnung-Index
+    $unitIndex = (int) floor(log($number, 1000)); // Logarithmus zur Basis 1000 berechnen
+
+    if ($unitIndex >= count($units)) {
+        // Falls der Index die unterstützte Größenordnung überschreitet, gib die Zahl in voller Länge aus.
+        return number_format($number, $precision);
+    }
+
+    // Zahl in die entsprechende Einheit umwandeln
+    $shortNumber = $number / pow(1000, $unitIndex);
+
+    // Abrunden auf die gewünschte Präzision
+    $factor = pow(10, $precision); // Faktor für die Rundung
+    $shortNumber = floor($shortNumber * $factor) / $factor; // Wert präzisionsgenau abrunden
+
+    // Ausgabe der abgerundeten Zahl zusammen mit der Einheit
+    return $shortNumber . $units[$unitIndex];
+}
+
 function getDefaultVariable($key)
 {
 

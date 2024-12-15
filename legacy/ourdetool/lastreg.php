@@ -58,14 +58,14 @@ while($user = mysql_fetch_array($result))
     if ($user["status"]!=2)
     {
        echo '<tr>';
-       echo '<td><a href="idinfo.php?UID='.$user["user_id"].'" target="_blank">'.$user["user_id"].'</a></td>';
+       echo '<td><a href="idinfo.php?UID='.$user["user_id"].'" >'.$user["user_id"].'</a></td>';
        echo '<td>'.$user["nic"].'</td>';
        echo '<td>'.$user["reg_mail"].'</td>';
        echo '<td'.$str.'>'.modpass($user["pass"]).'</td>';
        echo '<td>'.$user["register"].'</td>';
        echo '<td>'.$user["last_login"].'</td>';
        echo '<td>'.$user["last_ip"].'</td>';
-       $status.=' <a href="de_set_user_status.php?uid='.$user["user_id"].'&status=2" target="setuserstatus">[S]</a>';
+       $status.=' <a href="de_set_user_status.php?uid='.$user["user_id"].'&status=2" >[S]</a>';
        echo '<td>'.$status.'</td>';
        echo '<td>'.$user["logins"].'</td>';
        echo '<td>'.$user["sector"].'</td>';
@@ -76,14 +76,14 @@ while($user = mysql_fetch_array($result))
   else
   {
     echo '<tr>';
-    echo '<td><a href="idinfo.php?UID='.$user["user_id"].'" target="_blank">'.$user["user_id"].'</a></td>';
+    echo '<td><a href="idinfo.php?UID='.$user["user_id"].'" >'.$user["user_id"].'</a></td>';
     echo '<td>'.$user["nic"].'</td>';
     echo '<td>'.$user["reg_mail"].'</td>';
     echo '<td'.$str.'>'.modpass($user["pass"]).'</td>';
     echo '<td>'.$user["register"].'</td>';
     echo '<td>'.$user["last_login"].'</td>';
     echo '<td>'.$user["last_ip"].'</td>';
-    $status.=' <a href="de_set_user_status.php?uid='.$user["user_id"].'&status=2" target="setuserstatus">[S]</a>';
+    $status.=' <a href="de_set_user_status.php?uid='.$user["user_id"].'&status=2" >[S]</a>';
     echo '<td>'.$status.'</td>';
     echo '<td>'.$user["logins"].'</td>';
     echo '<td>'.$user["sector"].'</td>';

@@ -256,54 +256,54 @@ if(getDefaultVariable('sv_server_lang')==1)
 <?php
 
 ?>
-<a href="overview.php" target="h" onMouseOver="B(<?=$c++?>,H1)" onMouseOut="B(<?=$c-1?>,N1)"><img src="<?=$url; ?><?=$ums_rasse; ?>_1.gif" border="0" alt="<?=$menu_lang[eintrag_1]?>"></a><br>
-<a href="hyperfunk.php" target="h" onMouseOver="B(<?=$c++?>,H2)" onMouseOut="B(<?=$c-1?>,N2)"><img src="<?=$url; ?><?=$ums_rasse; ?>_2.gif" border="0" alt="<?=$menu_lang[eintrag_2]?>"></a><br>
-<a href="sysnews.php" target="h" onMouseOver="B(<?=$c++?>,H3)" onMouseOut="B(<?=$c-1?>,N3)"><img src="<?=$url; ?><?=$ums_rasse; ?>_3.gif" border="0" alt="<?=$menu_lang[eintrag_3]?>"></a><br>
+<a href="overview.php"  onMouseOver="B(<?=$c++?>,H1)" onMouseOut="B(<?=$c-1?>,N1)"><img src="<?=$url; ?><?=$ums_rasse; ?>_1.gif" border="0" alt="<?=$menu_lang[eintrag_1]?>"></a><br>
+<a href="hyperfunk.php"  onMouseOver="B(<?=$c++?>,H2)" onMouseOut="B(<?=$c-1?>,N2)"><img src="<?=$url; ?><?=$ums_rasse; ?>_2.gif" border="0" alt="<?=$menu_lang[eintrag_2]?>"></a><br>
+<a href="sysnews.php"  onMouseOver="B(<?=$c++?>,H3)" onMouseOut="B(<?=$c-1?>,N3)"><img src="<?=$url; ?><?=$ums_rasse; ?>_3.gif" border="0" alt="<?=$menu_lang[eintrag_3]?>"></a><br>
 <br>
-<a href="buildings.php" target="h" onMouseOver="B(<?=$c++?>,H5)" onMouseOut="B(<?=$c-1?>,N5)"><img src="<?=$url; ?><?=$ums_rasse; ?>_5.gif" border="0" alt="<?=$menu_lang[eintrag_4]?>"></a><br>
-<a href="research.php" target="h" onMouseOver="B(<?=$c++?>,H6)" onMouseOut="B(<?=$c-1?>,N6)"><img src="<?=$url; ?><?=$ums_rasse; ?>_6.gif" border="0" alt="<?=$menu_lang[eintrag_5]?>"></a><br>
-<a href="resource.php" target="h" onMouseOver="B(<?=$c++?>,H7)" onMouseOut="B(<?=$c-1?>,N7)"><img src="<?=$url; ?><?=$ums_rasse; ?>_7.gif" border="0" alt="<?=$menu_lang[eintrag_6]?>"></a><br>
+<a href="buildings.php"  onMouseOver="B(<?=$c++?>,H5)" onMouseOut="B(<?=$c-1?>,N5)"><img src="<?=$url; ?><?=$ums_rasse; ?>_5.gif" border="0" alt="<?=$menu_lang[eintrag_4]?>"></a><br>
+<a href="research.php"  onMouseOver="B(<?=$c++?>,H6)" onMouseOut="B(<?=$c-1?>,N6)"><img src="<?=$url; ?><?=$ums_rasse; ?>_6.gif" border="0" alt="<?=$menu_lang[eintrag_5]?>"></a><br>
+<a href="resource.php"  onMouseOver="B(<?=$c++?>,H7)" onMouseOut="B(<?=$c-1?>,N7)"><img src="<?=$url; ?><?=$ums_rasse; ?>_7.gif" border="0" alt="<?=$menu_lang[eintrag_6]?>"></a><br>
 <br>
-<a href="trade.php" target="h" onMouseOver="B(<?=$c++?>,H8)" onMouseOut="B(<?=$c-1?>,N8)"><img src="<?=$url; ?><?=$ums_rasse; ?>_8.gif" border="0" alt="<?=$menu_lang[eintrag_7]?>"></a><br>
+<a href="trade.php"  onMouseOver="B(<?=$c++?>,H8)" onMouseOut="B(<?=$c-1?>,N8)"><img src="<?=$url; ?><?=$ums_rasse; ?>_8.gif" border="0" alt="<?=$menu_lang[eintrag_7]?>"></a><br>
 <br>
-<a href="production.php" target="h" onMouseOver="B(<?=$c++?>,H9)" onMouseOut="B(<?=$c-1?>,N9)"><img src="<?=$url; ?><?=$ums_rasse; ?>_9.gif" border="0" alt="<?=$menu_lang[eintrag_8]?>"></a><br>
-<a href="defense.php" target="h" onMouseOver="B(<?=$c++?>,H10)" onMouseOut="B(<?=$c-1?>,N10)"><img src="<?=$url; ?><?=$ums_rasse; ?>_10.gif" border="0" alt="<?=$menu_lang[eintrag_9]?>"></a><br>
-<a href="military.php" target="h" onMouseOver="B(<?=$c++?>,H11)" onMouseOut="B(<?=$c-1?>,N11)"><img src="<?=$url; ?><?=$ums_rasse; ?>_11.gif" border="0" alt="<?=$menu_lang[eintrag_10]?>"></a><br>
-<a href="secret.php" target="h" onMouseOver="B(<?=$c++?>,H12)" onMouseOut="B(<?=$c-1?>,N12)"><img src="<?=$url; ?><?=$ums_rasse; ?>_12.gif" border="0" alt="<?=$menu_lang[eintrag_11]?>"></a><br>
+<a href="production.php"  onMouseOver="B(<?=$c++?>,H9)" onMouseOut="B(<?=$c-1?>,N9)"><img src="<?=$url; ?><?=$ums_rasse; ?>_9.gif" border="0" alt="<?=$menu_lang[eintrag_8]?>"></a><br>
+<a href="defense.php"  onMouseOver="B(<?=$c++?>,H10)" onMouseOut="B(<?=$c-1?>,N10)"><img src="<?=$url; ?><?=$ums_rasse; ?>_10.gif" border="0" alt="<?=$menu_lang[eintrag_9]?>"></a><br>
+<a href="military.php"  onMouseOver="B(<?=$c++?>,H11)" onMouseOut="B(<?=$c-1?>,N11)"><img src="<?=$url; ?><?=$ums_rasse; ?>_11.gif" border="0" alt="<?=$menu_lang[eintrag_10]?>"></a><br>
+<a href="secret.php"  onMouseOver="B(<?=$c++?>,H12)" onMouseOut="B(<?=$c-1?>,N12)"><img src="<?=$url; ?><?=$ums_rasse; ?>_12.gif" border="0" alt="<?=$menu_lang[eintrag_11]?>"></a><br>
 <br>
-<a href="sector.php" target="h" onMouseOver="B(<?=$c++?>,H13)" onMouseOut="B(<?=$c-1?>,N13)"><img src="<?=$url; ?><?=$ums_rasse; ?>_13.gif" border="0" alt="<?=$menu_lang[eintrag_12]?>"></a><br>
-<a href="secstatus.php" target="h" onMouseOver="B(<?=$c++?>,H14)" onMouseOut="B(<?=$c-1?>,N14)"><img src="<?=$url; ?><?=$ums_rasse; ?>_14.gif" border="0" alt="<?=$menu_lang[eintrag_13]?>"></a><br>
-<a href="secforum.php" target="h" onMouseOver="B(<?=$c++?>,H15)" onMouseOut="B(<?=$c-1?>,N15)"><img src="<?=$url; ?><?=$ums_rasse; ?>_15.gif" border="0" alt="<?=$menu_lang[eintrag_14]?>"></a><br>
-<a href="politics.php" target="h" onMouseOver="B(<?=$c++?>,H16)" onMouseOut="B(<?=$c-1?>,N16)"><img src="<?=$url; ?><?=$ums_rasse; ?>_16.gif" border="0" alt="<?=$menu_lang[eintrag_15]?>"></a><br>
+<a href="sector.php"  onMouseOver="B(<?=$c++?>,H13)" onMouseOut="B(<?=$c-1?>,N13)"><img src="<?=$url; ?><?=$ums_rasse; ?>_13.gif" border="0" alt="<?=$menu_lang[eintrag_12]?>"></a><br>
+<a href="secstatus.php"  onMouseOver="B(<?=$c++?>,H14)" onMouseOut="B(<?=$c-1?>,N14)"><img src="<?=$url; ?><?=$ums_rasse; ?>_14.gif" border="0" alt="<?=$menu_lang[eintrag_13]?>"></a><br>
+<a href="secforum.php"  onMouseOver="B(<?=$c++?>,H15)" onMouseOut="B(<?=$c-1?>,N15)"><img src="<?=$url; ?><?=$ums_rasse; ?>_15.gif" border="0" alt="<?=$menu_lang[eintrag_14]?>"></a><br>
+<a href="politics.php"  onMouseOver="B(<?=$c++?>,H16)" onMouseOut="B(<?=$c-1?>,N16)"><img src="<?=$url; ?><?=$ums_rasse; ?>_16.gif" border="0" alt="<?=$menu_lang[eintrag_15]?>"></a><br>
 <br>
-<a href="allymain.php" target="h" onMouseOver="B(<?=$c++?>,H28)" onMouseOut="B(<?=$c-1?>,N28)"><img src="<?=$url; ?><?=$ums_rasse; ?>_28.gif" border="0" alt="<?=$menu_lang[eintrag_16]?>"></a><br>
-<br>
-<?php
-/*
-<a href="eftastart.php" target="h" onMouseOver="B(<?=$c++?>,H4)" onMouseOut="B(<?=$c-1?>,N4)"><img src="<?=$url; ?><?=$ums_rasse; ?>_4.gif" border="0" alt="<?=$menu_lang[eintrag_17]?>"></a><br>
-*/
-?>
-<a href="artefacts.php" target="h" onMouseOver="B(<?=$c++?>,H26)" onMouseOut="B(<?=$c-1?>,N26)"><img src="<?=$url; ?><?=$ums_rasse; ?>_26.gif" border="0" alt="<?=$menu_lang[eintrag_18]?>"></a><br>
-<a href="archeology.php" target="h" onMouseOver="B(<?=$c++?>,H31)" onMouseOut="B(<?=$c-1?>,N31)"><img src="<?=$url; ?><?=$ums_rasse; ?>_33.gif" border="0" alt="<?=$menu_lang[eintrag_19]?>"></a><br>
-<br>
-<a href="dezindex.php" target="h" onMouseOver="B(<?=$c++?>,H24)" onMouseOut="B(<?=$c-1?>,N24)"><img src="<?=$url; ?><?=$ums_rasse; ?>_24.gif" border="0" alt="<?=$menu_lang[eintrag_20]?>"></a><br>
-<br>
-<a href="statistics.php" target="h" onMouseOver="B(<?=$c++?>,H30)" onMouseOut="B(<?=$c-1?>,N30)"><img src="<?=$url; ?><?=$ums_rasse; ?>_30.gif" border="0" alt="<?=$menu_lang[eintrag_21]?>"></a><br>
-<a href="toplist.php" target="h" onMouseOver="B(<?=$c++?>,H17)" onMouseOut="B(<?=$c-1?>,N17)"><img src="<?=$url; ?><?=$ums_rasse; ?>_17.gif" border="0" alt="<?=$menu_lang[eintrag_22]?>"></a><br>
-<br>
-<a href="irc/irc.php" target="_blank" onMouseOver="B(<?=$c++?>,H27)" onMouseOut="B(<?=$c-1?>,N27)"><img src="<?=$url; ?><?=$ums_rasse; ?>_27.gif" border="0" alt="<?=$menu_lang[eintrag_23]?>"></a><br>
-<a href="options.php" target="h" onMouseOver="B(<?=$c++?>,H18)" onMouseOut="B(<?=$c-1?>,N18)"><img src="<?=$url; ?><?=$ums_rasse; ?>_18.gif" border="0" alt="<?=$menu_lang[eintrag_24]?>"></a><br>
+<a href="allymain.php"  onMouseOver="B(<?=$c++?>,H28)" onMouseOut="B(<?=$c-1?>,N28)"><img src="<?=$url; ?><?=$ums_rasse; ?>_28.gif" border="0" alt="<?=$menu_lang[eintrag_16]?>"></a><br>
 <br>
 <?php
 /*
-<a href="http://portal.die-ewigen.com/" target="_blank" onMouseOver="B(<?=$c++?>,H25)" onMouseOut="B(<?=$c-1?>,N25)"><img src="<?=$url; ?><?=$ums_rasse; ?>_25.gif" border="0" alt="<?=$menu_lang[eintrag_25]?>"></a><br>
+<a href="eftastart.php"  onMouseOver="B(<?=$c++?>,H4)" onMouseOut="B(<?=$c-1?>,N4)"><img src="<?=$url; ?><?=$ums_rasse; ?>_4.gif" border="0" alt="<?=$menu_lang[eintrag_17]?>"></a><br>
 */
 ?>
-<a href="<?=$sv_link[2]?>" target="_blank" onMouseOver="B(<?=$c++?>,H20)" onMouseOut="B(<?=$c-1?>,N20)"><img src="<?=$url; ?><?=$ums_rasse; ?>_20.gif" border="0" alt="<?=$menu_lang[eintrag_26]?>"></a><br>
-<a href="<?php print($sv_link[4]); ?>" target="_blank" onMouseOver="B(<?=$c++?>,H21)" onMouseOut="B(<?=$c-1?>,N21)"><img src="<?=$url; ?><?=$ums_rasse; ?>_21.gif" border="0" alt="<?=$menu_lang[eintrag_27]?>"></a><br>
+<a href="artefacts.php"  onMouseOver="B(<?=$c++?>,H26)" onMouseOut="B(<?=$c-1?>,N26)"><img src="<?=$url; ?><?=$ums_rasse; ?>_26.gif" border="0" alt="<?=$menu_lang[eintrag_18]?>"></a><br>
+<a href="archeology.php"  onMouseOver="B(<?=$c++?>,H31)" onMouseOut="B(<?=$c-1?>,N31)"><img src="<?=$url; ?><?=$ums_rasse; ?>_33.gif" border="0" alt="<?=$menu_lang[eintrag_19]?>"></a><br>
+<br>
+<a href="dezindex.php"  onMouseOver="B(<?=$c++?>,H24)" onMouseOut="B(<?=$c-1?>,N24)"><img src="<?=$url; ?><?=$ums_rasse; ?>_24.gif" border="0" alt="<?=$menu_lang[eintrag_20]?>"></a><br>
+<br>
+<a href="statistics.php"  onMouseOver="B(<?=$c++?>,H30)" onMouseOut="B(<?=$c-1?>,N30)"><img src="<?=$url; ?><?=$ums_rasse; ?>_30.gif" border="0" alt="<?=$menu_lang[eintrag_21]?>"></a><br>
+<a href="toplist.php"  onMouseOver="B(<?=$c++?>,H17)" onMouseOut="B(<?=$c-1?>,N17)"><img src="<?=$url; ?><?=$ums_rasse; ?>_17.gif" border="0" alt="<?=$menu_lang[eintrag_22]?>"></a><br>
+<br>
+<a href="irc/irc.php"  onMouseOver="B(<?=$c++?>,H27)" onMouseOut="B(<?=$c-1?>,N27)"><img src="<?=$url; ?><?=$ums_rasse; ?>_27.gif" border="0" alt="<?=$menu_lang[eintrag_23]?>"></a><br>
+<a href="options.php"  onMouseOver="B(<?=$c++?>,H18)" onMouseOut="B(<?=$c-1?>,N18)"><img src="<?=$url; ?><?=$ums_rasse; ?>_18.gif" border="0" alt="<?=$menu_lang[eintrag_24]?>"></a><br>
+<br>
+<?php
+/*
+<a href="http://portal.die-ewigen.com/"  onMouseOver="B(<?=$c++?>,H25)" onMouseOut="B(<?=$c-1?>,N25)"><img src="<?=$url; ?><?=$ums_rasse; ?>_25.gif" border="0" alt="<?=$menu_lang[eintrag_25]?>"></a><br>
+*/
+?>
+<a href="<?=$sv_link[2]?>"  onMouseOver="B(<?=$c++?>,H20)" onMouseOut="B(<?=$c-1?>,N20)"><img src="<?=$url; ?><?=$ums_rasse; ?>_20.gif" border="0" alt="<?=$menu_lang[eintrag_26]?>"></a><br>
+<a href="<?php print($sv_link[4]); ?>"  onMouseOver="B(<?=$c++?>,H21)" onMouseOut="B(<?=$c-1?>,N21)"><img src="<?=$url; ?><?=$ums_rasse; ?>_21.gif" border="0" alt="<?=$menu_lang[eintrag_27]?>"></a><br>
 <br>
 
-<a href="index.php?logout=1" target="h" onMouseOver="B(<?=$c++?>,H19)" onMouseOut="B(<?=$c-1?>,N19)"><img src="<?=$url; ?><?=$ums_rasse; ?>_19.gif" border="0" alt="<?=$menu_lang[eintrag_29]?>"></a>
+<a href="index.php?logout=1"  onMouseOver="B(<?=$c++?>,H19)" onMouseOut="B(<?=$c-1?>,N19)"><img src="<?=$url; ?><?=$ums_rasse; ?>_19.gif" border="0" alt="<?=$menu_lang[eintrag_29]?>"></a>
 </div>
 </font>
 </div>

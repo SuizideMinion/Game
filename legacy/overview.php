@@ -198,7 +198,7 @@ $skmes = str_replace("[CW]","<font color=\"#FFFFFF\">",$skmes);
 
 
 $skmes = preg_replace("/\[email\]([^[]*)\[\/email\]/","<a href=\"mailto:\\1\">\\1</a>",$skmes);
-$skmes = preg_replace("/\[url\]([^[]*)\[\/url\]/i",'<a href="\\1" target="_blank">\\1</a>',$skmes);
+$skmes = preg_replace("/\[url\]([^[]*)\[\/url\]/i",'<a href="\\1" >\\1</a>',$skmes);
 $skmes = preg_replace("/\[color=#([^[]+)\]([^[]*)\[\/color\]/","<font color=\"#\\1\" >\\2</font>",$skmes);
 $skmes = preg_replace("/\[size=([^[]+)\]([^[]*)\[\/size\]/","<font size=\"\\1\" >\\2</font>",$skmes);
 
@@ -420,7 +420,7 @@ for ($j = 0; $j <= 6; $j++) {
                 $maxtick = $row['tick'];
 
 
-                $rca = '<div class="fett text3">Das Ziel beim <a style="color: #00FF00; text-decoration: underline; font-size: 10pt;" href="http://forum.bgam.es/thread.php?threadid=23173" target="_blank">Hardcore-Rundenmodus</a> ist es als erster 5 Erhabenenteilsiege zu erreichen und somit zum vollwertigen ERHABENEN zu werden.</div>';
+                $rca = '<div class="fett text3">Das Ziel beim <a style="color: #00FF00; text-decoration: underline; font-size: 10pt;" href="http://forum.bgam.es/thread.php?threadid=23173" >Hardcore-Rundenmodus</a> ist es als erster 5 Erhabenenteilsiege zu erreichen und somit zum vollwertigen ERHABENEN zu werden.</div>';
 
                 //Top 3
                 //die ersten drei Pl�tze anzeigen
@@ -618,9 +618,9 @@ for ($j = 0; $j <= 6; $j++) {
             //obere Buttons Hilfe/Discord/Umfragen
             xecho('
 		 <div style="display: flex; width: 100%; margin-bottom: 15px;">
-			  <div style="flex-grow: 1;"><a href="' . $sv_link[2] . '" target="_blank" class="btn">Hilfe</a></div>
+			  <div style="flex-grow: 1;"><a href="' . $sv_link[2] . '"  class="btn">Hilfe</a></div>
 			  <div style="flex-grow: 1;"><a href="vote.php?bar=yes" class="btn">Umfragen</a></div>
-			  <div style="flex-grow: 1;"><a href="https://discord.gg/qBpCPx4" target="_blank" class="btn">DE-Discord</a></div>
+			  <div style="flex-grow: 1;"><a href="https://discord.gg/qBpCPx4"  class="btn">DE-Discord</a></div>
 		 </div>
 	   ');
 
@@ -641,7 +641,7 @@ for ($j = 0; $j <= 6; $j++) {
 
             xecho($rca . '<br>');
             if ($sv_comserver != 1) {
-                xecho('<a href="sinfo.php" target="h"><font color="lightgreen"> > > Informationen &uuml;ber den Server < < </a></font><br><br>');
+                xecho('<a href="sinfo.php" ><font color="lightgreen"> > > Informationen &uuml;ber den Server < < </a></font><br><br>');
             }
 
             if (!isset($bnews)) {
@@ -661,7 +661,7 @@ for ($j = 0; $j <= 6; $j++) {
 		 <b style="font-size:14px;">' . $ov_lang['nachrichtendienst'] . ' [<a href="newspaper.php?action=archiv&typ=2">' . $ov_lang['archiv'] . '</a>]</b>
 		 <div align="left"><table border="0"><tr><td width="30">&nbsp;</td><td>' . umlaut($bnews) . '</td></tr></table></div>
 		<div style="width: 100%; border-top: 1px solid #00FF00; color: #00FF00; margin-top: 3px; padding-top: 3px;">
-		Vorschl&auml;ge werden im <a style="color: #00FF00; text-decoration: underline; font-size: 8pt;" href="http://forum.bgam.es/board.php?boardid=8" target="_blank">Forum</a> gemacht/diskutiert, denn dort ist ein geordneter Ablauf und das Nachschlagen alter Beitr&auml;ge m&ouml;glich.
+		Vorschl&auml;ge werden im <a style="color: #00FF00; text-decoration: underline; font-size: 8pt;" href="http://forum.bgam.es/board.php?boardid=8" >Forum</a> gemacht/diskutiert, denn dort ist ein geordneter Ablauf und das Nachschlagen alter Beitr&auml;ge m&ouml;glich.
 		Es ist nat&uuml;rlich keine Pflicht dort mitzuwirken, aber wer darauf verzichtet, muss damit rechnen, dass seine Meinung nicht beachtet wird und sp&auml;tere Beschwerden u.U. auch nichts mehr bringen.
 		</div>');
 
@@ -700,7 +700,7 @@ for ($j = 0; $j <= 6; $j++) {
                     }
                     xecho('
 				<tr>
-					<td class="' . $bg . '" style="text-align: left;"><a href="http://forum.bgam.es/thread.php?threadid=' . $row['threadid'] . '" target="_blank">' . utf8_encode($row['topic']) . '</a></td>
+					<td class="' . $bg . '" style="text-align: left;"><a href="http://forum.bgam.es/thread.php?threadid=' . $row['threadid'] . '" >' . utf8_encode($row['topic']) . '</a></td>
 					<td class="' . $bg . '" style="text-align: center;">' . $row['replycount'] . '</td>
 					<td class="' . $bg . '" style="text-align: right;">' . date("d.m.Y - H:i", $row['lastposttime']) . '</td>
 				</tr>');
@@ -760,7 +760,7 @@ for ($j = 0; $j <= 6; $j++) {
          <table width="586" border="0" cellpadding="0" cellspacing="0">
          <tr>
          <td width="13" height="37" class="rol">&nbsp;</td>
-         <td align="center" class="ro">'.$ov_lang[zufallsfrage].' <a href="http://faq.die-ewigen.com" target="_new">'.$ov_lang[ewigenfaq].'</a></td>
+         <td align="center" class="ro">'.$ov_lang[zufallsfrage].' <a href="http://faq.die-ewigen.com" >'.$ov_lang[ewigenfaq].'</a></td>
          <td width="13" class="ror">&nbsp;</td>
          </tr>
          ';
@@ -771,7 +771,7 @@ for ($j = 0; $j <= 6; $j++) {
          <table width="586" border="0" cellpadding="0" cellspacing="0">
          <tr>
          <td width="13" height="37" class="rml">&nbsp;</td>
-         <td align="center" class="ro">'.$ov_lang[zufallsfrage].' <a href="http://faq.die-ewigen.com" target="_new">'.$ov_lang[ewigenfaq].'</a></td>
+         <td align="center" class="ro">'.$ov_lang[zufallsfrage].' <a href="http://faq.die-ewigen.com" >'.$ov_lang[ewigenfaq].'</a></td>
          <td width="13" class="rmr">&nbsp;</td>
          </tr>
          ';

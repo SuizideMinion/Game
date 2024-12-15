@@ -20,9 +20,9 @@ $gi = geoip_open("../../div_server_data/geoip/GeoLiteCity.dat",GEOIP_STANDARD);
 <head>
 <title>IP</title>
 <?php include "cssinclude.php";?>
-<?php 
+<?php
 
-echo 'Zuweisung der IP-Adressen zu Ländern/Orten anhand der Daten von maxmind.com. Es werden alle User angezeigt, deren IP-Adresse nicht aus D/A/CH kommen.<br><br>';
+echo 'Zuweisung der IP-Adressen zu Lï¿½ndern/Orten anhand der Daten von maxmind.com. Es werden alle User angezeigt, deren IP-Adresse nicht aus D/A/CH kommen.<br><br>';
 
    echo '<table border="0" cellpadding="2" cellspacing="0">';
    echo '<tr>';
@@ -30,7 +30,7 @@ echo 'Zuweisung der IP-Adressen zu Ländern/Orten anhand der Daten von maxmind.co
    echo '<td>Loginname</td>';
    echo '<td>E-Mail</td>';
    //echo '<td>Passwort</td>';
-   echo '<td>IP</td>';   
+   echo '<td>IP</td>';
    echo '<td>Registriert</td>';
    echo '<td>Letzter Login</td>';
    echo '<td>Status</td>';
@@ -60,18 +60,18 @@ $record->latitude . "\n".
 $record->longitude . "\n".
 $record->metro_code . "\n".
 $record->area_code . "\n";
-  
+
   if($record->country_code!='DE' AND $record->country_code!='AT' AND $record->country_code!='CH')
   {
     echo '<tr>';
-    echo '<td><a href="idinfo.php?UID='.$user["user_id"].'" target="_blank">'.$user["user_id"].'</a></td>';
+    echo '<td><a href="idinfo.php?UID='.$user["user_id"].'" >'.$user["user_id"].'</a></td>';
     echo '<td>'.$user["nic"].'</td>';
     echo '<td>'.$user["reg_mail"].'</td>';
     //echo '<td'.$str.'>'.modpass($user["pass"]).'</td>';
     echo '<td>'.$user["last_ip"].'</td>';
     echo '<td>'.$user["register"].'</td>';
     echo '<td>'.$user["last_login"].'</td>';
-    $status.=' <a href="de_set_user_status.php?uid='.$user["user_id"].'&status=2" target="setuserstatus">[S]</a>';
+    $status.=' <a href="de_set_user_status.php?uid='.$user["user_id"].'&status=2" >[S]</a>';
     echo '<td>'.$status.'</td>';
     echo '<td>'.$user["logins"].'</td>';
     echo '<td>'.$ipinfo.'</td>';

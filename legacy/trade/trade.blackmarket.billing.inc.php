@@ -59,7 +59,7 @@ elseif($_REQUEST["use"]=='6')
   echo '<table width="580">';
   echo '<tr class="cl"><td align="center">';
 echo '
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" >
    <input type="hidden" name="cmd" value="_xclick">
    <input type="hidden" name="business" value="issomad@die-ewigen.com">
    <input type="hidden" name="item_name" value="EWIGEN '.getDefaultVariable('sv_pcs_id').$ums_user_id.'">

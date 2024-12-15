@@ -65,14 +65,14 @@ $menutext.= '</td>';
 
 //hilfelink
 $menutext.= '<td align="center">';
-$menutext.= '<a href="http://help.bgam.es/index.php?thread=alu_de" target="_blank"><img src="'.$gpfad.'b4.gif" border=0 title="Hilfe"></a>';
+$menutext.= '<a href="http://help.bgam.es/index.php?thread=alu_de" ><img src="'.$gpfad.'b4.gif" border=0 title="Hilfe"></a>';
 $menutext.= '</td>';
 
 //optionen link, jedoch nur dann, wenn efta allein steht
 if(getDefaultVariable('sv_efta_in_de')==0)
 {
   $menutext.= '<td align="center">';
-  $menutext.= '<a href="eftamain.php?action=optionspage" target="e"><img src="'.$gpfad.'b6.gif" border=0 title="Optionen"></a>';
+  $menutext.= '<a href="eftamain.php?action=optionspage" ><img src="'.$gpfad.'b6.gif" border=0 title="Optionen"></a>';
   $menutext.= '</td>';
 }
 

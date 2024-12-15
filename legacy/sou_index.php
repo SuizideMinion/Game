@@ -38,7 +38,7 @@ if($_SESSION["ums_owner_id"]>0){
 /*
 echo '
 <frameset framespacing="0" border="0" frameborder="0" rows="*,140">
-  <frame name="soumain" src="sou_main.php" target="e" marginwidth=0 marginheight=0>
+  <frame name="soumain" src="sou_main.php"  marginwidth=0 marginheight=0>
   <frameset ID="adchat" framespacing="0" border="0" frameborder="0" cols="468,*">
     <frame name="aframe" src="sou_topban.php" marginwidth=0 marginheight=0>
     <frame name="souchat" src="sou_chat.php?frame=1" marginwidth=0 marginheight=0 noresize>
@@ -48,7 +48,7 @@ echo '
 
 echo '
 <frameset framespacing="0" border="0" frameborder="0" rows="*,125">
-  <frame name="soumain" src="sou_main.php" target="e" marginwidth=0 marginheight=0>
+  <frame name="soumain" src="sou_main.php"  marginwidth=0 marginheight=0>
   <frame name="souchat" src="sou_chat.php" marginwidth=0 marginheight=0 noresize>
 </frameset>';
 

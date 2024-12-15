@@ -34,8 +34,8 @@ if($_REQUEST["show"]==1 AND $_REQUEST["uid"]){
 			$spielername=$rowx["spielername"];
 			if($rowx['status']==1)$allytag=$rowx['allytag'];else $allytag='';
 		}
-		else $spielername='gelöscht';
-		echo '<tr align="center"><td>'.$time.'</td><td>'.$row["colanz"].'</td><td><a href="idinfo.php?UID='.$duid.'" target="_blank">'.$duid.'</a></td><td>'.$spielername.'</td><td>'.$allytag.'</td></tr>';
+		else $spielername='gelï¿½scht';
+		echo '<tr align="center"><td>'.$time.'</td><td>'.$row["colanz"].'</td><td><a href="idinfo.php?UID='.$duid.'" >'.$duid.'</a></td><td>'.$spielername.'</td><td>'.$allytag.'</td></tr>';
 	}
 	echo '</table>';
 }
@@ -56,8 +56,8 @@ if($_REQUEST["show"]==2 AND $_REQUEST["uid"]){
 			$spielername=$rowx["spielername"];
 			if($rowx['status']==1)$allytag=$rowx['allytag'];else $allytag='';
 		}
-		else $spielername='gelöscht';
-		echo '<tr align="center"><td>'.$time.'</td><td>'.$row["colanz"].'</td><td>'.$row[getexp].'</td><td><a href="idinfo.php?UID='.$duid.'" target="_blank">'.$duid.'</a></td><td>'.$spielername.'</td><td>'.$allytag.'</td></tr>';
+		else $spielername='gelï¿½scht';
+		echo '<tr align="center"><td>'.$time.'</td><td>'.$row["colanz"].'</td><td>'.$row[getexp].'</td><td><a href="idinfo.php?UID='.$duid.'" >'.$duid.'</a></td><td>'.$spielername.'</td><td>'.$allytag.'</td></tr>';
 	}
 	echo '</table>';
 }

@@ -24,7 +24,7 @@ echo '<b>Anzahl von IP-Adressen innerhalb der letzten 10 Tage</b>';
 echo '<table>';
 echo '<tr><td>User-ID</td><td>Anzahl</td></tr>';
 while($row = mysqli_fetch_array($result)){
-	echo '<tr><td><a href="idinfo.php?UID='.$row['userid'].'" target="_blank">'.$row['userid'].'</a></td><td>'.$row['ip_anz'].'</td></tr>';
+	echo '<tr><td><a href="idinfo.php?UID='.$row['userid'].'" >'.$row['userid'].'</a></td><td>'.$row['ip_anz'].'</td></tr>';
 }
 echo '</table>';
 

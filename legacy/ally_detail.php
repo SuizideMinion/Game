@@ -108,7 +108,7 @@ if ($num == 1) {
 
     $discord_open_link = '';
     if (!empty(trim($openirc))) {
-        $discord_open_link = '<a href="https://discord.gg/' . $openirc . '" target="_blank">zu Discord</a>';
+        $discord_open_link = '<a href="https://discord.gg/' . $openirc . '" >zu Discord</a>';
     }
 
     print("		<tr class=cl>

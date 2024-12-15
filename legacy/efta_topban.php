@@ -1,5 +1,5 @@
 <?php
-//fix um die werbung von der botabfrage unabhängig zu machen, gleichzeitig darf man aber keine credits bekommmen
+//fix um die werbung von der botabfrage unabhï¿½ngig zu machen, gleichzeitig darf man aber keine credits bekommmen
 $eftachatbotdefensedisable=1;
 include 'inc/header.inc.php';
 ?>
@@ -15,9 +15,9 @@ include 'cssinclude.php';
 <?php
 /*
 //votebutton
-$topban_votebutton[0]='&nbsp;<a href="http://www.galaxy-news.de/?page=charts&op=vote&game_id=108" target="_blank"><img src="http://grafik-de.bgam.es/b/gn_vote.gif" border=0></a>';
-$topban_votebutton[1]='&nbsp;<a href="http://www.gamingfacts.de/charts.php?was=abstimmen2&spielstimme=75" target="_blank"><img src="http://grafik-de.bgam.es/b/gamingfacts_charts.gif" border="0"></a>';
-//$topban_votebutton[2]='&nbsp;<a href="http://www.rawnews.de/index.php?pg=charts&at=vote&game_id=30" target="_blank"><img src="http://www.rawnews.de/vote.php?img=vote&game_id=30" border="0"></a>';
+$topban_votebutton[0]='&nbsp;<a href="http://www.galaxy-news.de/?page=charts&op=vote&game_id=108" ><img src="http://grafik-de.bgam.es/b/gn_vote.gif" border=0></a>';
+$topban_votebutton[1]='&nbsp;<a href="http://www.gamingfacts.de/charts.php?was=abstimmen2&spielstimme=75" ><img src="http://grafik-de.bgam.es/b/gamingfacts_charts.gif" border="0"></a>';
+//$topban_votebutton[2]='&nbsp;<a href="http://www.rawnews.de/index.php?pg=charts&at=vote&game_id=30" ><img src="http://www.rawnews.de/vote.php?img=vote&game_id=30" border="0"></a>';
 echo '<font color="#FFFFFF" size="3">Bitte t&auml;glich voten.</font>'.$topban_votebutton[rand(0,count($topban_votebutton)-1)];
 
 //werbung

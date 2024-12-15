@@ -29,14 +29,14 @@ include "resline.php";
 
 echo '<table border="0" cellpadding="5" cellspacing="0" width="600">';
 echo '<tr align="center" class="cell">';
-//echo '<td><a href="irc/irc.php" target="_blank" class="btn">IRC</a></td>';
-echo '<td><a href="https://discord.gg/qBpCPx4" target="_blank" class="btn">DE-Discord</a></td>';
+//echo '<td><a href="irc/irc.php"  class="btn">IRC</a></td>';
+echo '<td><a href="https://discord.gg/qBpCPx4"  class="btn">DE-Discord</a></td>';
 echo '<td><a href="vote.php?bar=yes" class="btn">Umfragen</a></td>';
-//echo '<td><a href="dezindex.php" target="h" class="btn">DE-Zeitung</a></td>';
+//echo '<td><a href="dezindex.php"  class="btn">DE-Zeitung</a></td>';
 echo '</tr>';
 echo '<tr align="center" class="cell">';
-echo '<td><a href="http://forum.bgam.es" target="_blank" class="btn">Forum</a></td>';
-echo '<td><a href="http://login.bgam.es/index.php?command=forum" target="_blank" class="btn">Forum/HA</a></td>';
+echo '<td><a href="http://forum.bgam.es"  class="btn">Forum</a></td>';
+echo '<td><a href="http://login.bgam.es/index.php?command=forum"  class="btn">Forum/HA</a></td>';
 //echo '<td>&nbsp;</td>';
 echo '</tr>';
 

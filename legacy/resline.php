@@ -210,65 +210,66 @@ if (!isset($_SESSION['de_frameset'])) {
 }
 
 if ($_SESSION['ums_mobi'] == 1 || $_SESSION['de_frameset'] == 1) {
-    //hauptgrafik laden
-    echo '<div id="resmain" align="center">';
-    //rohstoffe
-    echo '<div id="restyp1" rel="tooltip" title="' . $resline_lang['restipres01'] . '<br>' . $resline_lang['restipres01desc'] . '">' . number_format(floor($restyp01), 0, "", ".") . '</div>';
-    echo '<div id="restyp2" rel="tooltip" title="' . $resline_lang['restipres02'] . '<br>' . $resline_lang['restipres02desc'] . '">' . number_format(floor($restyp02), 0, "", ".") . '</div>';
-    echo '<div id="restyp3" rel="tooltip" title="' . $resline_lang['restipres03'] . '<br>' . $resline_lang['restipres03desc'] . '">' . number_format(floor($restyp03), 0, "", ".") . '</div>';
-    echo '<div id="restyp4" rel="tooltip" title="' . $resline_lang['restipres04'] . '<br>' . $resline_lang['restipres04desc'] . '">' . number_format(floor($restyp04), 0, "", ".") . '</div>';
-    echo '<div id="restyp5" rel="tooltip" title="' . $resline_lang['restipres05'] . '<br>' . $resline_lang['restipres05desc'] . '">' . number_format(floor($restyp05), 0, "", ".") . '</div>';
-
-    //uhr
-    echo '<div id="resclock1" rel="tooltip" title="' . $resline_lang['restipservertime'] . '<br>' . $resline_lang['restipservertimedesc'] . '">' . strftime("%H:%M") . '</div>';
-    echo '<div id="resclock2" rel="tooltip" title="' . $resline_lang['restipserveretick'] . '<br>' . $resline_lang['restipserveretickdesc'] . '">' . $lasttick . '</div>';
-    echo '<div id="resclock3" rel="tooltip" title="' . $resline_lang['restipservermtick'] . '<br>' . $resline_lang['restipservermtickdesc'] . '">' . $lastmtick . '</div>';
-
-    //anzahl atter/deffer
-    //$gevflag=1000000;$gev=1000000;$geaflag=1000000;$gea=1000000;
-
-    if ($gevflag > 0)//es gibt deffer
-    {
-        //led
-        echo '<div id="resleddef"></div>';
-        //schiffe
-        echo '<div id="resdef" rel="tooltip" title="' . $resline_lang['restipdeffer'] . '<br>' . $resline_lang['restipdefferdesc'] . '">' . $gev . '</div>';
-    }
-
-    if ($geaflag > 0)//es gibt deffer
-    {
-        //led
-        echo '<div id="resledatt"></div>';
-        //schiffe
-        echo '<div id="resatt" rel="tooltip" title="' . $resline_lang['restipatter'] . '<br>' . $resline_lang['restipatterdesc'] . '">' . $gea . '</div>';
-    }
-
-    //punkte
-    echo '<div id="resscore" rel="tooltip" title="' . $resline_lang['restipscore'] . '<br>' . $resline_lang['restipscoredesc'] . '<br>' . $resline_lang['restipehscore'] . ': ' . number_format($ehscore, 0, "", ".") . '<br>Executor-Punkte: ' . number_format($pve_score, 0, "", ".") . '">' . number_format($punkte, 0, "", ".") . '</div>';
-
-    //credits
-    echo '<div id="rescredits" rel="tooltip" title="' . $resline_lang['restipcredits'] . '<br>' . $resline_lang['restipcreditsdesc'] . '">' . number_format($credits, 0, "", ".") . '</div>';
-
-    //hyperfunk
-    //$newtrans=1;
-    if ($newtrans == 1) {
-        echo '<a href="hyperfunk.php?l=new" rel="tooltip" title="' . $resline_lang['restipnewhyper'] . '<br>' . $resline_lang['restipnewhyperdesc'] . '"><div id="reshyper"></div></a>';
-    }
-
-    //nachrichten
-    //$newnews=1;
-    if ($newnews == 1) {
-        echo '<a href="sysnews.php" rel="tooltip" title="' . $resline_lang['restipnewnews'] . '<br>' . $resline_lang['restipnewnewsdesc'] . '"><div id="resnews"></div></a>';
-    }
-
-    //dailyallygif
-    if ($resline_dailyallygift == 1) {
-        echo '<div id="resdailyallygift"><a href="ally_dailygift.php" title="' . $resline_lang['dailyallygift'] . '<br>' . $resline_lang['dailyallygiftdesc'] . '">
-		<img src="' . $ums_gpfad . 'g/symbol1.png" width="100%" height="100%"></a></div>';
-    }
-    echo '</div>';
-
-    echo '<br>';
+//    //hauptgrafik laden
+//    echo '<div id="resmain" align="center">';
+//    //rohstoffe
+//    echo '<div id="restyp1" rel="tooltip" title="' . $resline_lang['restipres01'] . '<br>' . $resline_lang['restipres01desc'] . '">' . number_format(floor($restyp01), 0, "", ".") . '</div>';
+//    echo '<div id="restyp2" rel="tooltip" title="' . $resline_lang['restipres02'] . '<br>' . $resline_lang['restipres02desc'] . '">' . number_format(floor($restyp02), 0, "", ".") . '</div>';
+//    echo '<div id="restyp3" rel="tooltip" title="' . $resline_lang['restipres03'] . '<br>' . $resline_lang['restipres03desc'] . '">' . number_format(floor($restyp03), 0, "", ".") . '</div>';
+//    echo '<div id="restyp4" rel="tooltip" title="' . $resline_lang['restipres04'] . '<br>' . $resline_lang['restipres04desc'] . '">' . number_format(floor($restyp04), 0, "", ".") . '</div>';
+//    echo '<div id="restyp5" rel="tooltip" title="' . $resline_lang['restipres05'] . '<br>' . $resline_lang['restipres05desc'] . '">' . number_format(floor($restyp05), 0, "", ".") . '</div>';
+//
+//    //uhr
+//    echo '<div id="resclock1" rel="tooltip" title="' . $resline_lang['restipservertime'] . '<br>' . $resline_lang['restipservertimedesc'] . '">' . strftime("%H:%M") . '</div>';
+//    echo '<div id="resclock2" rel="tooltip" title="' . $resline_lang['restipserveretick'] . '<br>' . $resline_lang['restipserveretickdesc'] . '">' . $lasttick . '</div>';
+//    echo '<div id="resclock3" rel="tooltip" title="' . $resline_lang['restipservermtick'] . '<br>' . $resline_lang['restipservermtickdesc'] . '">' . $lastmtick . '</div>';
+//
+//    //anzahl atter/deffer
+//    //$gevflag=1000000;$gev=1000000;$geaflag=1000000;$gea=1000000;
+//
+//    if ($gevflag > 0)//es gibt deffer
+//    {
+//        //led
+//        echo '<div id="resleddef"></div>';
+//        //schiffe
+//        echo '<div id="resdef" rel="tooltip" title="' . $resline_lang['restipdeffer'] . '<br>' . $resline_lang['restipdefferdesc'] . '">' . $gev . '</div>';
+//    }
+//
+//    if ($geaflag > 0)//es gibt deffer
+//    {
+//        //led
+//        echo '<div id="resledatt"></div>';
+//        //schiffe
+//        echo '<div id="resatt" rel="tooltip" title="' . $resline_lang['restipatter'] . '<br>' . $resline_lang['restipatterdesc'] . '">' . $gea . '</div>';
+//    }
+//
+//    //punkte
+//    echo '<div id="resscore" rel="tooltip" title="' . $resline_lang['restipscore'] . '<br>' . $resline_lang['restipscoredesc'] . '<br>' . $resline_lang['restipehscore'] . ': ' . number_format($ehscore, 0, "", ".") . '<br>Executor-Punkte: ' . number_format($pve_score, 0, "", ".") . '">' . number_format($punkte, 0, "", ".") . '</div>';
+//
+//    //credits
+//    echo '<div id="rescredits" rel="tooltip" title="' . $resline_lang['restipcredits'] . '<br>' . $resline_lang['restipcreditsdesc'] . '">' . number_format($credits, 0, "", ".") . '</div>';
+//
+//    //hyperfunk
+//    //$newtrans=1;
+//    if ($newtrans == 1) {
+//        echo '<a href="hyperfunk.php?l=new" rel="tooltip" title="' . $resline_lang['restipnewhyper'] . '<br>' . $resline_lang['restipnewhyperdesc'] . '"><div id="reshyper"></div></a>';
+//    }
+//
+//    //nachrichten
+//    //$newnews=1;
+//    if ($newnews == 1) {
+//        echo '<a href="sysnews.php" rel="tooltip" title="' . $resline_lang['restipnewnews'] . '<br>' . $resline_lang['restipnewnewsdesc'] . '"><div id="resnews"></div></a>';
+//    }
+//
+//    //dailyallygif
+//    if ($resline_dailyallygift == 1) {
+//        echo '<div id="resdailyallygift"><a href="ally_dailygift.php" title="' . $resline_lang['dailyallygift'] . '<br>' . $resline_lang['dailyallygiftdesc'] . '">
+//		<img src="' . $ums_gpfad . 'g/symbol1.png" width="100%" height="100%"></a></div>';
+//    }
+//    echo '</div>';
+//
+//    echo '<br>';
+echo '<br>';
 } else {
 
     //rohstoffe
@@ -475,8 +476,8 @@ alert(unescape"'.$resline_lang[botlogout].'"));
 $db_daten=mysql_query("SELECT user_id FROM de_login WHERE owner_id=0 AND user_id='$ums_user_id'",$db);
 if(mysql_num_rows($db_daten)>0)
 echo '<table width=590><tr><td class="ccg">
-Der Account ist noch nicht mit der zentralen Accountverwaltung unter <a href="http://login.die-ewigen.com" target="_blank">http://login.die-ewigen.com
-</a> verbunden. Siehe auch die Information im <a href="http://forum.die-ewigen.com/thread.php?threadid=17325" target="_blank">Forum</a>. Ben�tigt wird
+Der Account ist noch nicht mit der zentralen Accountverwaltung unter <a href="http://login.die-ewigen.com" >http://login.die-ewigen.com
+</a> verbunden. Siehe auch die Information im <a href="http://forum.die-ewigen.com/thread.php?threadid=17325" >Forum</a>. Ben�tigt wird
 nur ein Hauptaccount<br><br><br><br>Wenn bis zum 15.06.2007 der Account nicht mit der zentralen Accountverwaltung verbunden ist, kann nicht garantiert werden,
 dass der Zugriff auf den Account weiterhin m�glich sein wird.
 </td></tr></table><br><br><br><br>';*/
@@ -537,10 +538,10 @@ if (getDefaultVariable('sv_ang') == 1 && $_SESSION['ums_mobi'] != 1 && $_SESSION
 	<div style="width: 500px; background-color: #333333; color: #EEEEEE; padding: 5px; border: 1px solid #999999; font-size: 20px; margin-top: 10px; margin-bottom: 10px;">
 		<div style="display: flex">
 			<div style="flex-grow: 1;">135,57 von 145 Euro (2021)</div>
-			<div style="flex-grow: 1;"><a style="font-size: 20px;" href="https://paypal.me/pools/c/8vL9wuicz9" target="_blank">Spendenseite</a></div>
+			<div style="flex-grow: 1;"><a style="font-size: 20px;" href="https://paypal.me/pools/c/8vL9wuicz9" >Spendenseite</a></div>
 			<div style="flex-grow: 1; cursor: pointer;" onclick="$(\'#sf_desc\').show();">?</div>
 		</div>
-		<div style="font-size: 10pt;">Du meinst Du kannst DE helfen? Melde Dich einfach per <a href="mailto:'.$GLOBALS['env_admin_email'].'">E-Mail</a> oder im <a href="https://discord.gg/qBpCPx4" target="_blank">Discord</a>.</div>
+		<div style="font-size: 10pt;">Du meinst Du kannst DE helfen? Melde Dich einfach per <a href="mailto:'.$GLOBALS['env_admin_email'].'">E-Mail</a> oder im <a href="https://discord.gg/qBpCPx4" >Discord</a>.</div>
 		<div id="sf_desc" style="display: none; margin-top: 20px; font-size: 16px;">
 			Die Ewigen kostet ca. 145 Euro pro Jahr f&uuml;r Domains/Hosting/Server. Eine Beteiligung der Spieler an den Kosten w&auml;re begr&uuml;&szlig;enswert. Aktuell wird f&uuml;r das Jahr 2021 gesammelt.
 		</div>
@@ -562,7 +563,7 @@ $target_time=1575158400+(86400*3*($anzahl_uc-100));
 
 $db_daten_forum=mysqli_query($GLOBALS['dbi'], "SELECT * FROM deforum_de.bb1_posts WHERE threadid=23437 ORDER BY postid DESC LIMIT 1;");
 $row_forum = mysqli_fetch_array($db_daten_forum);
-$forum_output='<div><a href="https://forum.bgam.es/thread.php?goto=lastpost&threadid=23437" target="_blank">Diskussion dazu im Forum - letzter Beitrag: '.date("d.m.Y H:i:s", $row_forum['posttime']).': '.$row_forum['username'].'</a></div>';
+$forum_output='<div><a href="https://forum.bgam.es/thread.php?goto=lastpost&threadid=23437" >Diskussion dazu im Forum - letzter Beitrag: '.date("d.m.Y H:i:s", $row_forum['posttime']).': '.$row_forum['username'].'</a></div>';
 
 echo '
 <div style="width: 500px; background-color: #333333; color: #EEEEEE; padding: 5px; border: 1px solid #999999; font-size: 20px; margin-top: 10px; margin-bottom: 10px;">
@@ -573,7 +574,7 @@ echo '
         <div style="flex-grow: 1; cursor: pointer;" onclick="$(\'#sf_desc\').show();">?</div>
     </div>
     '.$forum_output.'
-    <div style="font-size: 10pt;">Du meinst Du kannst DE helfen? Melde Dich einfach per <a href="mailto:'.$GLOBALS['env_admin_email'].'">E-Mail</a> oder im <a href="https://discord.gg/qBpCPx4" target="_blank">Discord</a>.</div>
+    <div style="font-size: 10pt;">Du meinst Du kannst DE helfen? Melde Dich einfach per <a href="mailto:'.$GLOBALS['env_admin_email'].'">E-Mail</a> oder im <a href="https://discord.gg/qBpCPx4" >Discord</a>.</div>
     <div id="sf_desc" style="display: none; margin-top: 20px; font-size: 16px;">
         Der Counter l&auml;uft mindestens bis zum 01.12.2019. Für jeden Spieler über 100 verl&auml;ngert sich der Counter um 3 Tage. Sollten die Spielerzahlen stark steigen, kann der Counter wieder entfernt werden.
     </div>

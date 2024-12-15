@@ -32,7 +32,7 @@ function getmicrotime(){
 
 $time_start = getmicrotime();
 
-$db_daten=mysql_query("SELECT de_login.*, de_user_ip.*, de_user_data.*, de_login.status AS loginstatus FROM de_login LEFT JOIN de_user_ip ON(de_login.user_id = de_user_ip.user_id) 
+$db_daten=mysql_query("SELECT de_login.*, de_user_ip.*, de_user_data.*, de_login.status AS loginstatus FROM de_login LEFT JOIN de_user_ip ON(de_login.user_id = de_user_ip.user_id)
 	LEFT JOIN de_user_data ON(de_login.user_id = de_user_data.user_id)
  WHERE de_user_ip.loginhelp<>'' ORDER BY de_user_ip.loginhelp, de_user_ip.user_id",$db);
 
@@ -55,14 +55,14 @@ $gesuser=0;
 
 unset($olduserid);
 unset($oldloginhelp);
-  
+
 while($row = mysql_fetch_array($db_daten)){
 	if(!isset($olduserid))$olduserid=$row["user_id"];
 	if(!isset($oldloginhelp))$oldloginhelp=$row["loginhelp"];
 
 	if($olduserid!=$row['user_id'] AND $oldloginhelp==$row['loginhelp']){
 		echo '<tr>';
-		echo '<td><a href="idinfo.php?UID='.$olduserid.'" target="_blank">'.$olduserid.'</a></td>';
+		echo '<td><a href="idinfo.php?UID='.$olduserid.'" >'.$olduserid.'</a></td>';
 		echo '<td>'.$oldip.'</td>';
 		echo '<td>'.$oldtime.'</td>';
 		echo '<td>'.$registertime.'</td>';
@@ -72,9 +72,9 @@ while($row = mysql_fetch_array($db_daten)){
 		echo '<td>'.$oldallytag.'</td>';
 		echo '<td>'.$oldloginhelp.'</td>';
 		echo '<td>'.$oldbrowser.'</td>';
-		echo '</tr>';  	
+		echo '</tr>';
 		echo '<tr>';
-		echo '<td><a href="idinfo.php?UID='.$row["user_id"].'" target="_blank">'.$row["user_id"].'</a></td>';
+		echo '<td><a href="idinfo.php?UID='.$row["user_id"].'" >'.$row["user_id"].'</a></td>';
 		echo '<td>'.$row['ip'].'</td>';
 		echo '<td>'.$row['time'].'</td>';
 		echo '<td>'.$row['register'].'</td>';
@@ -97,10 +97,10 @@ while($row = mysql_fetch_array($db_daten)){
 	$oldallytag=$row["allytag"];
 	$registertime=$row['register'];
 	$lastactivetime=$row['last_click'];
-		
+
 }
   echo '</table><br><br>';
-echo 'Verdächtige: '.$gesuser;
+echo 'Verdï¿½chtige: '.$gesuser;
 /*
 select last_ip, count(last_ip) "zaehler" from de_login group by last_ip ORDER BY `zaehler` DESC LIMIT 0, 30
 update de_login set status=2 where last_ip='217.225.120.26'

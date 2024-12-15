@@ -139,7 +139,7 @@ a{color: #FFFFFF;}
     echo '<a href="toplist.php"><div class="btn">' . $menu_lang['eintrag_22'] . '</div></a>';
     //echo '<a href="community.php"><div class="btn">'.$menu_lang['eintrag_27'].'</div></a>';
     echo '<a href="options.php"><div class="btn">' . $menu_lang['eintrag_24'] . '</div></a>';
-    //echo '<a href="'.$sv_link[2].'" target="_blank"><div class="btn">'.$menu_lang['eintrag_26'].'</div></a>';
+    //echo '<a href="'.$sv_link[2].'" ><div class="btn">'.$menu_lang['eintrag_26'].'</div></a>';
 
     if (getDefaultVariable('sv_deactivate_efta') == 0) echo '<a href="eftamain.php"><div class="btn">EFTA</div></a>';
     if (getDefaultVariable('sv_deactivate_efta') == 0) echo '<a href="efta_chat.php?frame=1"><div class="btn">EFTA-Chat</div></a>';
@@ -256,49 +256,49 @@ echo '<div id="menumain">';
 echo '<div id="menubtns">';
 
 //alle men�punkte hier anlegen
-echo '<a href="overview.php" target="h" class="btn">' . $menu_lang['eintrag_1'] . '</a>';
-echo '<a href="hyperfunk.php" target="h" class="btn">' . $menu_lang['eintrag_2'] . '</a>';
-echo '<a href="sysnews.php" target="h" class="btn">' . $menu_lang['eintrag_3'] . '</a>';
+echo '<a href="overview.php"  class="btn">' . $menu_lang['eintrag_1'] . '</a>';
+echo '<a href="hyperfunk.php"  class="btn">' . $menu_lang['eintrag_2'] . '</a>';
+echo '<a href="sysnews.php"  class="btn">' . $menu_lang['eintrag_3'] . '</a>';
 echo '<span class="btnspacer">&nbsp;</span>';
 
-echo '<a href="'. route('building.index') .'" target="h" class="btn"><div class="btn">TechnologienN</div></a>';
-echo '<a href="ang_techs.php" target="h" class="btn"><div class="btn">Technologien</div></a>';
-echo '<a href="specialization.php" target="h" class="btn"><div class="btn">Spezialisierung</div></a>';
+echo '<a href="'. route('building.index') .'"  class="btn"><div class="btn">TechnologienN</div></a>';
+echo '<a href="ang_techs.php"  class="btn"><div class="btn">Technologien</div></a>';
+echo '<a href="specialization.php"  class="btn"><div class="btn">Spezialisierung</div></a>';
 
 
-echo '<a href="resource.php" target="h" class="btn">' . $menu_lang['eintrag_6'] . '</a>';
-echo '<a href="artefacts.php" target="h" class="btn">' . $menu_lang['eintrag_18'] . '</a>';
+echo '<a href="resource.php"  class="btn">' . $menu_lang['eintrag_6'] . '</a>';
+echo '<a href="artefacts.php"  class="btn">' . $menu_lang['eintrag_18'] . '</a>';
 echo '<span class="btnspacer">&nbsp;</span>';
-echo '<a href="auction.php" target="h" class="btn">Auktion</a>';
-echo '<a href="missions.php" target="h" class="btn">Missionen</a>';
+echo '<a href="auction.php"  class="btn">Auktion</a>';
+echo '<a href="missions.php"  class="btn">Missionen</a>';
 
 if (getDefaultVariable('sv_deactivate_vsystems') != 1) {
-    echo '<a href="map_mobile.php" target="h" class="btn">V-Systeme</a>';
-    //echo '<a href="specialship.php" target="h" class="btn">Basisstern/BG</a>';
-    //echo '<a href="battlegrounds.php" target="h" class="btn">Battlegrounds</a>';
+    echo '<a href="map_mobile.php"  class="btn">V-Systeme</a>';
+    //echo '<a href="specialship.php"  class="btn">Basisstern/BG</a>';
+    //echo '<a href="battlegrounds.php"  class="btn">Battlegrounds</a>';
 }
-echo '<a href="blackmarket.php" target="h" class="btn">' . $menu_lang['eintrag_35'] . '</a>';
+echo '<a href="blackmarket.php"  class="btn">' . $menu_lang['eintrag_35'] . '</a>';
 
 echo '<span class="btnspacer">&nbsp;</span>';
-echo '<a href="production.php" target="h" class="btn">' . $menu_lang['eintrag_8'] . '</a>';
-echo '<a href="military.php" target="h" class="btn">Flotten</a>';
-echo '<a href="secret.php" target="h" class="btn">' . $menu_lang['eintrag_11'] . '</a>';
+echo '<a href="production.php"  class="btn">' . $menu_lang['eintrag_8'] . '</a>';
+echo '<a href="military.php"  class="btn">Flotten</a>';
+echo '<a href="secret.php"  class="btn">' . $menu_lang['eintrag_11'] . '</a>';
 
 echo '<span class="btnspacer">&nbsp;</span>';
-echo '<a href="sector.php" target="h" class="btn">' . $menu_lang['eintrag_12'] . '</a>';
-echo '<a href="secstatus.php" target="h" class="btn">' . $menu_lang['eintrag_13'] . '</a>';
-//echo '<a href="politics.php" target="h" class="btn">'.$menu_lang['eintrag_15'].'</a>';
+echo '<a href="sector.php"  class="btn">' . $menu_lang['eintrag_12'] . '</a>';
+echo '<a href="secstatus.php"  class="btn">' . $menu_lang['eintrag_13'] . '</a>';
+//echo '<a href="politics.php"  class="btn">'.$menu_lang['eintrag_15'].'</a>';
 //echo '<span class="btnspacer">&nbsp;</span>';
-echo '<a href="allymain.php" target="h" class="btn">' . $menu_lang['eintrag_16'] . '</a>';
+echo '<a href="allymain.php"  class="btn">' . $menu_lang['eintrag_16'] . '</a>';
 echo '<span class="btnspacer">&nbsp;</span>';
 
-echo '<a href="statistics.php" target="h" class="btn">' . $menu_lang['eintrag_21'] . '</a>';
-echo '<a href="toplist.php" target="h" class="btn">' . $menu_lang['eintrag_22'] . '</a>';
-//echo '<a href="community.php" target="h" class="btn">'.$menu_lang['eintrag_27'].'</a>';
+echo '<a href="statistics.php"  class="btn">' . $menu_lang['eintrag_21'] . '</a>';
+echo '<a href="toplist.php"  class="btn">' . $menu_lang['eintrag_22'] . '</a>';
+//echo '<a href="community.php"  class="btn">'.$menu_lang['eintrag_27'].'</a>';
 echo '<span class="btnspacer">&nbsp;</span>';
-echo '<a href="options.php" target="h" class="btn">' . $menu_lang['eintrag_24'] . '</a>';
-//echo '<a href="'.$sv_link[2].'" target="_blank" class="btn">'.$menu_lang['eintrag_26'].'</a>';
-echo '<a href="index.php?logout=1" target="h" class="btn">' . $menu_lang['eintrag_29'] . '</a>';
+echo '<a href="options.php"  class="btn">' . $menu_lang['eintrag_24'] . '</a>';
+//echo '<a href="'.$sv_link[2].'"  class="btn">'.$menu_lang['eintrag_26'].'</a>';
+echo '<a href="index.php?logout=1"  class="btn">' . $menu_lang['eintrag_29'] . '</a>';
 
 echo '</div>';
 echo '</div>';

@@ -76,7 +76,7 @@ if ($_REQUEST["input"]==1)
   function empty_field_and_submit()
   {
    var loctarget=document.f.chat_message.value.replace("+", "&#43;");
-   loctarget="efta_chat.php?insert=1&chat_message="+escape(loctarget);
+   loc+escape(loctarget);
    document.f.chat_message.value='';
    document.f.chat_message.focus();
    parent.chat_mitte.location.href = loctarget;
@@ -153,7 +153,7 @@ echo '<body bgcolor="#000000" onLoad="gd()">';
 if ($_REQUEST["input"]==1)
 {
   //bereich definieren
-  echo '<form action="efta_chat.php" method="GET" target="chat_mitte" name="f" OnSubmit="return empty_field_and_submit()">';
+  echo '<form action="efta_chat.php" method="GET"  name="f" OnSubmit="return empty_field_and_submit()">';
   echo '
   <input type="hidden" name="insert" value="1">
 

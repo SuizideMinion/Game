@@ -391,13 +391,13 @@ function format_chat_output($row)
     if ($row["message"][0] == '/' and $row["message"][1] == 'm' and $row["message"][2] == 'e') {
         //me entfernen
         $row["message"] = str_replace("/me", "", $row["message"]);
-        $output .= '<font color="' . $color . '" title="' . $datum . '">[' . $zeit . ']' . $server_tag . '</font> <font color="#FF771D"><a href="details.php?sn=' . $row["spielername"] . '" target="h" style="color: #FF771D;"><u>' . $row["spielername"] . '</u></a> ' . $row["message"] . '</font>';
+        $output .= '<font color="' . $color . '" title="' . $datum . '">[' . $zeit . ']' . $server_tag . '</font> <font color="#FF771D"><a href="details.php?sn=' . $row["spielername"] . '"  style="color: #FF771D;"><u>' . $row["spielername"] . '</u></a> ' . $row["message"] . '</font>';
     } else {
         if ($row["spielername"] != '') {
             if (getDefaultVariable('sv_server_tag') == $row['server_tag'] || $row['server_tag'] == '') {
-                $spielername = '<a href="details.php?sn=' . $row["spielername"] . '" target="h" style="color: ' . $color . ';"><i><u>' . $row["spielername"] . '</u></i></a>';
+                $spielername = '<a href="details.php?sn=' . $row["spielername"] . '"  style="color: ' . $color . ';"><i><u>' . $row["spielername"] . '</u></i></a>';
             } else {
-                $spielername = '<a href="details.php?sn=' . $row["spielername"] . '&ctyp=' . $row['channeltyp'] . '&cid=' . $row['id'] . '" target="h" style="color: ' . $color . ';"><i><u>' . $row["spielername"] . '</u></i></a>';
+                $spielername = '<a href="details.php?sn=' . $row["spielername"] . '&ctyp=' . $row['channeltyp'] . '&cid=' . $row['id'] . '"  style="color: ' . $color . ';"><i><u>' . $row["spielername"] . '</u></i></a>';
             }
 
             if ($row['spielername'] == 'odo') {

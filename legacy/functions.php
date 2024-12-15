@@ -1604,7 +1604,7 @@ function showtech2($techname, $gebnr, $rt01, $rt02, $rt03, $rt04, $rt05, $buildg
     echo '
 	<table border="0" cellpadding="0" cellspacing="0">
 	<tr>
-		<td width="75"><a href="' . $sv_link[0] . '?r=' . $ums_rasse . '&t=' . $gebnr . '" target="_blank">' . $tooltip . '</a></td>
+		<td width="75"><a href="' . $sv_link[0] . '?r=' . $ums_rasse . '&t=' . $gebnr . '" >' . $tooltip . '</a></td>
 		<td width="145" align="center"><a href="help.php?t=' . $gebnr . '" class="link">' . $techname . '</a></td>
 	</tr>
 	</table>';
@@ -1688,7 +1688,7 @@ function showeinheit2($techname, $tech_id, $rt01, $rt02, $rt03, $rt04, $rt05, $t
     echo '
 	<table border="0" cellpadding="0" cellspacing="0">
 	<tr>
-		<td width="75"><a href="' . $sv_link[0] . '?r=' . $ums_rasse . '&t=' . $tech_id . '" target="_blank">' . $tooltip . '</a></td>
+		<td width="75"><a href="' . $sv_link[0] . '?r=' . $ums_rasse . '&t=' . $tech_id . '" >' . $tooltip . '</a></td>
 		<td class="' . $bg . '" width="108" align="center"><a href="help.php?t=' . $tech_id . '" class="link">' . $techname . '</a></td>
 	</tr>
 	</table>';

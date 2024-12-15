@@ -500,7 +500,7 @@ if (!hasTech($pt,4)){
   rahmen_oben('Fehlendes Geb&auml;ude');
   echo '<table width="572" border="0" cellpadding="0" cellspacing="0">';
   echo '<tr align="left" class="cell">
-  <td width="100"><a href="'.$sv_link[0].'?r='.$ums_rasse.'&t=4" target="_blank"><img src="'.$ums_gpfad.'g/t/'.$ums_rasse.'_4.jpg" border="0"></a></td>
+  <td width="100"><a href="'.$sv_link[0].'?r='.$ums_rasse.'&t=4" ><img src="'.$ums_gpfad.'g/t/'.$ums_rasse.'_4.jpg" border="0"></a></td>
   <td valign="top">Du ben&ouml;tigst folgendes Geb&auml;ude, welches Du links unter dem Men&uuml;punkt Technologien->Geb&auml;ude bauen kannst: '.$row_techcheck['tech_name'].'</td>
   </tr>';
   echo '</table>';

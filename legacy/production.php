@@ -400,7 +400,7 @@ if ($techs[13]==0){
 	rahmen_oben($production_lang[fehlendesgebaeude]);
 	echo '<table width="572" border="0" cellpadding="0" cellspacing="0">';
 	echo '<tr align="left" class="cell">
-	<td width="100"><a href="'.$sv_link[0].'?r='.$ums_rasse.'&t=13" target="_blank"><img src="'.$ums_gpfad.'g/t/'.$ums_rasse.'_13.jpg" border="0"></a></td>
+	<td width="100"><a href="'.$sv_link[0].'?r='.$ums_rasse.'&t=13" ><img src="'.$ums_gpfad.'g/t/'.$ums_rasse.'_13.jpg" border="0"></a></td>
 	<td valign="top">'.$production_lang[gebaeudeinfo].': '.$row_techcheck[tech_name].'</td>
 	</tr>';
 	echo '</table>';

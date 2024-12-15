@@ -110,7 +110,7 @@ if($suspendall) {
     while($user = mysql_fetch_array($result))
     {
       echo '<tr>';
-      echo '<td><a href="idinfo.php?UID='.$user["user_id"].'" target="_blank">'.$user["user_id"].'</a></td>';
+      echo '<td><a href="idinfo.php?UID='.$user["user_id"].'" >'.$user["user_id"].'</a></td>';
       echo '<td>'.$user["nic"].'</td>';
       echo '<td>'.$user["reg_mail"].'</td>';
       echo '<td>'.modpass($user["pass"]).'</td>';
@@ -120,7 +120,7 @@ if($suspendall) {
       if ($user["status"]==1) $status='Aktiv';
       if ($user["status"]==2) $status='Gesperrt';
       if ($user["status"]==3) $status='Urlaub';
-      $status .= ' <a href="de_set_user_status.php?uid='.$user["user_id"].'&status=2" target="setuserstatus">[S]</a>';
+      $status .= ' <a href="de_set_user_status.php?uid='.$user["user_id"].'&status=2" >[S]</a>';
       echo '<td>'.$status.'</td>';
       echo '<td>'.$user["logins"].'</td>';
       echo '</tr>';

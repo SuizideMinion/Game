@@ -89,7 +89,7 @@ if (!hasTech($pt, 4)) {
     $content .= rahmen_oben('Fehlende Technologie', false);
     $content .= '<table width="572" border="0" cellpadding="0" cellspacing="0">';
     $content .= '<tr align="left" class="cell">
-	<td width="100"><a href="' . $sv_link[0] . '?r=' . $ums_rasse . '&t=4" target="_blank"><img src="' . $ums_gpfad . 'g/t/' . $ums_rasse . '_4.jpg" border="0"></a></td>
+	<td width="100"><a href="' . $sv_link[0] . '?r=' . $ums_rasse . '&t=4" ><img src="' . $ums_gpfad . 'g/t/' . $ums_rasse . '_4.jpg" border="0"></a></td>
 	<td valign="top">Du ben&ouml;tigst folgende Technogie: ' . getTechNameByRasse($row_techcheck['tech_name'], $_SESSION['ums_rasse']) . '</td>
 	</tr>';
     $content .= '</table>';

@@ -28,7 +28,7 @@ echo '<br><br><h1>Nachricht erfolgreich editiert</h1><br><br>';
 if($action=="del")
 {
 mysql_query("DELETE FROM de_news_overview WHERE id='$id'");
-echo '<br><br><h1>Nachricht erfolgreich gelöscht</h1><br><br>';
+echo '<br><br><h1>Nachricht erfolgreich gelï¿½scht</h1><br><br>';
 }
 
 if($action=="aendern")
@@ -38,10 +38,10 @@ if($action=="aendern")
 
   $row=mysql_fetch_array($sel_news_edit);
 
-echo '<form action="de_b_news.php?id='.$id.'" method="post" target="Hauptframe">
+echo '<form action="de_b_news.php?id='.$id.'" method="post" >
   <table border="1">
   <tr>
-    <td colspan="2" align="center"><b>News ändern</b></td>
+    <td colspan="2" align="center"><b>News ï¿½ndern</b></td>
   </tr>
   <tr>
     <td>Betreff:</td>
@@ -65,7 +65,7 @@ if($action!="aendern")
 ?>
 
 
-<form action="de_b_news.php" method="post" target="Hauptframe">
+<form action="de_b_news.php" method="post" >
 <table border="1">
   <tr>
     <td colspan="2" align="center"><b>News eintragen</b></td>
@@ -100,7 +100,7 @@ if($action!="aendern")
   $nachricht = nl2br($row[nachricht]);
   echo '<tr><td>
   <fieldset><table border="0" width="100%">
-  <tr><td><b>Betreff:</b> '.$row[betreff].'</td><td align="center" width="170"><b>Zeit:</b> '.$time.'</td><td align="center" width="90">Klicks: '.$row[klicks].'</td><td align="center" width="100"><b><a href="de_b_news.php?id='.$row[id].'&action=del" onclick="return confirm(\'M&ouml;chtest du die Nachricht wirklich l&ouml;schen?\')">löschen</a>&nbsp;&nbsp;&nbsp;<a href="de_b_news.php?id='.$row[id].'&action=aendern">ändern</a></b></td></tr>
+  <tr><td><b>Betreff:</b> '.$row[betreff].'</td><td align="center" width="170"><b>Zeit:</b> '.$time.'</td><td align="center" width="90">Klicks: '.$row[klicks].'</td><td align="center" width="100"><b><a href="de_b_news.php?id='.$row[id].'&action=del" onclick="return confirm(\'M&ouml;chtest du die Nachricht wirklich l&ouml;schen?\')">lï¿½schen</a>&nbsp;&nbsp;&nbsp;<a href="de_b_news.php?id='.$row[id].'&action=aendern">ï¿½ndern</a></b></td></tr>
   <tr><td colspan="4"><hr>'.$nachricht.'</td></tr></table></fieldset><br>';
   }
 

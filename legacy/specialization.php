@@ -41,7 +41,7 @@ echo '
 <a href="buildings.php" title="Geb&auml;ude"><img src="'.$ums_gpfad.'g/symbol17.png" border="0" width="64px" heigth="64px"></a>
 <a href="research.php" title="Forschung"><img src="'.$ums_gpfad.'g/symbol18.png" border="0" width="64px" heigth="64px"></a>
 <a href="specialization.php" title="Spezialisierung"><img src="'.$ums_gpfad.'g/symbol16.png" border="0" width="64px" heigth="64px"></a>
-<a href="techtree.php" target="'.getDefaultVariable('sv_server_tag').'techtree" title="Technologiebaum"><img src="'.$ums_gpfad.'g/symbol14.png" border="0" width="64px" heigth="64px"></a>';
+<a href="techtree.php"  title="Technologiebaum"><img src="'.$ums_gpfad.'g/symbol14.png" border="0" width="64px" heigth="64px"></a>';
 */
 
 if(isset($_REQUEST['reset'])){

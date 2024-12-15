@@ -98,7 +98,7 @@ include "det_userdata.inc.php";
  if ((isset($delvote)) AND ($delvote != "")) {
    mysql_query("UPDATE de_user_data SET votefor = 0 WHERE sector = ".$showsek." AND system = ".$delvote,$db);
                          if (mysql_errno()) { echo '<font color="#FF0000">Error '.mysql_errno().'</font>: '.mysql_error().'<br>'; }
-   echo "Vote von ".$showsek.":".$delvote." gelöscht.";
+   echo "Vote von ".$showsek.":".$delvote." gelï¿½scht.";
  }
 
  if ((isset($showsek)) AND ($showsek != "")) {
@@ -119,7 +119,7 @@ include "det_userdata.inc.php";
 
        echo '<tr><td>Name</td><td><input type="text" name="sektorname" size="50" value="'.$SData["name"].'"></td></tr>';
 
-       if ($SData["url"] != "") { $ShowPic = '[<a href="'.$SData["url"].'" target="_blank">ANZEIGEN</a>]'; } else { $ShowPic = ""; }
+       if ($SData["url"] != "") { $ShowPic = '[<a href="'.$SData["url"].'" >ANZEIGEN</a>]'; } else { $ShowPic = ""; }
        echo '<tr><td>Sekbild</td><td><input type="text" name="sektorbild" size="50" value="'.$SData["url"].'"> '.$ShowPic.'</td></tr>';
 
        $SKData = mysql_query("SELECT user_id, spielername, votefor, system FROM de_user_data WHERE sector = ".$SData["sec_id"]." ORDER BY system",$db);
@@ -130,7 +130,7 @@ include "det_userdata.inc.php";
          $userids[$SKInfo["system"]] = $SKInfo["user_id"];
 
          $SKVotes .= $SKInfo["system"].' votes for '.$SKInfo["votefor"];
-         if ($SKInfo["votefor"] != 0) { $SKVotes .= ' [<a href="'.$PHP_SELF.'?showsek='.$SData["sec_id"].'&delvote='.$SKInfo["system"].'">löschen</a>]'; }
+         if ($SKInfo["votefor"] != 0) { $SKVotes .= ' [<a href="'.$PHP_SELF.'?showsek='.$SData["sec_id"].'&delvote='.$SKInfo["system"].'">lï¿½schen</a>]'; }
          $SKVotes .= '<br>';
        }
        $SKVotes .= '</td></tr>';
@@ -144,13 +144,13 @@ include "det_userdata.inc.php";
 
          if ($Anz1 > $Anz2) {
            if ($userids[$Sys1] == "") { echo '<tr><td>SK</td><td>[<font color="#FF0000">NA</font>] - '.$Anz1.' Vote(s)</td></tr>'; }
-            else { echo '<tr><td>SK</td><td><a href="idinfo.php?UID='.$userids[$Sys1].'" target="_blank">'.$nicks[$Sys1].'</a></td></tr>'; }
+            else { echo '<tr><td>SK</td><td><a href="idinfo.php?UID='.$userids[$Sys1].'" >'.$nicks[$Sys1].'</a></td></tr>'; }
          }
          elseif ($Anz1 == $Anz2) {
            if (($userids[$Sys1] == "") AND ($userids[$Sys2] == "")) { echo '<tr><td>SK</td><td>Votegleichstand [ '.$Anz1.' = '.$Anz2.' ] - [ [<font color="#FF0000">NA</font>] = [<font color="#FF0000">NA</font>] ]</td></tr>'; }
-           elseif ($userids[$Sys1] == "") { echo '<tr><td>SK</td><td>Votegleichstand [ '.$Anz1.' = '.$Anz2.' ] - [ [<font color="#FF0000">NA</font>] = <a href="idinfo.php?UID='.$userids[$Sys2].'" target="_blank">'.$nicks[$Sys2].'</a> ]</td></tr>'; }
-           elseif ($userids[$Sys2] == "") { echo '<tr><td>SK</td><td>Votegleichstand [ '.$Anz1.' = '.$Anz2.' ] - [ <a href="idinfo.php?UID='.$userids[$Sys1].'" target="_blank">'.$nicks[$Sys1].'</a> = [<font color="#FF0000">NA</font>] ]</td></tr>'; }
-           else { echo '<tr><td>SK</td><td>Votegleichstand [ '.$Anz1.' = '.$Anz2.' ] - [ <a href="idinfo.php?UID='.$userids[$Sys1].'" target="_blank">'.$nicks[$Sys1].'</a> = <a href="idinfo.php?UID='.$userids[$Sys2].'" target="_blank">'.$nicks[$Sys2].'</a> ]</td></tr>'; }
+           elseif ($userids[$Sys1] == "") { echo '<tr><td>SK</td><td>Votegleichstand [ '.$Anz1.' = '.$Anz2.' ] - [ [<font color="#FF0000">NA</font>] = <a href="idinfo.php?UID='.$userids[$Sys2].'" >'.$nicks[$Sys2].'</a> ]</td></tr>'; }
+           elseif ($userids[$Sys2] == "") { echo '<tr><td>SK</td><td>Votegleichstand [ '.$Anz1.' = '.$Anz2.' ] - [ <a href="idinfo.php?UID='.$userids[$Sys1].'" >'.$nicks[$Sys1].'</a> = [<font color="#FF0000">NA</font>] ]</td></tr>'; }
+           else { echo '<tr><td>SK</td><td>Votegleichstand [ '.$Anz1.' = '.$Anz2.' ] - [ <a href="idinfo.php?UID='.$userids[$Sys1].'" >'.$nicks[$Sys1].'</a> = <a href="idinfo.php?UID='.$userids[$Sys2].'" >'.$nicks[$Sys2].'</a> ]</td></tr>'; }
          }
        }
        else { echo '<tr><td>SK</td><td>---</td></tr>'; }
@@ -159,7 +159,7 @@ include "det_userdata.inc.php";
 
        $BKInfo = mysql_fetch_array(mysql_query("SELECT user_id, spielername FROM de_user_data WHERE sector = ".$SData["sec_id"]." AND system = ".$SData["bk"],$db));
        if ($BKInfo == false) { echo '<tr><td>BK</td><td>---</td></tr>'; }
-        else { echo '<tr><td>BK</td><td><a href="idinfo.php?UID='.$BKInfo["user_id"].'" target="_blank">'.$BKInfo["spielername"].'</a></td></tr>'; }
+        else { echo '<tr><td>BK</td><td><a href="idinfo.php?UID='.$BKInfo["user_id"].'" >'.$BKInfo["spielername"].'</a></td></tr>'; }
 
        echo '<tr><td colspan="2">Informationen vom SK</td></tr><tr><td colspan="2">'.skmesaufbereitung($SData["skmes"]).'</td></tr>';
 
@@ -175,7 +175,7 @@ include "det_userdata.inc.php";
    }
    else { echo "Fehlerhafte Sektorangabe!"; }
  }
- else { echo "Es wurde kein Sektor gewählt."; }
+ else { echo "Es wurde kein Sektor gewï¿½hlt."; }
 ?>
 
 </center>

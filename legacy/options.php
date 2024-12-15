@@ -650,7 +650,7 @@ echo '
 </tr>
 <tr align="center">
 <td width="13" height="25" class="rl">&nbsp;</td>
-<td colspan="2"><a href="userdetails.php" target="h" class="btn">' . $options_lang['userdetails'] . '</a></td>
+<td colspan="2"><a href="userdetails.php"  class="btn">' . $options_lang['userdetails'] . '</a></td>
 <td width="13" class="rr">&nbsp;</td>
 </tr>
 

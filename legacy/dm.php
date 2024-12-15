@@ -87,14 +87,14 @@ $_SESSION['ic_last_refresh'] = 0;
     echo '<span onclick="switch_iframe_main_container(\'options.php\')" class="btn">' . $menu_lang['eintrag_24'] . '</span>';
 
     //		if(!isset(getDefaultVariable('sv_deactivate_efta')) || getDefaultVariable('sv_deactivate_efta')==0){
-    //			echo '<br><a href="eftaindex.php" target="_blank" class="btn">EFTA</a>';
+    //			echo '<br><a href="eftaindex.php"  class="btn">EFTA</a>';
     //		}
     //
     //		if(!isset(getDefaultVariable('sv_deactivate_sou')) || getDefaultVariable('sv_deactivate_sou')==0){
-    //			echo '<br><a href="sou_index.php" target="_blank" class="btn">EA</a>';
+    //			echo '<br><a href="sou_index.php"  class="btn">EA</a>';
     //		}
 
-    //echo '<br><a href="'.$sv_link[2].'" target="_blank" class="btn">'.$menu_lang['eintrag_26'].'</a>';
+    //echo '<br><a href="'.$sv_link[2].'"  class="btn">'.$menu_lang['eintrag_26'].'</a>';
     echo '<br><a href="index.php?logout=1" class="btn">' . $menu_lang['eintrag_29'] . '</a>';
 
     echo '
@@ -228,8 +228,8 @@ $_SESSION['ic_last_refresh'] = 0;
 
     <?php
     //<div onclick="switch_iframe_main_container_big('ang_techs.php')" style="position: absolute; left: 4px; bottom: 4px;"><img src="g/button_tech.png" style="height: 48px; width: auto;" title="Technologien"></div>
-    //<a href="production.php" target="h" style="position: absolute; left: 56px; bottom: 4px;"><img src="g/button_production.png" style="height: 48px; width: auto;" title="Produktion"></a>
-    //<a href="specialization.php" target="h" style="position: absolute; left: 108px; bottom: 4px;"><img src="g/button_specialization.png" style="height: 48px; width: auto;" title="Spezialisierung"></a>
+    //<a href="production.php"  style="position: absolute; left: 56px; bottom: 4px;"><img src="g/button_production.png" style="height: 48px; width: auto;" title="Produktion"></a>
+    //<a href="specialization.php"  style="position: absolute; left: 108px; bottom: 4px;"><img src="g/button_specialization.png" style="height: 48px; width: auto;" title="Spezialisierung"></a>
 
     //<div onclick="switch_iframe_main_container_big('ang_production.php')" style="position: absolute; left: 56px; bottom: 4px;"><img src="g/button_production.png" style="height: 48px; width: auto;" title="Produktion"></div>
     /*

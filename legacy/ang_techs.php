@@ -11,13 +11,13 @@ include 'functions.php';
 
 	<meta charset="utf-8"/>
 
-	<script type="text/javascript" src="/legacy/js/jquery.min.js"></script>
-	<script type="text/javascript" src="/legacy/js/ang_fn.js"></script>
-	<script type="text/javascript" src="/legacy/js/de_fn.js"></script>
 
 	<link rel="stylesheet" href="/legacy/js/jquery-ui.min-1.12.0.css">
 	<link rel="stylesheet" href="/legacy/g/style.css">
 
+    <script type="text/javascript" src="/legacy/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/legacy/js/ang_fn.js"></script>
+    <script type="text/javascript" src="/legacy/js/de_fn.js"></script>
 <?php
 //include "cssinclude.php";
 ?>

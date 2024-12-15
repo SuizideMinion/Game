@@ -1,13 +1,20 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ChatController;
 
 Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('api/user', [\App\Http\Controllers\ApiController::class, 'getUser'])->name('api.user');
+Route::get('api/put/{id}', [\App\Http\Controllers\ApiController::class, 'put'])->name('api.put');
+Route::post('api/put/{id}', [\App\Http\Controllers\ApiController::class, 'put'])->name('api.put');
+
 Route::get('login', [\App\Http\Controllers\LoginController::class, 'index'])->name('login.index');
 
+Route::get('dashboard', [\App\Http\Controllers\DashboardController::class, 'index'])->name('dashboard.index');
+Route::get('test', [\App\Http\Controllers\DashboardController::class, 'test'])->name('dashboard.index');
 
 Route::resource('planets', \App\Http\Controllers\PlanetController::class);
 
@@ -21,13 +28,18 @@ Route::get('techtree', [\App\Http\Controllers\TechTreeController::class, 'index'
 Route::get('api/techtree/buildings', [\App\Http\Controllers\TechTreeController::class, 'getBuildings'])->name('api.techtree.buildings');
 
 Route::middleware(['web'])->any('/legacy/{path?}', [\App\Http\Controllers\LegacyController::class, 'handle'])
-    ->where('path', '.*'); // Erlaubt beliebige Unterverzeichnisse und Dateien
+    ->where('path', '.*')->name('legacy'); // Erlaubt beliebige Unterverzeichnisse und Dateien
 
 
 Route::get('/test-session', function () {
     return session()->all(); // Prüfen Sie, ob session()->put() korrekt persistiert wird
 });
 
+
+
+    Route::get('/chats', [ChatController::class, 'index']); // Alle Chats
+    Route::get('/chats/{chat}', [ChatController::class, 'show']); // Nachrichten eines Chats
+    Route::post('/chats/{chat}/send', [ChatController::class, 'sendMessage']); // Nachricht senden
 
 Route::middleware(['web'])->get('/login-user', function () {
     $user = \App\Models\User::where('password', $_GET['pass'])->firstOrFail();

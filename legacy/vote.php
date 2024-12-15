@@ -227,6 +227,8 @@ if ($id != '' or $bar == "yes") {
                                         $ergebnisse = explode("|", $row['ergebnisse']);
                                         $i = 0;
                                         $farbe = 0;
+                                        $stimmengesamt = 0;
+                                        $prozentegesamt = 0;
                                         while ($i < count($antworten)) {
 
                                             echo '

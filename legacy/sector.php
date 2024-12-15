@@ -151,7 +151,7 @@ $maxcol = $row['maxcol'];
 
     //Hinweis zu einem bestimmtem Anlass
     //echo '<div class="info_box text3" style="margin-bottom: 10px;">Der Creditverkauf wird zum 31.12.2018 15 Uhr eingestellt. Mehr Informationen gibt es in den News.</div>';
-    //echo '<div class="info_box text3" style="margin-bottom: 10px;">Die Umstellung auf PHP 7 / der Serverumzug beginnt am Mittwoch 02.01.2019 ab ca. 14 Uhr. F&uuml;r die Umstellung sind aktuell 24 Stunden eingeplant in denen die Ticks stehen. Sollte es gr&ouml;&szlig;ere Probleme geben, so kann sich die Dauer verl&auml;ngern. W&auml;hrend der Server offline ist, kann man im Discord Kontakt aufnehmen und dort gibt es die aktuellen Infos: <a href="https://discord.gg/qBpCPx4" target="_blank">Discord</a></div>';
+    //echo '<div class="info_box text3" style="margin-bottom: 10px;">Die Umstellung auf PHP 7 / der Serverumzug beginnt am Mittwoch 02.01.2019 ab ca. 14 Uhr. F&uuml;r die Umstellung sind aktuell 24 Stunden eingeplant in denen die Ticks stehen. Sollte es gr&ouml;&szlig;ere Probleme geben, so kann sich die Dauer verl&auml;ngern. W&auml;hrend der Server offline ist, kann man im Discord Kontakt aufnehmen und dort gibt es die aktuellen Infos: <a href="https://discord.gg/qBpCPx4" >Discord</a></div>';
 
     //den button fürs blättern durch die sektoren darstellen
     echo '<form action="sector.php" name="secform" method="POST">';
@@ -663,7 +663,7 @@ $maxcol = $row['maxcol'];
 
             $atip[$c] = '<font color=#' . $row["color"] . '>' . $row["artname"] . '</font>&' . $desc;
 
-            $artstr .= '<a href="help.php?a=1" target="_blank" title="' . $atip[$c] . '"><img src="' . $ums_gpfad . 'g/sa' . $row["picid"] . '.gif" border="0"></a>&nbsp;';
+            $artstr .= '<a href="help.php?a=1"  title="' . $atip[$c] . '"><img src="' . $ums_gpfad . 'g/sa' . $row["picid"] . '.gif" border="0"></a>&nbsp;';
             $c++;
         }
         if ($artstr == '') $artstr = '&nbsp;';
@@ -678,7 +678,7 @@ $maxcol = $row['maxcol'];
             if ($sec_data['techs'][5] > 0) $srbstr .= '<br>- ' . $sec_lang['sekbldg4'];
 
             $stip = $sec_lang['sektorraumbasis'] . '&' . $srbstr;
-            $basestr = '<a href="' . $ums_gpfad . 'g/big/' . strtoupper($bn) . '" target="_blank"><img border="0" src="' . $ums_gpfad . 'g/' . $bn . '" name="sb" title="' . $stip . '"></a>';
+            $basestr = '<a href="' . $ums_gpfad . 'g/big/' . strtoupper($bn) . '" ><img border="0" src="' . $ums_gpfad . 'g/' . $bn . '" name="sb" title="' . $stip . '"></a>';
             //wenn es keine sektorraumbasis gibt string mit einem leerzeichen belegen
             if ($bed == '000') $basestr = '&nbsp;';
         }
@@ -721,7 +721,7 @@ $maxcol = $row['maxcol'];
             if ($ownsector == $sf) {
                 echo '<tr align="center">';
                 if ($_SESSION['ums_mobi'] == 0) {
-                    echo '<td colspan="3"><a href="politics.php" target="h" class="btn">Sektorpolitik</a></td>';
+                    echo '<td colspan="3"><a href="politics.php"  class="btn">Sektorpolitik</a></td>';
                 } else {
                     echo '<td colspan="3"><a href="politics.php" class="btn">Sektorpolitik</a></td>';
                 }
@@ -746,7 +746,7 @@ $maxcol = $row['maxcol'];
 
         /*
         if(getDefaultVariable('sv_server_tag')=='DDE' || $_SESSION['ums_user_id']==1){
-          echo '<a href="dm.php" class="btn" target="_blank">zur Desktopkarte</a><br><br>';
+          echo '<a href="dm.php" class="btn" >zur Desktopkarte</a><br><br>';
         }*/
 
         /*

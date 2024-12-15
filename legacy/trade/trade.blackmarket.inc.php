@@ -596,7 +596,7 @@ echo '<tr><td align=left><h2>'.$tradeblackmarketinc_lang[willkommen].'</h2></td>
 
 if (getDefaultVariable('sv_pcs_id')>0 AND $showpcs==0 AND $ums_cooperation==0)
 //echo '<tr><td><span class="info_box"><a href="trade.php?viewmode=blackmarket&showpcs=1"><span class="text3">'.$tradeblackmarketinc_lang[creditangebot].'</span></a></span><br><br></td></tr>';
-echo '<tr><td><div class="info_box"><a href="http://login.bgam.es/index.php?command=credits" target="_blank"><span class="text3">'.$tradeblackmarketinc_lang[creditangebot].'</span></a></div><br><br></td></tr>';
+echo '<tr><td><div class="info_box"><a href="http://login.bgam.es/index.php?command=credits" ><span class="text3">'.$tradeblackmarketinc_lang[creditangebot].'</span></a></div><br><br></td></tr>';
 
 echo '<tr><td>'.$tradeblackmarketinc_lang[msg_14_1].' <b>'.$credits.' '.$tradeblackmarketinc_lang[msg_14_2].'</b></td></tr>';
 echo '<tr><td>'.$tradeblackmarketinc_lang[msg_14_3].'</td></tr>';

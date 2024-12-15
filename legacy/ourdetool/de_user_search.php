@@ -99,20 +99,20 @@ include "../inccon.php";
 {
 $sstr=trim($sstr);
 echo '&nbsp;&nbsp;User ID: '.$sstr;
-echo '<br>&nbsp;&nbsp;&nbsp;&nbsp;<a href="info.php?uid='.$sstr.'" target="de_user_anzeige">Info</a>';
-echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="tf.php?uid='.$sstr.'" target="de_user_anzeige">Hyperfunk</a>';
-echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="nachrichten.php?uid='.$sstr.'" target="de_user_anzeige">Nachrichten</a>';
-echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="de_user_getcol.php?uid='.$sstr.'" target="de_user_anzeige">Kollektoren</a>';
-echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="de_user_ip.php?uid='.$sstr.'" target="de_user_anzeige">IPs</a>'; 
-echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="techs.php?uid='.$sstr.'" target="de_user_anzeige">Technologien</a>';
-echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="sektorstatus.php?uid='.$sstr.'" target="de_user_anzeige">Sektorstatus</a>';
-//echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="sekforumourdetool.php?uid='.$sstr.'" target="de_user_anzeige">Sektorforum</a>';
-echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="de_user_logviewer.php?uid='.$sstr.'" target="de_user_anzeige">Logviewer</a>';
-echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="de_user_logsearch.php?uid='.$sstr.'" target="de_user_anzeige">Logsuche</a>';
-echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="de_user_stat.php?uid='.$sstr.'" target="de_user_anzeige">Statistik</a>';
-echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="de_user_chat.php?uid='.$sstr.'" target="de_user_anzeige">Chat</a>';
-echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="de_user_credits.php?uid='.$sstr.'" target="de_user_anzeige">Credits</a>';
-echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="de_user_delete.php?uid='.$sstr.'" target="de_user_anzeige">L&ouml;schen</a>';
+echo '<br>&nbsp;&nbsp;&nbsp;&nbsp;<a href="info.php?uid='.$sstr.'" >Info</a>';
+echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="tf.php?uid='.$sstr.'" >Hyperfunk</a>';
+echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="nachrichten.php?uid='.$sstr.'" >Nachrichten</a>';
+echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="de_user_getcol.php?uid='.$sstr.'" >Kollektoren</a>';
+echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="de_user_ip.php?uid='.$sstr.'" >IPs</a>';
+echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="techs.php?uid='.$sstr.'" >Technologien</a>';
+echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="sektorstatus.php?uid='.$sstr.'" >Sektorstatus</a>';
+//echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="sekforumourdetool.php?uid='.$sstr.'" >Sektorforum</a>';
+echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="de_user_logviewer.php?uid='.$sstr.'" >Logviewer</a>';
+echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="de_user_logsearch.php?uid='.$sstr.'" >Logsuche</a>';
+echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="de_user_stat.php?uid='.$sstr.'" >Statistik</a>';
+echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="de_user_chat.php?uid='.$sstr.'" >Chat</a>';
+echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="de_user_credits.php?uid='.$sstr.'" >Credits</a>';
+echo '&nbsp;&nbsp;&nbsp;&nbsp;<a href="de_user_delete.php?uid='.$sstr.'" >L&ouml;schen</a>';
 
 $sektor = mysql_result(mysql_query("SELECT sector FROM de_user_data WHERE user_id='$sstr'",$db),0);
 $db_daten=mysql_query("SELECT user_id, sector, system FROM de_user_data WHERE sector='$sektor' ORDER BY system",$db);
@@ -120,7 +120,7 @@ $db_daten=mysql_query("SELECT user_id, sector, system FROM de_user_data WHERE se
 echo '<br>&nbsp;&nbsp;&nbsp;&nbsp;Sektor: '.$sektor.'&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Spieler: ';
 
 while($UData = mysql_fetch_array($db_daten)) {
- echo '<a href="idinfo.php?UID='.$UData["user_id"].'" target="_blank">&nbsp;&nbsp;'.$UData["system"].'&nbsp;&nbsp;</a>';
+ echo '<a href="idinfo.php?UID='.$UData["user_id"].'" >&nbsp;&nbsp;'.$UData["system"].'&nbsp;&nbsp;</a>';
 }
 echo '</form>';
 

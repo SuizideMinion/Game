@@ -406,7 +406,7 @@ switch($_SESSION['helperid']){
   break;
 
   case 23:
-    $helper_msg='Das waren alle Hinweise die ich f&uuml;r Dich habe, Du kannst das Spiel jetzt auf eigene Faust weiter erforschen.<br><br>Wenn Du meine Dienste nicht mehr ben&ouml;tigst, kannst Du mich links im Men&uuml; unter Optionen bei "Berater aktivieren" entlassen.<br><br><br><br>Bitte macht Vorschl&auml;ge um den Berater zu verbessern.<br><br>Diskussionsthread: <a href="http://forum.bgam.es/thread.php?threadid=21980" target="_blank">Forum</a>';
+    $helper_msg='Das waren alle Hinweise die ich f&uuml;r Dich habe, Du kannst das Spiel jetzt auf eigene Faust weiter erforschen.<br><br>Wenn Du meine Dienste nicht mehr ben&ouml;tigst, kannst Du mich links im Men&uuml; unter Optionen bei "Berater aktivieren" entlassen.<br><br><br><br>Bitte macht Vorschl&auml;ge um den Berater zu verbessern.<br><br>Diskussionsthread: <a href="http://forum.bgam.es/thread.php?threadid=21980" >Forum</a>';
 
     $helper_picid=1;
 

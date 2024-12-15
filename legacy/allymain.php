@@ -365,15 +365,15 @@ $discord_intern_link = '';
 $discord_meta_link = '';
 
 if (!empty(trim($openirc))) {
-    $discord_open_link = '<a href="https://discord.gg/' . $openirc . '" target="_blank">zu Discord</a>';
+    $discord_open_link = '<a href="https://discord.gg/' . $openirc . '" >zu Discord</a>';
 }
 
 if (!empty(trim($internirc))) {
-    $discord_intern_link = '<a href="https://discord.gg/' . $internirc . '" target="_blank">zu Discord</a>';
+    $discord_intern_link = '<a href="https://discord.gg/' . $internirc . '" >zu Discord</a>';
 }
 
 if (!empty(trim($metairc))) {
-    $discord_meta_link = '<a href="https://discord.gg/' . $metairc . '" target="_blank">zu Discord</a>';
+    $discord_meta_link = '<a href="https://discord.gg/' . $metairc . '" >zu Discord</a>';
 }
 
 echo '<tr class="cl">

@@ -19,9 +19,9 @@ $db_datenx=mysql_query("SELECT * FROM de_user_data ORDER BY col DESC LIMIT $plae
 while($rowx = mysql_fetch_array($db_datenx))
 {
   $uid=$rowx[user_id];
-  
+
   echo '<br>'.$p.'. '.$rowx[spielername].': ';
-  
+
   //echo '<br><br><table width=600>';
   //echo '<tr align="center"><td>Zeitpunkt</td><td>Kollektoren</td><td>Bestohlener-User-ID</td><td>Spielername</td></tr>';
   $cols=0;
@@ -29,8 +29,8 @@ while($rowx = mysql_fetch_array($db_datenx))
   while($row = mysql_fetch_array($db_daten))
   {
     $cols+=$row[colanz];
-  
-/*  
+
+/*
     $time=strftime("%Y-%m-%d %H:%M:%S", $row["time"]);
   	//spielername des diebes
   	$duid=$row["zuser_id"];
@@ -41,12 +41,12 @@ while($rowx = mysql_fetch_array($db_datenx))
   	  $rowx = mysql_fetch_array($result);
   	  $spielername=$rowx["spielername"];
   	}
-  	else $spielername='gelöscht';
-    echo '<tr align="center"><td>'.$time.'</td><td>'.$row["colanz"].'</td><td><a href="idinfo.php?UID='.$duid.'" target="_blank">'.$duid.'</a></td><td>'.$spielername.'</td></tr>';
-*/    
+  	else $spielername='gelï¿½scht';
+    echo '<tr align="center"><td>'.$time.'</td><td>'.$row["colanz"].'</td><td><a href="idinfo.php?UID='.$duid.'" >'.$duid.'</a></td><td>'.$spielername.'</td></tr>';
+*/
   }
   $p++;
-  echo $cols; 
+  echo $cols;
   //echo '</table>';
 
 }

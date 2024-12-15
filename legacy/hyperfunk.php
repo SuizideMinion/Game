@@ -851,7 +851,7 @@ function insertemp($spieler)
             $row['text'] = str_replace("[CDE]", "<font color=\"#3399FF\">", $row['text']);
 
             $row['text'] = preg_replace("/\[email\]([^[]*)\[\/email\]/", "<a href=\"mailto:\\1\">\\1</a>", $row['text']);
-            $row['text'] = preg_replace("/\[url\]([^[]*)\[\/url\]/i", '<a href="\\1" target="_blank">\\1</a>', $row['text']);
+            $row['text'] = preg_replace("/\[url\]([^[]*)\[\/url\]/i", '<a href="\\1" >\\1</a>', $row['text']);
             $row['text'] = preg_replace("/\[color=#([^[]+)\]([^[]*)\[\/color\]/", "<font color=\"#\\1\" >\\2</font>", $row['text']);
             $row['text'] = preg_replace("/\[size=([^[]+)\]([^[]*)\[\/size\]/", "<font size=\"\\1\" >\\2</font>", $row['text']);
 

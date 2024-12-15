@@ -52,4 +52,24 @@ class User extends Authenticatable
     {
         return $this->hasOne(DeUserData::class, 'user_id', 'id');
     }
+
+    public function userNews()
+    {
+        return $this->hasMany(DeUserNews::class, 'user_id')->orderBy('id', 'DESC')->limit(10);
+    }
+
+    public function userNewNews()
+    {
+        return $this->hasMany(DeUserNews::class, 'user_id')->where('seen', 0);
+    }
+
+    public function userHF()
+    {
+        return $this->hasMany(DeUserHyper::class, 'empfaenger', 'id')->orderBy('gelesen', 'ASC')->orderBy('id', 'DESC')->where('sender', 0)->limit(10);
+    }
+
+    public function userNewHF()
+    {
+        return $this->hasMany(DeUserHyper::class, 'empfaenger', 'id')->where('gelesen', 0)->where('sender', 0);
+    }
 }

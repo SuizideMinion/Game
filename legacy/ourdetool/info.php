@@ -670,7 +670,7 @@ if ($uid>0)
       echo '</tr>';
       echo '<tr>';
       echo '<td align="center">Hauptaccount ID</td>';
-      echo '<td align="center"><a href="https://login.bgam.es/ourdetool/idinfo.php?UID='.$de_login[owner_id].'" target="_blank">'.$de_login["owner_id"].'</td>';
+      echo '<td align="center"><a href="https://login.bgam.es/ourdetool/idinfo.php?UID='.$de_login[owner_id].'" >'.$de_login["owner_id"].'</td>';
       echo '<td align="center">Logins</td>';
       echo '<td align="center">'.$de_login["logins"].'</td>';
       echo '</tr>';
@@ -707,10 +707,10 @@ $record->area_code . " ";
 geoip_close($gi);
 */
 
-      echo '<td align="center" wrap><a href="sameip.php?lip='.$de_login["last_ip"].'" target="_blank">'.$de_login["last_ip"].'</a>
+      echo '<td align="center" wrap><a href="sameip.php?lip='.$de_login["last_ip"].'" >'.$de_login["last_ip"].'</a>
             </td>';
 
-      //<a href="http://ripe.net/perl/whois?form_type=simple&full_query_string=&searchtext='.$de_login["last_ip"].'" target="_blank">[Info]</a><br>'.$ipinfo.'
+      //<a href="http://ripe.net/perl/whois?form_type=simple&full_query_string=&searchtext='.$de_login["last_ip"].'" >[Info]</a><br>'.$ipinfo.'
 
   	  echo '<td align="center">Kriegs-Artefakte</td>';
   	  echo '<td align="center">'.$de_user_data["kartefakt"].'</td>';
@@ -731,7 +731,7 @@ geoip_close($gi);
       echo '</tr>';
       echo '<tr>';
       echo '<td align="center">Passwort</td>';
-      echo '<td align="center"><a href="samepw.php?spw='.$uid.'" target="_blank">'.modpass($de_login["pass"]).'</a></td>';
+      echo '<td align="center"><a href="samepw.php?spw='.$uid.'" >'.modpass($de_login["pass"]).'</a></td>';
 	  echo '<td align="center">Koordinaten</td>';
       echo '<td align="center">'.$de_user_data["sector"].':'.$de_user_data["system"].'</td>';
       echo '</tr>';

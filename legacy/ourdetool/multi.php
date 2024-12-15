@@ -48,7 +48,7 @@ if($show_statistic==1 || $show_statistic==2){
 
 	$db_daten=mysql_query($sql,$db);
 
-	
+
 
 	while($row = mysql_fetch_array($db_daten)){
 		//echo '<br>'.$row['last_ip'].'/'.$row['zaehler'];
@@ -94,13 +94,13 @@ if($show_statistic==1 || $show_statistic==2){
 				if($show_statistic==2) {
 					if ($user["status"]!=2) {
 						echo '<tr>';
-						echo '<td><a href="idinfo.php?UID='.$user["user_id"].'" target="_blank">'.$user["user_id"].'</a></td>';
+						echo '<td><a href="idinfo.php?UID='.$user["user_id"].'" >'.$user["user_id"].'</a></td>';
 						echo '<td>'.$user["nic"].'</td>';
 						echo '<td>'.$user["reg_mail"].'</td>';
 						echo '<td'.$str.'>'.modpass($user["pass"]).'</td>';
 						echo '<td>'.$user["register"].'</td>';
 						echo '<td>'.$user["last_login"].'</td>';
-						$status.=' <a href="de_set_user_status.php?uid='.$user["user_id"].'&status=2" target="setuserstatus">[S]</a>';
+						$status.=' <a href="de_set_user_status.php?uid='.$user["user_id"].'&status=2" >[S]</a>';
 						echo '<td>'.$status.'</td>';
 						echo '<td>'.$user["logins"].'</td>';
 						echo '<td>'.$user["sector"].'</td>';
@@ -112,13 +112,13 @@ if($show_statistic==1 || $show_statistic==2){
 				}
 				else {
 					echo '<tr>';
-					echo '<td><a href="idinfo.php?UID='.$user["user_id"].'" target="_blank">'.$user["user_id"].'</a></td>';
+					echo '<td><a href="idinfo.php?UID='.$user["user_id"].'" >'.$user["user_id"].'</a></td>';
 					echo '<td>'.$user["nic"].'</td>';
 					echo '<td>'.$user["reg_mail"].'</td>';
 					echo '<td'.$str.'>'.modpass($user["pass"]).'</td>';
 					echo '<td>'.$user["register"].'</td>';
 					echo '<td>'.$user["last_login"].'</td>';
-					$status.=' <a href="de_set_user_status.php?uid='.$user["user_id"].'&status=2" target="setuserstatus">[S]</a>';
+					$status.=' <a href="de_set_user_status.php?uid='.$user["user_id"].'&status=2" >[S]</a>';
 					echo '<td>'.$status.'</td>';
 					echo '<td>'.$user["logins"].'</td>';
 					echo '<td>'.$user["sector"].'</td>';
@@ -135,9 +135,9 @@ if($show_statistic==1 || $show_statistic==2){
 	echo 'Verd&auml;chtige: '.$gesuser;
 
 }elseif($show_statistic==3){
-	
+
 	$tage=isset($_GET['tage']) ? $_GET['tage'] : 14;
-	
+
 	//die IP-Adressen der letzten X Tage auswerten
 	$time=date("Y-m-d H:i:s", time()-3600*24*$tage);
 
@@ -162,7 +162,7 @@ if($show_statistic==1 || $show_statistic==2){
 
 	echo '<br>';
 	for($i=0;$i<count($tage_array); $i++){
-		
+
 		echo '<a href="multi.php?statistic=3&tage='.$tage_array[$i].'">'.$tage_array[$i].' Tage</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
 	}
 	echo '<br><br>';
@@ -182,7 +182,7 @@ if($show_statistic==1 || $show_statistic==2){
 			$sql="SELECT * FROM de_user_ip LEFT JOIN de_login ON(de_user_ip.user_id=de_login.user_id) WHERE time>'$time' AND ip='$ip' GROUP BY de_user_ip.user_id;";
 			//echo '<br>'.$sql.'<br>';
 			$result=mysql_query($sql,$db);
-	
+
 			echo '<table border="0" cellpadding="2" cellspacing="0" width="200">';
 			echo '<tr>';
 			echo '<td align="center">IP: '.$ip.' Anzahl: '.$anzahl.'</td>';
@@ -212,20 +212,20 @@ if($show_statistic==1 || $show_statistic==2){
 				if ($user["status"]==3) $status='Urlaub';
 
 				echo '<tr>';
-				echo '<td><a href="idinfo.php?UID='.$user["user_id"].'" target="_blank">'.$user["user_id"].'</a></td>';
+				echo '<td><a href="idinfo.php?UID='.$user["user_id"].'" >'.$user["user_id"].'</a></td>';
 				echo '<td>'.$user["nic"].'</td>';
 				echo '<td>'.$user["reg_mail"].'</td>';
 				echo '<td'.$str.'>'.modpass($user["pass"]).'</td>';
 				echo '<td>'.$user["register"].'</td>';
 				echo '<td>'.$user["last_login"].'</td>';
-				$status.=' <a href="de_set_user_status.php?uid='.$user["user_id"].'&status=2" target="setuserstatus">[S]</a>';
+				$status.=' <a href="de_set_user_status.php?uid='.$user["user_id"].'&status=2" >[S]</a>';
 				echo '<td>'.$status.'</td>';
 				echo '<td>'.$user["logins"].'</td>';
 				echo '</tr>';
 			}
 			echo '</table><br>';
 
-			//eine Liste aller Logins 
+			//eine Liste aller Logins
 			echo '
 			<details>
 				<summary>Liste der Logins</summary>
@@ -252,20 +252,20 @@ if($show_statistic==1 || $show_statistic==2){
 
 				echo '</tr>';
 			}
-						
-			  
+
+
 
 			echo '
 					</table>
 				</p>
 			</details>';
-			
+
 
 			echo '<br><br>';
 		}
 
 	}
-	
+
 	echo '<br><br>';
 
 	/*
@@ -311,13 +311,13 @@ if($show_statistic==1 || $show_statistic==2){
 				if ($user["status"]==3) $status='Urlaub';
 
 				echo '<tr>';
-				echo '<td><a href="idinfo.php?UID='.$user["user_id"].'" target="_blank">'.$user["user_id"].'</a></td>';
+				echo '<td><a href="idinfo.php?UID='.$user["user_id"].'" >'.$user["user_id"].'</a></td>';
 				echo '<td>'.$user["nic"].'</td>';
 				echo '<td>'.$user["reg_mail"].'</td>';
 				echo '<td'.$str.'>'.modpass($user["pass"]).'</td>';
 				echo '<td>'.$user["register"].'</td>';
 				echo '<td>'.$user["last_login"].'</td>';
-				$status.=' <a href="de_set_user_status.php?uid='.$user["user_id"].'&status=2" target="setuserstatus">[S]</a>';
+				$status.=' <a href="de_set_user_status.php?uid='.$user["user_id"].'&status=2" >[S]</a>';
 				echo '<td>'.$status.'</td>';
 				echo '<td>'.$user["logins"].'</td>';
 				echo '<td>'.$user["sector"].'</td>';

@@ -12,6 +12,7 @@
         "ext-curl": "*"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.14",
         "fakerphp/faker": "^1.23",
         "laravel/pail": "^1.1",
         "laravel/pint": "^1.13",
@@ -22,6 +23,7 @@
     },
     "autoload": {
         "files": [
+            "app/Helpers/BBCodeParser.php",
             "app/Helpers/Route.php",
             "app/Helpers/DEFunctions.php"
         ],

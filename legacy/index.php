@@ -371,13 +371,13 @@ ALTER TABLE `de_login` ADD INDEX(`loginkeytime`);
 
             if (getDefaultVariable('sv_efta_in_de') == 0) {
                 echo '<frameset ID="gf" framespacing="0" border="0" cols="*" frameborder="0" ' . $titlecounter . '>';
-                echo '<frame name="ef" src="eftaindex.php" noresize target="_blank">';
+                echo '<frame name="ef" src="eftaindex.php" noresize >';
                 echo '</frameset>';
             }
 
             if (getDefaultVariable('sv_sou_in_de') == 0) {
                 echo '<frameset ID="gf" framespacing="0" border="0" cols="*" frameborder="0" ' . $titlecounter . '>';
-                echo '<frame name="ef" src="sou_index.php" noresize target="_blank">';
+                echo '<frame name="ef" src="sou_index.php" noresize >';
                 echo '</frameset>';
             }
 
@@ -399,18 +399,18 @@ ALTER TABLE `de_login` ADD INDEX(`loginkeytime`);
 //                    exit;
 //                } elseif ($_SESSION["ums_chatoff"] == 1) { //ohne chat
 //                    echo '<frameset ID="gf" framespacing="0" border="0" cols="209,*,0,0" frameborder="0" ' . $titlecounter . '>';
-//                    echo '<frame name="Inhalt" target="h" src="menu.php" noresize marginwidth="0" marginheight="0">';
-//                    echo '<frame name="h" src="overview.php" noresize target="_blank">';
-//                    echo '<frame name="ef" src="eftastart.php" noresize target="_blank">';
-//                    echo '<frame name="sou" src="sou_start.php" noresize target="_blank">';
+//                    echo '<frame name="Inhalt"  src="menu.php" noresize marginwidth="0" marginheight="0">';
+//                    echo '<frame name="h" src="overview.php" noresize >';
+//                    echo '<frame name="ef" src="eftastart.php" noresize >';
+//                    echo '<frame name="sou" src="sou_start.php" noresize >';
 //                    echo '</frameset>';
 //                } else { //mit chat
 //                    echo '<frameset ID="gf" framespacing="0" border="0" cols="209,620,*,0,0" frameborder="0" ' . $titlecounter . '>';
-//                    echo '<frame name="Inhalt" target="h" src="menu.php" noresize marginwidth="0" marginheight="0">';
-//                    echo '<frame name="h" src="overview.php" noresize target="_blank">';
-//                    echo '<frame name="c" src="chat.php?frame=1" noresize target="_blank">';
-//                    echo '<frame name="ef" src="eftastart.php" noresize target="_blank">';
-//                    echo '<frame name="sou" src="sou_start.php" noresize target="_blank">';
+//                    echo '<frame name="Inhalt"  src="menu.php" noresize marginwidth="0" marginheight="0">';
+//                    echo '<frame name="h" src="overview.php" noresize >';
+//                    echo '<frame name="c" src="chat.php?frame=1" noresize >';
+//                    echo '<frame name="ef" src="eftastart.php" noresize >';
+//                    echo '<frame name="sou" src="sou_start.php" noresize >';
 //                    echo '</frameset>';
 //                }
 //            }
@@ -550,7 +550,7 @@ ALTER TABLE `de_login` ADD INDEX(`loginkeytime`);
 
         echo '
         <tr>
-        <td colspan="4" align="center"><br><a href="'.$sv_link[3].'">'.$index_lang['portal'].'</a> - <a href="sstat.php">'.$index_lang['serverstatistik'].'</a> - <a href="ranglisten/index.php" target="_blank">'.$index_lang['externeranglisten'].'</a></td>
+        <td colspan="4" align="center"><br><a href="'.$sv_link[3].'">'.$index_lang['portal'].'</a> - <a href="sstat.php">'.$index_lang['serverstatistik'].'</a> - <a href="ranglisten/index.php" >'.$index_lang['externeranglisten'].'</a></td>
         </tr>
         <tr>
         <td colspan="4" align="center"><br><br>';

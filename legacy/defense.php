@@ -314,7 +314,7 @@ echo '
 <a href="production.php" title="Flotteneinheiten&Diese Einheiten k&ouml;nnen in Flotten verwendet werden und das Sonnensystem verlassen."><img src="' . $ums_gpfad . 'g/symbol19.png" border="0" width="64px" heigth="64px"></a>
 <a href="defense.php" title="Verteidigungseinheiten&Diese Einheiten dienen nur zur Verteidigung und k&ouml;nnen das Sonnensystem nicht verlassen."><img src="' . $ums_gpfad . 'g/symbol20.png" border="0" width="64px" heigth="64px"></a>
 <a href="recycling.php" title="Recycling&Hier k&ouml;nnen Einheiten der Heimatflotte und Verteidigungseinheiten recycelt werden."><img src="' . $ums_gpfad . 'g/symbol24.png" border="0" width="64px" heigth="64px"></a>
-<a href="techtree.php" target="' . getDefaultVariable('sv_server_tag') . 'techtree" title="Technologiebaum"><img src="' . $ums_gpfad . 'g/symbol14.png" border="0" width="64px" heigth="64px"></a>
+<a href="techtree.php"  title="Technologiebaum"><img src="' . $ums_gpfad . 'g/symbol14.png" border="0" width="64px" heigth="64px"></a>
 <a href="unitinfo.php" title="Einheiteninformationen"><img src="' . $ums_gpfad . 'g/symbol26.png" border="0" width="64px" heigth="64px"></a>
 	';
 
@@ -340,7 +340,7 @@ if ($techs[22] == 0)
     rahmen_oben($defense_lang['fehlendesgebaeude']);
     echo '<table width="572" border="0" cellpadding="0" cellspacing="0">';
     echo '<tr align="left" class="cell">
-  <td width="100"><a href="' . $sv_link[0] . '?r=' . $ums_rasse . '&t=22" target="_blank"><img src="' . $ums_gpfad . 'g/t/' . $ums_rasse . '_22.jpg" border="0"></a></td>
+  <td width="100"><a href="' . $sv_link[0] . '?r=' . $ums_rasse . '&t=22" ><img src="' . $ums_gpfad . 'g/t/' . $ums_rasse . '_22.jpg" border="0"></a></td>
   <td valign="top">' . $defense_lang['gebaeudeinfo'] . ': ' . $row_techcheck['tech_name'] . '</td>
   </tr>';
     echo '</table>';

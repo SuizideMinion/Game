@@ -172,6 +172,12 @@ if (isset($_GET["a"]) && $_GET["a"] == 1) {
 <head>
     <title>Artefakte</title>
     <?php include "cssinclude.php"; ?>
+
+    <style>
+        body {
+            background-color: transparent !important;
+        }
+    </style>
 </head>
 <body>
 <?php
@@ -598,7 +604,7 @@ if (!hasTech($pt, 28)) {
     rahmen_oben('Fehlende Technologie');
     echo '<table width="572" border="0" cellpadding="0" cellspacing="0">';
     echo '<tr align="left" class="cell">
-	<td width="100"><a href="' . $sv_link[0] . '?r=' . $ums_rasse . '&t=28" target="_blank"><img src="' . $ums_gpfad . 'g/t/' . $ums_rasse . '_28.jpg" border="0"></a></td>
+	<td width="100"><a href="' . $sv_link[0] . '?r=' . $ums_rasse . '&t=28" ><img src="' . $ums_gpfad . 'g/t/' . $ums_rasse . '_28.jpg" border="0"></a></td>
 	<td valign="top">Du ben&ouml;tigst folgende Technogie: ' . getTechNameByRasse($row_techcheck['tech_name'], $_SESSION['ums_rasse']) . '</td>
 	</tr>';
     echo '</table>';
@@ -851,6 +857,7 @@ if (!hasTech($pt, 28)) {
 		<br><br>
 		<b>Welche Artefakte gibt es?</b>';
         echo '<table width="100%">';
+        $c1 = 0;
         for ($i = 0; $i <= $ua_index; $i++) {
             if ($c1 == 0) {
                 $c1 = 1;

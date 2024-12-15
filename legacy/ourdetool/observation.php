@@ -49,7 +49,7 @@ echo '
     </tr>
 ';
 
-//abfrage ob es fälle zur beobachtung gibt
+//abfrage ob es fï¿½lle zur beobachtung gibt
 $db_daten = mysql_query("
   SELECT A.user_id, B.spielername, B.sector, B.system, B.allytag, A.observation_by, A.observation_stat
   FROM de_user_info AS A
@@ -59,9 +59,9 @@ $db_daten = mysql_query("
 while ($de_user_data_obs = mysql_fetch_array($db_daten)) {
   if(!$de_user_data_obs[allytag]) { $de_user_data_obs[allytag]="&nbsp;"; }
   $de_login_db = mysql_query("
-    SELECT status, last_ip  
-    FROM de_login 
-    WHERE user_id = '$de_user_data_obs[user_id]'  
+    SELECT status, last_ip
+    FROM de_login
+    WHERE user_id = '$de_user_data_obs[user_id]'
   ", $db);
   $data_de_login = mysql_fetch_array($de_login_db);
   switch ($data_de_login[status]) {
@@ -83,8 +83,8 @@ while ($de_user_data_obs = mysql_fetch_array($db_daten)) {
   }
   echo '
     <tr>
-      <td align="center"><a href="idinfo.php?UID='.$de_user_data_obs[user_id].'" target="_blank">'.$de_user_data_obs[user_id].'</a></td>
-      <td align="center"><a href="idinfo.php?UID='.$de_user_data_obs[user_id].'" target="_blank">'.$de_user_data_obs[spielername].'</a></td>
+      <td align="center"><a href="idinfo.php?UID='.$de_user_data_obs[user_id].'" >'.$de_user_data_obs[user_id].'</a></td>
+      <td align="center"><a href="idinfo.php?UID='.$de_user_data_obs[user_id].'" >'.$de_user_data_obs[spielername].'</a></td>
       <td align="center">'.$de_user_data_obs[sector].':'.$de_user_data_obs[system].'</td>
       <td align="center">'.$de_user_data_obs[allytag].'</td>
       <td align="right">'.$data_de_login[last_ip].'</td>

@@ -647,7 +647,7 @@ if(isset($_REQUEST['getsectordata'])){
 					if($sec_data['techs'][5]>0)$srbstr.='<br>- '.$sec_lang[sekbldg4];
 
 					$stip = 'Sektorraumbasis'.$srbstr;
-					$basestr='<a href="'.$ums_gpfad.'g/big/'.strtoupper($bn).'" target="_blank"><img border="0" src="'.$ums_gpfad.'g/'.$bn.'" name="sb" title="'.$stip.'"></a>';
+					$basestr='<a href="'.$ums_gpfad.'g/big/'.strtoupper($bn).'" ><img border="0" src="'.$ums_gpfad.'g/'.$bn.'" name="sb" title="'.$stip.'"></a>';
 					//wenn es keine sektorraumbasis gibt string mit einem leerzeichen belegen
 					if($bed=='000')$basestr='&nbsp;';
 
@@ -688,7 +688,7 @@ if(isset($_REQUEST['getsectordata'])){
 
 				$atip[$c] = '<font color=#'.$row["color"].'>'.$row["artname"].'</font><br>'.$desc;
 
-				$artstr.='<a href="help.php?a=1" target="_blank" title="'.$atip[$c].'"><img src="'.($ums_gpfad ?? '').'g/sa'.$row["picid"].'.gif" border="0"></a>&nbsp;';
+				$artstr.='<a href="help.php?a=1"  title="'.$atip[$c].'"><img src="'.($ums_gpfad ?? '').'g/sa'.$row["picid"].'.gif" border="0"></a>&nbsp;';
 				$c++;
 			}
 

@@ -451,7 +451,7 @@ if ($submit7)//tronic
             if ($credits >= getDefaultVariable('sv_sm_preisliste')[6]) {
                 $errmsg =  ($errmsg ?? '') .'<font color="#00FF00">' . $tradeblackmarketinc_lang['msg_1'] . '</font>';
                 //kollektor gutschreiben und credits abziehen
-                mysql_query("UPDATE de_user_data SET credits=credits-getDefaultVariable('sv_sm_preisliste')[6], restyp05=restyp05+25, sm_tronic=sm_tronic+1 WHERE user_id = '$ums_user_id'", $db);
+                mysql_query("UPDATE de_user_data SET credits=credits-". getDefaultVariable('sv_sm_preisliste')[6] .", restyp05=restyp05+25, sm_tronic=sm_tronic+1 WHERE user_id = '$ums_user_id'", $db);
                 $sm_tronic++;
                 $credits = $credits - getDefaultVariable('sv_sm_preisliste')[6];
                 refererbonus(getDefaultVariable('sv_sm_preisliste')[6]);
@@ -585,7 +585,7 @@ echo '<div style="background-color: #000000; width: 128px; height: 128px; left: 
 echo '<div style="font-size:10pt; padding: 10px;">';
 echo $tradeblackmarketinc_lang['ihrkontostand'].': <b>'.number_format($credits, 0,"",".").'</b> <img src="'.$ums_gpfad.'g/credits.gif" title="Credits"><br>';
 echo ''.$tradeblackmarketinc_lang[msg_14_3].'';
-echo '<br><a href="http://login.bgam.es/index.php?command=credits" target="_blank"><span class="text3">'.$tradeblackmarketinc_lang[creditangebot].'</span></a>';
+echo '<br><a href="http://login.bgam.es/index.php?command=credits" ><span class="text3">'.$tradeblackmarketinc_lang[creditangebot].'</span></a>';
 echo '</div>';
 
 echo '</div>';

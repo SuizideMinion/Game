@@ -335,7 +335,7 @@ if($systemstatus==2)
   echo '<div title="Fraktionsforum" style="height: 42px; width: 42px; float: left;"><a href="sou_main.php?action=fracforumpage"><img border="0" src="'.$gpfad.'sym20.png" width="100%" height="100%"></a></div>';
   echo '<div title="Squad" style="height: 42px; width: 42px; float: left;"><a href="sou_main.php?action=squad"><img border="0" src="'.$gpfad.'sym21.png" width="100%" height="100%"></a></div>';
   echo '<div title="Fraktionsdaten" style="height: 42px; width: 42px; float: left;"><a href="sou_main.php?action=toplistpage"><img border="0" src="'.$gpfad.'sym22.png" width="100%" height="100%"></a></div>';
-  echo '<div title="Hilfe" style="height: 42px; width: 42px; float: left;"><a href="http://help.bgam.es/index.php?thread=abl_de" target="_blank"><img border="0" src="'.$gpfad.'sym23.png" width="100%" height="100%"></a></div>';
+  echo '<div title="Hilfe" style="height: 42px; width: 42px; float: left;"><a href="http://help.bgam.es/index.php?thread=abl_de" ><img border="0" src="'.$gpfad.'sym23.png" width="100%" height="100%"></a></div>';
   echo '<div title="Optionen" style="height: 42px; width: 42px; float: left;"><a href="sou_main.php?action=optionspage"><img border="0" src="'.$gpfad.'sym24.png" width="100%" height="100%"></a></div>';
 
   echo '</div>';

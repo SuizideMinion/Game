@@ -171,7 +171,7 @@ echo '
 <a href="buildings.php" title="Geb&auml;ude"><img src="'.$ums_gpfad.'g/symbol17.png" border="0" width="64px" heigth="64px"></a>
 <a href="research.php" title="Forschung"><img src="'.$ums_gpfad.'g/symbol18.png" border="0" width="64px" heigth="64px"></a>
 <a href="specialization.php" title="Spezialisierung"><img src="'.$ums_gpfad.'g/symbol16.png" border="0" width="64px" heigth="64px"></a>
-<a href="techtree.php" target="'.getDefaultVariable('sv_server_tag').'techtree" title="Technologiebaum"><img src="'.$ums_gpfad.'g/symbol14.png" border="0" width="64px" heigth="64px"></a>';
+<a href="techtree.php"  title="Technologiebaum"><img src="'.$ums_gpfad.'g/symbol14.png" border="0" width="64px" heigth="64px"></a>';
 
 
 if ($fehlermsg!='')
@@ -192,7 +192,7 @@ if ($techs[8]==0)
   rahmen_oben($research_lang[fehlendesgebaeude]);
   echo '<table width="572" border="0" cellpadding="0" cellspacing="0">';
   echo '<tr align="left" class="cell">
-  <td width="100"><a href="'.$sv_link[0].'?r='.$ums_rasse.'&t=8" target="_blank"><img src="'.$ums_gpfad.'g/t/'.$ums_rasse.'_8.jpg" border="0"></a></td>
+  <td width="100"><a href="'.$sv_link[0].'?r='.$ums_rasse.'&t=8" ><img src="'.$ums_gpfad.'g/t/'.$ums_rasse.'_8.jpg" border="0"></a></td>
   <td valign="top">'.$research_lang[gebaeudeinfo].': '.$row_techcheck[tech_name].'</td>
   </tr>';
   echo '</table>';
@@ -236,7 +236,7 @@ if($buildgnr>0)
   rahmen_oben($research_lang[aktuellerauftrag]);
   echo '<table width="572" border="0" cellpadding="0" cellspacing="0">';
   echo '<tr align="left" class="cell">
-  <td width="100"><a href="'.$sv_link[0].'?r='.$ums_rasse.'&t='.$buildgnr.'" target="_blank"><img src="'.$ums_gpfad.'g/t/'.$ums_rasse.'_'.$buildgnr.'.jpg" border="0"></a></td>
+  <td width="100"><a href="'.$sv_link[0].'?r='.$ums_rasse.'&t='.$buildgnr.'" ><img src="'.$ums_gpfad.'g/t/'.$ums_rasse.'_'.$buildgnr.'.jpg" border="0"></a></td>
 
   <td valign="top">&nbsp;'.$research_lang[forschungsprojekt].': '.$row["tech_name"].'<br>&nbsp;'.$research_lang[punkte].': '.number_format($row["score"], 0,"",".").'<br>&nbsp;'.$research_lang[verbleibendezeit].': '.$verbtime.'/'.$row["tech_ticks"].' '.$research_lang[wirtschaftsticks]
 .' ('.$research_lang[wt].')<br>&nbsp;'.$research_lang[fertigstellungszeitpunktechtzeit].': '.$zieldatum.'
@@ -377,7 +377,7 @@ while($row = mysql_fetch_array($db_daten)) //jeder gefundene datensatz wird gepr
         <td class="rl">&nbsp;</td><td>';
 
   echo '<table width="572">';
-  echo '<tr><td class="cell" align="center"><a href="techtree.php" target="'.getDefaultVariable('sv_server_tag').'techtree">'.$research_lang[beschreibung].'</td></tr>';
+  echo '<tr><td class="cell" align="center"><a href="techtree.php" >'.$research_lang[beschreibung].'</td></tr>';
   echo '</table>';
 
 

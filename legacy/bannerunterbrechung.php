@@ -5,7 +5,7 @@ if($ums_cooperation!=1){
     //sponsorpay-werbung für spieler, die noch nie credits transferiert haben
     //geht nur auf einem freien server und der spieler sollte keinen PA haben, erstmal nur für deutsche server
     if(getDefaultVariable('sv_payserver')==0 AND $ums_premium==0 AND $ums_cooperation!=1 AND getDefaultVariable('sv_server_lang')==1 AND $player_credittransfer==0 AND $_SESSION["ums_owner_id"]>0){
-      echo '<a href="http://login.bgam.es/sponsorpay.php?uid='.$_SESSION["ums_owner_id"].'" target="_blank">
+      echo '<a href="http://login.bgam.es/sponsorpay.php?uid='.$_SESSION["ums_owner_id"].'" >
       <span style="position: relative; width:580px; height:45px; background-color: #FFFFFF;
       border:1px solid #111111; display:inline-block; overflow:hidden; text-align:left; color: #111111;">
 
@@ -63,7 +63,7 @@ if($ums_cooperation!=1){
 
     <span style="position: absolute; left: 256px; top: 6px;">
 
-    <span style="width:88px; height:31px; display:inline-block; overflow:hidden; background-image:url(https://www.browsergames.info/images/bgbutton.png); background-repeat:no-repeat; text-align:left;"><a href="https://www.browsergames.info" target="_blank" style="width:87px; height:27px; display:inline-block; margin: 2px 0 0 0; font-family:Arial,sans-serif; font-size:11px; font-weight:bold; letter-spacing:0px; color:#ffffff; text-decoration:none; text-align:center;">browsergames</a></span>
+    <span style="width:88px; height:31px; display:inline-block; overflow:hidden; background-image:url(https://www.browsergames.info/images/bgbutton.png); background-repeat:no-repeat; text-align:left;"><a href="https://www.browsergames.info"  style="width:87px; height:27px; display:inline-block; margin: 2px 0 0 0; font-family:Arial,sans-serif; font-size:11px; font-weight:bold; letter-spacing:0px; color:#ffffff; text-decoration:none; text-align:center;">browsergames</a></span>
 
 
     </span>
@@ -74,8 +74,8 @@ if($ums_cooperation!=1){
 
     </span><br><br>';
 
-    echo '&nbsp;<a href="http://www.galaxy-news.de/?page=charts&op=vote&game_id=108" target="_blank"><img src="https://grafik-de.bgam.es/b/gn_vote.gif" border=0></a>';
-    //echo '&nbsp;<a href="http://www.gamingfacts.de/charts.php?was=abstimmen2&spielstimme=75" target="_blank"><img src="http://grafik-de.bgam.es/b/gamingfacts_charts.gif" border="0"></a>';
+    echo '&nbsp;<a href="http://www.galaxy-news.de/?page=charts&op=vote&game_id=108" ><img src="https://grafik-de.bgam.es/b/gn_vote.gif" border=0></a>';
+    //echo '&nbsp;<a href="http://www.gamingfacts.de/charts.php?was=abstimmen2&spielstimme=75" ><img src="http://grafik-de.bgam.es/b/gamingfacts_charts.gif" border="0"></a>';
 
     echo '<br><br>';
 
