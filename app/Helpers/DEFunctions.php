@@ -69,6 +69,19 @@ function loginOrRegisterLegacyUser($ums_user_id, $ums_nic): string
     }
 }
 
+function detectDevice()
+{
+    $agent = request()->header('User-Agent');
+
+    $isMobile = preg_match('/Mobile|Android|iP(hone|od|ad)|webOS|BlackBerry|IEMobile|Kindle/i', $agent);
+
+    if ($isMobile) {
+        return 'Das Gerät ist ein mobiles Gerät.';
+    } else {
+        return 'Das Gerät ist ein Desktop/PC.';
+    }
+}
+
 function getDefaultVariable($key)
 {
 

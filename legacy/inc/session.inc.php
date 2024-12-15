@@ -13,6 +13,7 @@ if (!isset($_SESSION)) {
     $_SESSION['ums_owner_id'] = session()->get('ums_owner_id');
     $_SESSION['ums_sm_remtimer'] = session()->get('ums_sm_remtimer');
     $_SESSION['ums_chatoff'] = session()->get('ums_chatoff');
+    $_SESSION['ums_mobi'] = session()->get('ums_mobi');
     $ums_gpfad = getDefaultVariable('sv_image_server_list')[0];
 }
 //sprachdatei laden

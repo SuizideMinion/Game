@@ -20,8 +20,7 @@ class LoginController extends Controller
         if (!$deLogin->deUserData)
             return die('UserData Nicht Gefunden');
 
-        if (!$deLogin->user)
-        {
+        if (!$deLogin->user) {
             // Der Benutzer existiert nicht -> Registrieren
             $user = User::create([
                 'id' => $deLogin->user_id, // Speichern der Legacy user_id für den Bezug
@@ -62,8 +61,8 @@ class LoginController extends Controller
 //            'ums_gpfad' => $ums_gpfad,
 //            'ums_vote' => $ums_vote,
 //            'ums_premium' => $ums_premium,
+            'ums_mobi' => (detectDevice() == 'mobile' ? 1 : 0),
         ]);
-
         return redirect()->to('/legacy/de_frameset.php')->with('success', 'Login erfolgreich.');
     }
 }
