@@ -43,7 +43,7 @@ function loginOrRegisterLegacyUser($ums_user_id, $ums_nic)
         // Der Benutzer existiert bereits -> Einloggen
         Auth::login($user);
         session()->put('ums_user_id', $ums_user_id); // Legen Sie Ihre Session-Variable fest
-        return 'Benutzer erfolgreich eingeloggt';
+        return $ums_nic .': erfolgreich eingeloggt';
     } else {
         // Der Benutzer existiert nicht -> Registrieren und einloggen
         $user = User::create([
@@ -56,7 +56,7 @@ function loginOrRegisterLegacyUser($ums_user_id, $ums_nic)
         Auth::login($user);
         session()->put('ums_user_id', $ums_user_id); // Legen Sie Ihre Session-Variable fest
 
-        return 'Neuer Benutzer registriert und eingeloggt';
+        return $ums_nic .': registriert und eingeloggt';
     }
 }
 
