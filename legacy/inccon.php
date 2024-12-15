@@ -158,7 +158,7 @@ if(isset($_SESSION['ums_user_id']) && $_SESSION['ums_user_id']>0){
 	$user_patime=$row["patime"];
 	$user_credits=$row["credits"];
 	//rasse und spielername neu setzen, wenn nötig
-	if($row['rasse']!=$_SESSION['ums_rasse'] OR $row['spielername']!=$_SESSION['ums_spielername']){
+	if(isset($_SESSION['ums_rasse']) AND $row['rasse'] != $_SESSION['ums_rasse'] OR isset($_SESSION['ums_spielername']) AND $row['spielername'] != $_SESSION['ums_spielername']){
 		$_SESSION['ums_rasse']=$row['rasse'];
 		$ums_rasse=$_SESSION['ums_rasse'];
 		$_SESSION['ums_spielername']=$row['spielername'];
