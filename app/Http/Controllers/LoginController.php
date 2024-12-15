@@ -57,7 +57,7 @@ class LoginController extends Controller
 //            'ums_servid' => $ums_servid,
 //            'ums_zeitstempel' => $ums_zeitstempel,
 //            'ums_session_start' => $ums_session_start,
-//            'ums_rasse' => $ums_rasse,
+            'ums_rasse' => $deLogin->deUserData->rasse,
 //
 //            'ums_submit' => $ums_submit,
 //            'ums_gpfad' => $ums_gpfad,
