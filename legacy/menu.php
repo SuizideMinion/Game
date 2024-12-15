@@ -33,7 +33,7 @@ a{color: #FFFFFF;}
 </style>
 <body>';
 
-    if ($_COOKIE['deactivate_swipe'] != 1) {
+    if (isset($_COOKIE['deactivate_swipe']) AND $_COOKIE['deactivate_swipe'] != 1) {
         ?>
         <script type="text/javascript">
             function swipedetect(el, callback) {
