@@ -231,7 +231,7 @@ if(isset($_SESSION['ums_user_id']) && $_SESSION['ums_user_id']>0){
 		}
 	}
 
-	if ($ums_zeitstempel+300<time() AND $eftachatbotdefensedisable!=1) //nur alle 5 minuten aktualisieren
+	if ((($ums_zeitstempel ?? time()) + 300) < time() AND $eftachatbotdefensedisable != 1 ) //nur alle 5 minuten aktualisieren
 	{
 		mysql_query("UPDATE de_login SET last_login=NOW() WHERE user_id='$ums_user_id'  AND status=1",$db);
 		$ums_zeitstempel=time();
