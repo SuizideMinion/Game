@@ -1,6 +1,12 @@
 <?php
 if (!isset($_SESSION)) {
     session_start();
+
+    $_SESSION['ums_user_id'] = session()->get('ums_user_id');
+    $_SESSION['ums_nic'] = session()->get('ums_nic');
+    $_SESSION['ums_spielername'] = session()->get('ums_spielername');
+    $_SESSION['ums_user_ip'] = session()->get('ums_user_ip');
+    $_SESSION['ums_rasse'] = session()->get('ums_rasse');
 }
 //sprachdatei laden
 if (isset($session_subdir) && $session_subdir == 1) $session_path = '../'; else $session_path = '';
