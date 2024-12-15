@@ -41,7 +41,7 @@ function fehlermsg($msg)
 		if(top.frames.length > 0)
 		top.location.href=self.location;
 		</script>';
-    if ($usestdtemplate != 1) include "cssinclude.php";
+    if ($usestdtemplate != 1) include basePath("cssinclude.php");
     echo '</head><body>';
     echo $msg;
     echo '</body></html>';
