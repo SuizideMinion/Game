@@ -140,9 +140,10 @@ echo '</SCRIPT>';
 if($_SESSION['ums_mobi']==1){
 	if(isset($_COOKIE['deactivate_swipe']) AND $_COOKIE['deactivate_swipe']==1){
 		echo '<a href="menu.php"><div class="mobilebtn" style="margin-bottom: 5px; width: 600px; margin-top: 5px;">Men&uuml;</div></a>';
-        $deactivate_touch_menu=1;
+        $deactivate_touch_menu = 1;
 	}else{
 		echo '<a href="menu.php"><div class="mobilebtn" style="margin-bottom: 5px; width: 600px; margin-top: 5px;">Men&uuml;: links -> rechts wischen, oder ber&uuml;hren. Chat: rechts -> links wischen</div></a>';
+        $deactivate_touch_menu = 0;
 	}
 
 	//test ob Touch-Gesten generell deaktiviert sind
