@@ -451,7 +451,7 @@ if ($submit7)//tronic
             if ($credits >= getDefaultVariable('sv_sm_preisliste')[6]) {
                 $errmsg =  ($errmsg ?? '') .'<font color="#00FF00">' . $tradeblackmarketinc_lang['msg_1'] . '</font>';
                 //kollektor gutschreiben und credits abziehen
-                mysql_query("UPDATE de_user_data SET credits=credits-getDefaultVariable('sv_sm_preisliste')[6], restyp05=restyp05+25, sm_tronic=sm_tronic+1 WHERE user_id = '$ums_user_id'", $db);
+                mysql_query("UPDATE de_user_data SET credits=credits-". getDefaultVariable('sv_sm_preisliste')[6] .", restyp05=restyp05+25, sm_tronic=sm_tronic+1 WHERE user_id = '$ums_user_id'", $db);
                 $sm_tronic++;
                 $credits = $credits - getDefaultVariable('sv_sm_preisliste')[6];
                 refererbonus(getDefaultVariable('sv_sm_preisliste')[6]);

@@ -60,8 +60,10 @@ class LoginController extends Controller
 //            'ums_submit' => $ums_submit,
 //            'ums_gpfad' => $ums_gpfad,
 //            'ums_vote' => $ums_vote,
-//            'ums_premium' => $ums_premium,
+            'ums_session_start ' => time(),
+            'ums_premium' => $deLogin->deUserData->premium,
             'ums_mobi' => (detectDevice() == 'mobile' ? 1 : 0),
+            'desktop_version' => (detectDevice() == 'mobile' ? 0 : 1),
         ]);
         return redirect()->to('/legacy/de_frameset.php')->with('success', 'Login erfolgreich.');
     }

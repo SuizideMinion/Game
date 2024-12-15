@@ -14,6 +14,9 @@ if (!isset($_SESSION)) {
     $_SESSION['ums_sm_remtimer'] = session()->get('ums_sm_remtimer');
     $_SESSION['ums_chatoff'] = session()->get('ums_chatoff');
     $_SESSION['ums_mobi'] = session()->get('ums_mobi');
+    $_SESSION['desktop_version'] = session()->get('desktop_version');
+    $_SESSION['ums_premium'] = session()->get('ums_premium');
+    $_SESSION['ums_session_start'] = session()->get('ums_session_start');
     $ums_gpfad = getDefaultVariable('sv_image_server_list')[0];
 }
 //sprachdatei laden
