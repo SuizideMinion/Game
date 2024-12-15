@@ -38,9 +38,9 @@ class LoginController extends Controller
 //        dd($deLogin, $request->loginkey, auth()->check());
 
         session()->put([
-//            'ums_chatoff' => 0,
+            'ums_chatoff' => 0,
 //            'ums_sm_remtime' => $row['sm_remtime'],
-//            'ums_sm_remtimer' => 0,
+            'ums_sm_remtimer' => 0,
 //            'ums_sm_haswhg' => $techs[4],
 //            'ums_useefta' => $row['useefta'],
 //            'sou_user_id' => $row['sou_user_id'],
@@ -50,6 +50,7 @@ class LoginController extends Controller
 
             // Die weiteren Werte:
             'ums_user_id' => $deLogin->user_id,
+            'ums_owner_id' => $deLogin->owner_id,
             'ums_nic' => $deLogin->nic,
             'ums_spielername' => $deLogin->nic,
             'ums_user_ip' => request()->ip(), // Laravel gibt die Client-IP mit request()->ip()
