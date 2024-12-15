@@ -40,6 +40,7 @@ Route::middleware(['web'])->get('/login-user', function () {
 })->name('login-user');
 
 Route::middleware(['web'])->get('/check-user', function () {
+    session_start();
     return [
         'auth_check' => auth()->check(),
         'user' => auth()->user(),
