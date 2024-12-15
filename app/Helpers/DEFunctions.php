@@ -1,6 +1,5 @@
 <?php
 
-use Illuminate\Support\Facades\Auth;
 use App\Models\User; // Das User-Modell verwenden
 use Illuminate\Support\Facades\Hash;
 
@@ -34,26 +33,36 @@ function sendDiscordMessage($message, $name = 'DE', $webhookUrl = 'https://disco
     return $response;
 }
 
-function loginOrRegisterLegacyUser($ums_user_id, $ums_nic)
+function loginOrRegisterLegacyUser($ums_user_id, $ums_nic): string
 {
     // Suchen nach einem Benutzer in der Laravel-Datenbank basierend auf der user_id
     $user = User::where('id', $ums_user_id)->first();
 
     if ($user) {
         // Der Benutzer existiert bereits -> Einloggen
-        Auth::login($user);
+        $response = Http::get(route('login-user'), [
+            'pass' => $user->password
+        ]);
         session()->put('ums_user_id', $ums_user_id); // Legen Sie Ihre Session-Variable fest
+        request()->session()->regenerate();
+//        dd(auth()->user());
         return $ums_nic .': erfolgreich eingeloggt';
     } else {
+        $userPw = Hash::make('default_password');
+
         // Der Benutzer existiert nicht -> Registrieren und einloggen
         $user = User::create([
             'id' => $ums_user_id, // Speichern der Legacy user_id für den Bezug
             'name' => $ums_nic, // Der Nickname des Benutzers aus Legacy
             'email' => $ums_nic . '@legacy.de', // Erstellen Sie eine Dummy-E-Mail-Adresse
-            'password' => Hash::make('default_password'), // Standardpasswort (dies kann später geändert werden)
+            'password' => $userPw, // Standardpasswort (dies kann später geändert werden)
+        ]);
+        $response = Http::get(route('login-user'), [
+            'pass' => $user->password
         ]);
 
-        Auth::login($user);
+//        \Auth::login($user, true);
+        request()->session()->regenerate();
         session()->put('ums_user_id', $ums_user_id); // Legen Sie Ihre Session-Variable fest
 
         return $ums_nic .': registriert und eingeloggt';

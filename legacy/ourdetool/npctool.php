@@ -26,7 +26,7 @@ $npc_leader_spielername=$row['spielername'];
 $aktion=intval($_REQUEST['aktion']);
 
 if($aktion>0){
-	switch($aktion){	
+	switch($aktion){
 		case 1://msg
 			//nachricht in der db eintragen
 			$text='/me '.umlaut(utf8_encode(trim($_REQUEST["message"])));
@@ -37,13 +37,13 @@ if($aktion>0){
 
 			//mysql_query("INSERT INTO sou_chat_msg (spielername, message, timestamp) VALUES ('', '$text', '$time')",$db);
 		break;
-		
+
 		case 2://der npcleader
 			//nachricht in der db eintragen
 			//$text='<font color="#fc7b3c">'.$_REQUEST["message"].'</font>';
 			$text='<font color="#9f2ebd">'.umlaut(utf8_encode(trim($_REQUEST["message"]))).'</font>';
 			$channel=0;$channeltyp=2;$spielername=$npc_leader_spielername; $chat_message=$text;
-			insert_chat_msg($channel, $channeltyp, $spielername, $chat_message);	  
+			insert_chat_msg($channel, $channeltyp, $spielername, $chat_message);
 			//insert_chat_msg('Der Reporter', '<font color="#00ff00">'.$text.'</font>', 0, 0);
 			//mysql_query("INSERT INTO sou_chat_msg (spielername, message, timestamp) VALUES ('^Der Reporter^', '$text', '$time')",$db);
 		break;
@@ -95,49 +95,49 @@ echo '<br><input type="text" name="message" size="50" value="">&nbsp;&nbsp;&nbsp
 echo '<input type="Submit" name="b1" value="eintragen">';
 echo '</form><br>';
 
-function postToDiscord($message){
-    $data = array("content" => $message, "username" => "Der Reporter");
-	$curl = curl_init($GLOBALS['webhooks']['der_reporter']);
-	curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-type: application/json'));
-    curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "POST");
-    curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($data));
-	curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-
-	curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, 0);
-	curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, 0);	
-	
-	
-	if(curl_exec($curl) === false)
-	{
-		echo 'Curl-Fehler: ' . curl_error($curl);
-	}
-	else
-	{
-		echo 'Operation ohne Fehler vollständig ausgeführt';
-	}
-
-	//Kopie in global
-	$data = array("content" => $message, "username" => "Der Reporter");
-	$curl = curl_init($GLOBALS['webhooks']['global']);
-	curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-type: application/json'));
-    curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "POST");
-    curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($data));
-	curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-
-	curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, 0);
-	curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, 0);	
-	
-	
-	if(curl_exec($curl) === false)
-	{
-		echo 'Curl-Fehler: ' . curl_error($curl);
-	}
-	else
-	{
-		echo 'Operation ohne Fehler vollständig ausgeführt';
-	}
-
-}
+//function postToDiscord($message){
+//    $data = array("content" => $message, "username" => "Der Reporter");
+//	$curl = curl_init($GLOBALS['webhooks']['der_reporter']);
+//	curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-type: application/json'));
+//    curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "POST");
+//    curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($data));
+//	curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+//
+//	curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, 0);
+//	curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, 0);
+//
+//
+//	if(curl_exec($curl) === false)
+//	{
+//		echo 'Curl-Fehler: ' . curl_error($curl);
+//	}
+//	else
+//	{
+//		echo 'Operation ohne Fehler vollständig ausgeführt';
+//	}
+//
+//	//Kopie in global
+//	$data = array("content" => $message, "username" => "Der Reporter");
+//	$curl = curl_init($GLOBALS['webhooks']['global']);
+//	curl_setopt($curl, CURLOPT_HTTPHEADER, array('Content-type: application/json'));
+//    curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "POST");
+//    curl_setopt($curl, CURLOPT_POSTFIELDS, json_encode($data));
+//	curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+//
+//	curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, 0);
+//	curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, 0);
+//
+//
+//	if(curl_exec($curl) === false)
+//	{
+//		echo 'Curl-Fehler: ' . curl_error($curl);
+//	}
+//	else
+//	{
+//		echo 'Operation ohne Fehler vollständig ausgeführt';
+//	}
+//
+//}
 
 ?>
 </body>

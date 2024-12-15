@@ -29,7 +29,7 @@ if ($_SESSION['ums_mobi'] == 1) {
 <style>
 body {background-color: #000000;}
 a{color: #FFFFFF;}
-.btn{border: 2px solid #666666; padding: 0px; margin-bottom: 5px; font-size: 40px; background-color: #111111; color: #FFFFFF; text-decoration: none; white-space:nowrap;}
+.btn{border: 2px solid #666666; padding: 0; margin-bottom: 5px; font-size: 40px; background-color: #111111; color: #FFFFFF; text-decoration: none; white-space:nowrap;}
 </style>
 <body>';
 

@@ -234,33 +234,6 @@ ALTER TABLE `de_login` ADD INDEX(`loginkeytime`);
             $_SESSION["ums_transparency"] = $row["transparency"];
             if (($ums_gpfad == '') || ($_REQUEST['grapa'] == "off")) $ums_gpfad = getDefaultVariable('sv_image_server');
 
-            //vote
-//		$schonabgestimmt=mysql_query("SELECT vote_id FROM de_vote_stimmen where user_id='$ums_user_id'") OR die(mysql_error());
-//		$i=0;
-//		$gevotetevotes = array();
-//		while($rew = mysql_fetch_array($schonabgestimmt))
-//		{
-//		  $gevotetevotes[$i]=$rew['vote_id'];
-//		  $i++;
-//		}
-//		$i=0;
-//		$votevorhanden=0;
-//
-//		$db_umfrage=mysql_query("SELECT de_vote_umfragen.id, de_vote_umfragen.frage,de_vote_umfragen.startdatum FROM de_vote_umfragen, de_login where de_vote_umfragen.status=1 and UNIX_TIMESTAMP(de_login.register)<UNIX_TIMESTAMP(de_vote_umfragen.startdatum) and de_login.user_id='$ums_user_id' order by de_vote_umfragen.id");
-//		while($row = mysql_fetch_array($db_umfrage)){
-//			$i=0;
-//			while($i<=count($gevotetevotes)+1){
-//				if($gevotetevotes[$i]==$row['id']){
-//					$schongestimmt=1;
-//				}
-//				$i++;
-//			}
-//			if($schongestimmt!="1"){
-//				$votevorhanden=1;
-//			}
-//			$schongestimmt=0;
-//		}
-
             if (isset($votevorhanden)) {
                 $ums_vote = 0;
             } else {
@@ -414,51 +387,33 @@ ALTER TABLE `de_login` ADD INDEX(`loginkeytime`);
             //////////////////////////////////////////////////////////////
             //////////////////////////////////////////////////////////////
 
-            if (getDefaultVariable('sv_efta_in_de') == 1 and getDefaultVariable('sv_sou_in_de') == 1) {
-                if ($_SESSION["ums_mobi"] == 1) { //mobile version
-                    //in der mobilen version auf die overview.php weiterleiten
-                    echo '<script>';
-                    echo 'location.href="overview.php";';
-                    echo '</script>';
-                } elseif (getDefaultVariable('sv_ang') == 1) {
-                    //neue DE-Version, hier zwischen Standard und Classic-Dektopsicht unterscheiden
-                    /*
-                    <br><br>Hier kann zwischen dem alten und dem neuen Desktop-Design gewechselt werden (der Wert wird aktuell nicht gespeichert, da es nur eine vorl&auml;ufige L&ouml;sung ist):
-                    <br>
-                    <div style="display: flex; width: 100%; margin-top: 10px;">
-                        <div style="flex-grow: 2; text-align: center;"></div>
-                        <div style="flex-grow: 1; text-align: center;"><a href="de_frameset.php" class="btn" target="_top">Classic</a></div>
-                        <div style="flex-grow: 1; text-align: center;"><a href="dm.php" class="btn" target="_top">Standard</a></div>
-                        <div style="flex-grow: 1; text-align: center;"></div>
-                    </div>
-                    */
-
-                    if ($_SESSION['desktop_version'] == 0) {
-                        //Standard
-                        header('Location: dm.php');
-                    } else {
-                        //Classic
-                        header('Location: de_frameset.php');
-                    }
-
-                    exit;
-                } elseif ($_SESSION["ums_chatoff"] == 1) { //ohne chat
-                    echo '<frameset ID="gf" framespacing="0" border="0" cols="209,*,0,0" frameborder="0" ' . $titlecounter . '>';
-                    echo '<frame name="Inhalt" target="h" src="menu.php" noresize marginwidth="0" marginheight="0">';
-                    echo '<frame name="h" src="overview.php" noresize target="_blank">';
-                    echo '<frame name="ef" src="eftastart.php" noresize target="_blank">';
-                    echo '<frame name="sou" src="sou_start.php" noresize target="_blank">';
-                    echo '</frameset>';
-                } else { //mit chat
-                    echo '<frameset ID="gf" framespacing="0" border="0" cols="209,620,*,0,0" frameborder="0" ' . $titlecounter . '>';
-                    echo '<frame name="Inhalt" target="h" src="menu.php" noresize marginwidth="0" marginheight="0">';
-                    echo '<frame name="h" src="overview.php" noresize target="_blank">';
-                    echo '<frame name="c" src="chat.php?frame=1" noresize target="_blank">';
-                    echo '<frame name="ef" src="eftastart.php" noresize target="_blank">';
-                    echo '<frame name="sou" src="sou_start.php" noresize target="_blank">';
-                    echo '</frameset>';
-                }
-            }
+            header('Location: de_frameset.php');
+//            if (getDefaultVariable('sv_efta_in_de') == 1 and getDefaultVariable('sv_sou_in_de') == 1) {
+//                if ($_SESSION["ums_mobi"] == 1) { //mobile version
+//                    //in der mobilen version auf die overview.php weiterleiten
+//                    echo '<script>';
+//                    echo 'location.href="overview.php";';
+//                    echo '</script>';
+//                } elseif (getDefaultVariable('sv_ang') == 1) {
+//
+//                    exit;
+//                } elseif ($_SESSION["ums_chatoff"] == 1) { //ohne chat
+//                    echo '<frameset ID="gf" framespacing="0" border="0" cols="209,*,0,0" frameborder="0" ' . $titlecounter . '>';
+//                    echo '<frame name="Inhalt" target="h" src="menu.php" noresize marginwidth="0" marginheight="0">';
+//                    echo '<frame name="h" src="overview.php" noresize target="_blank">';
+//                    echo '<frame name="ef" src="eftastart.php" noresize target="_blank">';
+//                    echo '<frame name="sou" src="sou_start.php" noresize target="_blank">';
+//                    echo '</frameset>';
+//                } else { //mit chat
+//                    echo '<frameset ID="gf" framespacing="0" border="0" cols="209,620,*,0,0" frameborder="0" ' . $titlecounter . '>';
+//                    echo '<frame name="Inhalt" target="h" src="menu.php" noresize marginwidth="0" marginheight="0">';
+//                    echo '<frame name="h" src="overview.php" noresize target="_blank">';
+//                    echo '<frame name="c" src="chat.php?frame=1" noresize target="_blank">';
+//                    echo '<frame name="ef" src="eftastart.php" noresize target="_blank">';
+//                    echo '<frame name="sou" src="sou_start.php" noresize target="_blank">';
+//                    echo '</frameset>';
+//                }
+//            }
 
             echo '<noframes>
 	<body>

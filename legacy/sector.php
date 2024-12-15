@@ -5,6 +5,14 @@ include "lib/religion.lib.php";
 include "functions.php";
 include "issectork.php";
 
+//dd(session()->all(),
+// [
+//        'auth_check' => auth()->check(),
+//        'user' => auth()->user(),
+//        'session_id' => session()->getId(),
+//    ]);
+//dd(auth()->user()->deUserData());//, auth()->user()->deUserData());
+
 $db_daten = mysql_query("SELECT restyp01, restyp02, restyp03, restyp04, restyp05, score, techs, col, sector, system, newtrans, newnews, allytag, status, hide_secpics, platz, rang, secsort, secstatdisable FROM de_user_data WHERE user_id='$ums_user_id'", $db);
 $row = mysql_fetch_array($db_daten);
 $restyp01 = $row[0];
@@ -77,7 +85,6 @@ $maxcol = $row['maxcol'];
     } else {
         echo '<body onload="javascript:document.secform.sf.focus();document.secform.sf.select();">';
     }
-
     //stelle die ressourcenleiste dar
     include "resline.php";
 
