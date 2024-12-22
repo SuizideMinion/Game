@@ -9,14 +9,13 @@
         src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
         crossorigin="anonymous"></script>
-    <link
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        rel="stylesheet"
-    />
-    <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="{{asset('css/all.min.css')}}">
+{{--    <link rel="stylesheet" href="{{ asset('css/main.css') }}">--}}
+    <link rel="stylesheet" href="{{ asset('css/layout.css') }}">
     @yield('styles')
 </head>
-<body style="width: 100%">
+<body style="width: 100%;zoom: 0.8">
 
 {{--    @yield('header')--}}
     @yield('contend')

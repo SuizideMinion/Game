@@ -355,7 +355,8 @@
         .embed-container {
             position: relative;
             width: 90%; /* Standardbreite */
-            height: 80%; /* Standardhöhe */
+            height: 90%;
+            /*height: 80%; !* Standardhöhe *!*/
             border-radius: 8px; /* Runde Kanten */
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Schatten-Effekt */
             overflow: hidden; /* Inhalt begrenzen */
@@ -389,7 +390,7 @@
         @media (max-width: 768px) {
             .embed-container {
                 width: 86%; /* Breite auf 95% begrenzen */
-                height: 70%; /* Höhe reduzieren */
+                /*height: 70%; !* Höhe reduzieren *!*/
                 transform: scale(0.95); /* Leichte Verkleinerung */
             }
 
@@ -405,7 +406,7 @@
         @media (max-width: 480px) {
             .embed-container {
                 width: 100%; /* Breite auf Bildschirmgröße maximieren */
-                height: 60%; /* Noch kleinere Höhe */
+                /*height: 60%; !* Noch kleinere Höhe *!*/
                 transform: scale(0.9); /* Weitere Reduzierung */
             }
 
@@ -421,7 +422,7 @@
         @media (min-width: 1200px) {
             .embed-container {
                 width: 86%; /* Reduzierte Breite */
-                height: 85%; /* Erhöhte Höhe passend für große Geräte */
+                /*height: 85%; !* Erhöhte Höhe passend für große Geräte *!*/
                 transform: scale(1.1); /* Maßstab leicht vergrößern */
             }
         }
@@ -769,7 +770,6 @@
                     style="position: absolute; top: 10px; right: 10px; z-index: 1050;color: white;font-size: xx-large;">
                 X
             </button>
-
             <div class="modal-body" id="modalContent" style="padding-top: 40px;"> <!-- Abstand für den Button -->
                 <!-- Der Seiteninhalt wird hier dynamisch geladen -->
                 <p>Wird geladen...</p>
@@ -780,9 +780,13 @@
 
 <div id="embedOverlay" style="display: none;">
     <div class="embed-container">
+        <x-card>
+            <x-slot:header>Test</x-slot:header>
         <button class="embed-close" id="closeEmbed">X</button>
         <!-- Der Inhalt wird als Iframe eingebettet -->
         <iframe id="embedIframe" src="" frameborder="0"></iframe>
+            <x-slot:footer>buhu</x-slot:footer>
+        </x-card>
     </div>
 </div>
 

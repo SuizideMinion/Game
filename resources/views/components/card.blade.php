@@ -1,5 +1,5 @@
 
-    <div class="cards h-100 m-4" style="background-color: transparent">
+    <div class="cards m-4" style="background-color: transparent; height: 90%">
         <div class="card-header d-flex p-0 m-0 mt-2">
             <div class="header-left"></div>
             <div class="header-middle">
