@@ -415,7 +415,7 @@ if (isset($_GET['option'])) {
     // alle nachrichten per e-mail versenden
     //////////////////////////////////////////////
     //////////////////////////////////////////////
-    if ($ums_cooperation == 0) {
+    if (!isset($ums_cooperation) OR $ums_cooperation == 0) {
         echo '
 <br><br>
 <form action="sysnews.php" method="post">

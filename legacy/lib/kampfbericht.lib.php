@@ -444,11 +444,11 @@ function showkampfberichtV1($text, $rasse, $ums_spielername, $sector, $system, $
     $atterliste = $kbd['daten']['atterliste'];
     $defferliste = $kbd['daten']['defferliste'];
 
-    $kollieserbeutet = $kbd['daten_spieler']['colstolen'];
+    $kollieserbeutet = ($kbd['daten_spieler']['colstolen'] ?? 0);
     $exp = $kbd['daten_spieler']['exp'];
     $kartefakte = $kbd['daten_spieler']['kartefakt'];
-    $srec1 = $kbd['daten_spieler']['recycling1'];
-    $srec2 = $kbd['daten_spieler']['recycling2'];
+    $srec1 = ($kbd['daten_spieler']['recycling1'] ?? 0);
+    $srec2 = ($kbd['daten_spieler']['recycling2'] ?? 0);
     $kg_set_01 = $kbd['daten_spieler']['kg_set_01'] ?? '';
     $kg_set_02 = $kbd['daten_spieler']['kg_set_02'] ?? '';
     $kg_set_03 = $kbd['daten_spieler']['kg_set_03'] ?? '';
