@@ -102,3 +102,15 @@ footer {
     mask-repeat: no-repeat;
 }
 
+.technologiesCardLi {
+    position: relative;
+    display: grid !important;
+    height: 113px;
+    padding: 2px;
+    color: var(--white_color) !important;
+    font-size: large;
+    font-weight: 800;
+    background-color: transparent !important;
+    z-index: 1;
+    border: 0 !important;
+}

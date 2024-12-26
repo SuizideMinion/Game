@@ -639,6 +639,7 @@ body {
     -moz-transition: var(--transition);
     -ms-transition: var(--transition);
     -o-transition: var(--transition);
+    height: 300px;
 }
 
 .shop-products .product-card p.title {
@@ -647,7 +648,7 @@ body {
 }
 
 .shop-products .product-card .img {
-    margin: 40px 0;
+    height: 216px;
 }
 
 .shop-products .product-card .img img {

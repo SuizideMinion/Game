@@ -18,11 +18,10 @@ class BuildingController extends Controller
     public function index()
     {
         $buildings = $this->buildingService->getBuildings();
-        return view('buildings.index', compact('buildings'));
+        return view('buildings.index', ['buildings' => $buildings->getData()]);
     }
 
     public function availableBuildings() {
-//        $this->buildingService->completeBuild(); // Aufrufen über das Instanzobjekt
         $buildings = $this->buildingService->getBuildings();
 
         $user = DeUserData::where('user_id', session()->get('ums_user_id'))->first();
