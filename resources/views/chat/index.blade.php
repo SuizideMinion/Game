@@ -14,7 +14,6 @@
             flex: 1;
             padding: 10px;
             overflow-y: auto;
-            background-color: #000000;
             text-align: left; /* Nachrichten linksbündig */
         }
 
@@ -63,7 +62,7 @@
         .chat-footer button {
             height: 20px; /* Gleiche Höhe für alle drei Elemente */
             font-size: 14px; /* Konsistente Schriftgröße */
-            border: 1px solid #36c486; /* Helles Grün */
+            border: 1px solid var(--primary_light); /* Helles Grün */
             border-radius: 4px;
             background-color: #1a1a1a;
             color: #ffffff;
@@ -85,13 +84,13 @@
 
         .chat-footer button {
             padding: 0 10px; /* Weniger Polsterung */
-            background-color: #36c486; /* Helles Grün für den Button */
+            background-color: var(--primary_light); /* Helles Grün für den Button */
             color: black; /* Kontrastierende Schriftfarbe */
             cursor: pointer;
         }
 
         .chat-footer button:hover {
-            background-color: #2ea26d; /* Dunkleres Grün beim Hover */
+            background-color: var(--primary_dark); /* Dunkleres Grün beim Hover */
         }
 
         /* Um sicherzustellen, dass der Footer ganz unten bleibt */
@@ -221,13 +220,36 @@
 
         // Nachricht formatieren für die Anzeige
         function formatMessage(message, chatType) {
-            const dateTime = new Date(message.created_at).toLocaleString();
-            const sender = message.sender_id === 13418 ? "Du" : `Player ${message.sender_id}`;
+            const dateTime = timeAgo(message.created_at);
+            const sender = message.user.name;
             return `
             <div class="chat-message ${chatType}" data-id="${message.id}">
-                <span>[${dateTime}] ${sender}:</span> ${message.message}
+                <span><b>${sender}</b> | ${dateTime}</span><br> ${message.message}
             </div>
         `;
+        }
+
+        function timeAgo(timestamp) {
+            let now = new Date();
+            let postDate = new Date(timestamp);
+            let diff = Math.floor((now - postDate) / 1000); // Unterschied in Sekunden
+
+            if (diff < 60) return diff + " seconds ago";
+            diff = Math.floor(diff / 60); // Unterschied in Minuten
+
+            if (diff < 60) return diff + " minutes ago";
+            diff = Math.floor(diff / 60); // Unterschied in Stunden
+
+            if (diff < 24) return diff + " hours ago";
+            diff = Math.floor(diff / 24); // Unterschied in Tagen
+
+            if (diff < 30) return diff + " days ago";
+            diff = Math.floor(diff / 30); // Unterschied in Monaten
+
+            if (diff < 12) return diff + " months ago";
+            diff = Math.floor(diff / 12); // Unterschied in Jahren
+
+            return diff + " years ago";
         }
 
         function handleEnterKey(event) {

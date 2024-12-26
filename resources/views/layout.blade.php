@@ -418,7 +418,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.8); /* Schwarzer transparenter Hintergrund */
+            background-color: rgba(0, 0, 0, 0.5); /* Schwarzer transparenter Hintergrund */
             z-index: 1050; /* Über Modal-Ebene legen */
             display: flex;
             align-items: center;

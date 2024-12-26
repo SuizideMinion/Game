@@ -37,7 +37,8 @@ a {
 }
 
 body {
-    background: url(../images/body-bg.jpg);
+    /*background: url(../images/body-bg.jpg);*/
+    background-color: transparent;
     background-size: cover;
     background-attachment: fixed;
     position: relative;

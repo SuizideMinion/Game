@@ -137,6 +137,7 @@ class ApiController extends Controller
             ->orWhere('chat_id', '99')
             ->orWhere('chat_id', '2') // aber den sektor dazu auslesen
             ->orWhere('chat_id', '3') // aber die allianz dazu auslesen
+                ->with('user')
             ->orderBy('created_at', 'ASC')
             ->get();
 
