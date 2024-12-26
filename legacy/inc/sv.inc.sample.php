@@ -18,8 +18,8 @@ getDefaultVariable('sv_winscore')=33333;
 getDefaultVariable('sv_ewige_runde')=0;
 
 //hardcore
-$sv_hardcore=0;
-$sv_hardcore_need_wins=5;
+getDefaultVariable('sv_hardcore')=0;
+getDefaultVariable('sv_hardcore_need_wins')=5;
 
 //EH-Counter
 $sv_eh_counter=960;
@@ -264,7 +264,7 @@ getDefaultVariable('sv_credit_win')[4][0]=200;
 
 
 //community server
-$sv_comserver=0;
+getDefaultVariable('sv_comserver')=0;
 
 //autoreset auf dem server?
 getDefaultVariable('sv_auto_reset')=0;
@@ -272,7 +272,7 @@ getDefaultVariable('sv_auto_reset')=0;
 //Flottenpunkte im Sektorstatus verstecken
 getDefaultVariable('sv_hide_fp_in_secstatus')=0;
 
-$sv_debug=1;
+getDefaultVariable('sv_debug')=1;
 
 //V-Systeme deaktivieren
 //getDefaultVariable('sv_deactivate_vsystems')=1;

@@ -6,7 +6,18 @@ class DashboardController extends Controller
 {
     public function index()
     {
-        return view('dashboard');
+        // Prüfe, ob 'race' in der URL vorhanden ist
+        if (isset($_GET['race'])) {
+            $race = $_GET['race'];
+            // Speichere 'race' in der Session
+            session()->put(['race' => $race]);
+        } else {
+            // Falls nicht vorhanden, hole 'race' aus der Session oder als Fallback aus getRace()
+            $race = session()->put('race', auth()->user()->deUserData->rasse);
+        }
+
+        // Übergib 'race' an die View
+        return view('dashboard', ['race' => $race]);
     }
 
     public function test()

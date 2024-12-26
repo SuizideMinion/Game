@@ -192,7 +192,7 @@ $kolliemsg['5']='Durch Umstellung auf einige selbstreplizierende Komponenten kon
 
 $schiffmsg['0']='Sie gewinnen '.number_format($anzahl, 0,',','.').' '.$schiffsname_wt[$zufallsrasse][$schiffsart];
 
-$deffmsg['0']='Ihre Truppen nehmen eine Separatistenstellung ein. '.number_format((int)$zufallsturm, 0,',','.').' '.$turm['$zufallsrasse']['$turmart'].' können wieder für ihre Zwecke eingesetzt werden.';
+$deffmsg['0']='Ihre Truppen nehmen eine Separatistenstellung ein. '.number_format((int)$zufallsturm, 0,',','.').' '.$turm[$zufallsrasse][$turmart].' können wieder für ihre Zwecke eingesetzt werden.';
 $deffmsg['1']='Durch Fortschritte in der Nanobotwartungstechnologie können Ingenieure '.number_format((int)$zufallsturm, 0,',','.').' veraltete '.$turm[$zufallsrasse][$turmart].' wieder auf den neuesten Stand bringen.';
 $deffmsg['2']='Bei der Ausschreibung eines Gro&szlig;auftrags erhalten sie als Muster insgesamt '.number_format((int)$zufallsturm, 0,',','.').' funktionsfähige '.$turm[$zufallsrasse][$turmart].' von verschiedenen Konzernen.';
 $deffmsg['3']='Polizeieinheiten beschlagnahmen '.number_format((int)$zufallsturm, 0,',','.').' funktionsfähige '.$turm[$zufallsrasse][$turmart].' der Rüstungsmafia.';

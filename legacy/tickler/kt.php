@@ -10,15 +10,15 @@ if ($directory=='')$directory='../';
 */
 $directory="../";
 include $directory."inc/sv.inc.php";
-if($sv_debug==0 && $sv_comserver==0){
-	if(!in_array(intval(date("i")), getDefaultVariable('kts')[date("G")]) && $sv_debug!=1){
+if(getDefaultVariable('sv_debug')==0 && getDefaultVariable('sv_comserver')==0){
+	if(!in_array(intval(date("i")), getDefaultVariable('kts')[date("G")]) && getDefaultVariable('sv_debug')!=1){
 		die('NO TICK TIME');
 	}
 }
 
 include $directory."inccon.php";
 include $directory."inc/db_ls_connect.inc.php";
-if($sv_comserver==1)include $directory.'inc/svcomserver.inc.php';
+if(getDefaultVariable('sv_comserver')==1)include $directory.'inc/svcomserver.inc.php';
 include $directory."inc/schiffsdaten.inc.php";
 include $directory."inc/userartefact.inc.php";
 include $directory."functions.php";
@@ -43,7 +43,7 @@ include $directory.'lib/bg_defs.inc.php';
 //ewige runde
 if(getDefaultVariable('sv_ewige_runde')==1){
 	//nichts
-}elseif($sv_hardcore==1){
+}elseif(getDefaultVariable('sv_hardcore')==1){
 	//nichts
 
 }else{
@@ -54,8 +54,8 @@ if(getDefaultVariable('sv_ewige_runde')==1){
 	$row = mysql_fetch_array($db_daten);
 	if($row["tick"]<=0)$ticks=1;else $ticks=$row["tick"];
 
-	if ($ticks<2500000 OR $sv_comserver_roundtyp==1){
-		if($sv_comserver_roundtyp==1)$ticks-=2500000;//fix für community-server in der BR
+	if ($ticks<2500000 OR getDefaultVariable('sv_comserver_roundtyp')==1){
+		if(getDefaultVariable('sv_comserver_roundtyp')==1)$ticks-=2500000;//fix für community-server in der BR
 		//wenn die ticks kleiner als die maximale tickzahl sind, dann läuft die runde noch
 		if($ticks<getDefaultVariable('sv_winscore')){
 

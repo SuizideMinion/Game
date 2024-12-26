@@ -315,7 +315,7 @@ if(setLock($ums_user_id)){
 								//EH-Teilsiege
 								if($vors[$i][1]=='1'){
 									$parts=explode("x", $vors[$i]);
-									if($sv_hardcore==1){
+									if(getDefaultVariable('sv_hardcore')==1){
 										if($pd['eh_siege']<$parts[1]){$has_all=false;}
 									}
 								}
@@ -382,7 +382,7 @@ if(setLock($ums_user_id)){
 								}
 							}elseif($value[0]=='B'){
 								if($value[1]==1){
-									if($sv_hardcore==1){
+									if(getDefaultVariable('sv_hardcore')==1){
 										if($pd['eh_siege']<$parts[1]){$has_all=false;}
 									}
 								}
@@ -647,7 +647,7 @@ if(setLock($ums_user_id)){
 					//EH-Teilsiege
 					if($vors[$i][1]=='1'){
 						$parts=explode("x", $vors[$i]);
-						if($sv_hardcore==1){
+						if(getDefaultVariable('sv_hardcore')==1){
 							$voraussetzungen.='<br>';
 							if($pd['eh_siege']<$parts[1]){$voraussetzungen.='<span style=\'color: #FFFFFF; background-color: #AA0000; padding: 0 3px 0 3px;\'>';$has_all=false;$has_voraussetzungen=false;}
 							$voraussetzungen.=$parts[1].' EH-Teilsieg(e)';

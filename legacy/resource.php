@@ -79,7 +79,7 @@ while ($row2 = mysql_fetch_array($result)) { //jeder gefundene datensatz wird ge
 //grundertrag
 ////////////////////////////////////////////////
 //grundertragbonus f�r die BR, gibt es nie in der Ewigen Runde
-if (($maxtick > 2500000 && getDefaultVariable('sv_ewige_runde') != 1 && $sv_hardcore != 1) or ($sv_comserver == 1 and $sv_comserver_roundtyp == 1)) {
+if (($maxtick > 2500000 && getDefaultVariable('sv_ewige_runde') != 1 && getDefaultVariable('sv_hardcore') != 1) or (getDefaultVariable('sv_comserver') == 1 and getDefaultVariable('sv_comserver_roundtyp') == 1)) {
     $grundertragmultiplikator = 200;
 } else {
     $grundertragmultiplikator = 1;

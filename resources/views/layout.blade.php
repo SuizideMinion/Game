@@ -19,17 +19,90 @@
             box-sizing: border-box;
         }
 
-        /*primary: hsl(260, 100%, 80%);*/
-
         html,
         body {
-            background-image: url("{{ asset('images/'. auth()->user()->deUserData->rasse .'.png') }}");
+            background-image: url("{{ asset('images/'. getRace() .'.png') }}");
             background-size: cover; /* Bild deckt den Bereich ab */
             background-position: center; /* Zentriert das Bild */
             background-repeat: no-repeat; /* Verhindert Wiederholungen */
             height: 100vh; /* Höhe des Containers = 100% der Viewport-Höhe */
             width: 100vw;
         }
+
+
+        .header-middle {
+            font-family: Arial, Geneva, Helvetica, sans-serif;
+            width: 100%;
+            height: 15px;
+            font-size: 10pt;
+            background: url("{{ asset('images/rand/rand_oben_' . getRace(true) . '.png') }}") repeat;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: center;
+            display: grid;
+            align-items: center;
+        }
+
+        .header-left {
+            width: 13px;
+            height: 15px;
+            background: url("{{ asset('images/rand/rand_oben_l_' . getRace(true) . '.png') }}") repeat;
+        }
+
+        .header-right {
+            width: 13px;
+            height: 15px;
+            background: url("{{ asset('images/rand/rand_oben_r_' . getRace(true) . '.png') }}") repeat;
+        }
+
+        .footer-middle {
+            font-family: Arial, Geneva, Helvetica, sans-serif;
+            font-size: 10pt;
+            width: 100%;
+            height: 20px;;
+            background: url("{{ asset('images/rand/rand_unten_' . getRace(true) . '.png') }}") repeat;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .footer-left {
+            width: 13px;
+            height: 20px;
+            background: url("{{ asset('images/rand/rand_unten_l_' . getRace(true) . '.png') }}") no-repeat;
+        }
+
+        .footer-right {
+            width: 13px;
+            height: 20px;
+            background: url("{{ asset('images/rand/rand_unten_r_' . getRace(true) . '.png') }}") no-repeat right;
+        }
+
+        .content-middle {
+            font-family: Arial, Geneva, Helvetica, sans-serif;
+            font-size: 10pt;
+            background-color: rgba(0, 0, 0, 0.3);
+            width: 100%;
+            color: #ED951E;
+            text-align: center;
+        }
+
+        .border-left {
+            width: 13px;
+            font-family: Arial, Geneva, Helvetica, sans-serif;
+            font-size: 10pt;
+            background: url("{{ asset('images/rand/rand_l_' . getRace(true) . '.png') }}") repeat;
+            color: #ED951E;
+        }
+
+        .border-right {
+            width: 13px;
+            font-family: Arial, Geneva, Helvetica, sans-serif;
+            font-size: 10pt;
+            background: url("{{ asset('images/rand/rand_r_' . getRace(true) . '.png') }}") repeat;
+            color: #ED951E;
+        }
+
 
         body {
             margin: 0;

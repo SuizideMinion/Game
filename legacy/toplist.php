@@ -27,7 +27,7 @@ if ($row["status"] == 1) $ownally = $row["allytag"];
 <?php //stelle die ressourcenleiste dar
 include "resline.php";
 
-function showmenu($menuid, $menupos, $toplist_lang, $sv_ewige_runde, $sv_oscar, $sv_hardcore)
+function showmenu($menuid, $menupos, $toplist_lang, $sv_ewige_runde, $sv_oscar, getDefaultVariable('sv_hardcore'))
 {
     //men�s definieren
 
@@ -81,7 +81,7 @@ function showmenu($menuid, $menupos, $toplist_lang, $sv_ewige_runde, $sv_oscar, 
         $menudata[0][$index]['name'] = 'Executorpunkte';
         $menudata[0][$index]['dateiname'] = 'top1k.tmp';
         $menudata[0][$index]['hinweis'] = 'Die Executorpunkte berechnen sich nach folgender Formel: Geb&auml;udepunkte (Vergessene-Systeme) + Handelspunkte / 100 (vorl&auml;ufig, wird noch ge&auml;ndert)';
-    } elseif ($sv_hardcore == 1) {
+    } elseif (getDefaultVariable('sv_hardcore') == 1) {
         $index = 0;
         //punkte
         $menudata[0][$index]['name'] = $toplist_lang['punkte'];
@@ -265,7 +265,7 @@ if (isset($_REQUEST['s']) AND $_REQUEST['s'] == 1) {
 	//-->
 	</script>';
 
-    showmenu(0, $_REQUEST["mp"], $toplist_lang, getDefaultVariable('sv_ewige_runde'), $sv_oscar, $sv_hardcore);
+    showmenu(0, $_REQUEST["mp"], $toplist_lang, getDefaultVariable('sv_ewige_runde'), $sv_oscar, getDefaultVariable('sv_hardcore'));
 }
 
 ///////////////////////////////////
@@ -280,7 +280,7 @@ if (isset($_REQUEST['s']) AND $_REQUEST['s'] == 2) {
 //allianz
 ///////////////////////////////////
 if (isset($_REQUEST['s']) AND $_REQUEST['s'] == 3) {
-    showmenu(2, $_REQUEST["mp"], $toplist_lang, getDefaultVariable('sv_ewige_runde'), $sv_oscar, $sv_hardcore);
+    showmenu(2, $_REQUEST["mp"], $toplist_lang, getDefaultVariable('sv_ewige_runde'), $sv_oscar, getDefaultVariable('sv_hardcore'));
 }
 
 ///////////////////////////////////
@@ -294,7 +294,7 @@ if (isset($_REQUEST['s']) AND $_REQUEST['s'] == 4) {
 
 //beim ersten aufruf, wenn nichts ausgew�hlt ist die m�glichen gewinne anzeigen.
 if (!isset($_REQUEST['s'])) {
-    if (getDefaultVariable('sv_ewige_runde') == 1 || $sv_hardcore == 1) {
+    if (getDefaultVariable('sv_ewige_runde') == 1 || getDefaultVariable('sv_hardcore') == 1) {
         rahmen_oben('Creditgewinne');
     } else {
         rahmen_oben($toplist_lang['creditrundengewinne']);
@@ -303,7 +303,7 @@ if (!isset($_REQUEST['s'])) {
     echo '<table border="0" cellpadding="0" cellspacing="1" width="580">';
     if (getDefaultVariable('sv_ewige_runde') == 1) {
         echo '<tr class="cell" align="center"><td>Der Erhabene erh&auml;lt als Preis 50 Credits.</td></tr>';
-    } elseif ($sv_hardcore == 1) {
+    } elseif (getDefaultVariable('sv_hardcore') == 1) {
         echo '
 			<tr class="cell" align="center">
 				<td>

@@ -9,7 +9,7 @@ include $directory."inc/sv.inc.php";
 //anzeige in der logdatei
 include "croninfo.inc.php";
 
-if($sv_debug==0 && $sv_comserver==0){
+if(getDefaultVariable('sv_debug')==0 && getDefaultVariable('sv_comserver')==0){
 	if(!in_array(intval(date("i")), getDefaultVariable('wts')[date("G")])){
 		die('NO TICK TIME');
 	}

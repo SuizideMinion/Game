@@ -483,7 +483,7 @@ echo '<div align="center">';
                     $db_daten = mysqli_query($GLOBALS['dbi'], "SELECT  * FROM de_tech_data WHERE tech_id>80 AND tech_id<110 ORDER BY tech_id");
                     while ($row = mysqli_fetch_array($db_daten)) { //jeder gefundene datensatz wird geprueft
                         $has_tech = false;
-                        if ((isset($pt[$row['tech_id']]) && $pt[$row['tech_id']]['time_finished'] <= time()) || $sv_comserver_roundtyp == 1) {
+                        if ((isset($pt[$row['tech_id']]) && $pt[$row['tech_id']]['time_finished'] <= time()) || getDefaultVariable('sv_comserver_roundtyp') == 1) {
                             $has_tech = true;
                         }
 

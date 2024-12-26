@@ -26,7 +26,7 @@ $patime=$row['patime'];
 include "resline.php";
 
 //wenn es kein community-server ist, die seite nicht anzeigen
-if($sv_comserver!=1)die('</body></html>');
+if(getDefaultVariable('sv_comserver')!=1)die('</body></html>');
 
 
 /////////////////////////////////////////////////////////////
@@ -524,7 +524,7 @@ else //einstellungsmöglichkeiten anzeigen
   <img title="Wirtschaftstick&Er wird immer zur vollen Stunde ausgef&uuml;hrt und dann, wie hier festgelegt, alle x Minuten bis zur n&auml;chsten vollen Stunde.
   <br><br>Erlaubte Werte: 1 bis 15 (Standard: 3)" style="vertical-align: middle;" src="'.$ums_gpfad.'g/'.$ums_rasse.'_hilfe.gif" border="0">
   Alle wie viele Minuten soll der Wirtschaftstick ausgef&uuml;hrt werden?
-  <br>Tageswert: '.$sv_comserver_wt.' - Aktuelle Abstimmung: '.$server_v1.' - Deine Wahl: <input type="number" min="1" max="15" name="v1" value="'.$playervalues['v1'].'" size="10" maxlength="10">
+  <br>Tageswert: '.getDefaultVariable('sv_comserver')_wt.' - Aktuelle Abstimmung: '.$server_v1.' - Deine Wahl: <input type="number" min="1" max="15" name="v1" value="'.$playervalues['v1'].'" size="10" maxlength="10">
   </div>';
 
   //kampftick
@@ -533,7 +533,7 @@ else //einstellungsmöglichkeiten anzeigen
   <img title="Kampftick&Er wird immer zur vollen Stunde ausgef&uuml;hrt und dann, wie hier festgelegt, alle x Minuten bis zur n&auml;chsten vollen Stunde.
   <br><br>Erlaubte Werte: 1 bis 60 (Standard: 12)" style="vertical-align: middle;" src="'.$ums_gpfad.'g/'.$ums_rasse.'_hilfe.gif" border="0">
   Alle wie viele Minuten soll der Kampftick ausgef&uuml;hrt werden?
-  <br>Tageswert: '.$sv_comserver_kt.' - Aktuelle Abstimmung: '.$server_v2.' - Deine Wahl: <input type="number" min="1" max="60" name="v2" value="'.$playervalues['v2'].'" size="10" maxlength="10">
+  <br>Tageswert: '.getDefaultVariable('sv_comserver')_kt.' - Aktuelle Abstimmung: '.$server_v2.' - Deine Wahl: <input type="number" min="1" max="60" name="v2" value="'.$playervalues['v2'].'" size="10" maxlength="10">
   </div>';
 
   //rundendauer in wt
@@ -713,7 +713,7 @@ else //einstellungsmöglichkeiten anzeigen
   //rundentyp - normal oder battleround
   if ($c1==0){$c1=1;$bg='cell';}else{$c1=0;$bg='cell1';}
   if($server_v21<=0.5)$rundenwahl='Normal';else $rundenwahl='Battleround';
-  if($sv_comserver_roundtyp==0)$rundentyp='Normal';else $rundentyp='Battleround';
+  if(getDefaultVariable('sv_comserver_roundtyp')==0)$rundentyp='Normal';else $rundentyp='Battleround';
 
   if(is_null($playervalues['v21'])){$checked[0]=' selected';$checked[1]='';$checked[2]='';}
   elseif($playervalues['v21']==0){$checked[0]='';$checked[1]=' selected';$checked[2]='';}

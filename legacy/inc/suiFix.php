@@ -34,15 +34,12 @@ function getLang($url, $lang = 1)
 }
 $sv_oscar=1;
 $suiHatBotschutzAbfrageGeKillt = true;
-$sv_comserver = 0;
 $eftacss = 0;
 $soucss = 0;
 $newcss = 0;
 $loadcssmenu = $loadcssmenu ?? 1;
 $GLOBALS['deactivate_old_design'] = $GLOBALS['deactivate_old_design'] ?? false;
-$sv_hardcore = $sv_hardcore ?? 0;
 $sv_deactivate_blackmarket = $sv_deactivate_blackmarket ?? 0;
-$sv_comserver_roundtyp = $sv_comserver_roundtyp ?? 0;
 $newtrans = $newtrans ?? 0;
 $newnews = $newnews ?? 0;
 

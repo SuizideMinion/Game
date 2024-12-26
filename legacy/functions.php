@@ -7,7 +7,7 @@ function write2agentlog($uid, $reason, $change_amount)
 	$row = mysqli_fetch_array($db_daten);
 	$agent=$row["agent"];
 	$agent_lost=$row["agent_lost"];
-
+3
 	//die creditausgabe im billing-logfile hinterlegen
 	$datum=date("Y-m-d H:i:s",time());
 	$clog="Zeit: $datum A: $agent AL: $agent_lost CA: $change_amount - ".$reason."\n";
@@ -1031,10 +1031,8 @@ function loadPlayerTechs($uid)
 
 function hasTech($pt, $tech_id)
 {
-    global $sv_comserver_roundtyp;
-
     //Test auf Comserver-BR
-    if ($sv_comserver_roundtyp == 1) {
+    if (getDefaultVariable('sv_comserver_roundtyp') == 1) {
         return true;
     }
 

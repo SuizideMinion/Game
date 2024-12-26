@@ -14,7 +14,7 @@ mt_srand((double)microtime()*10000);
 $date_format='d.m.Y - H:i';
 
 //�berpr�fen ob es eine aktive session gibt
-if($sv_debug!=1 AND $_REQUEST['unityeditor']!=1){
+if(getDefaultVariable('sv_debug')!=1 AND $_REQUEST['unityeditor']!=1){
 	if(!isset($_SESSION['ums_user_id']) OR $_SESSION['ums_user_id']<1){
 		$status='-1';
 		$data[0] = array ('status'=> $status);
@@ -24,7 +24,7 @@ if($sv_debug!=1 AND $_REQUEST['unityeditor']!=1){
 }
 
 // wenn man im unity-editor ist, dann erh�lt man die user_id 1
-if($sv_debug==1 AND $_REQUEST['unityeditor']==1){
+if(getDefaultVariable('sv_debug')==1 AND $_REQUEST['unityeditor']==1){
 	$_SESSION['ums_user_id']=1;
 	$ums_user_id=$_SESSION['ums_user_id'];
 }

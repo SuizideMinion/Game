@@ -137,8 +137,8 @@ if((strftime("%M"))==0 AND (strftime("%H"))==19 OR $erhabenenstop==1)
     $str="<?php\n\n";
 
     //daten die täglich/zur neuen runde aktualisiert werden
-    $str.='$sv_comserver_wt='.$server_v1.';'."\n\n";
-    $str.='$sv_comserver_kt='.$server_v2.';'."\n\n";
+    $str.='getDefaultVariable('sv_comserver')_wt='.$server_v1.';'."\n\n";
+    $str.='getDefaultVariable('sv_comserver')_kt='.$server_v2.';'."\n\n";
     settickzeiten($server_v1,$server_v2);
     $str.='getDefaultVariable('sv_winscore')='.$server_v3.';'."\n\n";
     $str.='getDefaultVariable('sv_benticks')='.$server_v4.';'."\n\n";
@@ -161,7 +161,7 @@ if((strftime("%M"))==0 AND (strftime("%H"))==19 OR $erhabenenstop==1)
 
 
 	//variablen �berpr�fen
-    if(!isset($sv_comserver_roundtyp))$sv_comserver_roundtyp=0;
+    if(!isset(getDefaultVariable('sv_comserver_roundtyp')))getDefaultVariable('sv_comserver_roundtyp')=0;
     if(!isset($sv_deactivate_secret))$sv_deactivate_secret=0;
     if(!isset($sv_deactivate_religion))$sv_deactivate_religion=0;
     if(!isset($sv_deactivate_blackmarket))$sv_deactivate_blackmarket=0;
@@ -172,7 +172,7 @@ if((strftime("%M"))==0 AND (strftime("%H"))==19 OR $erhabenenstop==1)
 
       //rundentyp normal/br
 
-	    $str.='$sv_comserver_roundtyp='.$server_v21.';'."\n\n";
+	    $str.='getDefaultVariable('sv_comserver_roundtyp')='.$server_v21.';'."\n\n";
 
       //sektoren zufall/wahl
       if($server_v22==0)//zufall
@@ -205,7 +205,7 @@ if((strftime("%M"))==0 AND (strftime("%H"))==19 OR $erhabenenstop==1)
 
     }else{
       //kein Rundenende, also die bestehenden Daten übernehmen
-      $str.='$sv_comserver_roundtyp='.$sv_comserver_roundtyp.';'."\n\n";
+      $str.='getDefaultVariable('sv_comserver_roundtyp')='.getDefaultVariable('sv_comserver_roundtyp').';'."\n\n";
       $str.='getDefaultVariable('sv_deactivate_sec1moveout')='.getDefaultVariable('sv_deactivate_sec1moveout').';'."\n\n";
       $str.='getDefaultVariable('sv_max_secmoves')='.getDefaultVariable('sv_max_secmoves').';'."\n\n";
       $str.='getDefaultVariable('sv_maxsystem')='.getDefaultVariable('sv_maxsystem').';'."\n\n";

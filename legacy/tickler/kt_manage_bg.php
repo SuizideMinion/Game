@@ -21,7 +21,7 @@ for($bg=0;$bg<3;$bg++){
 echo '<hr>';
 
 function doBattleGround($bg){
-	global $bg_debug, $sv_comserver_roundtyp;
+	global $bg_debug, getDefaultVariable('sv_comserver_roundtyp');
 
 	$play_typ=0; //Spieler-BG
 
@@ -34,13 +34,13 @@ function doBattleGround($bg){
 
 	$player=array();
 	$player_ids=array();
-	
+
 	$allys=array();
-	$ally_ids=array();	
+	$ally_ids=array();
 
 	$fightresult=array();
 
-	
+
 
 	//die map_id zu dem BG aus der DB holen
 	$sql="SELECT * FROM `de_map_objects` WHERE system_typ=4 AND system_subtyp='$bg';";
@@ -57,7 +57,7 @@ function doBattleGround($bg){
 	$sql="SELECT * FROM de_login LEFT JOIN de_user_data ON (de_login.user_id=de_user_data.user_id) LEFT JOIN de_user_techs ON (de_user_techs.user_id=de_user_data.user_id) LEFT JOIN de_user_map_bldg ON (de_user_map_bldg.user_id=de_user_data.user_id) WHERE de_login.status=1 AND de_user_techs.tech_id=159 AND de_user_techs.time_finished<='".time()."' AND de_user_map_bldg.map_id='".$map_id."' AND de_user_map_bldg.bldg_time<='".time()."';";
 
 	//CDE-Battleground-Modus
-	if($sv_comserver_roundtyp==1){
+	if(getDefaultVariable('sv_comserver_roundtyp')==1){
 		$sql="SELECT * FROM de_login LEFT JOIN de_user_data ON (de_login.user_id=de_user_data.user_id) LEFT JOIN de_user_map_bldg ON (de_user_map_bldg.user_id=de_user_data.user_id) WHERE de_login.status=1 AND de_user_map_bldg.map_id='".$map_id."' AND de_user_map_bldg.bldg_time<='".time()."' GROUP BY de_user_data.user_id;";
 	}
 
@@ -78,7 +78,7 @@ function doBattleGround($bg){
 		//alle user_id in ein array packen
 		$player_ids[]=$row['user_id'];
 
-		
+
 
 		$player_id++;
 	}
@@ -196,7 +196,7 @@ function doBattleGround($bg){
 
 						if($player_id2>-1){
 							$p2_ship_level='&nbsp;(Stufe '.$player[$player_id2]['ship']->ship_level.')';
-						}						
+						}
 
 
 						if($bg==0){
@@ -205,7 +205,7 @@ function doBattleGround($bg){
 							$gewinn_text='1 Kriegsartefakt';
 						}
 
-						
+
 
 						//ergebnis speichern
 						$fightresult[$runde][]=array(
@@ -225,7 +225,7 @@ function doBattleGround($bg){
 							}elseif($bg==1){
 								$sql="UPDATE `de_user_data` SET kartefakt=kartefakt+1, bgscore$bg=bgscore$bg+1 WHERE user_id='".$player[$winner_id]['user_id']."';";
 							}
-							
+
 							//echo $sql;
 							mysqli_query($GLOBALS['dbi'],$sql);
 						}
@@ -312,7 +312,7 @@ function doBattleGround($bg){
 
 						if($player_id2>-1){
 							$p2_ship_level='&nbsp;(Gesamtstufe '.$allys[$player_id2]['ship']->ship_level.')';
-						}						
+						}
 
 
 						if($bg==2){
@@ -370,7 +370,7 @@ function doBattleGround($bg){
 
 			print_r($fightresult);
 		}
-		
+
 	}//es gibt spieler
 }
 
@@ -391,30 +391,30 @@ function letSpecialShipFight($player_id1 , $player_id2, $player){
 
 	$enm[0]=$player[$player_id1]['ship'];
 	$enm[1]=$player[$player_id2]['ship'];
-	
-  
+
+
 	//////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////////////////////
 	//  kampf berechnen
 	//////////////////////////////////////////////////////////////
 	//////////////////////////////////////////////////////////////
-  
+
 	$trefferwahrscheinlichkeit[0]=80;
 	$trefferwahrscheinlichkeit[1]=80;
-	
+
 	$schadenssenkung[0]=0;
 	$schadenssenkung[1]=0;
-	
+
 	$critchance[0]=10;
 	$critchance[1]=10;
-	
+
 	$schaden_min[0]=$enm[0]->get_wp_min();
 	$schaden_max[0]=$enm[0]->get_wp_max();
 
 	$schaden_min[1]=$enm[1]->get_wp_min();
 	$schaden_max[1]=$enm[1]->get_wp_max();
 
-	
+
 	//die daten der gegner anzeigen
 	$fightlog=
 	'<table>
@@ -425,31 +425,31 @@ function letSpecialShipFight($player_id1 , $player_id2, $player){
 	<tr><td>Waffen</td><td class="c2">'.number_format($enm[0]->get_wp_min(), 0,"",".").' - '.number_format($enm[0]->get_wp_max(), 0,"",".").'</td><td class="c2">'.number_format($enm[1]->get_wp_min(), 0,"",".").' - '.number_format($enm[1]->get_wp_max(), 0,"",".").'</td></tr>
 	<tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
 	';
-	
+
 	$hp[0]=$enm[0]->get_hp_max()+$enm[0]->get_shield_max();
 	$hp[1]=$enm[1]->get_hp_max()+$enm[1]->get_shield_max();
 
 	//$shield[0]=$enm[0]->get_shield_max();
 	//$shield[1]=$enm[1]->get_shield_max();
-	
+
 	$fightlog.=
 	'<tr align="center" class="bg2"><td width="10%">Runde</td><td width="45%">'.$player[$player_id1]['spielername'].'</td><td width="45%">'.$player[$player_id2]['spielername'].'</td></tr>
 	<tr align="center" class="bg2"><td>1</td><td title="&Aufstellung">'.number_format($hp[0], 0,"",".").'</td><td title="&Aufstellung">'.number_format($hp[1], 0,"",".").'</td></tr>';
-	
-	
+
+
 	$maxrunden=60;$haswon=0;
 		for($r=1;$r<$maxrunden;$r++){
 		//echo '<br>'.$r;
 		//gegnerschaden berechnen
 		$critflag[0]=0;
 		$critflag[1]=0;
-		
+
 		$ausweichflag[0]=0;
 		$ausweichflag[1]=0;
-		
+
 		$schaden[0]=round(mt_rand($enm[0]->get_wp_min(), $enm[0]->get_wp_max()));
 		$schaden[1]=round(mt_rand($enm[1]->get_wp_min(), $enm[1]->get_wp_max()));
-		
+
 		for($c=0;$c<=1;$c++){
 			//trefferwahrscheinlichkeit
 			//zum testen auf 50% gesetzt
@@ -461,24 +461,24 @@ function letSpecialShipFight($player_id1 , $player_id2, $player){
 			elseif($c==1)$schadenssenkung_enm=$schadenssenkung[0];
 			*/
 			$schaden[$c]=round($schaden[$c]*(100-$schadenssenkung_enm)/100);
-			
+
 			//$schaden[$c]+=$eschaden[$c];
-			
+
 			//test auf kritischen treffer
 			if($critchance[$c]>mt_rand(1,100)){$schaden[$c]=$schaden[$c]*2; $critflag[$c]=1;}
-				
+
 			if($schaden[$c]<0)$schaden[$c]=0;
 			//echo 'treffer'.$schaden[$c].'<br>';
 			}else {
-			$schaden[$c]=0; 
+			$schaden[$c]=0;
 			$ausweichflag[$c]=1;
 			}
 		}
-	
+
 		//echo '<br>Schaden 0: '.$schaden[0];
 		//echo '<br>Schaden 1: '.$schaden[1];
-		
-		
+
+
 		//player 1 schlägt zu
 		if($hp[1]-$schaden[0]<=0){
 			//player 2 hat verloren
@@ -490,8 +490,8 @@ function letSpecialShipFight($player_id1 , $player_id2, $player){
 			//player 2 hp abziehen
 			$hp[1]-=$schaden[0];
 		}
-	
-		
+
+
 		//player 2 schlägt zu
 		if($hp[0]-$schaden[1]<=0 AND $haswon==0){
 			//player 1 hat verloren
@@ -503,7 +503,7 @@ function letSpecialShipFight($player_id1 , $player_id2, $player){
 			//player 1 hp abziehen
 			if($haswon==0)$hp[0]-=$schaden[1];
 		}
-		
+
 		//die einzelnen kampfphasen mitloggen
 		$title[0]='&';$title[1]='&';
 		//crit
@@ -513,7 +513,7 @@ function letSpecialShipFight($player_id1 , $player_id2, $player){
 		$format[3]='';
 		if($critflag[0]==1){$title[0].='Spieler 2 hat einen kritischen Treffer erhalten.';$format[2]='<b>';$format[3]='</b>';}
 		if($critflag[1]==1){$title[1].='Spieler 1 hat einen kritischen Treffer erhalten.';$format[0]='<b>';$format[1]='</b>';}
-		
+
 		//verfehlt
 		if($ausweichflag[0]==1)$title[0].='verfehlt';
 		if($ausweichflag[1]==1)$title[1].='verfehlt';
@@ -521,22 +521,22 @@ function letSpecialShipFight($player_id1 , $player_id2, $player){
 		if($title[0]=='&')$title[0].='getroffen';
 		if($title[1]=='&')$title[1].='getroffen';
 		//$title='';
-		
-		$fightlog.='<tr align="center" class="bg2"><td>'.($r+1).'</td><td title="'.$title[1].'">'.$format[0].number_format($hp[0], 0,"",".").$format[1].'</td><td title="'.$title[0].'">'.$format[2].number_format($hp[1], 0,"",".").$format[3].'</td></tr>';
-		
-		
 
-		
+		$fightlog.='<tr align="center" class="bg2"><td>'.($r+1).'</td><td title="'.$title[1].'">'.$format[0].number_format($hp[0], 0,"",".").$format[1].'</td><td title="'.$title[0].'">'.$format[2].number_format($hp[1], 0,"",".").$format[3].'</td></tr>';
+
+
+
+
 		//wenn jemand gewonnen hat kampf abbrechen
 		if($haswon>0){
 			$r=$maxrunden;
 		}
-		
-		
+
+
 
 		//nach maxrunden runden hat der gewonnen der mehr hp hat, wenn beide gleichviel haben, dann wird gelost
 		if($r==($maxrunden-1) AND $haswon==0){//unentschieden, gewinner wird ausgelost
-			//zufall  
+			//zufall
 			if($hp[0]==$hp[1]){
 				$haswon=mt_rand(1, 2);
 			}else{
@@ -547,13 +547,13 @@ function letSpecialShipFight($player_id1 , $player_id2, $player){
 				}
 			}
 		}
-		
+
 			//echo '<br>HP1: '.$userhp[0].'<br>';
 			//echo 'HP2: '.$userhp[1].'<br>';
 	}//ende maxrunden
 
 	$fightlog.='</table>';
-	
+
 
 	if($haswon==1){
 		$winner_id=$player_id1;

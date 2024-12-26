@@ -1,8 +1,8 @@
 <?php
 
-$sv_comserver_wt=10;
+getDefaultVariable('sv_comserver')_wt=10;
 
-$sv_comserver_kt=12;
+getDefaultVariable('sv_comserver')_kt=12;
 
 
 ?>

@@ -3,7 +3,7 @@ include basePath('inc/lang/'.getDefaultVariable('sv_server_lang').'_sm_reminder.
 //zeigt den schwarzmarkt reminder an, wenn die zeit um ist
 if(time()>($_SESSION['ums_sm_remtimer']+$_SESSION['ums_sm_remtime']*60) AND $_SESSION['ums_sm_remtime']>0){
 	//den maximalen tick auslesen
-	if(getDefaultVariable('sv_ewige_runde')==1 || $sv_hardcore==1){
+	if(getDefaultVariable('sv_ewige_runde')==1 || getDefaultVariable('sv_hardcore')==1){
 		$db_daten=mysql_query("SELECT tick FROM de_user_data WHERE user_id='".$_SESSION['ums_user_id']."'",$db);
 		$row = mysql_fetch_array($db_daten);
 		$smround_tick=$row["tick"];

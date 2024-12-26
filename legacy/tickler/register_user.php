@@ -10,7 +10,7 @@ $directory="../";
 //include "../inccon.php";
 $disablegzip=1;
 include $directory."inc/sv.inc.php";
-if($sv_comserver==1)include $directory.'inc/svcomserver.inc.php';
+if(getDefaultVariable('sv_comserver')==1)include $directory.'inc/svcomserver.inc.php';
 include $directory."inccon.php";
 
 echo '<html><head></head><body>';
@@ -205,7 +205,7 @@ if($dortick==1){
 		$npc=$res2["npc"];
 		$spielername=$res2["spielername"];
 		//in der Ewigen Runde/Hardcore kommt man nicht in den vorherigen Sektor zur�ck
-		if(getDefaultVariable('sv_ewige_runde')==1 || $sv_hardcore==1){
+		if(getDefaultVariable('sv_ewige_runde')==1 || getDefaultVariable('sv_hardcore')==1){
 			$last_sector=$res2['last_sector'];
 			echo '<br>Ewige Runde/Hardcore - last_sector: '. $last_sector;
 		}else{

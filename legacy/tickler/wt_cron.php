@@ -403,8 +403,8 @@ function give_efta_bonus(){
 
 	$eftaartefakte=5;
 	unset($sqlcommand);
-	$textzuinaktiv=$wt_lang[eftazuinaktiv].'<br>'.$wt_lang[eftazuerreichen].' '.$p.'%';
-	$textaktiv=$wt_lang[eftaaktiv].'<br>'.$wt_lang[eftaartefakte].': '.$eftaartefakte;
+	$textzuinaktiv=$wt_lang['eftazuinaktiv'].'<br>'.$wt_lang['eftazuerreichen'].' '.$p.'%';
+	$textaktiv=$wt_lang['eftaaktiv'].'<br>'.$wt_lang['eftaartefakte'].': '.$eftaartefakte;
 	$time=strftime("%Y%m%d%H%M%S");
 	//jetzt alle efta_user_ids durchgehen und schauen was man bekommt
 	for($i=0;$i<count($user);$i++){
@@ -439,7 +439,7 @@ function give_efta_bonus(){
 /////////////////////////////////////////////////////////////////////
 
 function give_ea_creditbonus(){
-	global $db, getDefaultVariable('sv_database_de'), getDefaultVariable('sv_database_sou'), $wt_lang, $soudb;
+	global $db, $wt_lang, $soudb;
 
 	echo '<hr><br>EA Credits gutschreiben:<br>';
 
@@ -473,8 +473,8 @@ function give_ea_creditbonus(){
 
 	$credits=1;
 	unset($sqlcommand);
-	$textzuinaktiv=$wt_lang[souzuinaktiv].'<br>'.$wt_lang[souzuerreichen].' '.$p.'%';
-	$textaktiv=$wt_lang[souaktiv].'<br>'.$wt_lang[soucredits].': '.$credits;
+	$textzuinaktiv=$wt_lang['souzuinaktiv'].'<br>'.$wt_lang['souzuerreichen'].' '.$p.'%';
+	$textaktiv=$wt_lang['souaktiv'].'<br>'.$wt_lang['soucredits'].': '.$credits;
 	$time=strftime("%Y%m%d%H%M%S");
 	//jetzt alle sou_user_ids durchgehen und schauen was man bekommt
 	for($i=0;$i<count($user);$i++){
@@ -519,8 +519,8 @@ function give_ea_creditbonus(){
 }
 
 function remove_sm_rboost_br(){
-	global $db, getDefaultVariable('sv_ewige_runde'), $sv_hardcore;
-	if(getDefaultVariable('sv_ewige_runde')!=1 && $sv_hardcore!=1){
+	global $db;
+	if(getDefaultVariable('sv_ewige_runde')!=1 && getDefaultVariable('sv_hardcore')!=1){
 		//erst ab 2500000 ticks aktiv werden
 		//maximale tickgr��e laden
 		$db_daten=mysql_query("SELECT MAX(tick) AS tick FROM de_user_data",$db);

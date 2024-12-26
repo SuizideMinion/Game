@@ -1,6 +1,8 @@
 <?php
 
-use App\Models\User; // Das User-Modell verwenden
+use App\Models\User;
+
+// Das User-Modell verwenden
 use Illuminate\Support\Facades\Hash;
 
 function getID()
@@ -9,16 +11,53 @@ function getID()
 }
 
 
+function getRace($int = false)
+{
+    if ($int) {
+        if(session()->get('race') == 1) return 'b';
+        if(session()->get('race') == 2) return 'l';
+        if(session()->get('race') == 3) return 'r';
+        if(session()->get('race') == 4) return 'g';
+        if(session()->get('race') == 5) return 'p';
+    }
+
+    return session()->get('race');
+}
+
+
 use Jenssegers\Agent\Agent;
 
-if (! function_exists('agent')) {
+if (!function_exists('agent')) {
     function agent()
     {
         return new Agent();
     }
 }
 
-function getGreekSymbol($number) {
+
+if (!function_exists('countLangEntries')) {
+    /**
+     * Zählt die Anzahl der Einträge in einem Sprach-Array.
+     *
+     * @param string $key Der Sprachschlüssel (z. B. "wt.kolliemsg").
+     * @return int|null Gibt die Anzahl der Einträge zurück, oder null, falls der Schlüssel ungültig ist.
+     */
+    function countLangEntries(string $key): ?int
+    {
+        // Ruft die Sprachdatei mit dem angegebenen Schlüssel ab
+        $langArray = __('' . $key);
+
+        // Überprüfen, ob die Rückgabe ein Array ist
+        if (is_array($langArray)) {
+            return count($langArray); // Gibt die Anzahl der Einträge zurück
+        }
+
+        return null; // Gibt null zurück, wenn es kein Array ist
+    }
+}
+
+function getGreekSymbol($number)
+{
     // Zeichentabelle der griechischen Zeichen
     $greekSymbols = [
         0 => '∞', // Erhabener
@@ -56,7 +95,8 @@ function getGreekSymbol($number) {
     }
 }
 
-function sendDiscordMessage($message, $name = 'DE', $webhookUrl = 'https://discord.com/api/webhooks/1314350972524433428/hJAebp9osduzpQS0771wFxBGaY1WWu-WwfauhmRdtGxxRleS2DTVmGhXTAwXlblqCilU') {
+function sendDiscordMessage($message, $name = 'DE', $webhookUrl = 'https://discord.com/api/webhooks/1314350972524433428/hJAebp9osduzpQS0771wFxBGaY1WWu-WwfauhmRdtGxxRleS2DTVmGhXTAwXlblqCilU')
+{
     $data = [
         "content" => $message,
         "username" => $name // Optional: Setze den Namen des Bots
@@ -94,7 +134,7 @@ function loginOrRegisterLegacyUser($ums_user_id, $ums_nic): string
         session()->put('ums_user_id', $ums_user_id); // Legen Sie Ihre Session-Variable fest
         request()->session()->regenerate();
 //        dd(auth()->user());
-        return $ums_nic .': erfolgreich eingeloggt';
+        return $ums_nic . ': erfolgreich eingeloggt';
     } else {
         $userPw = Hash::make('default_password');
 
@@ -113,7 +153,7 @@ function loginOrRegisterLegacyUser($ums_user_id, $ums_nic): string
         request()->session()->regenerate();
         session()->put('ums_user_id', $ums_user_id); // Legen Sie Ihre Session-Variable fest
 
-        return $ums_nic .': registriert und eingeloggt';
+        return $ums_nic . ': registriert und eingeloggt';
     }
 }
 
@@ -167,7 +207,8 @@ function trimTime(string $input, string $format = 'Y-m-d H:i:s'): string|array
     return 'Ungültiger Eingabestring';
 }
 
-function shortenNumber($number, $precision = 2) {
+function shortenNumber($number, $precision = 2)
+{
     if ($number < 1000) {
         // Keine Kürzung nötig
         return $number;
@@ -197,7 +238,7 @@ function shortenNumber($number, $precision = 2) {
     ];
 
     // Berechnung des Größenordnung-Index
-    $unitIndex = (int) floor(log($number, 1000)); // Logarithmus zur Basis 1000 berechnen
+    $unitIndex = (int)floor(log($number, 1000)); // Logarithmus zur Basis 1000 berechnen
 
     if ($unitIndex >= count($units)) {
         // Falls der Index die unterstützte Größenordnung überschreitet, gib die Zahl in voller Länge aus.
@@ -612,6 +653,11 @@ function getDefaultVariable($key)
         'sv_max_alien_col' => 400,
         'sv_max_alien_col_typ' => 0,
         'sv_hide_fp_in_secstatus' => 0, //verstecke FP in Sekstatus
+        'sv_debug' => 0, //verstecke FP in Sekstatus
+        'sv_comserver' => 0, //verstecke FP in Sekstatus
+        'sv_comserver_roundtyp' => 0, //verstecke FP in Sekstatus
+        'sv_hardcore' => 0, //verstecke FP in Sekstatus
+        'sv_hardcore_need_wins' => 5, //verstecke FP in Sekstatus
         'wts' => array_fill(0, 24, range(0, 59)),  // Zeiger für jeden Tick von 0-59
         'kts' => array_fill(0, 24, range(0, 56, 4)),  // Tick-Intervalle
     ];

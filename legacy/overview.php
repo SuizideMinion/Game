@@ -47,7 +47,7 @@ if (getDefaultVariable('sv_server_tag') == 'DDE') {
 }
 
 //rohstoffe für die battleround auf communityservern
-if ($sv_comserver == 1 and $sv_comserver_roundtyp == 1) {
+if (getDefaultVariable('sv_comserver') == 1 and getDefaultVariable('sv_comserver_roundtyp') == 1) {
     mysql_query("UPDATE de_user_data set tick=tick+2500000, sm_rboost=0, restyp01=restyp01+9000000000,
 restyp02=restyp02+4500000000, restyp03=restyp03+1000000000, restyp04=restyp04+500000000, restyp05=restyp05+100000, col=col+10000
 WHERE user_id='$ums_user_id' AND tick<1000000;", $db);
@@ -413,7 +413,7 @@ for ($j = 0; $j <= 6; $j++) {
                 $rca .= '<td width="6" style="background-image:url(' . $ums_gpfad . 'g/rc' . $sc4 . '.gif)"></td>';
                 $rca .= '</tr>';
                 $rca .= '</table>';
-            } elseif ($sv_hardcore == 1) {
+            } elseif (getDefaultVariable('sv_hardcore') == 1) {
 
                 $db_daten = mysql_query("SELECT MAX(tick) AS tick FROM de_user_data", $db);
                 $row = mysql_fetch_array($db_daten);
@@ -440,7 +440,7 @@ for ($j = 0; $j <= 6; $j++) {
                         $rca .= '<span class="fett">Top ' . $platzc . ' - EH-Anw&auml;rter</span>' .
                             '<br>' . $row['spielername'] .
                             $allianz .
-                            '<br>EH-Teilsiege: ' . $row['eh_siege'] . '/' . $sv_hardcore_need_wins .
+                            '<br>EH-Teilsiege: ' . $row['eh_siege'] . '/' . getDefaultVariable('sv_hardcore_need_wins') .
                             '<br>EH-Counter: ' . $row['eh_counter'] . '/' . $sv_eh_counter;
 
                         $rca .= '</div>';
@@ -469,7 +469,7 @@ for ($j = 0; $j <= 6; $j++) {
                             $rca .= '<span class="fett">EH-Counter l&auml;uft f&uuml;r</span>' .
                                 '<br>' . $row['spielername'] .
                                 $allianz .
-                                '<br>EH-Teilsiege: ' . $row['eh_siege'] . '/' . $sv_hardcore_need_wins .
+                                '<br>EH-Teilsiege: ' . $row['eh_siege'] . '/' . getDefaultVariable('sv_hardcore_need_wins') .
                                 '<br>EH-Counter: ' . $row['eh_counter'] . '/' . $sv_eh_counter;
 
                             $rca .= '</div>';
@@ -496,7 +496,7 @@ for ($j = 0; $j <= 6; $j++) {
                         $rca .= '<span class="fett">Deine Daten</span>' .
                             '<br>' . $row['spielername'] .
                             $allianz .
-                            '<br>EH-Teilsiege: ' . $row['eh_siege'] . '/' . $sv_hardcore_need_wins .
+                            '<br>EH-Teilsiege: ' . $row['eh_siege'] . '/' . getDefaultVariable('sv_hardcore_need_wins') .
                             '<br>EH-Counter: ' . $row['eh_counter'] . '/' . $sv_eh_counter;
 
                         $rca .= '</div>';
@@ -519,8 +519,8 @@ for ($j = 0; $j <= 6; $j++) {
                 $row = mysql_fetch_array($db_daten);
                 if ($row["tick"] <= 0) $ticks = 1; else $ticks = $row["tick"];
                 //$ticks=353333000;
-                if ($ticks < 2500000 or $sv_comserver_roundtyp == 1) {
-                    if ($sv_comserver_roundtyp == 1) $ticks -= 2500000;//fix f�r community-server in der BR
+                if ($ticks < 2500000 or getDefaultVariable('sv_comserver_roundtyp') == 1) {
+                    if (getDefaultVariable('sv_comserver_roundtyp') == 1) $ticks -= 2500000;//fix f�r community-server in der BR
                     //wenn die ticks kleiner als die maximale tickzahl sind, dann l�uft die runde noch
                     if ($ticks < getDefaultVariable('sv_winscore')) {
                         //spaltenbreite
@@ -625,7 +625,7 @@ for ($j = 0; $j <= 6; $j++) {
 	   ');
 
 
-            if ($sv_comserver == 1) {
+            if (getDefaultVariable('sv_comserver') == 1) {
                 $hs = '<div style="border: 1px solid #666666; background-image:url(' . $ums_gpfad . 'g/bgpic4.jpg); color: #FFFFFF; padding: 5px;">';
 
                 $hs .= '<h1>Willkommen auf dem Community Server</h1>';
@@ -640,7 +640,7 @@ for ($j = 0; $j <= 6; $j++) {
             }
 
             xecho($rca . '<br>');
-            if ($sv_comserver != 1) {
+            if (getDefaultVariable('sv_comserver') != 1) {
                 xecho('<a href="sinfo.php" ><font color="lightgreen"> > > Informationen &uuml;ber den Server < < </a></font><br><br>');
             }
 
@@ -1592,7 +1592,7 @@ for ($j = 0; $j <= 6; $j++) {
                 if ($do_calc == 1) {
                     if ($zielwert == '') $zielwert = 0;
                     //wieviel errungenschaften m�glich sind berechnen
-                    $ac_max = calculate_ac_max(count($rewards), $ticks, $own_tick, $sv_hardcore);
+                    $ac_max = calculate_ac_max(count($rewards), $ticks, $own_tick, getDefaultVariable('sv_hardcore'));
                     //echo count($rewards).'/a';
                     if ($ac_max > 0) {
                         for ($i = $ac_akt; $i < $ac_max; $i++) {
@@ -1746,11 +1746,11 @@ xecho('
 </tr>
 </table><br><br>');
 
-function calculate_ac_max($acs, $ticks, $own_tick, $sv_hardcore)
+function calculate_ac_max($acs, $ticks, $own_tick)
 {
-//    global $ticks, $own_tick, getDefaultVariable('sv_winscore'), getDefaultVariable('sv_ewige_runde'), $sv_hardcore;
+//    global $ticks, $own_tick, getDefaultVariable('sv_winscore'), getDefaultVariable('sv_ewige_runde'), getDefaultVariable('sv_hardcore');
 
-    if (getDefaultVariable('sv_ewige_runde') == 1 || $sv_hardcore == 1) {//ewige runde
+    if (getDefaultVariable('sv_ewige_runde') == 1 || getDefaultVariable('sv_hardcore') == 1) {//ewige runde
         $ticksegment = getDefaultVariable('sv_winscore') / ($acs + 1);
         $ac_max = round($own_tick / $ticksegment);
         if ($ac_max > $acs) $ac_max = $acs;
@@ -1761,7 +1761,7 @@ function calculate_ac_max($acs, $ticks, $own_tick, $sv_hardcore)
             //keine br
             //ticksegment ist die zeit, nach der jeweils der n�chste level m�glich ist
             //$acs+1, damit das letzte level nicht erst im eh-kampf m�glich ist
-//            dd(getDefaultVariable('sv_winscore'), $own_tick, $acs + 1, getDefaultVariable('sv_ewige_runde') , $sv_hardcore);
+//            dd(getDefaultVariable('sv_winscore'), $own_tick, $acs + 1, getDefaultVariable('sv_ewige_runde') , getDefaultVariable('sv_hardcore'));
             $ticksegment = getDefaultVariable('sv_winscore') / ($acs + 1);
             $ac_max = round($ticks / $ticksegment);
             if ($ac_max > $acs) $ac_max = $acs;

@@ -42,7 +42,7 @@ $row = mysql_fetch_array($result);
 $maxtick = $row['tick'];
 
 
-if (getDefaultVariable('sv_ewige_runde') == 1 || $sv_hardcore == 1) {
+if (getDefaultVariable('sv_ewige_runde') == 1 || getDefaultVariable('sv_hardcore') == 1) {
     $maxtick = $tick;
 }
 
@@ -61,7 +61,7 @@ $artefaktangebot = array(100, 104, 105, 106);
 
 //in der br die preise stark senken
 //if ($maxtick >= 2500000) {
-//    if ($sv_comserver != 1) {
+//    if (getDefaultVariable('sv_comserver') != 1) {
 //        $artefaktpreis = array(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1);
 //        getDefaultVariable('sv_sm_preisliste') = array(1, 1, 10, 300, 1, 1, 1);
 //    }

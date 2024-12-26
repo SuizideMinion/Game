@@ -56,9 +56,9 @@ $db_daten=mysql_query("SELECT MAX(tick) AS tick FROM de_user_data",$db);
 $row = mysql_fetch_array($db_daten);
 if($row["tick"]<=0)$ticks=1;else $ticks=$row["tick"];
 //$ticks=353333000;
-if ($ticks<2500000 OR $sv_comserver_roundtyp==1){
+if ($ticks<2500000 OR getDefaultVariable('sv_comserver_roundtyp')==1){
 
-	if($sv_comserver_roundtyp==1)$ticks-=2500000;//fix f�r community-server in der BR
+	if(getDefaultVariable('sv_comserver_roundtyp')==1)$ticks-=2500000;//fix f�r community-server in der BR
 	//wenn die ticks kleiner als die maximale tickzahl sind, dann l�uft die runde noch
 	if($ticks<getDefaultVariable('sv_winscore')){
 		echo 'N'.(getDefaultVariable('sv_winscore')-$ticks);
