@@ -22,23 +22,27 @@
         }
 
         .chat-message.global {
-            color: orange;
-        }
-
-        .chat-message.system {
             color: gold;
         }
 
+        .chat-message.system {
+            color: orange;
+        }
+
         .chat-message.alliance {
-            color: green;
+            color: limegreen;
         }
 
         .chat-message.private {
-            color: purple;
+            color: lightpink;
         }
 
         .chat-message.sector {
             color: white;
+        }
+
+        .chat-message.server {
+            color: lightblue;
         }
 
         .chat-message span {
@@ -122,7 +126,7 @@
         <x-slot:footer>
             <div class="chat-footer">
                 <!-- Dropdown für Chatwahl -->
-                <select name="chat-id" id="chat-dropdown" onchange="switchChat()">
+                <select name="chat-id" id="chat-dropdown" ">
                     @foreach($chats as $chat)
                         <option value="{{ $chat->id }}">{{ $chat->name }}</option>
                     @endforeach
@@ -196,14 +200,13 @@
 
             // Leere Fenster und verarbeite nur Nachrichten für den aktiven Chat
             chatWindow.innerHTML = '';
-            const relevantMessages = data.messages.filter(msg => msg.chat_id == currentChatId);
+            const messagesAsArray = Object.values(data.messages);
 
-            relevantMessages.forEach(message => {
+            messagesAsArray.forEach(message => {
                 const chatType = determineChatType(message);
                 const formattedMessage = formatMessage(message, chatType);
                 chatWindow.innerHTML += formattedMessage;
             });
-
             // Automatisch nach unten scrollen
 
             scrollable.scrollTop = scrollable.scrollHeight;
@@ -221,7 +224,19 @@
         // Nachricht formatieren für die Anzeige
         function formatMessage(message, chatType) {
             const dateTime = timeAgo(message.created_at);
-            const sender = message.user.name;
+            const sender = message.name;
+            chatType =
+                message.chat_id == 1 ? 'global' : (
+                    message.chat_id == 2 ? 'sector' : (
+                        message.chat_id == 3 ? 'alliance' : (
+                            message.chat_id == 4 ? 'system' : (
+                                message.chat_id == 5 ? 'private' : (
+                                    message.chat_id == 6 ? 'server' : ''
+                                )
+                            )
+                        )
+                    )
+                );
             return `
             <div class="chat-message ${chatType}" data-id="${message.id}">
                 <span><b>${sender}</b> | ${dateTime}</span><br> ${message.message}

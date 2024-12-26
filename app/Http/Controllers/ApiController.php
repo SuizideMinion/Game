@@ -135,14 +135,26 @@ class ApiController extends Controller
             ->orWhere('receiver_id', getID())
             ->orWhere('chat_id', '1')
             ->orWhere('chat_id', '99')
-            ->orWhere('chat_id', '2') // aber den sektor dazu auslesen
-            ->orWhere('chat_id', '3') // aber die allianz dazu auslesen
+            ->orWhere('chat_id', '2')->where('allianz_id', auth()->user()->deUserData->ally_id) // aber den allianz dazu auslesen
+            ->orWhere('chat_id', '3')->where('sektor_id', auth()->user()->deUserData->sector) // aber die sektor dazu auslesen
+            ->orWhere('chat_id', '4') // aber die system dazu auslesen
+            ->orWhere('chat_id', '5')->where('sender_id', auth()->id())->orWhere('receiver_id', auth()->id()) // aber die private dazu auslesen
+            ->orWhere('chat_id', '6') // aber die server dazu auslesen
                 ->with('user')
             ->orderBy('created_at', 'ASC')
             ->get();
 
+        $i = 0;
+        foreach ($messages as $message) {
+            $i++;
+            $mess[$i]['chat_id'] = $message->chat_id;
+            $mess[$i]['message'] = $message->message;//BBCodeParser($message->message);
+            $mess[$i]['created_at'] = $message->created_at;
+            $mess[$i]['name'] = $message->user->spielername;
+        }
+
 // Speichern der Nachrichten
-        $user->messages = $messages;
+        $user->messages = $mess;
 
 // IDs extrahieren und speichern
         $user->messageIds = $messages->pluck('id')->toArray();

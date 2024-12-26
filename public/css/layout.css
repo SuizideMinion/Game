@@ -214,7 +214,7 @@ body {
 
 .page-alert .dismiss-btn button {
     background-color: transparent;
-    color: var(--primary_light);
+    color: var(--primary_dark);
     border: none;
 }
 /* Page Alert CSS End */

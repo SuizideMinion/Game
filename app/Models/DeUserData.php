@@ -9,6 +9,7 @@ class DeUserData extends Model
     public $timestamps = false;
 
     public $table = 'de_user_data';
+    protected $connection = 'mysql'; // Name der anderen Datenbankverbindung
 
     public function userNews()
     {
