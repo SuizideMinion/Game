@@ -1,7 +1,7 @@
 @extends('blank')
 
 @section('styles')
-    <style>
+    <style xmlns:x-slot="http://www.w3.org/1999/xlink">
         .chat-container {
             flex: 1;
             display: flex;
@@ -9,6 +9,7 @@
             justify-content: space-between;
             height: 100%; /* Damit der Footer nach unten rutscht */
         }
+
         .chat-window {
             flex: 1;
             padding: 10px;
@@ -16,24 +17,31 @@
             background-color: #000000;
             text-align: left; /* Nachrichten linksbündig */
         }
+
         .chat-message {
             margin-bottom: 5px;
         }
+
         .chat-message.global {
             color: orange;
         }
+
         .chat-message.system {
             color: gold;
         }
+
         .chat-message.alliance {
             color: green;
         }
+
         .chat-message.private {
             color: purple;
         }
+
         .chat-message.sector {
             color: white;
         }
+
         .chat-message span {
             white-space: pre;
         }
@@ -49,6 +57,7 @@
             position: relative;
             bottom: 0; /* Footer wird unten fixiert */
         }
+
         .chat-footer select,
         .chat-footer input[type="text"],
         .chat-footer button {
@@ -59,34 +68,39 @@
             background-color: #1a1a1a;
             color: #ffffff;
         }
+
         .chat-footer select {
             padding: 0 5px; /* Innere Polsterung verkleinert */
         }
+
         .chat-footer input[type="text"] {
             flex: 1; /* Textfeld füllt den verbleibenden Platz aus */
             padding: 0 10px; /* Weniger Innenabstand für kompaktes Design */
         }
+
         .chat-footer input[type="text"]:focus {
             outline: none;
             background-color: #2a2a2a;
         }
+
         .chat-footer button {
             padding: 0 10px; /* Weniger Polsterung */
             background-color: #36c486; /* Helles Grün für den Button */
             color: black; /* Kontrastierende Schriftfarbe */
             cursor: pointer;
         }
+
         .chat-footer button:hover {
             background-color: #2ea26d; /* Dunkleres Grün beim Hover */
         }
 
         /* Um sicherzustellen, dass der Footer ganz unten bleibt */
-        body, html {
-            height: 100%;
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-        }
+        /*body, html {*/
+        /*    height: 100%;*/
+        /*    margin: 0;*/
+        /*    display: flex;*/
+        /*    flex-direction: column;*/
+        /*}*/
 
         .chat-container {
             height: 100%; /* Stellt sicher, dass der Container den vollen Platz ausfüllt */
@@ -96,12 +110,12 @@
 
 @section('contend')
 
-    <x-card>
-        <x-slot:header>
+    <x-gui>
+        <x-slot:title>
             Chat
-        </x-slot:header>
-        <div class="chat-container">
+        </x-slot:title>
 
+        <div class="chat-container">
             <!-- Chat-Window-Bereich -->
             <div class="chat-window" id="chat-window"></div>
         </div>
@@ -128,7 +142,7 @@
                 <button onclick="sendMessage()">Senden</button>
             </div>
         </x-slot:footer>
-    </x-card>
+    </x-gui>
 
 @endsection
 
@@ -177,6 +191,7 @@
         // Dynamisch eingehende Nachrichten verarbeiten (Parent sendet Daten alle 5 Sekunden)
         function parseAndDisplayMessages(data) {
             const chatWindow = document.getElementById('chat-window');
+            const scrollable = document.getElementById('scrollable');
             const chatDropdown = document.getElementById('chat-dropdown');
             const currentChatId = chatDropdown.value; // Aktiver Chat
 
@@ -191,7 +206,8 @@
             });
 
             // Automatisch nach unten scrollen
-            chatWindow.scrollTop = chatWindow.scrollHeight;
+
+            scrollable.scrollTop = scrollable.scrollHeight;
         }
 
         // Nachrichtentyp bestimmen
@@ -222,13 +238,12 @@
         }
 
         // Nachrichten vom Parent empfangen
-        window.addEventListener('message', function(event) {
+        window.addEventListener('message', function (event) {
             const data = event.data;
             if (data && data.messages) {
                 parseAndDisplayMessages(data); // Verarbeite nur relevante Daten
             }
         });
     </script>
-
 
 @endsection

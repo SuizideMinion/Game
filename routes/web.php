@@ -35,6 +35,8 @@ Route::get('/test-session', function () {
     return session()->all(); // Prüfen Sie, ob session()->put() korrekt persistiert wird
 });
 
+Route::get('/ranking/{id}', [\App\Http\Controllers\RankingController::class, 'index'])->name('ranking.index'); // Alle Chats
+Route::get('/ranking', [\App\Http\Controllers\RankingController::class, 'index']); // Alle Chats
 
 
     Route::get('/chats', [ChatController::class, 'index']); // Alle Chats

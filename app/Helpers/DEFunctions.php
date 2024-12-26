@@ -8,6 +8,54 @@ function getID()
     return session()->get('ums_user_id');
 }
 
+
+use Jenssegers\Agent\Agent;
+
+if (! function_exists('agent')) {
+    function agent()
+    {
+        return new Agent();
+    }
+}
+
+function getGreekSymbol($number) {
+    // Zeichentabelle der griechischen Zeichen
+    $greekSymbols = [
+        0 => '∞', // Erhabener
+        1 => 'Α',  // Alpha
+        2 => 'Β',  // Beta
+        3 => 'Γ',  // Gamma
+        4 => 'Δ',  // Delta
+        5 => 'Ε',  // Epsilon
+        6 => 'Ζ',  // Zeta
+        7 => 'Η',  // Eta
+        8 => 'Θ',  // Theta
+        9 => 'Ι',  // Iota
+        10 => 'Κ', // Kappa
+        11 => 'Λ', // Lambda
+        12 => 'Μ', // Mu
+        13 => 'Ν', // Nu
+        14 => 'Ξ', // Xi
+        15 => 'Ο', // Omicron
+        16 => 'Π', // Pi
+        17 => 'Ρ', // Rho
+        18 => 'Σ', // Sigma
+        19 => 'Τ', // Tau
+        20 => 'Υ', // Upsilon
+        21 => 'Φ', // Phi
+        22 => 'Χ', // Chi
+        23 => 'Ψ', // Psi
+        24 => 'Ω'  // Omega
+    ];
+
+    // Überprüfen, ob die Zahl in der Tabelle existiert
+    if (array_key_exists($number, $greekSymbols)) {
+        return $greekSymbols[$number];
+    } else {
+        return "Kein gültiges griechisches Zeichen für $number verfügbar.";
+    }
+}
+
 function sendDiscordMessage($message, $name = 'DE', $webhookUrl = 'https://discord.com/api/webhooks/1314350972524433428/hJAebp9osduzpQS0771wFxBGaY1WWu-WwfauhmRdtGxxRleS2DTVmGhXTAwXlblqCilU') {
     $data = [
         "content" => $message,

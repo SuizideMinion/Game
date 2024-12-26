@@ -391,7 +391,7 @@
             .embed-container {
                 width: 86%; /* Breite auf 95% begrenzen */
                 /*height: 70%; !* Höhe reduzieren *!*/
-                transform: scale(0.95); /* Leichte Verkleinerung */
+                /*transform: scale(0.95); !* Leichte Verkleinerung *!*/
             }
 
             .embed-close {
@@ -407,7 +407,7 @@
             .embed-container {
                 width: 100%; /* Breite auf Bildschirmgröße maximieren */
                 /*height: 60%; !* Noch kleinere Höhe *!*/
-                transform: scale(0.9); /* Weitere Reduzierung */
+                /*transform: scale(0.9); !* Weitere Reduzierung *!*/
             }
 
             .embed-close {
@@ -423,7 +423,7 @@
             .embed-container {
                 width: 86%; /* Reduzierte Breite */
                 /*height: 85%; !* Erhöhte Höhe passend für große Geräte *!*/
-                transform: scale(1.1); /* Maßstab leicht vergrößern */
+                /*transform: scale(1.1); !* Maßstab leicht vergrößern *!*/
             }
         }
 
@@ -568,50 +568,50 @@
 <div class="resource-bar">
     <!-- Linke Ressource -->
     <div class="resource">
-        <img src="{{ asset('images/resources/'. auth()->user()->deUserData->rasse .'_1.png') }}"
+        <img src="{{ asset('images/resources/multiplex.png') }}"
              style="width: 25px;" alt="">
         <span id="restyp01">{{ shortenNumber(auth()->user()->deUserData->restyp01, 1) }}</span>
     </div>
 
     <!-- Zweite Ressource -->
     <div class="resource">
-        <img src="{{ asset('images/resources/'. auth()->user()->deUserData->rasse .'_2.png') }}"
+        <img src="{{ asset('images/resources/dyharra.png') }}"
              style="width: 25px;" alt="">
         <span id="restyp02">{{ shortenNumber(auth()->user()->deUserData->restyp02, 1) }}</span>
     </div>
 
     <!-- Zweite Ressource -->
     <div class="resource">
-        <img src="{{ asset('images/resources/'. auth()->user()->deUserData->rasse .'_3.png') }}"
+        <img src="{{ asset('images/resources/iradium.png') }}"
              style="width: 25px;" alt="">
         <span id="restyp03">{{ shortenNumber(auth()->user()->deUserData->restyp03, 1) }}</span>
     </div>
 
 {{--    <!-- Mitte --> TODO:: On Attack Alert!--}}
-    <div class="center-icon">
+{{--    <div class="center-icon">--}}
 {{--        <img src="https://www.die-ewigen.com/degp3v2/g/forum_on.gif" style="width: 33px;" alt="">--}}
-        <img src="{{asset('images/resources/RedAlert.gif')}}" style="width: 70px;" alt="">
-    </div>
+{{--        <img src="{{asset('images/resources/RedAlert.gif')}}" style="width: 35px;" alt="">--}}
+{{--    </div>--}}
 
     <!-- Zweite Ressource -->
     <div class="resource">
-        <img src="{{ asset('images/resources/'. auth()->user()->deUserData->rasse .'_4.png') }}"
+        <img src="{{ asset('images/resources/ethernium.png') }}"
              style="width: 25px;" alt="">
         <span id="restyp04">{{ shortenNumber(auth()->user()->deUserData->restyp04, 1) }}</span>
     </div>
 
     <!-- Dritte Ressource -->
     <div class="resource">
-        <img src="{{ asset('images/resources/'. auth()->user()->deUserData->rasse .'_5.png') }}"
+        <img src="{{ asset('images/resources/tronic.png') }}"
              style="width: 25px;" alt="">
         <span id="restyp05">{{ shortenNumber(auth()->user()->deUserData->restyp05, 1) }}</span>
     </div>
 
     <!-- Rechte Ressource -->
-    <div class="resource">
-        <span class="icon">🔋</span>
-        <span id="credits">{{ shortenNumber(auth()->user()->deUserData->credits, 1) }}</span>
-    </div>
+{{--    <div class="resource">--}}
+{{--        <span class="icon">🔋</span>--}}
+{{--        <span id="credits">{{ shortenNumber(auth()->user()->deUserData->credits, 1) }}</span>--}}
+{{--    </div>--}}
 </div>
 
 <nav class="menu" id="nav">
@@ -695,42 +695,42 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"><span class="icon"><i data-feather="user"></i></span></a>
             <ul class="dropdown-menu" aria-labelledby="dropdownLinks">
-                <li><a class="dropdown-item" href="{{ asset('legacy/overview.php') }}" data-embed="true">Übersicht</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/overview.php') }}" data-embed="true" data-zoom="true">Übersicht</a>
                 </li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/hyperfunk.php') }}" data-embed="true">Hyperfunk</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/hyperfunk.php') }}" data-embed="true" data-zoom="true">Hyperfunk</a>
                 </li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/sysnews.php') }}" data-embed="true">Nachrichten</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/sysnews.php') }}" data-embed="true" data-zoom="true">Nachrichten</a>
                 </li>
                 <li><a class="dropdown-item" href="{{ asset('legacy/ang_techs.php') }}"
-                       data-embed="true">Technologien</a></li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/specialization.php') }}" data-embed="true">Spezialisierung</a>
+                       data-embed="true" data-zoom="true">Technologien</a></li>
+                <li><a class="dropdown-item" href="{{ asset('legacy/specialization.php') }}" data-embed="true" data-zoom="true">Spezialisierung</a>
                 </li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/resource.php') }}" data-embed="true">Ressourcen</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/resource.php') }}" data-embed="true" data-zoom="true">Ressourcen</a>
                 </li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/artefacts.php') }}" data-embed="true">Artefakte</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/artefacts.php') }}" data-embed="true" data-zoom="true">Artefakte</a>
                 </li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/auction.php') }}" data-embed="true">Auktionen</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/auction.php') }}" data-embed="true" data-zoom="true">Auktionen</a>
                 </li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/missions.php') }}" data-embed="true">Missionen</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/missions.php') }}" data-embed="true" data-zoom="true">Missionen</a>
                 </li>
                 <li><a class="dropdown-item" href="{{ asset('legacy/blackmarket.php') }}"
-                       data-embed="true">Schwarzmarkt</a></li>
+                       data-embed="true" data-zoom="true">Schwarzmarkt</a></li>
                 <li><a class="dropdown-item" href="{{ asset('legacy/production.php') }}"
-                       data-embed="true">Produktion</a></li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/military.php') }}" data-embed="true">Flotten</a>
+                       data-embed="true" data-zoom="true">Produktion</a></li>
+                <li><a class="dropdown-item" href="{{ asset('legacy/military.php') }}" data-embed="true" data-zoom="true">Flotten</a>
                 </li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/secret.php') }}" data-embed="true">Geheimdienst</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/secret.php') }}" data-embed="true" data-zoom="true">Geheimdienst</a>
                 </li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/sector.php') }}" data-embed="true">Sektor</a></li>
+                <li><a class="dropdown-item" href="{{ asset('legacy/sector.php') }}" data-embed="true" data-zoom="true">Sektor</a></li>
                 <li><a class="dropdown-item" href="{{ asset('legacy/secstatus.php') }}"
-                       data-embed="true">Sektorstatus</a></li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/allymain.php') }}" data-embed="true">Allianz</a>
+                       data-embed="true" data-zoom="true">Sektorstatus</a></li>
+                <li><a class="dropdown-item" href="{{ asset('legacy/allymain.php') }}" data-embed="true" data-zoom="true">Allianz</a>
                 </li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/statistics.php') }}" data-embed="true">Statistik</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/statistics.php') }}" data-embed="true" data-zoom="true">Statistik</a>
                 </li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/toplist.php') }}" data-embed="true">Rangliste</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/toplist.php') }}" data-embed="true" data-zoom="true">Rangliste</a>
                 </li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/options.php') }}" data-embed="true">Optionen</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/options.php') }}" data-embed="true" data-zoom="true">Optionen</a>
                 </li>
             </ul>
         </div>
@@ -781,11 +781,11 @@
 <div id="embedOverlay" style="display: none;">
     <div class="embed-container">
         <x-card>
-            <x-slot:header>Test</x-slot:header>
-        <button class="embed-close" id="closeEmbed">X</button>
+            <x-slot:header></x-slot:header>
+{{--        <button class="embed-close" id="closeEmbed">X</button>--}}
         <!-- Der Inhalt wird als Iframe eingebettet -->
         <iframe id="embedIframe" src="" frameborder="0"></iframe>
-            <x-slot:footer>buhu</x-slot:footer>
+            <x-slot:footer></x-slot:footer>
         </x-card>
     </div>
 </div>
@@ -797,6 +797,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
 {{--<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>--}}
 <script>
+
     $(document).ready(function () {
         let globalData = '';
 
@@ -862,13 +863,33 @@
         const closeEmbed = $('#closeEmbed');
         const embedIframe = $('#embedIframe');
 
-        function openEmbed(url) {
+        window.addEventListener('message', function(event) {
+            if (event.data === 'close-iframe') {
+                if (embedOverlay.length) {
+                    embedIframe.attr('src', '');
+                    embedOverlay.hide();
+                }
+            }
+        });
+
+        function openEmbed(url, element) {
             if (embedOverlay.length && embedIframe.length) {
-                embedIframe.attr('src', url);
-                embedOverlay.show();
+                embedIframe.attr('src', url); // Setzt die URL des iframes
+                embedOverlay.show(); // Zeigt das Overlay an
+
                 const iframe = document.getElementById('embedIframe');
-                if (globalData) iframe.contentWindow.postMessage(globalData, '*'); // Ziel-Domain hier anpassen (anstelle von '*')
-                else console.log('noch nicht geladen ')
+
+                // Zoom überprüfen und anwenden
+                const zoomAttr = element.dataset.zoom; // Lese das data-zoom Attribut aus
+
+                iframe.style.zoom = {{ agent()->isMobile() ? '0.7':'1.0' }};// zoomAttr === 'true' ? '0.7' : '0.7'; // Anwenden von Zoom (0.7 oder 1.0)
+
+                // Sende Daten an das iframe, falls vorhanden
+                if (globalData) {
+                    iframe.contentWindow.postMessage(globalData, '*'); // Ziel-Domain hier anpassen (anstelle von '*')
+                } else {
+                    console.log('Noch nicht geladen');
+                }
             }
         }
 
@@ -883,10 +904,10 @@
             closeEmbed.on('click', closeEmbedOverlay);
         }
 
-        $('[data-embed="true"]').on('click', function (e) {
-            e.preventDefault();
-            const url = $(this).attr('href');
-            if (url) openEmbed(url);
+        $('a[data-embed="true"]').on('click', function (e) {
+            e.preventDefault(); // Verhindert den Standard-Linkklick
+            const url = $(this).attr('href'); // Hole die URL
+            openEmbed(url, this); // Übergebe die URL und das Element
         });
 
         // Überprüfen, ob die Klasse "newNews" existiert und Inhalt "0" hat

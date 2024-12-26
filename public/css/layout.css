@@ -1032,29 +1032,3 @@ body {
 }
 /* Skills Content CSS End */
 
-
-.suiButton {
-    padding: 12px 16px;
-    text-transform: capitalize;
-    color: var(--white_color);
-    border: 1px solid rgba(10, 188, 185, 0.55);
-    background-color: rgba(12, 164, 149, 0.4);
-    position: relative;
-    transition: var(--transition);
-    -webkit-transition: var(--transition);
-    -moz-transition: var(--transition);
-    -ms-transition: var(--transition);
-    -o-transition: var(--transition);
-    /*background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(12, 164, 150, 1) 100%);*/
-}
-
-.suiButton:hover {
-    background: rgb(255, 255, 255);
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(12, 164, 150, 1) 100%);
-    color: var(--white_color);
-}
-
-.active {
-    background: rgb(255, 255, 255);
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(12, 164, 150, 1) 100%);
-}

@@ -8,12 +8,13 @@ use Illuminate\View\Component;
 
 class Gui extends Component
 {
+    public mixed $nav;
     /**
      * Create a new component instance.
      */
-    public function __construct()
+    public function __construct($nav = null)
     {
-        //
+        $this->nav = $nav;
     }
 
     /**

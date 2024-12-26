@@ -388,7 +388,7 @@ if(!hasTech($pt,29)){
 		if(isset($md[$m]['special_system_phase_need'])){
 			$map_id=getMapIDBySpecialsystemID($md[$m]['special_system_phase_need'][0]);
 			$special_data=getUserSpecialsystemDataByMapID($_SESSION['ums_user_id'], $map_id);
-			if($special_data['phase']>=$md[$m]['special_system_phase_need'][1]){
+			if(isset($special_data['phase']) AND $special_data['phase']>=$md[$m]['special_system_phase_need'][1]){
 				//Vorbedingung erfüllt
 			}else{
 				//Vorbedingung nicht erfüllt, also Mission nicht anzeigen
