@@ -30,6 +30,38 @@
             width: 100vw;
         }
 
+        /* Ladeoverlay Style */
+        #iframeLoaderOverlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7); /* Halbtransparenter schwarzer Hintergrund */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999; /* Über alles legen */
+        }
+
+        /* Ladeanimation - Spinner */
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid rgba(255, 255, 255, 0.3);
+            border-top: 5px solid white;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
 
         .header-middle {
             font-family: Arial, Geneva, Helvetica, sans-serif;
@@ -661,11 +693,11 @@
         <span id="restyp03">{{ shortenNumber(auth()->user()->deUserData->restyp03, 1) }}</span>
     </div>
 
-{{--    <!-- Mitte --> TODO:: On Attack Alert!--}}
-{{--    <div class="center-icon">--}}
-{{--        <img src="https://www.die-ewigen.com/degp3v2/g/forum_on.gif" style="width: 33px;" alt="">--}}
-{{--        <img src="{{asset('images/resources/RedAlert.gif')}}" style="width: 35px;" alt="">--}}
-{{--    </div>--}}
+    {{--    <!-- Mitte --> TODO:: On Attack Alert!--}}
+    {{--    <div class="center-icon">--}}
+    {{--        <img src="https://www.die-ewigen.com/degp3v2/g/forum_on.gif" style="width: 33px;" alt="">--}}
+    {{--        <img src="{{asset('images/resources/RedAlert.gif')}}" style="width: 35px;" alt="">--}}
+    {{--    </div>--}}
 
     <!-- Zweite Ressource -->
     <div class="resource">
@@ -682,10 +714,10 @@
     </div>
 
     <!-- Rechte Ressource -->
-{{--    <div class="resource">--}}
-{{--        <span class="icon">🔋</span>--}}
-{{--        <span id="credits">{{ shortenNumber(auth()->user()->deUserData->credits, 1) }}</span>--}}
-{{--    </div>--}}
+    {{--    <div class="resource">--}}
+    {{--        <span class="icon">🔋</span>--}}
+    {{--        <span id="credits">{{ shortenNumber(auth()->user()->deUserData->credits, 1) }}</span>--}}
+    {{--    </div>--}}
 </div>
 
 <nav class="menu" id="nav">
@@ -769,42 +801,56 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"><span class="icon"><i data-feather="user"></i></span></a>
             <ul class="dropdown-menu" aria-labelledby="dropdownLinks">
-                <li><a class="dropdown-item" href="{{ asset('legacy/overview.php') }}" data-embed="true" data-zoom="true">Übersicht</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/overview.php') }}" data-embed="true"
+                       data-zoom="true">Übersicht</a>
                 </li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/hyperfunk.php') }}" data-embed="true" data-zoom="true">Hyperfunk</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/hyperfunk.php') }}" data-embed="true"
+                       data-zoom="true">Hyperfunk</a>
                 </li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/sysnews.php') }}" data-embed="true" data-zoom="true">Nachrichten</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/sysnews.php') }}" data-embed="true"
+                       data-zoom="true">Nachrichten</a>
                 </li>
                 <li><a class="dropdown-item" href="{{ asset('legacy/ang_techs.php') }}"
                        data-embed="true" data-zoom="true">Technologien</a></li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/specialization.php') }}" data-embed="true" data-zoom="true">Spezialisierung</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/specialization.php') }}" data-embed="true"
+                       data-zoom="true">Spezialisierung</a>
                 </li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/resource.php') }}" data-embed="true" data-zoom="true">Ressourcen</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/resource.php') }}" data-embed="true"
+                       data-zoom="true">Ressourcen</a>
                 </li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/artefacts.php') }}" data-embed="true" data-zoom="true">Artefakte</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/artefacts.php') }}" data-embed="true"
+                       data-zoom="true">Artefakte</a>
                 </li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/auction.php') }}" data-embed="true" data-zoom="true">Auktionen</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/auction.php') }}" data-embed="true"
+                       data-zoom="true">Auktionen</a>
                 </li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/missions.php') }}" data-embed="true" data-zoom="true">Missionen</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/missions.php') }}" data-embed="true"
+                       data-zoom="true">Missionen</a>
                 </li>
                 <li><a class="dropdown-item" href="{{ asset('legacy/blackmarket.php') }}"
                        data-embed="true" data-zoom="true">Schwarzmarkt</a></li>
                 <li><a class="dropdown-item" href="{{ asset('legacy/production.php') }}"
                        data-embed="true" data-zoom="true">Produktion</a></li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/military.php') }}" data-embed="true" data-zoom="true">Flotten</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/military.php') }}" data-embed="true"
+                       data-zoom="true">Flotten</a>
                 </li>
                 <li><a class="dropdown-item" href="{{ asset('legacy/secret.php') }}" data-embed="true" data-zoom="true">Geheimdienst</a>
                 </li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/sector.php') }}" data-embed="true" data-zoom="true">Sektor</a></li>
+                <li><a class="dropdown-item" href="{{ asset('legacy/sector.php') }}" data-embed="true" data-zoom="true">Sektor</a>
+                </li>
                 <li><a class="dropdown-item" href="{{ asset('legacy/secstatus.php') }}"
                        data-embed="true" data-zoom="true">Sektorstatus</a></li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/allymain.php') }}" data-embed="true" data-zoom="true">Allianz</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/allymain.php') }}" data-embed="true"
+                       data-zoom="true">Allianz</a>
                 </li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/statistics.php') }}" data-embed="true" data-zoom="true">Statistik</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/statistics.php') }}" data-embed="true"
+                       data-zoom="true">Statistik</a>
                 </li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/toplist.php') }}" data-embed="true" data-zoom="true">Rangliste</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/toplist.php') }}" data-embed="true"
+                       data-zoom="true">Rangliste</a>
                 </li>
-                <li><a class="dropdown-item" href="{{ asset('legacy/options.php') }}" data-embed="true" data-zoom="true">Optionen</a>
+                <li><a class="dropdown-item" href="{{ asset('legacy/options.php') }}" data-embed="true"
+                       data-zoom="true">Optionen</a>
                 </li>
             </ul>
         </div>
@@ -854,11 +900,15 @@
 
 <div id="embedOverlay" style="display: none;">
     <div class="embed-container">
+        <!-- Lade-Overlay -->
+        <div id="iframeLoaderOverlay">
+            <div class="spinner"></div>
+        </div>
         <x-card>
             <x-slot:header></x-slot:header>
-{{--        <button class="embed-close" id="closeEmbed">X</button>--}}
-        <!-- Der Inhalt wird als Iframe eingebettet -->
-        <iframe id="embedIframe" src="" frameborder="0"></iframe>
+            {{--        <button class="embed-close" id="closeEmbed">X</button>--}}
+            <!-- Der Inhalt wird als Iframe eingebettet -->
+            <iframe id="embedIframe" src="" frameborder="0"></iframe>
             <x-slot:footer></x-slot:footer>
         </x-card>
     </div>
@@ -871,8 +921,36 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
 {{--<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"></script>--}}
 <script>
-
+    window.addEventListener("message", function (event) {
+        // Nachricht verarbeiten
+        if (event.data.type === "spinner") {
+            if (event.data.action === "show") {
+                $("#iframeLoaderOverlay").show(); // Spinner anzeigen
+            } else if (event.data.action === "hide") {
+                $("#iframeLoaderOverlay").hide(); // Spinner verstecken
+            }
+        }
+    });
     $(document).ready(function () {
+        const embedIframe = $("#embedIframe"); // Iframe-Element (als jQuery-Objekt)
+        const iframeLoaderOverlay = $("#iframeLoaderOverlay"); // Ladeoverlay
+
+        // Spinner anzeigen, wenn neuer Inhalt im iframe geladen wird
+        embedIframe.on("load", function () {
+            iframeLoaderOverlay.hide(); // Verstecke Spinner, wenn Laden abgeschlossen ist
+        });
+
+        // Verlinkungen steuern (nur falls du Links außerhalb des iframe hast)
+        $("a[data-embed='true']").on("click", function (e) {
+            e.preventDefault();
+            const url = $(this).attr('href'); // Hole die URL vom Link
+            iframeLoaderOverlay.show(); // Zeige Spinner beim Klick
+            embedIframe.attr("src", url); // Ändere die URL des iframe
+        });
+
+        // Optional: Auf src-Änderungen innerhalb des iframe achten
+        embedIframe.attr("src", embedIframe.attr("src")); // Falls src im DOM gesetzt ist
+
         let globalData = '';
 
         // Feather Icons Replacements
@@ -935,9 +1013,8 @@
         // Embed Overlay Handling
         const embedOverlay = $('#embedOverlay');
         const closeEmbed = $('#closeEmbed');
-        const embedIframe = $('#embedIframe');
 
-        window.addEventListener('message', function(event) {
+        window.addEventListener('message', function (event) {
             if (event.data === 'close-iframe') {
                 if (embedOverlay.length) {
                     embedIframe.attr('src', '');

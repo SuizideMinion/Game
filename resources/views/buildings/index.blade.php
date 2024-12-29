@@ -55,7 +55,7 @@
                                 @endif
 {{--                                    @dump($buildings,$building, $building->get_user_techs[0]->time_finished ?? '', time())--}}
                                 <div class="element-card">
-                                    <div class="front-facing"
+                                    <div class="front-facing noSpin"
                                     @if (isset($building->tech_name))
                                         {{--                                                 style="background-image: url('{{ asset('/images/technologies/'.  mb_strtolower(explode(';', $building->tech_name)[0] ?? '') .'.png') }}');border: 0;"--}}
                                         @endif>

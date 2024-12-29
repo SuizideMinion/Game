@@ -9,7 +9,7 @@
 {{--    <div class="b-b-r"></div>--}}
 {{--    <div class="b-b-r-b"></div>--}}
 {{--</a>--}}
-<form action="{{ $target }}" method="post">
+<form action="{{ $target == '' ? url()->current():$target }}" method="{{ $post ? 'post':'get' }}">
     @if($post)
         @foreach($inputs as $key => $value)
             <input type="hidden" name="{{ $key }}" value="{{ $value }}">
@@ -25,9 +25,9 @@
         @endforeach
     >
     <div
-        class="btn-inner d-flex justify-content-center gap-1 align-items-center">
+        class="btn-inner d-flex justify-content-center gap-1 align-items-center Spin">
         {{--                                                    <img src="images/coin.png" alt="coin">--}}
-        <span>{{ $name ?? ''}}</span>
+        <span class="Spin">{{ $name ?? ''}}</span>
     </div>
     <div class="b-t-l"></div>
     <div class="b-t-l-t"></div>

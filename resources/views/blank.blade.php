@@ -202,6 +202,24 @@
 
 
 <script>
+
+    // Im iframe: Nachricht beim internen Klick senden
+    document.addEventListener("click", function (event) {
+        // Überprüfen, ob das geklickte Element ein <button> oder <a> ist
+        console.log(event.target.tagName);
+        if (
+            event.target.tagName === "BUTTON" ||
+            event.target.tagName === "A" ||
+            event.target.classList.contains("Spin")
+        ) {
+            parent.postMessage({ type: 'spinner', action: 'show' }, "*");
+        }
+    });
+
+    window.addEventListener("load", function () {
+        parent.postMessage({ type: 'spinner', action: 'hide' }, "*");
+    });
+
     $(document).ready(function () {
 
         $('.element-card').on('click', function () {
