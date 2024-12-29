@@ -10,6 +10,18 @@ function getID()
     return session()->get('ums_user_id');
 }
 
+function formatZeit($seconds) {
+    $hours = floor($seconds / 3600);
+    $minutes = floor(($seconds % 3600) / 60);
+    $seconds = $seconds % 60;
+
+    $result = [];
+    if ($hours > 0) $result[] = $hours .":";
+    $result[] = ($minutes <= 9 ? '0':'') . $minutes .":";
+    $result[] = ($seconds <= 9 ? '0':'') . $seconds;
+
+    return implode('', $result);
+}
 
 function getRace($int = false)
 {

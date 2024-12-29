@@ -10,6 +10,8 @@ class DeUserData extends Model
 
     public $table = 'de_user_data';
     protected $connection = 'mysql'; // Name der anderen Datenbankverbindung
+    protected $primaryKey = 'user_id'; // Setzt user_id als Primärschlüssel
+    protected $keyType = 'int'; // Typ des Primärschlüssels (z. B. integer)
 
     public function userNews()
     {

@@ -52,72 +52,72 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    height: 6px;
-    width: 1px;
-    background-color: var(--primary_light);
+    height: 10px;
+    width: 3px;
+    background-color: var(--primary_light_dark);
 }
 
 .b-t-l-t {
     position: absolute;
     top: 0;
     left: 0;
-    height: 1px;
-    width: 6px;
-    background-color: var(--primary_light);
+    height: 3px;
+    width: 10px;
+    background-color: var(--primary_light_dark);
 }
 
 .b-t-r {
     position: absolute;
     top: 0;
     right: 0;
-    height: 6px;
-    width: 1px;
-    background-color: var(--primary_light);
+    height: 10px;
+    width: 3px;
+    background-color: var(--primary_light_dark);
 }
 
 .b-t-r-t {
     position: absolute;
     top: 0;
     right: 0;
-    height: 1px;
-    width: 6px;
-    background-color: var(--primary_light);
+    height: 3px;
+    width: 10px;
+    background-color: var(--primary_light_dark);
 }
 
 .b-b-l {
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 6px;
-    width: 1px;
-    background-color: var(--primary_light);
+    height: 10px;
+    width: 3px;
+    background-color: var(--primary_light_dark);
 }
 
 .b-b-l-b {
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 1px;
-    width: 6px;
-    background-color: var(--primary_light);
+    height: 3px;
+    width: 10px;
+    background-color: var(--primary_light_dark);
 }
 
 .b-b-r {
     position: absolute;
     bottom: 0;
     right: 0;
-    height: 6px;
-    width: 1px;
-    background-color: var(--primary_light);
+    height: 10px;
+    width: 3px;
+    background-color: var(--primary_light_dark);
 }
 
 .b-b-r-b {
     position: absolute;
     bottom: 0;
     right: 0;
-    height: 1px;
-    width: 6px;
-    background-color: var(--primary_light);
+    height: 3px;
+    width: 10px;
+    background-color: var(--primary_light_dark);
 }
 
 .content-wrapper {

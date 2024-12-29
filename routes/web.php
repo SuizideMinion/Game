@@ -19,7 +19,7 @@ Route::get('test', [\App\Http\Controllers\DashboardController::class, 'test'])->
 Route::resource('planets', \App\Http\Controllers\PlanetController::class);
 
 Route::resource('building', \App\Http\Controllers\BuildingController::class);
-Route::post('api/buildings/build', [\App\Http\Controllers\BuildingController::class, 'build'])->name('buildings.build');
+Route::post('buildings/build', [\App\Http\Controllers\BuildingController::class, 'build'])->name('buildings.build');
 Route::get('api/buildings/progress', [\App\Http\Controllers\BuildingController::class, 'progress'])->name('buildings.progress');
 Route::post('api/buildings/accelerate', [\App\Http\Controllers\BuildingController::class, 'accelerate']); // Neue Route für die Beschleunigungsfunktion
 Route::get('api/buildings/available', [\App\Http\Controllers\BuildingController::class, 'availableBuildings']);

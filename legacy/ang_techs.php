@@ -596,7 +596,9 @@ if(setLock($ums_user_id)){
 				if(getDefaultVariable('sv_deactivate_vsystems')!=1){
 					//V-Systeme sind aktiv
 					$value1=str_replace('I','',$parts[0]);
-					if($ps[$value1]['item_amount']<$parts[1]){$kosten.='<span style=\'color: #FFFFFF; background-color: #AA0000; padding: 0 3px 0 3px;\'>';$has_all=false;}
+					if($ps[$value1]['item_amount']<$parts[1]){
+                        $kosten.='<span style=\'color: #FFFFFF; background-color: #AA0000; padding: 0 3px 0 3px;\'>';$has_all=false;
+                    }
 					$kosten.=number_format($parts[1],0,",",".");
 					$kosten.=' '.$ps[$value1]['item_name'];
 					if($ps[$value1]['item_amount']<$parts[1]){$kosten.='</span>';}

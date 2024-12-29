@@ -13,9 +13,9 @@ class BuildingService
 
     public function __construct()
     {
-        $this->speedModifier = 1; // Standardmäßig auf 1.0 gesetzt (keine Änderung)
+        $this->speedModifier = getDefaultVariable('tech_build_time_faktor'); // Standardmäßig auf 1.0 gesetzt (keine Änderung)
         $this->loadBuildings();
-        $this->user_id = session()->get('ums_user_id');
+        $this->user_id = auth()->id();
         $this->debug = false;
     }
 
@@ -26,7 +26,62 @@ class BuildingService
 
     public function getBuildings()
     {
+        // Lade alle Gebäude-Daten
+        $buildings = DeTechData::with('getUserTechs')->get();
+
+        // Lade Benutzer-Technologien einmal vorab
+        $userTechIds = DeUserTech::where('user_id', $this->user_id)->pluck('tech_id')->toArray();
+
+        // Lade alle laufenden Bauvorhaben des Nutzers vorab (mit Eloquent)
+        $currentTime = time();
+        $activeConstructions = DeUserTech::where('user_id', $this->user_id)
+            ->where('time_finished', '>', $currentTime)
+            ->pluck('tech_id')
+            ->toArray(); // Nur die IDs der laufenden Bauvorhaben holen
+        $userTechIds = array_diff($userTechIds, $activeConstructions);
+        // Mappe die Gebäude und prüfe die Kriterien
+        $this->buildings = $buildings->map(function ($building) use ($userTechIds, $activeConstructions) {
+            $building = $building->toArray(); // In Array umwandeln
+            $building['can_build_without_ressources'] = $this->canBuildWithoutRessourcen($building, $userTechIds, $activeConstructions); // Ohne Ressourcen prüfen
+            return $building;
+        })->toArray();
+
+        // Gebe die Gebäude und deren Status als Antwort zurück
         return response()->json(['status' => 'success', 'buildings' => $this->buildings], 200);
+    }
+
+    private function canBuildWithoutRessourcen($building, $userTechIds, $activeConstructions)
+    {
+        $errors = [];
+
+        // 1. Technologische Voraussetzungen prüfen
+        if (!empty($building['tech_vor'])) {
+            // IDs aus dem Feld 'tech_vor' extrahieren und das Präfix 'T' entfernen
+            $requiredTechIds = explode(';', $building['tech_vor']);
+            $requiredTechIds = array_map(function ($id) {
+                return str_replace('T', '', $id); // Entferne das 'T' aus der ID
+            }, $requiredTechIds);
+
+            foreach ($requiredTechIds as $requiredTechId) {
+                if (!in_array($requiredTechId, $userTechIds)) {
+                    $errors[] = "Fehlende Technologie: {$requiredTechId}";
+                }
+            }
+        }
+
+        // 2. Prüfen, ob das Gebäude bereits gebaut wurde
+        if (in_array($building['tech_id'], $activeConstructions)) { // 3. Prüfen, ob das Gebäude gerade gebaut wird
+            //
+        } elseif (in_array($building['tech_id'], $userTechIds)) {
+            $errors[] = "Das Gebäude mit der ID {$building['tech_id']} wurde bereits gebaut.";
+        }
+//
+//        // Debugging
+//        if (!empty($errors)) {
+//            \Log::info("Gebäude {$building['tech_id']} kann nicht gebaut werden: " . implode(', ', $errors));
+//        }
+
+        return empty($errors) ? true : $errors;
     }
 
     function dumpIt($wert)
@@ -45,20 +100,28 @@ class BuildingService
             $this->dumpIt('Das Gebäude existiert nicht');
         }
 
-        // 1. Technologische Voraussetzungen prüfen: tech_vor
-        if (!empty($building['tech_vor'])) {
-            $requiredTechIds = explode(';', $building['tech_vor']);
-            $userTechIds = DeUserTech::where('user_id', $this->user_id)->pluck('tech_id')->toArray();
+        // Benutzer-Technologien vorab laden
+        $userTechIds = DeUserTech::where('user_id', $this->user_id)
+            ->where('time_finished', '<', time())
+            ->pluck('tech_id')
+            ->toArray();
 
-            foreach ($requiredTechIds as $requiredTechId) {
-                if (!in_array($requiredTechId, $userTechIds)) {
-                    // Benutzer besitzt nicht alle benötigten Technologien
-                    $this->dumpIt('Benutzer besitzt nicht alle benötigten Technologien');
-                }
-            }
+        // Laufende Bauvorhaben des Nutzers vorab laden
+        $currentTime = time();
+        $activeConstructions = DeUserTech::where('user_id', $this->user_id)
+            ->where('time_finished', '>', $currentTime)
+            ->pluck('tech_id')
+            ->toArray();
+
+        // 1. Überprüfung ohne Ressourcen (via canBuildWithoutRessourcen)
+        $canBuildWithoutResources = $this->canBuildWithoutRessourcen($building, $userTechIds, $activeConstructions);
+
+        if ($canBuildWithoutResources !== true) {
+            // Fehlermeldungen ausgeben, wenn Voraussetzungen nicht erfüllt sind
+            $this->dumpIt($canBuildWithoutResources);
         }
 
-        // 2. Ressourcenkosten prüfen: tech_build_cost
+        // 2. Ressourcenkosten überprüfen
         if (!empty($building['tech_build_cost'])) {
             $requiredCosts = explode(';', $building['tech_build_cost']);
             $userData = DeUserData::where('user_id', $this->user_id)->first();
@@ -81,27 +144,20 @@ class BuildingService
             }
         }
 
-        // 3. Prüfen, ob das Gebäude für den Benutzer bereits existiert
-        $existingTech = DeUserTech::where('user_id', $this->user_id)
-            ->where('tech_id', $buildingId)
-            ->first();
-
-        if ($existingTech) {
-            // Gebäude wurde schon gebaut
-            $this->dumpIt('Gebäude wurde schon gebaut');
-        }
-
+        // Wenn alle Prüfungen bestanden sind
         return true;
     }
 
     public function startBuild($buildingId)
     {
         // Prüfen, ob bereits ein Gebäude desselben Typs gebaut wird
-        if (!$this->canBuildByType($buildingId)) {
+//        dd(!isset($this->canBuildByType($buildingId)[0]));
+        if (isset($this->canBuildByType($buildingId)[0])) {
             $this->dumpIt('Kein weiteres Gebäude dieses Typs kann gebaut werden'); // Kein weiteres Gebäude dieses Typs kann gebaut werden
+            return false; // Bau nicht möglich, wenn ein Gebäude gebaut wird
         }
 
-//        // Prüfen, ob bereits ein anderes Gebäude (unabhängig vom Typ) im Bau ist
+        // Prüfen, ob bereits ein anderes Gebäude (unabhängig vom Typ) im Bau ist
 //        $currentlyBuilding = DeUserTech::where('user_id', $this->user_id)
 //            ->where('time_finished', '>', time()) // Nur aktive Bauzeiten
 //            ->first();
@@ -116,8 +172,7 @@ class BuildingService
             $currentTime = time();
 
             // Bauzeit berechnen
-            $baseTime = $building['tech_build_time'] ?? 60;
-            $modifiedBuildTime = (int) round($baseTime * $this->speedModifier);
+            $modifiedBuildTime = (int) round($building['tech_build_time'] * $this->speedModifier);
 
             // Ressourcen abziehen
             if (!empty($building['tech_build_cost'])) {
@@ -216,13 +271,15 @@ class BuildingService
 
         // Prüfen, ob bereits ein Gebäude des gleichen Typs im Bau ist
         $currentlyBuilding = DeUserTech::where('user_id', $this->user_id)
-            ->where('time_finished', '>', time()) // Nur aktive Bauzeiten zählen
-            ->whereHas('deTechData', function ($query) use ($building) {
+            ->where('time_finished', '>', time())
+            ->whereHas('techData', function ($query) use ($building) {
                 $query->where('tech_typ', $building['tech_typ']); // Gleicher Typ
             })
-            ->exists();
+            ->get(); // Statt exists() verwenden wir get(), um die Daten direkt auszugeben
 
-        return !$currentlyBuilding; // Baubar, wenn kein Gebäude gleichen Typs im Bau
+//        dd('Aktive Bauvorhaben mit gleichen Typ:', $currentlyBuilding->toArray());
+//dd($currentlyBuilding);
+        return $currentlyBuilding; // Baubar, wenn kein Gebäude gleichen Typs im Bau ist
     }
 
     public function setSpeedModifier($modifier)

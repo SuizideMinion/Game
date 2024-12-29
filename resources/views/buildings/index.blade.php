@@ -11,65 +11,91 @@
         </x-slot:title>
         <section class="shop-content">
             <!-- Shop menubar -->
-            <div class="shop-menubar">
-                <ul class="d-flex gap-2">
-                    <li>
-                        <a href="#" class="active">All</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa-solid fa-apple-whole"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa-solid fa-gun"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa-solid fa-vest"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa-solid fa-sign-hanging"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
-                    </li>
-                </ul>
-            </div>
+            {{--            <div class="shop-menubar">--}}
+            {{--                <ul class="d-flex gap-2">--}}
+            {{--                    <li>--}}
+            {{--                        <a href="#" class="active">All</a>--}}
+            {{--                    </li>--}}
+            {{--                    <li>--}}
+            {{--                        <a href="#"><i class="fa-solid fa-apple-whole"></i></a>--}}
+            {{--                    </li>--}}
+            {{--                    <li>--}}
+            {{--                        <a href="#"><i class="fa-solid fa-gun"></i></a>--}}
+            {{--                    </li>--}}
+            {{--                    <li>--}}
+            {{--                        <a href="#"><i class="fa-solid fa-vest"></i></a>--}}
+            {{--                    </li>--}}
+            {{--                    <li>--}}
+            {{--                        <a href="#"><i class="fa-solid fa-sign-hanging"></i></a>--}}
+            {{--                    </li>--}}
+            {{--                    <li>--}}
+            {{--                        <a href="#"><i class="fa-solid fa-ellipsis"></i></a>--}}
+            {{--                    </li>--}}
+            {{--                </ul>--}}
+            {{--            </div>--}}
 
             <!-- Shop products -->
             <div class="shop-products">
                 <div class="inner h-100">
                     <div class="overflow-y-auto">
                         <div id="building-list" class="row product-grid">
+{{--                                                        @dd($buildings)--}}
                             @foreach($buildings->buildings as $building)
                                 @if($building->tech_typ == 3)
                                     @continue
                                 @endif
-                                <div class="product-card {{ (!$building->get_user_techs ? '':'d-none') }}" data-bs-placement="right" data-bs-toggle="tooltip"
-                                     data-bs-placement="top" title="{{ $building->tech_desc }}">
-                                    <p class="title">{{ explode(';', $building->tech_name)[0] }} -> {{ $building->tech_typ }}</p>
-                                    <div class="img">
-                                    <span>
-                                        <p>
-                                            <strong>{{ $building->tech_build_time }}</strong>
-                                        </p>
-                                        <ul>
-                                        <p>Kosten:</p>
+                                @if(isset($building->get_user_techs[0]->time_finished) AND $building->get_user_techs[0]->time_finished < time())
+                                    @continue
+                                @endif
+                                @if($building->tech_sort_id > 999)
+                                    @continue
+                                @endif
+                                @if(is_array($building->can_build_without_ressources))
+                                    @continue
+                                @endif
+{{--                                    @dump($buildings,$building, $building->get_user_techs[0]->time_finished ?? '', time())--}}
+                                <div class="element-card">
+                                    <div class="front-facing"
+                                    @if (isset($building->tech_name))
+                                        {{--                                                 style="background-image: url('{{ asset('/images/technologies/'.  mb_strtolower(explode(';', $building->tech_name)[0] ?? '') .'.png') }}');border: 0;"--}}
+                                        @endif>
+                                        <h1 class="abr">{{ explode(';', $building->tech_name)[auth()->user()->deUserData->rasse - 1] ?? '' }}</h1>
+                                        <div class="title">
+                                            <p>
+{{--                                                @dump($building->tech_build_time, getDefaultVariable('tech_build_time_faktor'), $building->tech_build_time * getDefaultVariable('tech_build_time_faktor'))--}}
+                                                <strong>Bauzeit: {{ formatZeit(round($building->tech_build_time * getDefaultVariable('tech_build_time_faktor'))) }}</strong>
+                                            </p>
                                             <li class="technologiesCardLi">
+                                                <p>Kosten:</p>
                                                 @foreach(explode(';', $building->tech_build_cost) as $cost)
-                                                    <span>{{$cost}}</span>
+                                                    @php($price = explode('x', $cost))
+
+                                                    <span
+                                                        style="{{ $price[1] >= auth()->user()->deUserData->{'restyp0' . str_replace('R', '', $price[0])} ? 'color: red;' : '' }}">
+                                                        {{ __('global.'. $price[0]) }}: {{ shortenNumber($price[1]) }}
+                                                    </span>
+
                                                 @endforeach
                                             </li>
-                                        </ul>
-{{--                                        <p>Status: ${status}</p>--}}
-                                    </span>
-                                    </div>
-                                    <div class="product-badge">
-                                        <p><small>x</small>200</p>
-                                    </div>
-                                    @if(!$building->get_user_techs)
-                                    <button type="button" onclick="buildBuilding({{ $building->tech_id }})">
-                                        <div class="btn-inner d-flex justify-content-center gap-1 align-items-center">
-                                            Bauen
                                         </div>
+                                        <span class="atomic-number">{{ $building->atomic_number ?? ''}}</span>
+                                        <span class="atomic-mass">{{ $building->atomic_mass ?? ''}}</span>
+                                        <p>
+                                            @if( isset($building->get_user_techs[0]->time_finished) AND $building->get_user_techs[0]->time_finished > time() )
+                                                <x-gui-button
+                                                    class="countdown-button"
+                                                    :datas="['data-time' => $building->get_user_techs[0]->time_finished - time()]"
+                                                    name="Im Bau {{ formatZeit($building->get_user_techs[0]->time_finished - time()) }}">
+                                                </x-gui-button>
+                                            @else
+                                                <x-gui-button
+                                                    name="Bauen"
+                                                    target="{{ route('buildings.build', $building->tech_id) }}"
+                                                    :post="true"
+                                                    :inputs="['building_id' => $building->tech_id]"
+                                                ></x-gui-button>
+                                            @endif
+                                        </p>
                                         <div class="b-t-l"></div>
                                         <div class="b-t-l-t"></div>
                                         <div class="b-t-r"></div>
@@ -78,17 +104,82 @@
                                         <div class="b-b-l-b"></div>
                                         <div class="b-b-r"></div>
                                         <div class="b-b-r-b"></div>
-                                    </button>
-                                    @endif
-                                    <div class="b-t-l"></div>
-                                    <div class="b-t-l-t"></div>
-                                    <div class="b-t-r"></div>
-                                    <div class="b-t-r-t"></div>
-                                    <div class="b-b-l"></div>
-                                    <div class="b-b-l-b"></div>
-                                    <div class="b-b-r"></div>
-                                    <div class="b-b-r-b"></div>
+                                    </div>
+                                    <div class="back-facing">
+                                        <p>{!! explode(';', $building->tech_desc)[auth()->user()->deUserData->rasse - 1] ?? '' !!}</p>
+                                        <p>
+                                            {{--                                            <a class="btn" href="{{ $building->link ?? ''}}" target="_blank">More--}}
+                                            {{--                                                info</a>--}}
+
+                                            <x-gui-button
+                                                name="Mehr Informationen"
+                                                :datas="[]"
+                                                target="https://help.bgam.es/index.php?thread=de_de&post=26"
+                                            ></x-gui-button>
+                                        </p>
+                                        <div class="b-t-l"></div>
+                                        <div class="b-t-l-t"></div>
+                                        <div class="b-t-r"></div>
+                                        <div class="b-t-r-t"></div>
+                                        <div class="b-b-l"></div>
+                                        <div class="b-b-l-b"></div>
+                                        <div class="b-b-r"></div>
+                                        <div class="b-b-r-b"></div>
+                                    </div>
+
+
                                 </div>
+                                {{--                                <div class="element-card product-card {{ (!$building->get_user_techs ? '':'d-none') }}" data-bs-placement="right" data-bs-toggle="tooltip"--}}
+                                {{--                                     data-bs-placement="top" title="{{ $building->tech_desc }}">--}}
+                                {{--                                    <p class="title">{{ explode(';', $building->tech_name)[0] }} -> {{ $building->tech_typ }}</p>--}}
+                                {{--                                    <div class="img">--}}
+                                {{--                                    <span>--}}
+                                {{--                                        <p>--}}
+                                {{--                                            <strong>{{ $building->tech_build_time }}</strong>--}}
+                                {{--                                        </p>--}}
+                                {{--                                        <ul>--}}
+                                {{--                                        <p>Kosten:</p>--}}
+                                {{--                                            <li class="technologiesCardLi">--}}
+                                {{--                                                @foreach(explode(';', $building->tech_build_cost) as $cost)--}}
+                                {{--                                                    <span>{{$cost}}</span>--}}
+                                {{--                                                @endforeach--}}
+                                {{--                                            </li>--}}
+                                {{--                                        </ul>--}}
+                                {{--                                        <p>Status: ${status}</p>--}}
+                                {{--                                    </span>--}}
+                                {{--                                    </div>--}}
+                                {{--                                    <div class="product-badge">--}}
+                                {{--                                        <p><small>x</small>200</p>--}}
+                                {{--                                    </div>--}}
+                                {{--                                    @if(!$building->get_user_techs)--}}
+                                {{--                                    <button type="button" onclick="buildBuilding({{ $building->tech_id }})">--}}
+                                {{--                                        <div class="btn-inner d-flex justify-content-center gap-1 align-items-center">--}}
+                                {{--                                            Bauen--}}
+                                {{--                                        </div>--}}
+                                {{--                                        <div class="b-t-l"></div>--}}
+                                {{--                                        <div class="b-t-l-t"></div>--}}
+                                {{--                                        <div class="b-t-r"></div>--}}
+                                {{--                                        <div class="b-t-r-t"></div>--}}
+                                {{--                                        <div class="b-b-l"></div>--}}
+                                {{--                                        <div class="b-b-l-b"></div>--}}
+                                {{--                                        <div class="b-b-r"></div>--}}
+                                {{--                                        <div class="b-b-r-b"></div>--}}
+                                {{--                                    </button>--}}
+                                {{--                                    @endif--}}
+                                {{--                                    <div class="b-t-l"></div>--}}
+                                {{--                                    <div class="b-t-l-t"></div>--}}
+                                {{--                                    <div class="b-t-r"></div>--}}
+                                {{--                                    <div class="b-t-r-t"></div>--}}
+                                {{--                                    <div class="b-b-l"></div>--}}
+                                {{--                                    <div class="b-b-l-b"></div>--}}
+                                {{--                                    <div class="b-b-r"></div>--}}
+                                {{--                                    <div class="b-b-r-b"></div>--}}
+                                {{--                                </div>--}}
+
+                                {{--                                    <div class="back-facing">--}}
+                                {{--                                        <p>{{ $building->tech_desc }}</p>--}}
+                                {{--                                        <p><a class="btn" href="{{ $building->tech_name }}" target="">More info</a></p>--}}
+                                {{--                                    </div>--}}
 
                             @endforeach
                         </div>
@@ -118,6 +209,39 @@
 @endsection
 
 @section('scripts')
+    <script>
+        $(document).ready(function () {
+            // Starte den Countdown für jeden Button mit "countdown-button"-Klasse
+            $('.countdown-button').each(function () {
+                let $button = $(this);                // Button-Element
+                let remainingTime = parseInt($button.data('time')); // Verbleibende Zeit aus data-time
+
+                // Countdown anzeigen
+                function updateCountdown() {
+                    if (remainingTime > 0) {
+                        remainingTime--; // Verringere die Zeit um 1 Sekunde
+                        $button.text('Im Bau ' + formatTime(remainingTime)); // Aktualisiere die Button-Anzeige
+                    } else {
+                        $button.text('Fertig!'); // Wenn der Countdown endet
+                        clearInterval(timer); // Stoppe den Countdown
+                    }
+                }
+
+                // Zeitformatierung (HH:MM:SS)
+                function formatTime(seconds) {
+                    let hours = Math.floor(seconds / 3600);
+                    let minutes = Math.floor((seconds % 3600) / 60);
+                    let secs = seconds % 60;
+
+                    return `${hours > 0 ? hours + ':' : ''}${String(minutes).padStart(2, '0')}:${String(secs).padStart(2, '0')}`;
+                }
+
+                // Initialisiere den Countdown und starte das Intervall
+                updateCountdown(); // Zeige die anfängliche Zeit
+                let timer = setInterval(updateCountdown, 1000); // Aktualisiere jede Sekunde
+            });
+        });
+    </script>
     <!--suppress JSUnresolvedReference -->
     <script>
         // let currentFilter = 'buildable';

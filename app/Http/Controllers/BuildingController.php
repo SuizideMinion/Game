@@ -33,10 +33,10 @@ class BuildingController extends Controller
         $buildingId = $request->input('building_id');
 
         if ($this->buildingService->startBuild($buildingId)) {
-            return response()->json(['status' => 'success', 'message' => 'Gebäude wird gebaut!']);
+            return redirect()->route('building.index')->withErrors('Gebäude wird gebaut!');
         }
 
-        return response()->json(['status' => 'failed', 'message' => 'Ein anderes Gebäude wird bereits gebaut.']);
+        return redirect()->route('building.index')->withErrors('Ein anderes Gebäude wird bereits gebaut.');
     }
 
     public function progress()

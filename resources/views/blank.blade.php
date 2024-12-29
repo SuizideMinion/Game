@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Document</title>
     @if( getRace() == 1 )
         <style>
@@ -65,7 +66,7 @@
                 --primary_light_dark: #e71313;
                 --primary_dark: #390606;
                 --secondary_color: #ff4646;
-                --primary_white: #bffcfb;
+                --primary_white: #fabebe;
                 --white_color: #ffffff;
                 --black_color: #000000;
 
@@ -80,6 +81,15 @@
 
                 /* Font Family */
                 --body: "Exo 2", serif;
+
+                --max-width: 960px;
+                --card-width: 100%;
+                --card-height: 400px;
+
+                --color-main: #390606;
+                --color-main-darker: #2980b9;
+                --color-secondary: #9b59b6;
+                --color-secondary-darker: #9b59b6;
             }
         </style>
     @elseif( getRace() == 4 )
